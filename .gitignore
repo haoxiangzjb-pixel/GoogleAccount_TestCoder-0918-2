@@ -1,69 +1,23 @@
 # Compiled and build artifacts
-*.class
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
 *.pyc
 __pycache__/
 dist/
 build/
-target/
-.gradle/
 
 # Dependencies
-node_modules/
-venv/
 .venv/
-.m2/
-.scalaenv/
-julia-*/
-zig-*/
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
-Thumbs.db
-.DS_Store
 
 # Environment
 .env
 .env.local
-.env.*
 
 # Editors
 .vscode/
 .idea/
-*.iml
-*.iws
-out/
-.idea_modules/
-
-# Python specific
-.mypy_cache/
-.pytest_cache/
-.coverage
-htmlcov/
-.coverage.*
-.pytest_cache/
-
-# Scala specific
-.scala/
-.scala_dependencies
-*.tasty
-*.sig
-*.class
-metals.sbt
-project/metals.sbt
-project/project/metals.sbt
-
-# Java specific
-*.jar
-*.war
-*.ear
-hs_err_pid*
