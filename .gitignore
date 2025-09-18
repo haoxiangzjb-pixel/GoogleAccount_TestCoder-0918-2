@@ -1,10 +1,43 @@
-# Compiled and build artifacts
-*.pyc
-pycache/
-dist/
+# Temp files and logs
+*.tmp
+*.log
+*.swp
+*.swo
 
-# Environment
+# Environment files
+.env
 .env.local
+.env.*
 
-# Editors
+# Editor/IDE files
 .vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Compiled/Binary files
+*.pyc
+*.class
+*.o
+*.exe
+*.dll
+*.so
+*.a
+*.obj
+*.out
+
+# Dependency directories
+node_modules/
+venv/
+.venv/
+__pycache__/
+dist/
+build/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
+
+# Query files (likely temporary)
+query_*$(date*
+query_*.sql
