@@ -1,0 +1,19 @@
+<div class="user-profile">
+  <div class="profile-header">
+    <img [src]="userProfile.avatar" [alt]="userProfile.name" class="profile-avatar">
+    <h1 class="profile-name">{{ userProfile.name }}</h1>
+    <p class="profile-email">{{ userProfile.email }}</p>
+  </div>
+  
+  <div class="profile-body">
+    <div class="profile-section">
+      <h2>About</h2>
+      <p class="profile-bio">{{ userProfile.bio }}</p>
+    </div>
+    
+    <div class="profile-section">
+      <h2>Member Since</h2>
+      <p class="profile-join-date">{{ joinDateFormatted }}</p>
+    </div>
+  </div>
+</div>
