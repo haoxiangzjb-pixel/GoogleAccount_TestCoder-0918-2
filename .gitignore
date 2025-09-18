@@ -1,33 +1,26 @@
 # Compiled and build artifacts
 *.o
 *.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
-
-# Build directories
-build/
 dist/
+build/
 
-# Dependency directories
-venv/
-.venv/
+# Dependencies
+node_modules/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
 
-# Environment files
+# Environment
 .env
 .env.local
-*.env.*
+.env.*
 
-# IDE and editor files
+# Editors
 .vscode/
 .idea/
-.DS_Store
-Thumbs.db
+
+# Go-specific
+*.go
+646f5abdc541b629a079.go
