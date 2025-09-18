@@ -1,0 +1,9 @@
+---
+- name: Restart a service
+  hosts: localhost
+  become: yes
+  tasks:
+    - name: Restart the ssh service
+      ansible.builtin.service:
+        name: ssh
+        state: restarted
