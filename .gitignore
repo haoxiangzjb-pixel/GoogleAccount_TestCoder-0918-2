@@ -1,30 +1,15 @@
 # Compiled and build artifacts
-*.dart.js
-*.dart.lib.js
-*.dart.metadata
-*.js.map
-*.lib.js.map
-.dart_tool/
-build/
+*.pyc
+__pycache__/
 dist/
+build/
 
 # Dependencies
-.dart_cache/
-.packages
-.pub-cache/
-.pub/
-packages/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+node_modules/
 
 # Environment
 .env
 .env.local
-.env.*
 
 # Editors
 .vscode/
-.idea/
