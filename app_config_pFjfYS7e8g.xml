@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<applicationConfiguration>
+    <!-- 应用基本信息 -->
+    <application>
+        <name>MyWebApplication</name>
+        <version>1.0.0</version>
+        <description>示例Web应用程序配置</description>
+    </application>
+
+    <!-- 服务器配置 -->
+    <server>
+        <host>localhost</host>
+        <port>8080</port>
+        <sslEnabled>false</sslEnabled>
+        <maxThreads>200</maxThreads>
+    </server>
+
+    <!-- 数据库配置 -->
+    <database>
+        <driver>com.mysql.cj.jdbc.Driver</driver>
+        <url>jdbc:mysql://localhost:3306/myapp</url>
+        <username>dbuser</username>
+        <password>dbpassword</password>
+        <poolSize>10</poolSize>
+    </database>
+
+    <!-- 日志配置 -->
+    <logging>
+        <level>INFO</level>
+        <file>/var/log/myapp/application.log</file>
+        <maxFileSize>10MB</maxFileSize>
+        <maxBackupIndex>5</maxBackupIndex>
+    </logging>
+
+    <!-- 缓存配置 -->
+    <cache>
+        <provider>Redis</provider>
+        <host>localhost</host>
+        <port>6379</port>
+        <defaultExpiration>3600</defaultExpiration>
+    </cache>
+
+    <!-- 安全配置 -->
+    <security>
+        <jwtSecret>mySecretKey</jwtSecret>
+        <tokenExpiration>86400</tokenExpiration>
+        <passwordPolicy>
+            <minLength>8</minLength>
+            <requireSpecialChar>true</requireSpecialChar>
+        </passwordPolicy>
+    </security>
+
+    <!-- 自定义业务参数 -->
+    <customProperties>
+        <property name="maxUploadSize">5242880</property> <!-- 5MB in bytes -->
+        <property name="allowedFileTypes">jpg,png,gif,pdf</property>
+        <property name="emailNotificationEnabled">true</property>
+    </customProperties>
+</applicationConfiguration>
