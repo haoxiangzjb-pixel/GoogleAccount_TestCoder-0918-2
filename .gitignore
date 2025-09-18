@@ -1,20 +1,6 @@
 # Compiled and build artifacts
-*.pyc
-pycache/
-*.o
-*.obj
-dist/
-build/
-
-# Dependencies
-.venv/
-venv/
-node_modules/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+*.pl~*
+prolog_project/HuVE3qxTVn.pl.swp
 
 # Environment
 .env
@@ -24,3 +10,9 @@ node_modules/
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
