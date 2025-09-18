@@ -1,32 +1,26 @@
 # Compiled and build artifacts
-*.mex*
-*.asv
-*.mat
-*.fig
-*.m~
+*.pyc
+__pycache__/
+*.o
+*.obj
+dist/
+build/
 
-# Dependencies and environments
+# Dependencies
 .venv/
 venv/
-env/
 node_modules/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
 
-# Environment variables
+# Environment
 .env
 .env.local
 .env.*
 
-# Editors and IDEs
+# Editors
 .vscode/
 .idea/
-*.DS_Store
-Thumbs.db
-
-# Original rules preserved
-*.log
