@@ -1,11 +1,5 @@
-# Compiled and build artifacts
-*.class
-dist/
-build/
-
 # Dependencies
-target/
-.gradle/
+node_modules/
 
 # Logs and temp files
 *.log
@@ -15,11 +9,19 @@ target/
 # Environment
 .env
 .env.local
+.env.*
 
 # Editors
 .vscode/
 .idea/
 
-# System/Environment files
-.DS_Store
-Thumbs.db
+# Compiled and build artifacts
+dist/
+build/
+*.pyc
+__pycache__/
+*.o
+*.obj
+
+# Original rules preserved
+*.log
