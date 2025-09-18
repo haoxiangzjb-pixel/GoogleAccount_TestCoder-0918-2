@@ -1,25 +1,25 @@
 # Compiled and build artifacts
-*.aux
+*.pyc
+__pycache__/
+*.o
+*.obj
+dist/
+build/
+
+# Dependencies
+.venv/
+venv/
+node_modules/
+
+# Logs and temp files
 *.log
-*.out
-*.toc
-*.fls
-*.fdb_latexmk
-*.synctex.gz
-*.run.xml
-*.bbl
-*.blg
-*.lof
-*.lot
-*.nav
-*.snm
-*.vrb
-*.toc
-*.bak
 *.tmp
 *.swp
 
-# LaTeX specific
-*.latexmkrc
-latex.out/
-pdf/
+# Environment
+.env
+.env.local
+
+# Editors
+.vscode/
+.idea/
