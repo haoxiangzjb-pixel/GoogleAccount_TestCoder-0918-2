@@ -1,0 +1,29 @@
+---
+- name: Restart a specific service
+  hosts: all
+  become: true
+  vars:
+    service_name: apache2
+  tasks:
+    - name: Check if service exists
+      ansible.builtin.shell: systemctl list-unit-files | grep -w {{ service_name }}
+      register: service_check
+      ignore_errors: true
+      changed_when: false
+
+    - name: Restart service if it exists
+      ansible.builtin.service:
+        name: "{{ service_name }}"
+        state: restarted
+      when: service_check.rc == 0
+      register: service_restart
+
+    - name: Report service status
+      ansible.builtin.debug:
+        msg: "Service {{ service_name }} was restarted successfully"
+      when: service_restart.changed | default(false)
+
+    - name: Report if service does not exist
+      ansible.builtin.debug:
+        msg: "Service {{ service_name }} does not exist on this system"
+      when: service_check.rc != 0

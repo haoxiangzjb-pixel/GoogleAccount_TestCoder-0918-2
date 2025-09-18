@@ -1,0 +1,38 @@
+---
+- name: Generic Service Restart Playbook
+  hosts: localhost
+  become: true
+  vars_prompt:
+    - name: service_to_restart
+      prompt: "Which service would you like to restart?"
+      private: no
+
+  tasks:
+    - name: Validate service name
+      ansible.builtin.command: systemctl show {{ service_to_restart }}
+      register: service_status
+      ignore_errors: yes
+      changed_when: false
+
+    - name: Fail if service doesn't exist
+      ansible.builtin.fail:
+        msg: "Service '{{ service_to_restart }}' does not exist"
+      when: service_status.rc != 0
+
+    - name: Restart the specified service
+      ansible.builtin.service:
+        name: "{{ service_to_restart }}"
+        state: restarted
+      register: restart_result
+
+    - name: Verify service is running
+      ansible.builtin.service:
+        name: "{{ service_to_restart }}"
+        state: started
+      register: service_state
+
+    - name: Display restart result
+      ansible.builtin.debug:
+        msg: 
+          - "Service '{{ service_to_restart }}' has been restarted"
+          - "Current state: {{ service_state.state }}"
