@@ -1,6 +1,10 @@
 # Compiled and build artifacts
 *.pyc
-cmupbrly.vba
+__pycache__/
+*.o
+*.obj
+dist/
+build/
 
 # Dependencies
 .venv/
