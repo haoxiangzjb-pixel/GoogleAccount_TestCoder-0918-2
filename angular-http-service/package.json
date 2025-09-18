@@ -1,0 +1,27 @@
+{
+  "name": "angular-http-service",
+  "version": "1.0.0",
+  "description": "Angular service for HTTP data fetching",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "angular",
+    "http",
+    "service"
+  ],
+  "author": "Assistant",
+  "license": "MIT",
+  "dependencies": {
+    "@angular/common": "^14.0.0",
+    "@angular/core": "^14.0.0",
+    "rxjs": "^7.5.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.0",
+    "@angular/compiler": "^14.0.0",
+    "@angular/compiler-cli": "^14.0.0"
+  }
+}
