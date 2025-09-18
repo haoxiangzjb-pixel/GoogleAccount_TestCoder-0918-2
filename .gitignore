@@ -1,18 +1,22 @@
 # Compiled and build artifacts
+*.dart.js
+*.dart.js.map
+*.dart.deps
+*.dart.digests
+*.dart.manifest
+*.pyc
+pycache/
 *.o
 *.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
 dist/
 build/
 
 # Dependencies
-venv/
 .venv/
+venv/
 node_modules/
+julia-*/
+zig-*/
 target/
 .gradle/
 
