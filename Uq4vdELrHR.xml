@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<student>
+    <id>12345</id>
+    <firstName>Иван</firstName>
+    <lastName>Петров</lastName>
+    <age>20</age>
+    <faculty>Информационные технологии</faculty>
+    <course>3</course>
+    <group>ИТ-31</group>
+</student>
