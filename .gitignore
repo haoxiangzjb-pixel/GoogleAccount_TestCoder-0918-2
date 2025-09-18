@@ -1,3 +1,19 @@
+# Docker
+docker-compose-*.yml
+
+# Environment
+.env
+.env.local
+.env.*
+
+# IDEs
+.vscode/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
 # Compiled and build artifacts
 *.pyc
 __pycache__/
@@ -5,19 +21,6 @@ dist/
 build/
 
 # Dependencies
+node_modules/
 .venv/
 venv/
-node_modules/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-
-# Editors
-.vscode/
-.idea/
