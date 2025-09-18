@@ -1,0 +1,67 @@
+# Makefile for C++ project
+
+# Compiler and flags
+CXX = g++
+CXXFLAGS = -std=c++17 -Wall -Wextra -g
+LDLIBS = 
+
+# Directories
+SRCDIR = src
+TESTDIR = tests
+BUILDDIR = build
+TARGET = $(BUILDDIR)/main
+TESTTARGET = $(BUILDDIR)/test_runner
+
+# Source files
+SOURCES = $(wildcard $(SRCDIR)/*.cpp)
+OBJECTS = $(SOURCES:$(SRCDIR)/%.cpp=$(BUILDDIR)/%.o)
+
+# Test files
+TESTSOURCES = $(wildcard $(TESTDIR)/*.cpp)
+TESTOBJECTS = $(TESTSOURCES:$(TESTDIR)/%.cpp=$(BUILDDIR)/%.o)
+
+# Default target
+.PHONY: all
+all: build
+
+# Build target - creates the main executable
+.PHONY: build
+build: $(BUILDDIR) $(TARGET)
+
+$(TARGET): $(OBJECTS)
+	$(CXX) $(CXXFLAGS) -o $@ $^ $(LDLIBS)
+
+# Test target - builds and runs tests
+.PHONY: test
+test: $(BUILDDIR) $(TESTTARGET)
+	./$(TESTTARGET)
+
+$(TESTTARGET): $(TESTOBJECTS) $(filter-out $(BUILDDIR)/main.o, $(OBJECTS))
+	$(CXX) $(CXXFLAGS) -o $@ $^ $(LDLIBS)
+
+# Compile source files
+$(BUILDDIR)/%.o: $(SRCDIR)/%.cpp | $(BUILDDIR)
+	$(CXX) $(CXXFLAGS) -c -o $@ $<
+
+# Compile test files
+$(BUILDDIR)/%.o: $(TESTDIR)/%.cpp | $(BUILDDIR)
+	$(CXX) $(CXXFLAGS) -c -o $@ $<
+
+# Create build directory
+$(BUILDDIR):
+	mkdir -p $(BUILDDIR)
+
+# Clean target - removes build artifacts
+.PHONY: clean
+clean:
+	rm -rf $(BUILDDIR)
+
+# Help target
+.PHONY: help
+help:
+	@echo "Available targets:"
+	@echo "  all   - Build the main executable (default)"
+	@echo "  build - Build the main executable"
+	@echo "  test  - Build and run tests"
+	@echo "  clean - Remove build artifacts"
+	@echo "  help  - Display this help message"
