@@ -1,28 +1,68 @@
 # Compiled and build artifacts
-*.pyc
-__pycache__/
-dist/
-build/
-
-# Dependencies
-.venv/
-venv/
-node_modules/
-
-# Logs and temp files
+*.aux
 *.log
-*.tmp
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.pdf
+*.dvi
+*.ps
+*.eps
+*.lof
+*.lot
+*.bbl
+*.blg
+*.idx
+*.ilg
+*.ind
+*.nav
+*.snm
+*.vrb
+*.thm
+*.toc
+
+# LaTeX specific
+*.latexmain
+*.loa
+*.loe
+*.loq
+*.los
+*.lou
+*.ltz
+*.lui
+*.lud
+*.lue
+*.luf
+*.lug
+*.luh
+*.luj
+*.luk
+*.lul
+*.lum
+*.lun
+*.luo
+*.lup
+*.luq
+*.lur
+*.lus
+*.lut
+*.luu
+*.luv
+*.luw
+*.lux
+*.luy
+*.luz
+
+# Editors
 *.swp
+*.swo
+*.tmp
+.DS_Store
+Thumbs.db
 
 # Environment
 .env
 .env.local
 .env.*
-
-# Editors
-.vscode/
-.idea/
-
-# System/Environment files
-.DS_Store
-Thumbs.db
