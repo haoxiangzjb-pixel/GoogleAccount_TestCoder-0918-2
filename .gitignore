@@ -1,20 +1,28 @@
 # Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-dist/
-build/
+*.pb
+*.grpc.pb.cc
+*.grpc.pb.h
+*.pb.cc
+*.pb.h
 
 # Dependencies
-.venv/
-venv/
 node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+dist/
+build/
+target/
+.gradle/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
+*.swo
 
 # Environment
 .env
@@ -24,3 +32,5 @@ node_modules/
 # Editors
 .vscode/
 .idea/
+.DS_Store
+Thumbs.db
