@@ -1,25 +1,34 @@
 # Compiled and build artifacts
+*.php
 *.pyc
 __pycache__/
 dist/
 build/
 
 # Dependencies
+vendor/
 node_modules/
-
-# Environment
-.env
-.env.local
-
-# Editors
-.vscode/
-.idea/
+.venv/
+venv/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
+*.swo
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
 
 # System files
 .DS_Store
 Thumbs.db
+desktop.ini
