@@ -1,26 +1,28 @@
-# Compiled and build artifacts
-*.pyc
-pycache/
-*.o
-*.obj
-dist/
-build/
+# Julia compiled files and caches
+*.ji
+*.so
+*.dll
+*.dylib
+*.cache
 
-# Dependencies
-.venv/
-venv/
-node_modules/
+# Julia-specific build and dependency directories
+julia-*/
+base.cache
+compiled/
 
-# Logs and temp files
+# System and environment files
+.DS_Store
+Thumbs.db
+.env
+.env.local
+*.env.*
+
+# Logs and temporary files
 *.log
 *.tmp
 *.swp
+*.swo
 
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
+# IDE and editor files
 .vscode/
 .idea/
