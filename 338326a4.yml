@@ -1,0 +1,17 @@
+---
+- name: Copy file with random name
+  hosts: localhost
+  tasks:
+    - name: Generate random destination filename
+      set_fact:
+        random_filename: "{{ '/workspace/' + lookup('password', '/dev/null chars=ascii_lowercase,digits length=8') + '.txt' }}"
+
+    - name: Copy file to random destination
+      copy:
+        src: /workspace/first.txt
+        dest: "{{ random_filename }}"
+        mode: '0644'
+        
+    - name: Display the new filename
+      debug:
+        msg: "File copied to {{ random_filename }}"
