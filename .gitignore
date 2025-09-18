@@ -1,8 +1,10 @@
 # Compiled and build artifacts
+*.fsproj
+*.fsx
+*.dll
+*.exe
 *.o
 *.obj
-*.exe
-*.dll
 *.so
 *.a
 *.out
@@ -10,9 +12,11 @@ dist/
 build/
 
 # Dependencies
-venv/
 .venv/
+venv/
 node_modules/
+julia-*/
+zig-*/
 target/
 .gradle/
 
@@ -34,3 +38,15 @@ target/
 # System/Environment files
 .DS_Store
 Thumbs.db
+
+# Python specific
+__pycache__/
+*.pyc
+.mypy_cache/
+.pytest_cache/
+coverage/
+htmlcov/
+.coverage
+
+# Original rules preserved
+*.log
