@@ -1,13 +1,6 @@
 # Compiled and build artifacts
-*.fsproj
-*.fsx
-*.dll
-*.exe
-*.o
-*.obj
-*.so
-*.a
-*.out
+*.pyc
+__pycache__/
 dist/
 build/
 
@@ -15,38 +8,16 @@ build/
 .venv/
 venv/
 node_modules/
-julia-*/
-zig-*/
-target/
-.gradle/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
 
 # Environment
 .env
 .env.local
-.env.*
 
 # Editors
 .vscode/
 .idea/
-
-# System/Environment files
-.DS_Store
-Thumbs.db
-
-# Python specific
-__pycache__/
-*.pyc
-.mypy_cache/
-.pytest_cache/
-coverage/
-htmlcov/
-.coverage
-
-# Original rules preserved
-*.log
