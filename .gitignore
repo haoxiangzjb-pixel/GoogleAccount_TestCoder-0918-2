@@ -1,21 +1,26 @@
-# Compiled and build artifacts
-*.beam
-*.erl_crash.dump
+#Compiled and build artifacts
+*.pyc
+pycache/
+*.o
+*.obj
+dist/
+build/
 
-# Dependencies
-deps/
-_build/
+#Dependencies
+.venv/
+venv/
+node_modules/
 
-# Logs and temp files
+#Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Environment
+#Environment
 .env
 .env.local
 .env.*
 
-# Editors
+#Editors
 .vscode/
 .idea/
