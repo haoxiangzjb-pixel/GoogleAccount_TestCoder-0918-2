@@ -1,13 +1,10 @@
 # Compiled and build artifacts
-*.pyc
-__pycache__/
-dist/
-build/
+*.css
 
 # Dependencies
-.venv/
-venv/
 node_modules/
+venv/
+.venv/
 
 # Logs and temp files
 *.log
