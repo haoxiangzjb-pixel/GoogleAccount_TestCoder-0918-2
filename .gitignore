@@ -19,7 +19,8 @@ node_modules/
 venv/
 .venv/
 .m2/
-.scala/
+julia-*/
+zig-*/
 
 # Logs and temp files
 *.log
@@ -37,8 +38,6 @@ venv/
 .idea/
 *.iml
 *.iws
-*.ipr
-
-# OS generated files
+out/
 .DS_Store
 Thumbs.db
