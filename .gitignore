@@ -1,11 +1,10 @@
-# Compiled and build artifacts
-*.pb
-*.proto
+#Compiled and build artifacts
+*.pyc
+pycache/
+dist/
 
-# Environment
-.env
+#Environment
 .env.local
-.env.*
 
-# Editors
+#Editors
 .vscode/
