@@ -1,11 +1,6 @@
-# API and data files
-*_api_data.json
-
 # Compiled and build artifacts
 *.pyc
 __pycache__/
-*.o
-*.obj
 dist/
 build/
 
