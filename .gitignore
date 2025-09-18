@@ -1,10 +1,12 @@
 # Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-dist/
-build/
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.run.xml
 
 # Dependencies
 .venv/
@@ -24,3 +26,28 @@ node_modules/
 # Editors
 .vscode/
 .idea/
+
+# LaTeX specific
+*.pdf
+*.dvi
+*.ps
+*.eps
+*.lof
+*.lot
+*.bbl
+*.blg
+*.idx
+*.ilg
+*.ind
+*.ilg
+*.toc
+*.lof
+*.lot
+*.nav
+*.snm
+*.vrb
+*.thm
+*.brf
+
+# Original rules preserved
+*.log
