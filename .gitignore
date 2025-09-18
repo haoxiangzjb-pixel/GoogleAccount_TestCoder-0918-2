@@ -1,20 +1,26 @@
 # Compiled and build artifacts
-*.pyc
-__pycache__/
+*.ex
+*.beam
 *.o
 *.obj
+*.so
+*.dll
+*.exe
+*.a
 dist/
 build/
+target/
 
 # Dependencies
-.venv/
-venv/
-node_modules/
-
-# Logs and temp files
-*.log
-*.tmp
+deps/
+_build/
+.erlang.cookie
+*.ez
+.DS_Store
 *.swp
+*.swo
+*.tmp
+*.log
 
 # Environment
 .env
