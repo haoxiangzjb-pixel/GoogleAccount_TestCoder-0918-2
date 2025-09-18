@@ -1,45 +1,32 @@
 # Compiled and build artifacts
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
-
-# Build directories
-build/
+*.thrift # Ignore generated thrift files if they are compiled artifacts, otherwise remove this line
 dist/
+build/
 
-# Dependency directories
+# Dependencies
 node_modules/
-venv/
 .venv/
+venv/
+julia-*/
+zig-*/
 target/
 .gradle/
 
-# Python-specific ignores
-__pycache__/
-*.pyc
-.mypy_cache/
-.pytest_cache/
-coverage/
-htmlcov/
-.coverage
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
 
-# Environment files
+# Environment
 .env
 .env.local
 .env.*
 
-# IDE and editor files
+# Editors
 .vscode/
 .idea/
-*.swp
-*.swo
-*.log
-*.tmp
 
-# System files
+# System/Environment files
 .DS_Store
 Thumbs.db
