@@ -1,11 +1,33 @@
-# Compiled and build artifacts
-*.pb
-*.proto
+#Build artifacts and compiled files
+*.pyc
+dist/
+build/
+*.o
+*.obj
 
-# Environment
+#Dependencies
+.venv/
+venv/
+node_modules/
+
+#Environment files
 .env
 .env.local
-.env.*
+*.env.*
 
-# Editors
+#IDE and editor files
 .vscode/
+.idea/
+*.swp
+*.swo
+
+#Logs and temp files
+*.log
+*.tmp
+
+#System files
+.DS_Store
+Thumbs.db
+
+#Original rules preserved
+*.log
