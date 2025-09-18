@@ -1,8 +1,6 @@
 # Compiled and build artifacts
 *.pyc
-pycache/
-*.o
-*.obj
+__pycache__/
 dist/
 build/
 
@@ -24,3 +22,6 @@ node_modules/
 # Editors
 .vscode/
 .idea/
+
+# Archives
+*.tar.gz
