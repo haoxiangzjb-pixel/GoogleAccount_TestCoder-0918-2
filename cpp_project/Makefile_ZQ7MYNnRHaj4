@@ -1,0 +1,66 @@
+# Makefile for C++ project
+
+# Compiler and flags
+CXX = g++
+CXXFLAGS = -std=c++17 -Wall -Wextra -g
+INCLUDES = -Iinclude
+
+# Directories
+SRCDIR = src
+TESTDIR = tests
+BUILDDIR = build
+INCLUDEDIR = include
+
+# Source files
+SOURCES = $(SRCDIR)/main.cpp $(SRCDIR)/utils.cpp
+TEST_SOURCES = $(TESTDIR)/test_utils.cpp
+
+# Object files
+OBJECTS = $(SOURCES:$(SRCDIR)/%.cpp=$(BUILDDIR)/%.o)
+TEST_OBJECTS = $(SOURCES:$(SRCDIR)/%.cpp=$(BUILDDIR)/%.o) $(TEST_SOURCES:$(TESTDIR)/%.cpp=$(BUILDDIR)/%.o)
+
+# Executables
+TARGET = $(BUILDDIR)/main
+TEST_TARGET = $(BUILDDIR)/test_runner
+
+# Default target
+.PHONY: all
+all: build
+
+# Build target
+.PHONY: build
+build: $(TARGET)
+
+$(TARGET): $(OBJECTS) | $(BUILDDIR)
+	$(CXX) $(CXXFLAGS) -o $@ $^
+
+# Test target
+.PHONY: test
+test: $(TEST_TARGET)
+	./$(TEST_TARGET)
+
+$(TEST_TARGET): $(TEST_OBJECTS) | $(BUILDDIR)
+	$(CXX) $(CXXFLAGS) -o $@ $^ -lgtest -lgtest_main -pthread
+
+# Object file rules
+$(BUILDDIR)/%.o: $(SRCDIR)/%.cpp | $(BUILDDIR)
+	$(CXX) $(CXXFLAGS) $(INCLUDES) -c $< -o $@
+
+$(BUILDDIR)/%.o: $(TESTDIR)/%.cpp | $(BUILDDIR)
+	$(CXX) $(CXXFLAGS) $(INCLUDES) -c $< -o $@
+
+# Create build directory
+$(BUILDDIR):
+	mkdir -p $(BUILDDIR)
+
+# Clean target
+.PHONY: clean
+clean:
+	rm -rf $(BUILDDIR)
+
+# Install dependencies (Ubuntu/Debian)
+.PHONY: install-deps
+install-deps:
+	sudo apt-get update && sudo apt-get install -y libgtest-dev cmake && \
+	cd /usr/src/gtest && sudo cmake CMakeLists.txt && sudo make && \
+	sudo cp *.a /usr/lib
