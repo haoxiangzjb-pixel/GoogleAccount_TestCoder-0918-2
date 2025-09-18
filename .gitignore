@@ -1,6 +1,6 @@
 # Compiled and build artifacts
+__pycache__/
 *.pyc
-pycache/
 dist/
 build/
 
@@ -8,6 +8,11 @@ build/
 .venv/
 venv/
 node_modules/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
 # Environment
 .env
@@ -17,11 +22,6 @@ node_modules/
 # Editors
 .vscode/
 .idea/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
 
 # System/Environment files
 .DS_Store
