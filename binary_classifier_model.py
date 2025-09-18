@@ -1,0 +1,65 @@
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+
+class BinaryClassificationNet(nn.Module):
+    """
+    A simple neural network for binary classification tasks.
+    """
+    def __init__(self, input_size, hidden_size1=64, hidden_size2=32, dropout_rate=0.2):
+        """
+        Initialize the neural network layers.
+        
+        Args:
+            input_size (int): Number of input features
+            hidden_size1 (int): Number of neurons in the first hidden layer
+            hidden_size2 (int): Number of neurons in the second hidden layer
+            dropout_rate (float): Dropout rate for regularization
+        """
+        super(BinaryClassificationNet, self).__init__()
+        
+        # Define the layers
+        self.fc1 = nn.Linear(input_size, hidden_size1)
+        self.fc2 = nn.Linear(hidden_size1, hidden_size2)
+        self.fc3 = nn.Linear(hidden_size2, 1)
+        
+        # Dropout layer for regularization
+        self.dropout = nn.Dropout(dropout_rate)
+        
+        # Batch normalization layers
+        self.bn1 = nn.BatchNorm1d(hidden_size1)
+        self.bn2 = nn.BatchNorm1d(hidden_size2)
+        
+    def forward(self, x):
+        """
+        Forward pass through the network.
+        
+        Args:
+            x (Tensor): Input tensor of shape (batch_size, input_size)
+            
+        Returns:
+            Tensor: Output tensor of shape (batch_size, 1)
+        """
+        # First hidden layer with ReLU activation and batch normalization
+        x = self.fc1(x)
+        x = self.bn1(x)
+        x = F.relu(x)
+        x = self.dropout(x)
+        
+        # Second hidden layer with ReLU activation and batch normalization
+        x = self.fc2(x)
+        x = self.bn2(x)
+        x = F.relu(x)
+        x = self.dropout(x)
+        
+        # Output layer with sigmoid activation for binary classification
+        x = self.fc3(x)
+        x = torch.sigmoid(x)
+        
+        return x
+
+# Example usage:
+# model = BinaryClassificationNet(input_size=10)
+# input_data = torch.randn(32, 10)  # Batch of 32 samples with 10 features each
+# output = model(input_data)
+# print(output.shape)  # Should be torch.Size([32, 1])
