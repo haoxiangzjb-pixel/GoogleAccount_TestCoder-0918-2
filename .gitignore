@@ -1,13 +1,21 @@
-# Temp files and editor artifacts
-Jenkinsfile_*
-*.tmp
-*.swp
-*.swo
+# Dependencies
+node_modules/
 
-# Environment and local config
+# Build artifacts
+dist/
+
+# Environment files
 .env
 .env.local
-.env.*
 
-# IDE and editor directories
+# IDE and editor files
 .vscode/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# System files
+.DS_Store
+Thumbs.db
