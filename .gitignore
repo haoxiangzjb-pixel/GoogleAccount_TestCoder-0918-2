@@ -1,34 +1,19 @@
 # Compiled and build artifacts
+*.hi
 *.o
 *.obj
-*.mod
-*.so
-*.dll
-*.exe
-*.out
-*.class
-*.jar
-*.war
-*.ear
-*.pyc
-__pycache__/
 dist/
 build/
-target/
-.gradle/
 
 # Dependencies
-node_modules/
-venv/
 .venv/
-julia-*/
-zig*/
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
 
 # Environment
 .env
@@ -38,9 +23,8 @@ zig*/
 # Editors
 .vscode/
 .idea/
-*.code-workspace
 
-# System files
+# System/Environment files
 .DS_Store
 Thumbs.db
 
