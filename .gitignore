@@ -1,19 +1,12 @@
-# Dependencies
-node_modules/
+# Images
+*.png
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+# R files
+*.R
 
-# Environment
+# Environment files
 .env
 .env.local
-.env.*
 
-# Editors
+# IDE files
 .vscode/
-.idea/
-
-# Original rules preserved
-*.log
