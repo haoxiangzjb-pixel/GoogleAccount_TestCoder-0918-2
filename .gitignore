@@ -1,25 +1,12 @@
-#Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-dist/
-build/
+# GitHub Actions
+.github/workflows/
 
-#Dependencies
-.venv/
-venv/
-node_modules/
-
-#Logs and temp files
-*.log
-*.tmp
-*.swp
-
-#Environment
+# Environment files
 .env
 .env.local
 
-#Editors
+# IDE/Editor files
 .vscode/
-.idea/
+
+# Logs and temp files
+*.log
