@@ -1,12 +1,27 @@
-# GitHub Actions
-.github/workflows/
+#Compiled and build artifacts
+*.pyc
+pycache/
+dist/
 
-# Environment files
+#Dependencies
+.venv/
+venv/
+node_modules/
+
+#Environment
 .env
 .env.local
+.env.*
 
-# IDE/Editor files
+#Editors
 .vscode/
+.idea/
 
-# Logs and temp files
+#System files
+.DS_Store
+Thumbs.db
+
+#Logs and temp files
 *.log
+*.tmp
+*.swp
