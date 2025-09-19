@@ -1,12 +1,29 @@
-# GitHub Actions
-.github/workflows/
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+dist/
+build/
 
-# Environment files
-.env
-.env.local
-
-# IDE/Editor files
-.vscode/
+# Dependencies
+.dart_tool/
+.pub-cache/
+.pub/
+build/
 
 # Logs and temp files
 *.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
