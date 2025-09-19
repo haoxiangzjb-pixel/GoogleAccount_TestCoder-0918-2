@@ -1,1 +1,5 @@
-*.tex
+# System/Environment files
+.env
+
+# XML configuration files (if sensitive or generated)
+config_*.xml
