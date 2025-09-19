@@ -1,20 +1,36 @@
 # Compiled and build artifacts
+*.fsproj
+*.sln
+*.user
+*.userosscache
+*.suo
+*.pdb
+*.exe
+*.dll
+*.so
+*.a
+*.obj
+*.out
+*.o
 *.pyc
 __pycache__/
-*.o
-*.obj
 dist/
 build/
 
 # Dependencies
-.venv/
-venv/
 node_modules/
+venv/
+.venv/
+julia-*/
+zig-*/
+target/
+.gradle/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
+*.swo
 
 # Environment
 .env
@@ -24,6 +40,32 @@ node_modules/
 # Editors
 .vscode/
 .idea/
+*.vs
 
-# Original rules preserved
-*.log
+# System/Environment files
+.DS_Store
+Thumbs.db
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
