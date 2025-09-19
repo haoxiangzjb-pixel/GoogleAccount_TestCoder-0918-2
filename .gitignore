@@ -1,16 +1,29 @@
-# Compiled and build artifacts
-*.o
-*.obj
-*.pyc
+#Temporary and system files
+Makefile_00f5a992
 
-# Dependency directories
-__pycache__/
+#Compiled and build artifacts
 dist/
 build/
 
-# Environment files
+#Dependencies
+node_modules/
+.venv/
+venv/
+
+#Environment
 .env
 .env.local
 
-# IDE and editor files
+#Editors
 .vscode/
+.idea/
+
+#Logs and temp files
+*.log
+*.tmp
+*.swp
+
+#Cache
+__pycache__/
+.mypy_cache/
+.pytest_cache/
