@@ -1,21 +1,19 @@
-# Dependencies
-node_modules/
-
-# Build artifacts
-dist/
-
-# Environment files
-.env
-.env.local
-
-# IDE and editor files
-.vscode/
+# Julia and build artifacts
+julia_matrices/julia-*/ 
+*.ji
+*.so
+*.tar.gz
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# System files
-.DS_Store
-Thumbs.db
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
