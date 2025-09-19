@@ -1,17 +1,1 @@
-#Temp files and logs
-*.tmp
-*.log
-
-#Environment files
-.env
-.env.local
-
-#Build artifacts
-dist/
-build/
-
-#Dependencies
-node_modules/
-
-#IDE files
-.vscode/
+(empty — output nothing)
