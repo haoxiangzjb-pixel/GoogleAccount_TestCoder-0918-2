@@ -1,16 +1,18 @@
+# Docker
+Dockerfile_cvVdCN4F
+
 # Compiled and build artifacts
-*.swiftmodule
-*.swiftdoc
-*.swiftsourceinfo
+*.pyc
+__pycache__/
+*.o
+*.obj
+dist/
+build/
 
 # Dependencies
-.swiftdeps
-.build/
- DerivedData/
-
-# Editors
-.vscode/
-.idea/
+.venv/
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
@@ -21,3 +23,7 @@
 .env
 .env.local
 .env.*
+
+# Editors
+.vscode/
+.idea/
