@@ -1,0 +1,26 @@
+{
+  "status": "success",
+  "data": {
+    "userId": 12345,
+    "userName": "exampleUser",
+    "email": "user@example.com",
+    "profile": {
+      "firstName": "Example",
+      "lastName": "User",
+      "avatar": "https://example.com/avatar.jpg"
+    },
+    "posts": [
+      {
+        "id": 1,
+        "title": "My first post",
+        "content": "Hello, world!"
+      },
+      {
+        "id": 2,
+        "title": "Another post",
+        "content": "This is a sample API response."
+      }
+    ]
+  },
+  "message": "Data retrieved successfully"
+}
