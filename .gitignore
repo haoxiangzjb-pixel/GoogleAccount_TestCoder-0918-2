@@ -1,9 +1,14 @@
 # Compiled and build artifacts
+*.pl
+*.pyc
+pycache/
 *.o
 *.obj
-*.pyc
+dist/
+build/
 
 # Dependencies
+.venv/
 venv/
 node_modules/
 
@@ -15,16 +20,8 @@ node_modules/
 # Environment
 .env
 .env.local
+.env.*
 
 # Editors
 .vscode/
 .idea/
-
-# Build directories
-build/
-dist/
-
-# Cache directories
-__pycache__/
-.mypy_cache/
-.pytest_cache/
