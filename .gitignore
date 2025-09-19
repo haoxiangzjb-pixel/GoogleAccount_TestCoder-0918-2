@@ -1,26 +1,5 @@
 # Compiled and build artifacts
-*.pyc
-pycache/
-*.o
-*.obj
-dist/
-build/
+*.css
 
-# Dependencies
-.venv/
-venv/
-node_modules/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
+# If button_styles_abc123.css is a generated file, you may want to ignore it specifically
+# or by pattern. For now, we assume it's a source file and should not be ignored.
