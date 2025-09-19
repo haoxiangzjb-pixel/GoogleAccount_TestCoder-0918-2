@@ -1,23 +1,15 @@
 # Compiled and build artifacts
-*.dart.js
-*.dart.js.map
-*.dart.deps
-*.dart.digests
-*.dart.info
-*.dart.manifest
-*.dart.metadata
-*.dart.symbols
-*.dart.tar.gz
-*.dart.zip
-build/
+*.pyc
+__pycache__/
+*.o
+*.obj
 dist/
+build/
 
 # Dependencies
-.dart_tool/
-.packages
-.pub-cache/
-.pub/
-packages/
+.venv/
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
