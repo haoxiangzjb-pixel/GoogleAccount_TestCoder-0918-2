@@ -1,5 +1,4 @@
 # Compiled and build artifacts
-*.class
 *.o
 *.obj
 *.exe
@@ -7,18 +6,18 @@
 *.so
 *.a
 *.out
+*.class
+*.pyc
+__pycache__/
 dist/
 build/
 target/
 .gradle/
 
-# Dependency directories
+# Dependencies
 node_modules/
 venv/
 .venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
 julia-*/
 zig-*/
 
@@ -28,21 +27,21 @@ zig-*/
 *.swp
 *.swo
 
-# Environment files
+# Environment
 .env
 .env.local
 *.env.*
 
-# IDE and editor files
+# Editors and IDEs
 .vscode/
 .idea/
-*.iml
+*.adb~ # Ada temporary files, e.g. from GNAT Studio
 
 # System files
 .DS_Store
 Thumbs.db
 
-# Compressed files
+# Compressed archives
 *.zip
 *.gz
 *.tar
