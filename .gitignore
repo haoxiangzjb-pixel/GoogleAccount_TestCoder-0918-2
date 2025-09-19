@@ -17,12 +17,11 @@ node_modules/
 .vscode/
 .idea/
 
-#System/Temp files
-*.log
-*.tmp
+#Temp files
 *.swp
+*.swo
+*.tmp
+
+#System files
 .DS_Store
 Thumbs.db
-
-#Original rules preserved
-*.log
