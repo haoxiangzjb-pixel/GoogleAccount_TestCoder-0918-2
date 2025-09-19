@@ -1,36 +1,14 @@
 # Compiled and build artifacts
-*.dart_tool/
-.dart_tool/
-*.exe
-*.dll
-*.so
-*.a
-*.obj
-*.out
+*.pyc
+__pycache__/
+dist/
+build/
 
 # Dependencies
-.dart_tool/
-.pub-cache/
-.pub/
-build/
-flutter_*.png
-flutter_*.plist
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+node_modules/
 
 # Environment
-.env
 .env.local
-.env.*
 
 # Editors
 .vscode/
-.idea/
-*.iml
-
-# OS generated files
-.DS_Store
-Thumbs.db
