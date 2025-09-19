@@ -1,17 +1,16 @@
 # Compiled and build artifacts
+*.o
+*.obj
 *.pyc
+
+# Dependency directories
 __pycache__/
 dist/
 build/
 
-# Dependencies
-.venv/
-venv/
-node_modules/
-
-# Environment
+# Environment files
 .env
 .env.local
 
-# Editors
+# IDE and editor files
 .vscode/
