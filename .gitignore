@@ -1,6 +1,9 @@
+#Temporary files
+Makefile_xaeyc2uiqg
+
 #Compiled and build artifacts
 *.pyc
-pycache/
+__pycache__/
 *.o
 *.obj
 dist/
