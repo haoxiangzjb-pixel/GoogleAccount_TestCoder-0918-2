@@ -1,18 +1,16 @@
-#Temp files and system files
-*.r
-.DS_Store
-Thumbs.db
+# Compiled and build artifacts
+*.o
+*.obj
+build/
 
-#Logs and temp files
-*.log
-*.tmp
-*.swp
-
-#Environment
+# Dependencies
+venv/
 .env
 .env.local
 .env.*
 
-#Editors
+# Editors
 .vscode/
-.idea/
+
+# Original rules preserved
+*.log
