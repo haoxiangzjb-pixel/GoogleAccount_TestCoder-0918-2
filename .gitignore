@@ -1,13 +1,10 @@
-# Temporary and system files
-*.html
-*$(date*
+# Compiled and build artifacts
+*.pyc
+pycache/
+dist/
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment files
-.env
+# Environment
 .env.local
-.env.*
+
+# Editors
+.vscode/
