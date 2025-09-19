@@ -1,12 +1,13 @@
-# Images
-*.png
+#Compiled and build artifacts
+*.pyc
+pycache/
+dist/
 
-# R files
-*.R
+#Dependencies
+node_modules/
 
-# Environment files
-.env
+#Environment
 .env.local
 
-# IDE files
+#Editors
 .vscode/
