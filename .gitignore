@@ -1,15 +1,28 @@
+# Terraform
+*.tfstate
+*.tfstate.backup
+*.tfvars
+*.tfvars.json
+terraform.tfstate.d/
+.terraform/
+
 # Compiled and build artifacts
-*.class
-*.jar
-*.war
-*.ear
-build/
+*.pyc
+__pycache__/
+*.o
+*.obj
 dist/
-target/
+build/
 
 # Dependencies
-.gradle/
-.m2/
+.venv/
+venv/
+node_modules/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
 # Environment
 .env
@@ -19,9 +32,3 @@ target/
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
-
-# Logs and temp files
-*.log
-*.tmp
