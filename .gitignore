@@ -1,13 +1,27 @@
-# Temporary and system files
-*.html
-*$(date*
+# Compiled and build artifacts
+*.pl
+*.pyc
+pycache/
+*.o
+*.obj
+dist/
+build/
+
+# Dependencies
+.venv/
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Environment files
+# Environment
 .env
 .env.local
 .env.*
+
+# Editors
+.vscode/
+.idea/
