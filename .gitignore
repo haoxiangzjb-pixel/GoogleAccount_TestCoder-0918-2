@@ -1,15 +1,27 @@
-# Compiled and build artifacts
-*.o
-*.obj
-Dockerfile.*
+#Compiled and build artifacts
+*.pyc
+__pycache__/
+dist/
+build/
 
-# Dependencies
-go-app/
+#Dependencies
+.venv/
+venv/
+node_modules/
 
-# Environment
+#Environment
 .env
 .env.local
-.env.*
 
-# Editors
+#Editors
 .vscode/
+.idea/
+
+#System/Environment files
+.DS_Store
+Thumbs.db
+
+#Logs and temp files
+*.log
+*.tmp
+*.swp
