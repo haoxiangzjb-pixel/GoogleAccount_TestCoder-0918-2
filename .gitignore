@@ -1,6 +1,6 @@
 # Compiled and build artifacts
-*.o
-*.obj
+*.pyc
+pycache/
 dist/
 build/
 
@@ -15,11 +15,7 @@ node_modules/
 # Environment
 .env
 .env.local
-.env.*
 
 # Editors
 .vscode/
 .idea/
-
-# Original rules preserved
-*.log
