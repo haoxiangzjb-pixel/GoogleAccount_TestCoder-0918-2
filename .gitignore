@@ -1,1 +1,8 @@
-(empty — output nothing)
+# Compiled and build artifacts
+*.exe
+
+# Environment
+.env.local
+
+# Editors
+.vscode/
