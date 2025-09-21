@@ -1,19 +1,20 @@
-# Julia and build artifacts
-julia_matrices/julia-*/ 
-*.ji
-*.so
-*.tar.gz
+#Temporary and system files
+*.vba
 
-# Logs and temp files
+#Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Environment files
+#Environment
 .env
 .env.local
-*.env.*
+.env.*
 
-# Editors
+#Editors
 .vscode/
 .idea/
+
+#System files
+.DS_Store
+Thumbs.db
