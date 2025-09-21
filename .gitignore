@@ -1,8 +1,10 @@
+# Backup files and scripts
+backup_20250921_010539/
+*.sh
+
 # Compiled and build artifacts
 *.pyc
 __pycache__/
-*.o
-*.obj
 dist/
 build/
 
