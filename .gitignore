@@ -1,8 +1,9 @@
+# Images
+*.jpg
+
 # Compiled and build artifacts
 *.pyc
 __pycache__/
-*.o
-*.obj
 dist/
 build/
 
