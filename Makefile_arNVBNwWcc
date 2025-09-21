@@ -1,0 +1,63 @@
+# Makefile for C++ project
+
+# Compiler and flags
+CXX = g++
+CXXFLAGS = -std=c++17 -Wall -Wextra -g
+LDLIBS = 
+
+# Directories
+SRCDIR = src
+TESTDIR = test
+BUILDDIR = build
+BINDIR = bin
+
+# Source files
+SOURCES = $(wildcard $(SRCDIR)/*.cpp)
+# Exclude main.cpp from the library objects
+LIB_SOURCES = $(filter-out $(SRCDIR)/main.cpp,$(SOURCES))
+OBJECTS = $(LIB_SOURCES:$(SRCDIR)/%.cpp=$(BUILDDIR)/%.o)
+
+# Test files
+TEST_SOURCES = $(wildcard $(TESTDIR)/*.cpp)
+TEST_OBJECTS = $(TEST_SOURCES:$(TESTDIR)/%.cpp=$(BUILDDIR)/%.o)
+TEST_EXECUTABLES = $(TEST_SOURCES:$(TESTDIR)/%.cpp=$(BINDIR)/%)
+
+# Main executable name
+TARGET = $(BINDIR)/main
+
+# Default target
+all: build
+
+# Build target - compiles the main executable
+build: directories $(TARGET)
+
+# Create necessary directories
+directories:
+	@mkdir -p $(BUILDDIR)
+	@mkdir -p $(BINDIR)
+
+# Link the main executable
+$(TARGET): $(OBJECTS) $(BUILDDIR)/main.o
+	$(CXX) $(CXXFLAGS) -o $@ $^ $(LDLIBS)
+
+# Compile source files
+$(BUILDDIR)/%.o: $(SRCDIR)/%.cpp
+	$(CXX) $(CXXFLAGS) -c -o $@ $<
+
+# Test target - builds and runs tests
+test: directories $(TEST_EXECUTABLES)
+	@for test_exe in $(TEST_EXECUTABLES); do \
+		echo "Running $$test_exe..."; \
+		$$test_exe || exit 1; \
+	done
+
+# Compile and link test files
+$(BINDIR)/%: $(TESTDIR)/%.cpp $(OBJECTS)
+	$(CXX) $(CXXFLAGS) -o $@ $^ $(LDLIBS)
+
+# Clean target - removes generated files
+clean:
+	rm -rf $(BUILDDIR) $(BINDIR)
+
+# Phony targets
+.PHONY: all build test clean directories
