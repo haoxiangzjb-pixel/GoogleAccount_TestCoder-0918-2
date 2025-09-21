@@ -1,0 +1,6 @@
+This is a sample text file.
+It contains several words, and some repeated words.
+Words are important for testing word counting.
+This file will help us verify that our Perl script works correctly.
+Counting words is what this script is designed to do.
+Words, words, words!
