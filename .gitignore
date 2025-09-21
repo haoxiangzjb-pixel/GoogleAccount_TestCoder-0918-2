@@ -1,11 +1,23 @@
-# Processed files and artifacts
-*.txt
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+dist/
+build/
 
-# Environment and local configs
+# Dependencies
+.venv/
+venv/
+node_modules/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
 .env.local
 
-# Scripts and executables
-*.sh
-
-# Editors and IDEs
+# Editors
 .vscode/
+.idea/
