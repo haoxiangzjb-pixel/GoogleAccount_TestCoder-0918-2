@@ -1,20 +1,11 @@
-#Temporary and system files
-*.vba
+# Compiled and build artifacts
+*.pb
+*.proto
 
-#Logs and temp files
-*.log
-*.tmp
-*.swp
-
-#Environment
+# Environment
 .env
 .env.local
 .env.*
 
-#Editors
+# Editors
 .vscode/
-.idea/
-
-#System files
-.DS_Store
-Thumbs.db
