@@ -1,29 +1,50 @@
-#Temp files
-Makefile_gyYHHpsw
-
-#Compiled and build artifacts
-*.pyc
-pycache/
-*.o
-*.obj
-dist/
-build/
-
-#Dependencies
-.venv/
-venv/
-node_modules/
-
-#Logs and temp files
+# Compiled and build artifacts
+*.aux
 *.log
-*.tmp
-*.swp
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.run.xml
+*.bbl
+*.blg
+*.lof
+*.lot
+*.nav
+*.snm
+*.vrb
+*.toc
 
-#Environment
+# LaTeX generated files
+latex_documents/*.aux
+latex_documents/*.log
+latex_documents/*.out
+latex_documents/*.toc
+latex_documents/*.fls
+latex_documents/*.fdb_latexmk
+latex_documents/*.synctex.gz
+latex_documents/*.run.xml
+latex_documents/*.bbl
+latex_documents/*.blg
+latex_documents/*.lof
+latex_documents/*.lot
+latex_documents/*.nav
+latex_documents/*.snm
+latex_documents/*.vrb
+latex_documents/*.toc
+
+# Environment
 .env
 .env.local
 .env.*
 
-#Editors
+# Editors
 .vscode/
 .idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
