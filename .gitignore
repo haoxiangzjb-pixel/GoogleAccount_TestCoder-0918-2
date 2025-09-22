@@ -1,15 +1,29 @@
-# Backup scripts and generated files
-generated_scripts/
+# Compiled and build artifacts
+*.pdf
+Rplots.pdf
 
-# Environment files
+# Dependencies
+renv/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
 .env
 .env.local
-*.env.*
+.env.*
 
-# Editor files
+# Editors
 .vscode/
+.idea/
 
-# Temporary and log files
-*.tmp
+# R-specific ignores
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# Original rules preserved
 *.log
-*backup_????????_??????
