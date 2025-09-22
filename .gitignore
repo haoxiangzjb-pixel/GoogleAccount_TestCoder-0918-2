@@ -1,20 +1,15 @@
-# Temporary and system files
-*~
+#Compiled and build artifacts
+*.pyc
+__pycache__/
+dist/
+build/
 
-# Environment files
+#Dependencies
+node_modules/
+
+#Environment
 .env
 .env.local
-.env.*
 
-# IDE and editor files
+#Editors
 .vscode/
-.idea/
-*.swp
-*.swo
-
-# Erlang build artifacts (if applicable)
-*.beam
-*.erl~
-
-# Original rules preserved
-*.log
