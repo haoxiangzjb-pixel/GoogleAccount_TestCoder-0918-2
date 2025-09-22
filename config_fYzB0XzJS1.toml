@@ -1,0 +1,22 @@
+# Конфигурация приложения
+
+[server]
+host = "localhost"
+port = 8080
+debug = false
+
+[database]
+host = "db.example.com"
+port = 5432
+name = "myapp_db"
+user = "db_user"
+password = "db_password"
+
+[logging]
+level = "info"
+file = "/var/log/myapp.log"
+
+[features]
+enable_auth = true
+enable_cache = true
+max_connections = 100
