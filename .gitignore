@@ -1,5 +1,15 @@
 # Compiled and build artifacts
-*.asm
+*.pyc
+pycache/
+*.o
+*.obj
+dist/
+build/
+
+# Dependencies
+.venv/
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
@@ -14,12 +24,3 @@
 # Editors
 .vscode/
 .idea/
-
-# Dependencies
-.venv/
-venv/
-node_modules/
-
-# System/Environment files
-.DS_Store
-Thumbs.db
