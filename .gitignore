@@ -1,25 +1,8 @@
-# Compiled and build artifacts
-*.asm
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# Dependencies
-.venv/
-venv/
+#Dependencies
 node_modules/
 
-# System/Environment files
-.DS_Store
-Thumbs.db
+#Environment
+.env.local
+
+#Editors
+.vscode/
