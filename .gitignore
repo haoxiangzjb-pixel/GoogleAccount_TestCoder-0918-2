@@ -1,3 +1,30 @@
+#Temp files and scripts
+*$(date*
+*.sh
+
+#Logs and temp files
+*.log
+*.tmp
+*.swp
+
+#Environment
+.env
+.env.local
+.env.*
+
+#Editors
+.vscode/
+.idea/
+
 #Compiled and build artifacts
-*.ts
-angular-components/
+*.pyc
+__pycache__/
+*.o
+*.obj
+dist/
+build/
+
+#Dependencies
+.venv/
+venv/
+node_modules/
