@@ -1,13 +1,20 @@
-#Compiled and build artifacts
-*.sql~*
+# Server config files (likely contain sensitive data)
+server_config_*.json
 
-#Environment
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment files
 .env
 .env.local
 .env.*
 
-#Editors
+# Editors
 .vscode/
+.idea/
 
-#Original rules preserved
-*.log
+# System files
+.DS_Store
+Thumbs.db
