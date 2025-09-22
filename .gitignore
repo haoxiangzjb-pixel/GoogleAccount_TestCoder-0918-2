@@ -15,13 +15,3 @@ node_modules/
 
 #Editors
 .vscode/
-.idea/
-
-#Logs and temp files
-*.log
-*.tmp
-*.swp
-
-#System files
-.DS_Store
-Thumbs.db
