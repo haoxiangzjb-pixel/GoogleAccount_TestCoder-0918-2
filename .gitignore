@@ -1,35 +1,47 @@
-#Compiled and build artifacts
-*.html
-
-#Logs and temp files
-*.log
-*.tmp
-*.swp
-
-#Environment
-.env
-.env.local
-.env.*
-
-#Editors
-.vscode/
-.idea/
-
-#Dependencies
-node_modules/
-venv/
-.venv/
+# Compiled and build artifacts
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+*.class
+*.pyc
 __pycache__/
 dist/
 build/
 target/
 .gradle/
 
-#System/Environment files
+# Dependencies
+node_modules/
+venv/
+.venv/
+julia-*/
+zig*/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# System files
 .DS_Store
 Thumbs.db
 
-#Compressed files
+# Compressed files
 *.zip
 *.gz
 *.tar
