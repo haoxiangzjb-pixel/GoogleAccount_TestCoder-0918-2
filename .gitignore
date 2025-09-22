@@ -1,3 +1,19 @@
+# Data files
+*.json
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
 # Compiled and build artifacts
 *.pyc
 __pycache__/
@@ -8,17 +24,3 @@ build/
 .venv/
 venv/
 node_modules/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
