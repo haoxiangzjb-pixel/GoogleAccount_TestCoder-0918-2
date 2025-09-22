@@ -1,6 +1,6 @@
 #Compiled and build artifacts
-*.pyc
-pycache/
+*.swiftmodule
+*.swiftdoc
 *.o
 *.obj
 dist/
