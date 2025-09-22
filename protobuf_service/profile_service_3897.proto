@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+// Profile service definition for managing user profiles
+
+// User profile information
+message Profile {
+  string user_id = 1;
+  string username = 2;
+  string email = 3;
+  string first_name = 4;
+  string last_name = 5;
+  int64 created_at = 6; // Unix timestamp
+  repeated string interests = 7;
+}
+
+// Request message containing the user ID
+message GetProfileRequest {
+  string user_id = 1;
+}
+
+// Response message containing the profile or error
+message GetProfileResponse {
+  oneof result {
+    Profile profile = 1;
+    string error = 2;
+  }
+}
+
+// Service definition for profile operations
+service ProfileService {
+  // Get a user's profile by ID
+  rpc GetProfile(GetProfileRequest) returns (GetProfileResponse);
+}

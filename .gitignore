@@ -1,21 +1,2 @@
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-dist/
-build/
-
-# Dependencies
-node_modules/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-
-# Editors
-.vscode/
-.idea/
+# Protobuf and text files - no build artifacts or dependencies detected
+# Only source and config files present - no ignores needed
