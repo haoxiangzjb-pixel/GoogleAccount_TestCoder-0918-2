@@ -1,0 +1,52 @@
+# Makefile for C++ project
+
+# Compiler and flags
+CXX = g++
+CXXFLAGS = -std=c++17 -Wall -Wextra -g
+LDFLAGS = 
+
+# Directories
+SRCDIR = src
+TESTDIR = tests
+BUILDDIR = build
+BINDIR = bin
+
+# Default target
+.PHONY: all
+all: build
+
+# Build target - creates the main executable
+.PHONY: build
+build:
+	@echo "Building project..."
+	@mkdir -p $(BUILDDIR)
+	@mkdir -p $(BINDIR)
+	$(CXX) $(CXXFLAGS) -o $(BINDIR)/main $(SRCDIR)/main.cpp
+	@echo "Build completed."
+
+# Test target - compiles and runs tests
+.PHONY: test
+test:
+	@echo "Running tests..."
+	@mkdir -p $(BUILDDIR)
+	$(CXX) $(CXXFLAGS) -o $(BUILDDIR)/test_runner $(TESTDIR)/test_main.cpp
+	./$(BUILDDIR)/test_runner
+	@echo "Tests completed."
+
+# Clean target - removes build artifacts
+.PHONY: clean
+clean:
+	@echo "Cleaning build artifacts..."
+	rm -rf $(BUILDDIR)/*
+	rm -rf $(BINDIR)/*
+	@echo "Clean completed."
+
+# Help target - shows available commands
+.PHONY: help
+help:
+	@echo "Available targets:"
+	@echo "  all     - Build the project (default)"
+	@echo "  build   - Build the project"
+	@echo "  test    - Run tests"
+	@echo "  clean   - Remove build artifacts"
+	@echo "  help    - Show this help message"
