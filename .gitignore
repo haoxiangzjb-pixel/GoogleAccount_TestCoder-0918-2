@@ -1,37 +1,23 @@
+# Ignore Docker Compose files with random suffixes
+docker-compose-*-.yml
+
 # Compiled and build artifacts
-*.aux
+*.pyc
+__pycache__/
+*.o
+*.obj
+dist/
+build/
+
+# Dependencies
+.venv/
+venv/
+node_modules/
+
+# Logs and temp files
 *.log
-*.out
-*.toc
-*.fls
-*.fdb_latexmk
-*.synctex.gz
-*.pdf
-
-# LaTeX temporary files
-*.dvi
-*.ps
-*.eps
-*.lof
-*.lot
-*.bbl
-*.blg
-*.idx
-*.ilg
-*.ind
-*.loe
-*.loa
-*.lom
-*.lox
-*.nav
-*.snm
-*.vrb
-*.thm
-*.toc
-
-# LaTeX editor files
-*.latexmain
-*.latexmkrc
+*.tmp
+*.swp
 
 # Environment
 .env
@@ -41,8 +27,3 @@
 # Editors
 .vscode/
 .idea/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
