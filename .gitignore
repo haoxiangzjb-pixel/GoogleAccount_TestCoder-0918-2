@@ -1,8 +1,1 @@
-#Dependencies
-node_modules/
-
-#Environment
-.env.local
-
-#Editors
-.vscode/
+(empty — output nothing)
