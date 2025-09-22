@@ -1,26 +1,26 @@
-# Compiled and build artifacts
-*.pyc
-pycache/
-*.o
-*.obj
-dist/
-build/
-
-# Dependencies
-.venv/
-venv/
-node_modules/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+# Docker
+docker-compose.override.yml
 
 # Environment
 .env
 .env.local
 .env.*
 
-# Editors
+# IDEs
 .vscode/
-.idea/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+dist/
+build/
+
+# Dependencies
+node_modules/
+.venv/
+venv/
