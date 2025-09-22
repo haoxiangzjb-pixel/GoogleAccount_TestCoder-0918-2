@@ -1,0 +1,45 @@
+syntax = "proto3";
+
+// Опционально: указать пакет
+package userprofile;
+
+// Сообщение, представляющее профиль пользователя
+message UserProfile {
+  string user_id = 1;
+  string username = 2;
+  string email = 3;
+  string display_name = 4;
+  int64 created_at = 5; // Unix timestamp
+  bool is_verified = 6;
+}
+
+// Сообщение для запроса профиля
+message GetProfileRequest {
+  string user_id = 1;
+}
+
+// Сообщение для ответа с профилем
+message GetProfileResponse {
+  UserProfile profile = 1;
+  bool found = 2; // Флаг, указывающий, найден ли профиль
+}
+
+// Сообщение для запроса сохранения профиля
+message SaveProfileRequest {
+  UserProfile profile = 1;
+}
+
+// Сообщение для ответа на сохранение профиля
+message SaveProfileResponse {
+  bool success = 1;
+  string message = 2; // Опциональное сообщение об ошибке или успехе
+}
+
+// Сервис для управления профилями пользователей
+service UserProfileService {
+  // Получить профиль пользователя по ID
+  rpc GetProfile(GetProfileRequest) returns (GetProfileResponse);
+
+  // Сохранить (создать или обновить) профиль пользователя
+  rpc SaveProfile(SaveProfileRequest) returns (SaveProfileResponse);
+}
