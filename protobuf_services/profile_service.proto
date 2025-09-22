@@ -1,0 +1,45 @@
+syntax = "proto3";
+
+// Package declaration
+package profile_service;
+
+// Message representing a user profile
+message Profile {
+  string user_id = 1;
+  string username = 2;
+  string email = 3;
+  string full_name = 4;
+  int64 created_at = 5; // Unix timestamp
+  bool is_active = 6;
+}
+
+// Request message for getting a profile
+message GetProfileRequest {
+  string user_id = 1;
+}
+
+// Response message for getting a profile
+message GetProfileResponse {
+  Profile profile = 1;
+  bool found = 2;
+}
+
+// Request message for saving a profile
+message SaveProfileRequest {
+  Profile profile = 1;
+}
+
+// Response message for saving a profile
+message SaveProfileResponse {
+  bool success = 1;
+  string message = 2;
+}
+
+// Service definition for profile management
+service ProfileService {
+  // Get a user profile by ID
+  rpc GetProfile(GetProfileRequest) returns (GetProfileResponse);
+  
+  // Save a user profile
+  rpc SaveProfile(SaveProfileRequest) returns (SaveProfileResponse);
+}
