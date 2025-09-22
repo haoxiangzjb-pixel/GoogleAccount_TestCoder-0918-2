@@ -1,4 +1,6 @@
 # Compiled and build artifacts
+*.php
+*.py
 *.pyc
 __pycache__/
 *.o
