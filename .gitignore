@@ -1,10 +1,10 @@
 # Compiled and build artifacts
-*.pl
+*.js
+dist/
+build/
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+# Dependencies
+node_modules/
 
 # Environment
 .env
@@ -15,5 +15,11 @@
 .vscode/
 .idea/
 
-# Original rules preserved
+# Logs and temp files
 *.log
+*.tmp
+*.swp
+
+# System/Environment files
+.DS_Store
+Thumbs.db
