@@ -1,0 +1,31 @@
+{
+  "status": "success",
+  "data": {
+    "user": {
+      "id": 12345,
+      "name": "张三",
+      "email": "zhangsan@example.com",
+      "role": "developer"
+    },
+    "posts": [
+      {
+        "id": 101,
+        "title": "如何学习Python",
+        "content": "Python是一门强大的编程语言...",
+        "created_at": "2023-01-15T09:30:00Z"
+      },
+      {
+        "id": 102,
+        "title": "Web开发入门",
+        "content": "现代Web开发需要掌握多种技术...",
+        "created_at": "2023-02-20T14:45:00Z"
+      }
+    ],
+    "metadata": {
+      "total_posts": 2,
+      "page": 1,
+      "limit": 10
+    }
+  },
+  "timestamp": "2023-03-01T12:00:00Z"
+}
