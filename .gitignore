@@ -1,16 +1,26 @@
-# Prolog and SWI-Prolog specific
-*.pl~*
-*.swp
-*.swo
-*.tmp
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+dist/
+build/
 
-# Environment and local files
-.env
-.env.local
-.env.*
-
-# Editors and IDEs
-.vscode/
+# Dependencies
+.venv/
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+
+# Editors
+.vscode/
+.idea/
+
+# Data and text files (potentially sensitive or generated)
+*.txt
