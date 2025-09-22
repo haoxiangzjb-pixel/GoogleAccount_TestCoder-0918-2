@@ -1,35 +1,49 @@
-#Compiled and build artifacts
-*.pyc
-__pycache__/
+# Julia-specific build artifacts and dependencies
+julia-*/
+deps/
+Manifest.toml
+LocalPreferences.toml
+
+# General build and dependency directories
 dist/
 build/
-
-#Dependencies
-venv/
+target/
 .venv/
+venv/
 node_modules/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
 
-#Environment
-.env
-.env.local
+# Compiled and binary files
+*.pyc
+*.class
+*.o
+*.exe
+*.dll
+*.so
+*.a
+*.obj
+*.out
 
-#Editors
+# Editor and IDE files
 .vscode/
 .idea/
-
-#Temp files
 *.swp
 *.swo
-*.tmp
 
-#Logs
-*.log
-
-#System files
+# System and environment files
 .DS_Store
 Thumbs.db
+.env
+.env.local
+*.env.*
 
-#Compressed files
+# Logs and temporary files
+*.log
+*.tmp
+
+# Compressed files
 *.zip
 *.gz
 *.tar
@@ -52,3 +66,10 @@ Thumbs.db
 *.tar.bz2
 *.tar.xz
 *.tar.zst
+
+# Test and coverage artifacts
+coverage/
+htmlcov/
+.coverage
+test/depot/
+test/manifest/
