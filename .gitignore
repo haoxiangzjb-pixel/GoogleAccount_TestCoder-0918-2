@@ -1,14 +1,10 @@
 # Compiled and build artifacts
-*.m
-*.o
-*.obj
-dist/
-build/
+*.beam
+*.erl~
 
 # Dependencies
-.venv/
-venv/
-node_modules/
+deps/
+_build/
 
 # Logs and temp files
 *.log
@@ -23,7 +19,3 @@ node_modules/
 # Editors
 .vscode/
 .idea/
-
-# System/Environment files
-.DS_Store
-Thumbs.db
