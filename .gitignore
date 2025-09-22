@@ -1,26 +1,26 @@
-#Compiled and build artifacts
-*.pyc
-pycache/
-*.o
-*.obj
-dist/
-build/
+# Compressed files
+*.tar.gz
+*.tgz
+*.tar
+*.gz
+*.bz2
+*.xz
+*.7z
+*.zip
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 
-#Dependencies
-.venv/
-venv/
-node_modules/
-
-#Logs and temp files
-*.log
-*.tmp
-*.swp
-
-#Environment
-.env
-.env.local
-.env.*
-
-#Editors
-.vscode/
-.idea/
+# Julia-specific ignores
+julia-*/
