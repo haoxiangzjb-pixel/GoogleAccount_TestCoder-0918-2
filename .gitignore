@@ -1,6 +1,32 @@
 # Compiled and build artifacts
-*.proto
-*.txt
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.run.xml
+*.bbl
+*.blg
+*.lof
+*.lot
+*.nav
+*.snm
+*.vrb
+*.toc
+*.bak
+*.tmp
 
-# Dependencies
-protobuf_service/
+# LaTeX specific
+*.latexmain
+latex.out/
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
