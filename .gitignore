@@ -1,34 +1,8 @@
-# Terraform
-*.tfstate
-*.tfstate.backup
-*.tfvars
-*.tfvars.json
-terraform.tfstate.d/
-terraform.tfstate.backup.d/
+#Vue.js build artifacts
+*.vue
 
-# Compiled and build artifacts
-*.pyc
-pycache/
-*.o
-*.obj
-dist/
-build/
-
-# Dependencies
-.venv/
-venv/
-node_modules/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
+#Environment files
 .env.local
-.env.*
 
-# Editors
+#Editor files
 .vscode/
-.idea/
