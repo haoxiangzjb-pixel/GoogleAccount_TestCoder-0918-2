@@ -1,0 +1,40 @@
+# Application Configuration
+
+[server]
+host = "0.0.0.0"
+port = 8080
+debug = false
+workers = 4
+
+[database]
+host = "localhost"
+port = 5432
+name = "myapp_db"
+user = "myapp_user"
+password = "secure_password"
+pool_size = 10
+
+[cache]
+backend = "redis"
+host = "localhost"
+port = 6379
+ttl = 3600
+
+[logging]
+level = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+file = "/var/log/myapp/app.log"
+
+[features]
+enable_api = true
+enable_ui = true
+enable_metrics = false
+
+[security]
+secret_key = "super_secret_key_here"
+allowed_hosts = ["localhost", "127.0.0.1"]
+cors_origins = ["https://example.com"]
+
+[external_apis]
+weather_api_key = "your_weather_api_key"
+payment_gateway_url = "https://api.payment.com/v1"
