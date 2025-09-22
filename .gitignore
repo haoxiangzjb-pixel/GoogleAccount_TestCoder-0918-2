@@ -1,9 +1,5 @@
 # Compiled and build artifacts
-*.pyc
-__pycache__/
-*.class
-*.o
-*.obj
+*.pdf
 dist/
 build/
 
@@ -26,6 +22,7 @@ node_modules/
 .vscode/
 .idea/
 
-# Generated files
-gen-java/
-gen-py/
+# R-specific
+*.RData
+*.Rhistory
+*.Rproj.user/
