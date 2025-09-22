@@ -1,24 +1,13 @@
-# Compiled and build artifacts
-*.rs.bk
-*.o
-*.obj
+#Compiled and build artifacts
+*.pyc
+pycache/
 dist/
-build/
 
-# Dependencies
-target/
-.cargo/
+#Dependencies
+node_modules/
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
+#Environment
 .env.local
-.env.*
 
-# Editors
+#Editors
 .vscode/
-.idea/
