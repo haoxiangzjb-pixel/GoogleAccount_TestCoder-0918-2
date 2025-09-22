@@ -1,10 +1,38 @@
+#Temporary and log files
+*.tmp
+*.log
+*.swp
+*.swo
+
+#Environment files
+.env
+.env.local
+.env.*
+
+#IDE and editor files
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+
 #Compiled and build artifacts
 *.pyc
-pycache/
+__pycache__/
+*.class
+*.o
+*.obj
+*.dll
+*.exe
+*.so
+*.a
 dist/
+build/
+target/
+.gradle/
 
-#Environment
-.env.local
-
-#Editors
-.vscode/
+#Dependencies
+node_modules/
+venv/
+.venv/
+julia-*/
+zig-*/
