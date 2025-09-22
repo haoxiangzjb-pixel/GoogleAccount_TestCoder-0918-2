@@ -1,8 +1,17 @@
-# Compressed files
-*.tar.gz
+# Compiled and build artifacts
+*.pyc
+pycache/
+dist/
+build/
 
-# Environment files
+# Dependencies
+.venv/
+venv/
+node_modules/
+
+# Environment
+.env
 .env.local
 
-# IDE files
+# Editors
 .vscode/
