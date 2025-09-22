@@ -1,26 +1,5 @@
-#Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-dist/
-build/
+#CI/CD and environment
+.gitlab-ci.yml
 
-#Dependencies
-.venv/
-venv/
-node_modules/
-
-#Logs and temp files
-*.log
-*.tmp
-*.swp
-
-#Environment
-.env
-.env.local
-.env.*
-
-#Editors
-.vscode/
-.idea/
+#YAML config files (if sensitive or generated)
+*.yml
