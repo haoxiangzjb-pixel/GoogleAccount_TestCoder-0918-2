@@ -1,25 +1,24 @@
-#Compiled and build artifacts
-*.pyc
-__pycache__/
-dist/
-build/
+# Compiled and build artifacts
+*.nimble
+*.nim.c
+*.nim.cfg
+nimcache/
 
-#Dependencies
-node_modules/
+# Dependencies
+.nimble/bin/
+.nimble/pkgs/
 
-#Environment
+# Environment
 .env
 .env.local
+.env.*
 
-#Editors
+# Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-#Logs and temp files
+# Logs and temp files
 *.log
 *.tmp
-*.swp
-
-#System files
-.DS_Store
-Thumbs.db
