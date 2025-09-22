@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<student>
+    <firstName>Иван</firstName>
+    <lastName>Иванов</lastName>
+    <age>20</age>
+    <major>Информатика</major>
+    <group>ИТ-201</group>
+</student>
