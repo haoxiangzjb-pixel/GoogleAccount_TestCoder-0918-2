@@ -1,13 +1,8 @@
-#Compiled and build artifacts
-*.pyc
-pycache/
-dist/
+# Compressed files
+*.tar.gz
 
-#Dependencies
-node_modules/
-
-#Environment
+# Environment
 .env.local
 
-#Editors
+# Editors
 .vscode/
