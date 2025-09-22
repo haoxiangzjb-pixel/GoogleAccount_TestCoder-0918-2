@@ -1,21 +1,8 @@
-# Compiled and build artifacts
-*.ts
-dist/
-build/
-
-# Dependencies
+#Dependencies
 node_modules/
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
+#Environment
 .env.local
-.env.*
 
-# Editors
+#Editors
 .vscode/
-.idea/
