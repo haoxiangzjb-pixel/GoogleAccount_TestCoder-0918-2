@@ -1,13 +1,15 @@
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-dist/
+# Swift build artifacts and Xcode
+*.swiftmodule
+*.swiftdoc
+*.swiftsourceinfo
+*.xcuserdata/
+*.xcodeproj/xcuserdata/
 build/
+DerivedData/
 
-# Dependencies
-node_modules/
-.venv/
-venv/
+# Dependency directories
+.swift/
+Packages/
 
 # Logs and temp files
 *.log
@@ -17,6 +19,7 @@ venv/
 # Environment
 .env
 .env.local
+.env.*
 
 # Editors
 .vscode/
