@@ -1,7 +1,6 @@
 # Compiled and build artifacts
-*.m
-*.o
-*.obj
+*.pyc
+__pycache__/
 dist/
 build/
 
@@ -23,7 +22,3 @@ node_modules/
 # Editors
 .vscode/
 .idea/
-
-# System/Environment files
-.DS_Store
-Thumbs.db
