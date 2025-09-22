@@ -1,5 +1,2 @@
-#CI/CD and environment
-.gitlab-ci.yml
-
-#YAML config files (if sensitive or generated)
-*.yml
+#Compiled and build artifacts
+*.sql
