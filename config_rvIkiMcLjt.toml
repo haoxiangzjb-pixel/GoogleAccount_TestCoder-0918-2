@@ -1,0 +1,41 @@
+# Application Configuration
+
+[server]
+host = "0.0.0.0"
+port = 8080
+debug = false
+workers = 4
+
+[database]
+host = "localhost"
+port = 5432
+name = "myapp"
+user = "dbuser"
+password = "dbpassword"
+pool_size = 10
+
+[cache]
+backend = "redis"
+host = "localhost"
+port = 6379
+ttl = 3600
+
+[auth]
+jwt_secret = "supersecretkey"
+token_expiry = 86400
+refresh_expiry = 604800
+
+[logging]
+level = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+file = "/var/log/myapp/app.log"
+
+[features]
+enable_registration = true
+enable_password_recovery = true
+max_upload_size = 10485760 # 10MB in bytes
+
+[api]
+rate_limit = 1000
+rate_limit_window = 3600
+cors_origins = ["https://myapp.com", "https://admin.myapp.com"]
