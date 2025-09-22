@@ -1,11 +1,13 @@
 # Compiled and build artifacts
+*.rs.bk
 *.o
 *.obj
 dist/
 build/
 
 # Dependencies
-node_modules/
+target/
+.cargo/
 
 # Logs and temp files
 *.log
@@ -15,10 +17,8 @@ node_modules/
 # Environment
 .env
 .env.local
+.env.*
 
 # Editors
 .vscode/
 .idea/
-
-# Original rules preserved
-*.log
