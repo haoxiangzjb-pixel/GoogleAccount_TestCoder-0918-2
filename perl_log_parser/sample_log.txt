@@ -1,0 +1,6 @@
+2023-10-26 10:00:01 INFO User login successful
+2023-10-26 10:05:23 ERROR Database connection failed
+2023-10-26 10:10:45 WARNING Low disk space
+2023-10-26 10:15:12 ERROR Invalid user input
+2023-10-26 10:20:34 INFO User logout
+2023-10-26 10:25:56 ERROR Timeout occurred
