@@ -1,12 +1,29 @@
+# Backup files and temporary files
+*.sh
+backups/
+
 # Compiled and build artifacts
-*.nimble
-*.nim.c
-*.nim.cfg
-nimcache/
+*.pyc
+__pycache__/
+*.o
+*.obj
+dist/
+build/
 
 # Dependencies
-.nimble/bin/
-.nimble/pkgs/
+.venv/
+venv/
+node_modules/
+julia-*/
+zig-*/
+target/
+.gradle/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
 
 # Environment
 .env
@@ -16,9 +33,31 @@ nimcache/
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# Logs and temp files
-*.log
-*.tmp
+# System files
+.DS_Store
+Thumbs.db
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
