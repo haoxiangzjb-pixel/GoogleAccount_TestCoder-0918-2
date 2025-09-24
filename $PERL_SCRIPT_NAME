@@ -1,0 +1,1 @@
+my $count = 0; while (<>) { $count++ if /ERROR/; } print "Total errors: $count\n";
