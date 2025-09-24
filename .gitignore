@@ -1,1 +1,12 @@
-Nothing needs to be ignored in this case. The added file `useCounter.jsx` is a source code file that should be tracked in version control. There are no build artifacts, dependency directories, temporary files, or other items that should be ignored based on the provided file changes.
+```
+# Terraform files
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.backup
+*.lock.hcl
+provider.tf
+```
