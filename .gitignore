@@ -1,1 +1,14 @@
-(empty)
+*.lua.bak
+*.luac
+.luacheckrc
+.ropeproject/
+.vscode/
+.idea/
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+*.env
+*.env.local
+*.env.*
