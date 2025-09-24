@@ -1,1 +1,23 @@
-Nothing to ignore - the added file 'connect_db_random.php' is a source code file that should be tracked in version control.
+```
+# Kubernetes/OpenShift deployment files
+*.yaml
+*.yml
+
+# If this is a Node.js project based on the deployment file name
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
+```
