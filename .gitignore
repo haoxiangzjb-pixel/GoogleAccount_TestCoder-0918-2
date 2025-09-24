@@ -1,7 +1,4 @@
-(script_37\$\.pl seems to be a source code file, not a build artifact or temporary file, so it should not be added to .gitignore)
-
-Wait, let me reconsider the filename pattern. The file `script_37$.pl` appears to be a Perl script file with an unusual name that includes a dollar sign. This appears to be a source code file rather than a build artifact, temporary file, or dependency.
-
-Since this is a source code file (.pl is a Perl source file extension) and there are no build artifacts, dependencies, or temporary files in the changes, no .gitignore rules are needed.
-
-(empty)
+```
+# GraphQL schema files are source code - don't ignore them
+# schema.graphql should be version controlled
+```
