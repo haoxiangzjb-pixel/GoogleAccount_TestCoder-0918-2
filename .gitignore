@@ -1,9 +1,3 @@
-```
-#Temp files
-*.tmp
-*.swp
-*.swo
+(server_12345.js is a source file, not a build artifact or dependency, so no ignores needed)
 
-#Compiled files
-*.pp
-```
+(empty)
