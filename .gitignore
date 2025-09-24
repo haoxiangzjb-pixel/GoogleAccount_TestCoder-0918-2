@@ -1,23 +1,17 @@
 ```
-# Compiled and build artifacts
-*.css.map
-*.min.css
+# Images and plots
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.svg
+*.tiff
+*.webp
 
-# Temp files
-*.tmp
-*.temp
-
-# Editor files
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Logs
-*.log
-
-# Environment
-.env
-.env.local
-*.env.*
+# R-specific
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
 ```
