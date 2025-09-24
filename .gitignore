@@ -1,1 +1,5 @@
-Nothing to output - the change list contains only a source file (.fs) and no build artifacts, dependencies, or temp files that need to be ignored.
+(book_data.xml is a source data file, not a build artifact, dependency, or temp file - so no ignores needed)
+
+```xml
+
+```
