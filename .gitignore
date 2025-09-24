@@ -1,13 +1,1 @@
-```
-# R plots and generated images
-*.pdf
-*.png
-
-# R build artifacts
-.Rproj.user/
-Rplots.pdf
-
-# Temporary files
-*.tmp
-*.swp
-```
+Nothing should be ignored since only a source code file (.swift) was added without any build artifacts, dependencies, or temporary files.
