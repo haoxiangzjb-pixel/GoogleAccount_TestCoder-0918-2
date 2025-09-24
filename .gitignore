@@ -1,37 +1,9 @@
 ```
-# R environment and build artifacts
-.Rproj.user/
-.Rhistory
-.RData
+# Image files
+*.png
+
+# R files
 *.RData
-*.rds
-*.Rds
-*.rda
-*.Rda
-
-# Dependencies
-renv/
-packrat/
-lib/
-libs/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS
-.DS_Store
-Thumbs.db
+*.Rhistory
+.Rproj.user/
 ```
