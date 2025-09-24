@@ -1,1 +1,24 @@
-Nothing to output - the change list contains only a source file (MyCounterComponent.vue) and no build artifacts, dependencies, or temp files that need to be ignored.
+```
+# Compiled and build artifacts
+*.beam
+*.o
+*.obj
+
+# Dependencies
+ebin/
+deps/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+.env.*
+```
