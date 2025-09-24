@@ -1,46 +1,30 @@
 ```
-# Environment
-.env
-.env.local
-.env.*
+# CI/CD
+.github/
+.gitlab/
 
 # Logs
 *.log
 
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
+
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# System
+# OS
 .DS_Store
 Thumbs.db
-
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-*.egg-info/
-dist/
-build/
-target/
-.gradle/
-.mypy_cache/
-.pytest_cache/
-coverage/
-htmlcov/
-*.coverage
-
-# Compiled files
-*.pyc
-*.class
-*.o
-*.exe
-*.dll
-*.so
-*.a
-*.obj
-*.out
 
 # Compressed files
 *.zip
