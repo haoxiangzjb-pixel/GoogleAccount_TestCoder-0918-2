@@ -1,24 +1,35 @@
 ```
-# Compiled and build artifacts
-*.beam
-*.o
-*.obj
+# TypeScript/JavaScript build artifacts
+*.js
+*.tsbuildinfo
+dist/
+build/
+out/
+lib/
 
 # Dependencies
-ebin/
-deps/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+node_modules/
 
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
+
+# Logs
+*.log
 
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
+
+# Coverage
+coverage/
+htmlcov/
+*.coverage
+
+# System files
+.DS_Store
+Thumbs.db
 ```
