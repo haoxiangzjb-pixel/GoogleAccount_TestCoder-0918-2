@@ -1,35 +1,47 @@
 ```
-# XML files
-*.xml
+# Compiled and build artifacts
+*.m
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+*.a
 
-# Build artifacts and temp files
-*.tmp
-*.temp
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
 
-# Logs
+# Logs and temp files
 *.log
+*.tmp
+*.swp
+*.swo
 
-# Environment files
+# Environment
 .env
 .env.local
 *.env.*
 
-# Editor/IDE files
+# Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# Dependency directories
-node_modules/
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.so
-*.dll
-*.exe
-*.out
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
 
 # Compressed files
 *.zip
@@ -50,8 +62,4 @@ __pycache__/
 *.Z
 *.lz
 *.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
 ```
