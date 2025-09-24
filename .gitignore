@@ -1,24 +1,39 @@
 ```
 # Compiled and build artifacts
-*.beam
+*.class
 *.o
 *.obj
 
 # Dependencies
-ebin/
-deps/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+node_modules/
+dist/
+build/
+target/
+.gradle/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-
-# Editors
-.vscode/
-.idea/
+*.swo
 
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
 ```
