@@ -1,6 +1,16 @@
 ```
 # Compiled and build artifacts
-*.js
+*.pyc
+__pycache__/
+*.o
+*.obj
+
+# Dependencies
+.venv/
+venv/
+node_modules/
+dist/
+build/
 
 # Logs and temp files
 *.log
@@ -15,4 +25,14 @@
 # Editors
 .vscode/
 .idea/
+
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
+# Python specific
+*.pyc
+.pytest_cache/
+.mypy_cache/
 ```
