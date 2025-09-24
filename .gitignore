@@ -1,9 +1,30 @@
 ```
-# Image files
-*.png
+# Compiled and build artifacts
+*.o
+*.obj
+*.mod
+*.smod
+*.so
+*.a
+*.lib
+*.dll
+*.exe
 
-# R-specific
-.Rhistory
-.RData
-.Rproj.user/
+# Dependencies
+build/
+dist/
+*.egg-info/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
