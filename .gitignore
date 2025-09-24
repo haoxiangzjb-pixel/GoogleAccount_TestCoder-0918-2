@@ -1,23 +1,31 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
+# Zig build artifacts
+zig-cache/
+zig-out/
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
 
 # Dependencies
-venv/
-.venv/
-.env
-.env.local
-*.env.*
+.zig-cache/
 
 # Logs and temp files
 *.log
 *.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
 
 # Editors
 .vscode/
 .idea/
-
-# Docker
-Dockerfile*
+*.swp
+*.swo
 ```
