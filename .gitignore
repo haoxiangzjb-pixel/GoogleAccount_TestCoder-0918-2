@@ -1,3 +1,12 @@
-(server_12345.js is a source file, not a build artifact or dependency, so no ignores needed)
+```
+# Environment files
+.env
+.env.local
+*.env.*
 
-(empty)
+# Logs
+*.log
+
+# Jenkins related
+Jenkinsfile_*
+```
