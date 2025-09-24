@@ -1,1 +1,54 @@
-(crystal_queue_9238.py is a source file, so no .gitignore rules needed)
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
+# Dependencies
+target/
+Cargo.lock
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+*.so
+*.egg-info/
+.eggs/
+
+# Node.js
+node_modules/
+
+# Virtual environments
+venv/
+.venv/
+.env/
+
+# Build directories
+build/
+dist/
+```
