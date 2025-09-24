@@ -1,23 +1,13 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
+# R plots and generated images
+*.pdf
+*.png
 
-# Dependencies
-.venv/
-venv/
+# R build artifacts
+.Rproj.user/
+Rplots.pdf
 
-# Logs and temp files
-*.log
+# Temporary files
 *.tmp
 *.swp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
 ```
