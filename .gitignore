@@ -1,23 +1,55 @@
 ```
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+.terragrunt-cache/
+
 # Compiled and build artifacts
-*.css.map
-*.min.css
+*.pyc
+__pycache__/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
-# Temp files
+# Dependencies
+.venv/
+venv/
+node_modules/
+dist/
+build/
+target/
+.gradle/
+.mypy_cache/
+.pytest_cache/
+coverage/
+htmlcov/
+*.egg-info/
+
+# Logs and temp files
+*.log
 *.tmp
-*.temp
+*.swp
+*.swo
 
-# Editor files
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# Logs
-*.log
-
-# Environment
-.env
-.env.local
-*.env.*
+# System
+.DS_Store
+Thumbs.db
 ```
