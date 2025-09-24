@@ -1,17 +1,9 @@
 ```
-# Images and plots
-*.png
-*.jpg
-*.jpeg
-*.gif
-*.bmp
-*.svg
-*.tiff
-*.webp
-
-# R-specific
-.Rhistory
-.RData
-.Rproj.user/
-*.Rproj
+# Generated from file changes
+# Protobuf generated files
+*.pb.go
+*.pb.js
+*.pb.ts
+*.py
+gen/
 ```
