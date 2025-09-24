@@ -1,1 +1,8 @@
-(empty)
+```
+# Kubernetes/OpenShift deployment files
+*.yaml
+*.yml
+
+# If this is a Kubernetes deployment, ignore generated files
+*-deployment-*.yaml
+```
