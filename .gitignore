@@ -1,20 +1,15 @@
 ```
 # Compiled and build artifacts
-*.pyc
-__pycache__/
+*.ji
 *.o
 *.obj
-dist/
-build/
-target/
+*.out
 
 # Dependencies
-node_modules/
-venv/
-.venv/
-.env
-.env.local
-.env.*
+.julia/
+.julia-*/
+deps/
+build/
 
 # Logs and temp files
 *.log
@@ -22,29 +17,11 @@ venv/
 *.swp
 
 # Editors
-.vscode/
-.idea/
+.julia/config/
+.julia/logs/
 
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Coverage reports
-coverage/
-htmlcov/
-.coverage
-
-# Python specific
-*.pyc
-*.pyo
-*.pyd
-.Python
-*.so
-*.egg-info/
-.eggs/
-
-# Angular specific
-.angular/
-dist/
-tmp/
+# Environment
+.env
+.env.local
+*.env.*
 ```
