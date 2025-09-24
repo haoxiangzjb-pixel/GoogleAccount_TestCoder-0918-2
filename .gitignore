@@ -1,3 +1,1 @@
-```
-# Configuration and source files only - no build artifacts, dependencies, or temp files detected
-```
+(lambda_function_2f8a4e9b.py is a source code file, not a build artifact, dependency, or temp file, so no .gitignore rules are needed)
