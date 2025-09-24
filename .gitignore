@@ -1,18 +1,23 @@
 ```
 # Compiled and build artifacts
-*.js
+*.pyc
+__pycache__/
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
+# Dependencies
+venv/
+.venv/
 .env
 .env.local
 *.env.*
 
+# Logs and temp files
+*.log
+*.tmp
+
 # Editors
 .vscode/
 .idea/
+
+# Docker
+Dockerfile*
 ```
