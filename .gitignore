@@ -1,18 +1,5 @@
-```
-# Compiled and build artifacts
-*.js
+(reverse_list_fn.ex is a source code file, and there are no build artifacts, dependencies, or temp files in the changes)
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+```elixir
 
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
 ```
