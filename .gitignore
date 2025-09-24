@@ -1,5 +1,6 @@
 ```
 # Compiled and build artifacts
+*.class
 *.o
 *.obj
 *.exe
@@ -9,28 +10,27 @@
 *.out
 
 # Dependencies
+.gradle/
+build/
+target/
+dist/
 node_modules/
 venv/
 .venv/
 __pycache__/
 .mypy_cache/
 .pytest_cache/
-target/
-.gradle/
-
-# Rust specific
-Cargo.lock
-target/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
+*.swo
 
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
 # Editors
 .vscode/
