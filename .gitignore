@@ -1,6 +1,18 @@
 ```
-# Thrift generated files
-*.thrift.g.py
-*.thrift.py
-gen-*/
+# Executables
+sort_array_12345
+
+# Compiled files
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+*.a
+
+# Build directories
+build/
+dist/
+target/
 ```
