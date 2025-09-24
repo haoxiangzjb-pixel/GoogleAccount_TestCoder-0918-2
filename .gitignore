@@ -1,0 +1,35 @@
+```
+# Compiled files
+*.o
+*.obj
+*.hi
+*.chi
+*.chs.h
+*.dyn_o
+*.p_o
+
+# Build artifacts
+dist/
+build/
+*.so
+*.dylib
+*.dll
+
+# Dependencies
+cabal-dist/
+dist-newstyle/
+.stack-work/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+```
