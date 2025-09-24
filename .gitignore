@@ -1,4 +1,5 @@
 ```
-# Jenkins
-Jenkinsfile
+# Configuration and deployment files only - no build artifacts, dependencies, or temp files detected
+# Current changes: nginx-deployment.yaml (configuration file)
+# No ignores needed for this change set
 ```
