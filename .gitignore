@@ -1,0 +1,75 @@
+```
+# Julia installation and compiled files
+julia_install/
+*.ji
+*.so
+*.cache
+
+# Compressed files
+*.gz
+*.tar
+*.tar.gz
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Coverage and testing
+coverage/
+htmlcov/
+.coverage
+*.coverage
+
+# Temporary files
+*.tmp
+*.temp
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Build artifacts
+build/
+dist/
+target/
+*.out
+*.exe
+*.dll
+*.so
+*.a
+*.obj
+
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Dependency directories
+node_modules/
+venv/
+.venv/
+.mypy_cache/
+.pytest_cache/
+
+# Gradle
+.gradle/
+
+# Julia specific additional ignores
+*.ji
+*.ji.bak
+*.jl.bak
+Manifest.toml
+```
