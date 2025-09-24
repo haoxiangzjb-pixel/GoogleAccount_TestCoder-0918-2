@@ -1,50 +1,39 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
-*.exe
-*.dll
-*.so
-*.a
-*.pyc
-__pycache__/
-*.class
+# VBA specific ignores
+*.frx
+*.vbw
+*.cache
 
-# Dependencies
-node_modules/
-venv/
-.venv/
-.env
-.env.local
-.env.*
-.julia/
-zig*/
-target/
-.gradle/
-.mypy_cache/
-.pytest_cache/
-dist/
-build/
-
-# Logs and temp files
-*.log
+# Editor/IDE files
 *.tmp
+*.log
 *.swp
 *.swo
 
-# Editors
-.vscode/
-.idea/
+# Backup files
+*.bak
+*~
 
-# System files
-.DS_Store
-Thumbs.db
+# Environment
+.env
+.env.local
+.env.
 
-# Coverage
-coverage/
-htmlcov/
-.coverage
+# Dependencies and build artifacts
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.class
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.out
 
 # Compressed files
 *.zip
@@ -69,4 +58,8 @@ htmlcov/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
+
+# System files
+.DS_Store
+Thumbs.db
 ```
