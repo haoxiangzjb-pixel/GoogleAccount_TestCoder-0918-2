@@ -1,11 +1,41 @@
 ```
-# Assembly files
-*.asm
-*.o
-*.obj
-*.out
+# Process output files
+*.txt
 
-# Temp files
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs
+*.log
+
+# Temporary files
 *.tmp
-tmp.*
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Build directories
+dist/
+build/
+target/
 ```
