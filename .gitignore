@@ -1,27 +1,31 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.hi
-*.chi
-*.chs
+# VBA/Office files
+*.bas
+*.vba
+*.vbs
+*.dba
+*.dbas
+*.ctl
+*.frx
+*.vbp
+*.vbw
 
-# Dependencies
-.stack-work/
-.cabal-sandbox/
-dist/
-dist-newstyle/
-
-# Logs and temp files
-*.log
+# Backup and temp files
+*.~*
+*~
 *.tmp
-*.swp
+*.bak
+*.old
+*.orig
 
-# Editors
-.vscode/
-.idea/
-
-# System files
-.DS_Store
+# Windows files
 Thumbs.db
+desktop.ini
+*.lnk
+
+# macOS files
+.DS_Store
+
+# Logs
+*.log
 ```
