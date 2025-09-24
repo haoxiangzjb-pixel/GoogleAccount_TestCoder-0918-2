@@ -1,7 +1,21 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
-sort_program
+# Temp files
+*.tmp
+*.swp
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
