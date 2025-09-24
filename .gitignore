@@ -1,17 +1,30 @@
 ```
-# Images and plots
-*.png
-*.jpg
-*.jpeg
-*.gif
-*.bmp
-*.svg
-*.tiff
-*.webp
+# Build artifacts and generated files
+*.json
+*.log
+*.tmp
 
-# R-specific
-.Rhistory
-.RData
-.Rproj.user/
-*.Rproj
+# Environment and config
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.egg-info/
+dist/
+build/
+target/
+.gradle/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
