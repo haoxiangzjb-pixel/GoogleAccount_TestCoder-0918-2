@@ -1,30 +1,36 @@
 ```
 # Compiled and build artifacts
-*.cmi
-*.cmo
-*.cma
-*.cmx
-*.cmxa
-*.exe
-*.out
 *.o
 *.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
 # Dependencies
-.opam/
-_dune/
-_build/
+target/
+Cargo.lock
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
 # Editors
-*.swp
-*.swo
-*.tmp
-
-# Logs
-*.log
+.vscode/
+.idea/
 
 # Environment
 .env
 .env.local
 *.env.*
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Rust-specific
+**/*.rs.bk
 ```
