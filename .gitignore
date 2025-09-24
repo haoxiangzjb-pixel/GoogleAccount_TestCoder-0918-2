@@ -1,1 +1,1 @@
-Nothing should be ignored since only a source code file (.ex) was added.
+Nothing should be ignored since only a single Go source file was added and no build artifacts, dependencies, or temporary files are present in the changes.
