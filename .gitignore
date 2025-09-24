@@ -1,5 +1,1 @@
-(reverse_list_fn.ex is a source code file, and there are no build artifacts, dependencies, or temp files in the changes)
-
-```elixir
-
-```
+Nothing should be ignored since only a source code file (.ex) was added.
