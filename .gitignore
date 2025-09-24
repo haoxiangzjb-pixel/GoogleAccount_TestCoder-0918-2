@@ -1,13 +1,34 @@
 ```
-# R plots and generated images
+# LaTeX build artifacts
+*.aux
+*.log
+*.toc
+*.lof
+*.lot
+*.out
+*.bbl
+*.blg
+*.idx
+*.ind
+*.ilg
+*.dvi
+*.ps
 *.pdf
-*.png
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.auxlock
+*.bcf
+*.run.xml
+*.xdv
 
-# R build artifacts
-.Rproj.user/
-Rplots.pdf
-
-# Temporary files
+# Temp files
 *.tmp
-*.swp
+*.temp
+*.bak
+*.backup
+
+# System files
+.DS_Store
+Thumbs.db
 ```
