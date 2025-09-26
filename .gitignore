@@ -1,34 +1,5 @@
-```
-# Erlang-specific ignores
-.eunit/
-.coverage/
-ebin/
-*.beam
-*.dump
-.erlang.cookie
-.rebar3/
-_build/
+(book_data.xml is a source data file, not a build artifact, dependency, or temp file - no ignores needed)
 
-# Dependencies
-deps/
+```text
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# System files
-.DS_Store
-Thumbs.db
 ```
