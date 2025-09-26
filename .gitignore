@@ -1,12 +1,9 @@
 ```
-# Environment
-.env
-.env.local
-.env.*
+# Temporary files
+*.tmp
+*.temp
+tmp.*
 
-# Editors
-.vscode/
-
-# Logs
-*.log
+# PowerShell specific
+*.ps1
 ```
