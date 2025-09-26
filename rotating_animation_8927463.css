@@ -1,0 +1,17 @@
+/* 定义一个旋转动画 */
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* 应用动画到一个类 */
+.rotating-element {
+  animation-name: rotate;
+  animation-duration: 2s; /* 动画持续时间为2秒 */
+  animation-timing-function: linear; /* 匀速动画 */
+  animation-iteration-count: infinite; /* 无限循环 */
+}
