@@ -1,1 +1,32 @@
-Nothing to output - the added file 'list_files_12345.sh' is a shell script source file and should not be ignored.
+```
+# Compiled and build artifacts
+*.plc
+*.plx
+*.pmc
+*.p6c
+*.p6l
+*.nqp
+
+# Dependencies
+lib/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+```
