@@ -1,4 +1,11 @@
 ```
-# GraphQL schema files (if generated)
-schema.graphql
+# Zig compiler distribution
+zig-linux-x86_64-0.13.0/
+
+# Compressed archives
+*.tar.xz
+
+# Project-specific build artifacts
+zig_project/
+
 ```
