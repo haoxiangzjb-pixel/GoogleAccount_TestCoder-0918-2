@@ -1,41 +1,5 @@
-```
-# Compiled and build artifacts
-*.o
-*.obj
-*.class
-*.pyc
-__pycache__/
-*.swiftmodule
-*.swiftdoc
+(matrix_mult_abc123.py is a source file, and there are no build artifacts, dependencies, or temp files in the changes, so no ignores are needed)
 
-# Dependencies
-node_modules/
-venv/
-.venv/
-.env
-.env.local
-.env.*
+```python
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Build directories
-build/
-dist/
-target/
-.gradle/
-.mypy_cache/
-.pytest_cache/
-coverage/
-htmlcov/
 ```
