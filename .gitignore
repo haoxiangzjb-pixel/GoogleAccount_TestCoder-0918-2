@@ -1,12 +1,1 @@
-```
-# R-specific build artifacts and temporary files
-*.RData
-*.Rhistory
-.Rproj.user/
-.Rapp.history
-.Rbuildignore
-```
-
-Wait, let me reconsider. The only added file is `summary_stats.r` which appears to be a source code file (R script). There are no build artifacts, dependency directories, or temporary files in the change list that would warrant adding to .gitignore.
-
-(empty — output nothing)
+Nothing needs to be ignored in this case. The added file `check_disk_usage.sh` is a shell script source file, which should be tracked in version control. There are no build artifacts, dependencies, or temporary files in the changes that require ignoring.
