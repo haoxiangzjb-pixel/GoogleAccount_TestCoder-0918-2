@@ -1,1 +1,58 @@
-(empty)
+```
+# Compiled Java class files
+*.class
+
+# Dependencies
+target/
+build/
+dist/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Python (if applicable)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# Node.js (if applicable)
+node_modules/
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# MyPy cache
+.mypy_cache/
+
+# Pytest cache
+.pytest_cache/
+
+# Gradle
+.gradle/
+
+# Maven
+target/
+
+# General temp files
+*.tmp
+*~
+.DS_Store
+Thumbs.db
+```
