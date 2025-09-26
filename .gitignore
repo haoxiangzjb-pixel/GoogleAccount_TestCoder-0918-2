@@ -1,1 +1,17 @@
-(recipe_random_name.rb)
+```
+# Configuration and deployment files
+*.yaml
+*.yml
+
+# Kubernetes/Deployment artifacts
+*.yaml.swp
+*.yaml.swo
+
+# Temporary and backup files
+*.tmp
+*.swp
+*.swo
+
+# Logs
+*.log
+```
