@@ -1,1 +1,33 @@
-Nothing to output - the changes only include a source code file (.js) with no build artifacts, dependencies, or temporary files that need to be ignored.
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.hi
+*.chi
+*.chs
+
+# Dependencies
+.stack-work/
+.cabal-sandbox/
+cabal-dev/
+dist/
+dist-newstyle/
+*.cabal.project.local
+cabal.project.local~
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Environment
+.env
+.env.local
+.env.*
+```
