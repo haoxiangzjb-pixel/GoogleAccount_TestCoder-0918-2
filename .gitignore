@@ -1,43 +1,29 @@
 ```
 # Compiled and build artifacts
-*.exe
-*.dll
-*.so
-*.a
+*.o
 *.obj
-*.out
-obj/
-bin/
-Debug/
-Release/
+*.hi
+*.chi
+*.chs
+dist/
+build/
 
 # Dependencies
-packages/
+.stack-work/
+.cabal-sandbox/
+cabal-dev/
 node_modules/
-venv/
-.venv/
-__pycache__/
-*.egg-info/
-.Python
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
-
-# Environment
-.env
-.env.local
-.env.*
 
 # Editors
 .vscode/
 .idea/
-*.userprefs
-*.user
 
-# OS
+# System files
 .DS_Store
 Thumbs.db
 ```
