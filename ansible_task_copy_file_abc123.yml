@@ -1,0 +1,14 @@
+---
+- name: Copy a file to a target location
+  hosts: localhost
+  tasks:
+    - name: Copy source file
+      copy:
+        src: /workspace/source_file.txt
+        dest: /workspace/target_file.txt
+        mode: '0644'
+      register: copy_result
+
+    - name: Print copy result
+      debug:
+        var: copy_result

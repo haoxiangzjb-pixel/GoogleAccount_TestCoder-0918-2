@@ -1,32 +1,3 @@
 ```
-# LaTeX build artifacts
-*.aux
-*.log
-*.toc
-*.lof
-*.lot
-*.out
-*.bbl
-*.blg
-*.idx
-*.ind
-*.ilg
-*.pdf
-*.dvi
-*.ps
-*.synctex.gz
-*.fls
-*.fdb_latexmk
-*.synctex
-*.synctex(busy)
-
-# Temporary files
-*.tmp
-*.temp
-*.bak
-*.backup
-
-# System files
-.DS_Store
-Thumbs.db
+# Configuration and source files only - no build artifacts or dependencies to ignore
 ```
