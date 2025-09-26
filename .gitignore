@@ -1,1 +1,51 @@
-Nothing should be ignored based on the provided changes. The added file `server_abc123.js` is a source code file that should be tracked in version control.
+```
+# Unity specific ignores
+*.cs.meta
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+*.unityproj
+*.sln
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.meta
+*.prefab
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+
+# Compiled files
+*.exe
+*.dll
+*.so
+*.a
+*.obj
+*.out
+
+# Dependencies
+Packages/
+ProjectSettings/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+```
