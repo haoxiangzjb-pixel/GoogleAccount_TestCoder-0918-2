@@ -1,14 +1,14 @@
 ```
 # Compiled and build artifacts
-*.rs.bk
-*.rlib
-*.so
-*.dylib
-*.dll
-*.exe
-*.out
+*.class
+*.jar
+*.war
+*.scala
+*.sbt
 
 # Dependencies
+lib_managed/
+project/
 target/
 
 # Logs and temp files
@@ -24,12 +24,4 @@ target/
 .env
 .env.local
 *.env.*
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Rust-specific
-Cargo.lock
 ```
