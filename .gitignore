@@ -1,1 +1,9 @@
-Nothing to ignore - only a Haskell source file was added.
+```
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+*.lock.hcl
+```
