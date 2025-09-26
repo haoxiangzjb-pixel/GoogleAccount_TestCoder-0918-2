@@ -1,1 +1,7 @@
-(empty)
+```
+# Temporary files
+*.tmp
+
+# GraphQL related
+mutation_tmp_file.*.graphql
+```
