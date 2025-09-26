@@ -1,1 +1,18 @@
-Nothing should be ignored based on the provided file changes. The added file `script_727638.lua` is a source code file that should be tracked in version control.
+```
+# VBA files
+*.vba
+
+# Office files
+*.tmp
+*.log
+*.cache
+
+# Editor/IDE files
+*.swp
+*.swo
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
+```
