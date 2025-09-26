@@ -1,4 +1,1 @@
-```
-*.pp
-tmp.*/
-```
+Nothing to ignore - the change list contains only a source code file (.scala) without any build artifacts, dependencies, or temporary files.
