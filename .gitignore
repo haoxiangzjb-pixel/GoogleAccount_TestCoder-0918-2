@@ -1,0 +1,34 @@
+```
+# Vue.js/JavaScript build artifacts
+dist/
+build/
+*.js.map
+*.css.map
+
+# Dependencies
+node_modules/
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Coverage
+coverage/
+htmlcov/
+*.coverage
+
+# System files
+.DS_Store
+Thumbs.db
+```
