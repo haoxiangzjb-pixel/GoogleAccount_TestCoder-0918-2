@@ -1,1 +1,20 @@
-Nothing to ignore - the change list contains only a source code file (.f90) without any build artifacts, dependencies, or temporary files.
+```
+# Compiled and build artifacts
+*.ji
+*.o
+*.obj
+*.out
+
+# Dependencies
+.julia/
+.julia-*/ 
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.julia/config/
+.julia/logs/
+```
