@@ -1,13 +1,15 @@
 ```
 # Compiled and build artifacts
+*.ji
 *.o
-*.obj
-*.out
+*.so
+*.dylib
+*.dll
 
 # Dependencies
-.Packages/
-.build/
-DerivedData/
+.julia/
+*.jl.cov
+*.jl.mem
 
 # Logs and temp files
 *.log
@@ -18,8 +20,7 @@ DerivedData/
 .vscode/
 .idea/
 
-# Environment
-.env
-.env.local
-*.env.*
+# System files
+.DS_Store
+Thumbs.db
 ```
