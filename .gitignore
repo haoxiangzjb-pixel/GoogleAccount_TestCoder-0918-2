@@ -1,1 +1,54 @@
-Nothing to output - the added file '6bt93jo4o2.py' is a source code file and should not be ignored.
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+.pipenv/
+poetry.lock
+Gemfile.lock
+package-lock.json
+yarn.lock
+
+# Build directories
+build/
+dist/
+target/
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+.env.
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# iOS specific
+*.ipa
+*.app
+*.dSYM/
+build/
+*.xcodeproj/
+*.xcworkspace/
+```
