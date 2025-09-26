@@ -1,1 +1,10 @@
-(binary_classifier_42.py is a source file, and there are no build artifacts, dependencies, or temp files in the changes, so output nothing)
+```
+# VBA files
+*.vba
+
+# Backup and temporary VBA files
+*.bak
+*.tmp
+*.~*
+*~
+```
