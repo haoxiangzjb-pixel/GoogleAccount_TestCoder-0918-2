@@ -1,0 +1,15 @@
+import React from 'react';
+import { render, screen } from '@testing-library/react';
+import MyComponent from './MyComponent';
+
+test('renders hello message with default name', () => {
+  render(<MyComponent />);
+  const headingElement = screen.getByRole('heading', { name: /hello, world!/i });
+  expect(headingElement).toBeInTheDocument();
+});
+
+test('renders hello message with custom name', () => {
+  render(<MyComponent name="Alice" />);
+  const headingElement = screen.getByRole('heading', { name: /hello, alice!/i });
+  expect(headingElement).toBeInTheDocument();
+});
