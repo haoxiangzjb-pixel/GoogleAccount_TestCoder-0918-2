@@ -1,1 +1,33 @@
-(scrape_titles.py is a source file, no build artifacts, dependencies, or temp files in the changes - output nothing)
+```
+# PHP-specific ignores
+*.php~
+*.php.bak
+*.php.swp
+
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+
+# Dependencies
+vendor/
+composer.lock
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+```
