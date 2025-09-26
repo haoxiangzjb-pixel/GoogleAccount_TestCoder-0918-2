@@ -1,1 +1,62 @@
-Nothing to output - the change list contains only a source file (mysql_connect_script_7890.php) and no build artifacts, dependencies, or temp files that need to be ignored.
+```
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Generated files
+*.so
+*.o
+*.a
+*.obj
+*.out
+
+# Dependencies
+node_modules/
+julia-*/
+zig*/
+target/
+.gradle/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# System
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# MyPy
+.mypy_cache/
+
+# Pytest
+.pytest_cache/
+
+# Distribution
+dist/
+build/
+*.egg-info/
+```
