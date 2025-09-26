@@ -1,0 +1,21 @@
+# Application Configuration File
+
+[app]
+name = "My Awesome App"
+version = "1.0.0"
+debug = true
+
+[database]
+host = "localhost"
+port = 5432
+username = "admin"
+password = "secret123"
+database_name = "myapp_db"
+
+[logging]
+level = "info"
+file = "app.log"
+
+[features]
+enable_cache = true
+max_connections = 100
