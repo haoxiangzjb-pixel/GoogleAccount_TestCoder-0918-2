@@ -1,5 +1,28 @@
-The provided file change list appears to be malformed or incomplete. The added file '"backup_script_$(openssl' seems to be a truncated or corrupted path that doesn't represent a typical file that would need to be ignored in a .gitignore context.
+```
+# Puppet related
+**/modules/
+**/spec/fixtures/modules/
+**/.tmp/
+**/pkg/
 
-Based on the actual content provided, there are no clear build artifacts, dependency directories, compiled files, or other standard ignore patterns present that would warrant adding rules to .gitignore.
+# Dependencies
+**/vendor/
 
-(empty)
+# Logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
+```
