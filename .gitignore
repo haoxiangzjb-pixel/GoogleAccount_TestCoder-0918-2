@@ -1,1 +1,1 @@
-Nothing should be ignored in this case, as only a source code file (.java) was added without any build artifacts, dependencies, or temporary files.
+Nothing should be ignored based on the provided changes. The added file `summary_stats.R` is a source code file that should be tracked in version control.
