@@ -1,32 +1,3 @@
-```
-# Compiled and build artifacts
-*.exe
-*.dll
-*.so
-*.a
-*.obj
-*.out
+(form_handler.php is a source file, no build artifacts, dependencies, or temp files detected in the changes)
 
-# Dependencies
-vendor/
-*.mod
-*.sum
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# Go-specific
-*.test
-*.prof
-```
+(empty - output nothing)
