@@ -2,12 +2,16 @@
 # Compiled and build artifacts
 *.o
 *.obj
-*.mod
 *.exe
+*.dll
+*.so
+*.a
+*.out
 
 # Dependencies
-build/
-dist/
+target/
+**/target/
+Cargo.lock
 
 # Logs and temp files
 *.log
@@ -21,5 +25,70 @@ dist/
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage*
+.nox/
+.pytest_cache/
+.mypy_cache/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+node_modules/
+dist/
+build/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+.DS_Store
+.gradle/
+build/
+target/
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
