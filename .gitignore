@@ -1,1 +1,5 @@
-Nothing to output - the added file 'test_add_function.js' is a source code file and no build artifacts, dependencies, or temporary files are present in the changes.
+```
+# Logs and temp files
+*.log
+server.log
+```
