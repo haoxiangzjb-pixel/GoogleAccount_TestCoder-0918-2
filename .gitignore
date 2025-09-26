@@ -1,1 +1,64 @@
-Nothing needs to be added to .gitignore for this change list. The added file `get_date.ps1` is a PowerShell script file, which is source code that should be tracked in version control. There are no build artifacts, dependencies, or temporary files in the changes that would require ignoring.
+```
+# PHP-specific ignores
+*.php~
+*.php.bak
+*.php.swp
+
+# Common temp files
+*.tmp
+*.log
+*.swp
+*~
+
+# Environment files
+.env
+.env.local
+.env.*
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Cache directories
+__pycache__/
+*.pyc
+*.pyo
+.Python
+*.so
+*.egg-info/
+
+# Build/dist directories
+dist/
+build/
+target/
+node_modules/
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+```
