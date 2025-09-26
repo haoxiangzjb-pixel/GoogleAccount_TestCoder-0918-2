@@ -1,32 +1,23 @@
 ```
-# Vue.js/JavaScript build artifacts
-dist/
-build/
-*.js.map
-*.css.map
+# Compiled and build artifacts
+*.o
+*.obj
+*.hi
 
 # Dependencies
-node_modules/
+.stack-work/
+dist/
+dist-newstyle/
+cabal/
 
-# Editor/IDE files
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
 .vscode/
 .idea/
-*.swp
-*.swo
-*.tmp
-
-# Logs
-*.log
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Coverage
-coverage/
-htmlcov/
-*.coverage
 
 # System files
 .DS_Store
