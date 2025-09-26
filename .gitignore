@@ -1,26 +1,4 @@
 ```
-# Compiled and build artifacts
-*.ji
-*.o
-*.so
-*.dylib
-*.dll
-
-# Dependencies
-.julia/
-*.jl.cov
-*.jl.mem
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# System files
-.DS_Store
-Thumbs.db
+# Generated from file changes
+*.proto
 ```
