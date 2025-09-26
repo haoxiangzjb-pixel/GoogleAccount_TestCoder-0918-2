@@ -1,0 +1,7 @@
+---
+# Ansible task to copy a file
+- name: Copy a file to a new location
+  copy:
+    src: /workspace/source_file.txt
+    dest: /workspace/destination_file.txt
+    mode: '0644'
