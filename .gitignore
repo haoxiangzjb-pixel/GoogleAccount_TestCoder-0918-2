@@ -1,1 +1,52 @@
-Nothing should be ignored based on the provided changes. The added file `summary_stats.R` is a source code file that should be tracked in version control.
+```
+# Dependencies
+node_modules/
+
+# Package lock file
+package-lock.json
+
+# Temporary API response files
+api_response_*.json
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build artifacts
+dist/
+build/
+*.out
+*.exe
+*.dll
+*.so
+*.a
+
+# Testing
+.pytest_cache/
+.mypy_cache/
+```
