@@ -1,7 +1,1 @@
-(random_func_12345.jl seems to be a temporary/randomly named file that should be ignored)
-
-```
-# Temporary/randomly generated Julia files
-random_func_*.jl
-temp_func.jl
-```
+Nothing needs to be ignored in this case. The change list contains only a source code file (.swift) with no build artifacts, dependencies, or temporary files.
