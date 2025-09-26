@@ -1,36 +1,52 @@
 ```
-# Ruby specific
-*.gem
-*.rbc
-coverage/
-InstalledFiles
-pkg/
-spec/reports/
-test/tmp/
-test/version_tmp/
-tmp/
+# Temp files
+*.tmp
+temp_*.txt
 
-# Environment
-.env
-.env.local
-.env.
-
-# Dependencies
-.bundle/
-vendor/bundle/
-vendor/ruby/
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
 
 # Logs
 *.log
 
-# System
-.DS_Store
-Thumbs.db
+# Environment
+.env
+.env.local
+.env.*
 
-# Editor
+# Editors
 .vscode/
 .idea/
 *.swp
 *.swo
-*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
+# Build artifacts
+dist/
+build/
+*.out
+*.exe
+*.dll
+*.so
+*.a
+
+# Dependencies
+node_modules/
+.venv/
+venv/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
 ```
