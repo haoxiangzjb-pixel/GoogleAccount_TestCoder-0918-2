@@ -1,34 +1,3 @@
-```
-# Vue.js/JavaScript build artifacts
-dist/
-build/
-*.js.map
-*.css.map
+(button_style_2347.css is a source file, and there are no build artifacts, dependencies, or temp files in the changes)
 
-# Dependencies
-node_modules/
-
-# Editor/IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-*.tmp
-
-# Logs
-*.log
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Coverage
-coverage/
-htmlcov/
-*.coverage
-
-# System files
-.DS_Store
-Thumbs.db
-```
+(empty — output nothing)
