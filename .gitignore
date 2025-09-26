@@ -21,9 +21,6 @@ target/
 .gradle/
 .mypy_cache/
 .pytest_cache/
-.julia/
-zig*/
-julia-*/
 
 # Logs and temp files
 *.log
