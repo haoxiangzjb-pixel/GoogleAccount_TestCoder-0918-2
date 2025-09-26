@@ -1,39 +1,13 @@
 ```
-# LaTeX build artifacts
-*.aux
-*.log
-*.toc
-*.lof
-*.lot
-*.out
-*.bbl
-*.blg
-*.idx
-*.ind
-*.ilg
-*.dvi
-*.ps
-*.pdf
-*.synctex.gz
-*.fdb_latexmk
-*.fls
-*.xdv
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
-# Temporary files
-*.tmp
-*.swp
-*.swo
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# System files
-.DS_Store
-Thumbs.db
+# Tests
+.pytest_cache/
+coverage/
+htmlcov/
+.coverage
 ```
