@@ -1,1 +1,4 @@
-Nothing needs to be ignored in this case. The added file `check_disk_usage.sh` is a shell script source file, which should be tracked in version control. There are no build artifacts, dependencies, or temporary files in the changes that require ignoring.
+```
+*.pp
+tmp.*/
+```
