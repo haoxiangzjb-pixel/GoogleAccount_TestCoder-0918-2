@@ -1,26 +1,40 @@
-```
-# Compiled and build artifacts
-*.o
-*.obj
-*.exe
-*.dll
+```julia
+# Julia-specific ignores
+*.ji
+*.jl.cov
+*.jl.mem
 *.so
+*.dll
+*.dylib
+*.o
 *.a
+*.lib
+
+# Build artifacts
+build/
+dist/
 *.out
 
 # Dependencies
-lib/
-obj/
-*.ali
+.julia/
+deps/
+test/
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+# Environment
+.env
+.env.local
+*.env.*
 
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
 
 # System files
 .DS_Store
