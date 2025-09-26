@@ -1,5 +1,33 @@
-(db_connect_38472.php is a source code file, not a build artifact, dependency, or temp file - no ignores needed)
+```
+# iOS build artifacts
+*.ipa
+*.app
+*.dSYM/
+build/
+DerivedData/
 
-```php
+# Xcode files
+*.xcodeproj/
+*.xcworkspace/
+*.xcuserstate
+project.xcworkspace/
+xcuserdata/
 
+# Swift build
+*.swiftmodule
+*.swiftdoc
+
+# Temporary files
+*.tmp
+*.log
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
 ```
