@@ -1,1 +1,36 @@
-Nothing to output - the change list contains only a TypeScript source file (.ts) which should not be ignored.
+```
+# R-specific ignores
+.Rproj.user/
+.Rhistory
+.Rdata
+*.RData
+*.rds
+*.Rds
+*.rda
+*.Rda
+*.o
+*.so
+*.dll
+*.dylib
+
+# Dependencies and packages
+library/
+lib/
+.libs/
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Backup files
+*.bak
+*.backup
+```
