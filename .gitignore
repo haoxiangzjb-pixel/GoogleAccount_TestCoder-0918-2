@@ -1,34 +1,7 @@
+(random_func_12345.jl seems to be a temporary/randomly named file that should be ignored)
+
 ```
-# Erlang-specific ignores
-.eunit/
-.coverage/
-ebin/
-*.beam
-*.dump
-.erlang.cookie
-.rebar3/
-_build/
-
-# Dependencies
-deps/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# System files
-.DS_Store
-Thumbs.db
+# Temporary/randomly generated Julia files
+random_func_*.jl
+temp_func.jl
 ```
