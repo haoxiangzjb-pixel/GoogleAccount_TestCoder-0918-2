@@ -1,5 +1,6 @@
-(person_12345.rb is a source code file, so no ignores needed)
-
-```ruby
-
+```
+*.tmp
+*.log
+*.swp
+*.swo
 ```
