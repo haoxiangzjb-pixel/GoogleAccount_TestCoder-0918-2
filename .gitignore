@@ -2,23 +2,40 @@
 # Compiled and build artifacts
 *.o
 *.obj
-*.out
+*.class
+*.pyc
+__pycache__/
+*.swiftmodule
+*.swiftdoc
 
 # Dependencies
-nimcache/
-.nimble/
+node_modules/
+venv/
+.venv/
+.env
+.env.local
+.env.*
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Environment
-.env
-.env.local
-*.env.*
-
 # Editors
 .vscode/
 .idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Build directories
+build/
+dist/
+target/
+.gradle/
+.mypy_cache/
+.pytest_cache/
+coverage/
+htmlcov/
 ```
