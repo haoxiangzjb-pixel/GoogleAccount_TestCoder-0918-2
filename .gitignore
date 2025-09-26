@@ -1,4 +1,1 @@
-```
-# Configuration files
-config_*.xml
-```
+Nothing to ignore - the added file is a Dart source file which should be tracked in version control.
