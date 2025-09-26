@@ -1,41 +1,4 @@
 ```
-#Temp files
-*.tmp
-*.temp
-tmp.*
-
-#Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-*.out
-*.exe
-*.dll
-*.so
-*.a
-
-#Dependencies
-.venv/
-venv/
-node_modules/
-dist/
-build/
-target/
-.gradle/
-.mypy_cache/
-.pytest_cache/
-
-#Logs and temp files
-*.log
-
-#Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-#System files
-.DS_Store
-Thumbs.db
+# Compiled and build artifacts
+*.ex
 ```
