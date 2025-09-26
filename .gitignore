@@ -1,48 +1,25 @@
 ```
-# R-specific ignores
-.Rhistory
-.RData
-.Rproj.user/
-*.Rproj
-*.RData
-*.Rds
-*.rds
-*.Rda
-*.rda
-*.Rdump
-*.rdump
-*.Rout
-*.rout
-*.Rout.fail
-*.rout.fail
-*.Rprof
-*.rprof
-*.so
-*.dll
-*.dylib
+# Compiled and build artifacts
 *.o
-*.a
-*.tar.gz
-*.zip
+*.obj
+*.mod
+*.exe
 
 # Dependencies
-renv/
-packrat/
-lib/
-library/
+build/
+dist/
 
-# Temporary files
+# Logs and temp files
+*.log
 *.tmp
-*.temp
-*~
-.DS_Store
-Thumbs.db
+*.swp
+
+# Editors
+.vscode/
+.idea/
 
 # Environment
 .env
 .env.local
 *.env.*
-
-# Logs
-*.log
 ```
