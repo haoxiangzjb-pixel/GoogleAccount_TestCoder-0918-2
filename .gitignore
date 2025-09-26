@@ -1,1 +1,14 @@
-Nothing to ignore - the added file 'user_recipe.rb' is a source code file that should be tracked in version control.
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+
+# Editors
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+```
