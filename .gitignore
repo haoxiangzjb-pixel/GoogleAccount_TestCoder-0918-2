@@ -1,1 +1,31 @@
-(empty)
+```
+# Elixir/OTP build artifacts
+*.beam
+*.ez
+ebin/
+_build/
+cover/
+
+# Dependencies
+deps/
+node_modules/
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+```
