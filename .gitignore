@@ -1,5 +1,1 @@
-(redis_script_abc123.py is a source file, so no ignores needed)
-
-```python
-
-```
+Nothing needs to be ignored since only a source code file (Point.swift) was added and there are no build artifacts, dependencies, or temporary files in the changes.
