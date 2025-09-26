@@ -1,0 +1,19 @@
+/* 定义旋转动画的关键帧 */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* 应用动画到一个类 */
+.animated-spinner {
+  width: 100px;
+  height: 100px;
+  border: 10px solid #f3f3f3; /* 浅灰色背景边框 */
+  border-top: 10px solid #3498db; /* 深蓝色前景边框 */
+  border-radius: 50%; /* 形成圆形 */
+  animation: spin 2s linear infinite; /* 应用动画：名称、时长、速度曲线、无限循环 */
+}
