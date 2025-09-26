@@ -1,12 +1,1 @@
-```
-# Generated/filtered files
-*.json
-
-#Temp files
-*.tmp
-*.swp
-*.swo
-
-#Logs
-*.log
-```
+Nothing to ignore - only a Ruby source file was added, which should not be ignored.
