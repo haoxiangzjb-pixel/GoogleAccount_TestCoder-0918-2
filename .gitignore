@@ -1,1 +1,42 @@
-Nothing to ignore - the added file is a Dart source file which should be tracked in version control.
+```
+# Compiled Python files
+*.pyc
+__pycache__/
+
+# Dependencies
+.venv/
+venv/
+pip-log.txt
+pip-selfcheck.json
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Coverage reports
+.coverage
+htmlcov/
+coverage/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+MANIFEST
+
+# System files
+.DS_Store
+Thumbs.db
+```
