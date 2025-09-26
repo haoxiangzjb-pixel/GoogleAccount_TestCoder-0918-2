@@ -1,5 +1,28 @@
-(redis_script_abc123.py is a source file, so no ignores needed)
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
-```python
+# Dependencies
+lib/
+obj/
+*.ali
 
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
