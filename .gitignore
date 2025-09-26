@@ -1,12 +1,16 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
+# Zig build artifacts
+zig-cache/
+zig-out/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
 
 # Dependencies
-.venv/
-venv/
-node_modules/
+deps/
 
 # Logs and temp files
 *.log
@@ -16,18 +20,15 @@ node_modules/
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# Coverage
-.coverage
-coverage/
-htmlcov/
-
-# Python cache
-.mypy_cache/
-.pytest_cache/
+# System files
+.DS_Store
+Thumbs.db
 ```
