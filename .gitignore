@@ -1,12 +1,43 @@
 ```
 # Compiled and build artifacts
-*.o
-*.obj
-*.out
+*.pyc
+__pycache__/
 
-# Executables
-src/cpp/max_finder
+# Dependencies
+.venv/
+venv/
+node_modules/
 
-# Temporary result files
-src/cpp/max_result_*.txt
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
+# Python specific
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+.mypy_cache/
+.pytest_cache/
 ```
