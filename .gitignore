@@ -1,1 +1,24 @@
-(server_abc123.js is a source file, not a build artifact, dependency, or temp file, so no ignores are needed)
+```
+# Compiled and build artifacts
+*.beam
+*.o
+*.obj
+
+# Dependencies
+deps/
+_build/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+*.env.*
+```
