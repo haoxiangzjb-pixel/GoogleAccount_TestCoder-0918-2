@@ -1,29 +1,39 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
-
-# Dependencies
-vendor/
-
-# Logs and temp files
+# LaTeX build artifacts
+*.aux
 *.log
+*.toc
+*.lof
+*.lot
+*.out
+*.bbl
+*.blg
+*.idx
+*.ind
+*.ilg
+*.dvi
+*.ps
+*.pdf
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.xdv
+
+# Temporary files
 *.tmp
 *.swp
+*.swo
 
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
 # Editors
 .vscode/
 .idea/
 
-# Go-specific
-*.exe
-*.dll
-*.so
-*.a
+# System files
+.DS_Store
+Thumbs.db
 ```
