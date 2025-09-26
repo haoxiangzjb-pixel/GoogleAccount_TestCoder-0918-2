@@ -1,12 +1,38 @@
 ```
-# Terraform files
-*.tfstate
-*.tfstate.*
-*.tfvars
-.terraform/
-terraform.tfplan
-terraform.tfstate.backup
+# Dependencies
+node_modules/
 
-# Variables file (if it contains sensitive data)
-variable.tf
+# Test files
+*.test.js
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+*.coverage
+
+# Temporary files
+*.tmp
+*.temp
+
+# Build outputs (if any JS build artifacts are generated)
+dist/
+build/
 ```
