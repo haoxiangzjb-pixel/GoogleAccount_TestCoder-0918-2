@@ -1,0 +1,22 @@
+---
+- name: Restart a service
+  hosts: localhost
+  become: yes
+  tasks:
+    - name: Restart the specified service
+      systemd:
+        name: "{{ service_name | default('some-service') }}"
+        state: restarted
+      notify: wait for service
+
+    - name: Ensure service is started after restart
+      systemd:
+        name: "{{ service_name | default('some-service') }}"
+        state: started
+
+  handlers:
+    - name: wait for service
+      wait_for:
+        port: "{{ service_port | default(80) }}"
+        delay: 5
+        timeout: 300
