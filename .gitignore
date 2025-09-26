@@ -1,49 +1,38 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
+# Julia installation directories
+julia-*/
+julia_install/
 
-# Dependencies
-.venv/
-venv/
-node_modules/
-dist/
+# Julia compiled files
+*.ji
+
+# Julia cache files
+*.cache
+
+# Julia test artifacts
+share/julia/test/
+test/
+
+# Julia stdlib artifacts
+share/julia/stdlib/v1.10/*/compiled/
+share/julia/stdlib/v1.10/*/src/*_jll.jl
+
+# Julia artifacts and packages
+Artifacts.toml
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+
+# Julia build/test directories
 build/
+dist/
 target/
-.gradle/
-.mypy_cache/
-.pytest_cache/
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-*.swo
+# Julia package manifests
+Manifest.toml
 
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
+# Julia dependency directories
+.julia/
 
 # Compressed files
 *.zip
@@ -64,8 +53,5 @@ htmlcov/
 *.Z
 *.lz
 *.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+
 ```
