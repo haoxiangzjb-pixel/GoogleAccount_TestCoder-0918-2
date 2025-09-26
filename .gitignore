@@ -1,1 +1,47 @@
-Nothing to ignore - the added file `check_disk_usage.sh` is a shell script source file and no build artifacts, dependencies, or temporary files are present in the changes.
+```julia
+# Julia-specific ignores
+*.ji
+*.jl.cov
+*.jl.mem
+*.so
+*.dll
+*.dylib
+*.tar
+*.tgz
+*.zip
+
+# Build artifacts
+build/
+dist/
+*.o
+*.a
+*.obj
+*.out
+
+# Dependencies
+.julia/
+deps/build.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+```
