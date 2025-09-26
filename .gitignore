@@ -1,1 +1,1 @@
-(script_a1b2c3d4e5f67890.php)
+Nothing should be ignored since only a Ruby source file (.rb) was added and no build artifacts, dependencies, or temporary files are present in the changes.
