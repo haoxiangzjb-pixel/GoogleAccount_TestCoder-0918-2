@@ -1,4 +1,26 @@
 ```
-# Compiled and build artifacts
-*.ex
+# PowerShell/Windows specific
+*.ps1~
+*.psd1~
+*.psm1~
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
 ```
