@@ -1,8 +1,4 @@
 ```
-# Temp files
-*.tmp
-
-# Queue files
-queue_save_*.txt
-my_specific_queue.txt
+# Configuration files
+config_*.xml
 ```
