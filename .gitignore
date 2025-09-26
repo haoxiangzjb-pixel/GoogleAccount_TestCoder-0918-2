@@ -1,31 +1,16 @@
-```julia
-# Julia-specific ignores
-*.ji
-*.jl.cov
-*.jl.mem
-*.so
-*.dll
-*.dylib
-*.tar
-*.tgz
-*.zip
-
-# Build artifacts
-build/
-dist/
+```
+# Compiled files
 *.o
-*.a
 *.obj
-*.out
+*.hi
+*.chi
+*.chs
 
 # Dependencies
-.julia/
-deps/build.log
-
-# Environment
-.env
-.env.local
-*.env.*
+.stack-work/
+.cabal-sandbox/
+dist/
+dist-newstyle/
 
 # Editors
 .vscode/
@@ -33,15 +18,12 @@ deps/build.log
 *.swp
 *.swo
 
-# System
-.DS_Store
-Thumbs.db
-
-# Logs
+# Logs and temp files
 *.log
+*.tmp
 
-# Coverage
-coverage/
-htmlcov/
-.coverage
+# Environment
+.env
+.env.local
+*.env.*
 ```
