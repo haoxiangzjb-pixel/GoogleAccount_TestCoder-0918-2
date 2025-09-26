@@ -1,12 +1,43 @@
 ```
-# Terraform files
-*.tfstate
-*.tfstate.*
-*.tfvars
-.terraform/
-terraform.tfplan
-terraform.tfstate.backup
+# R-specific ignores
+.Rproj.user/
+.Rhistory
+.Rdata
+*.RData
+*.rds
+*.rda
+*.zip
 
-# Variables file (if it contains sensitive data)
-variable.tf
+# Compiled and build artifacts
+*.o
+*.so
+*.dll
+*.exe
+*.out
+
+# Dependencies
+renv/
+packrat/
+lib/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.Rproj
+.Rapp.history
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Coverage and testing
+coverage/
+htmlcov/
+.coverage
 ```
