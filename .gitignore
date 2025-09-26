@@ -1,32 +1,23 @@
 ```
-# LaTeX build artifacts
-*.aux
-*.log
-*.toc
-*.lof
-*.lot
-*.out
-*.bbl
-*.blg
-*.idx
-*.ind
-*.ilg
-*.pdf
-*.dvi
-*.ps
-*.synctex.gz
-*.fls
-*.fdb_latexmk
-*.synctex
-*.synctex(busy)
+# Compiled and build artifacts
+*.css.map
+*.min.css
 
-# Temporary files
+# Temp files
 *.tmp
 *.temp
-*.bak
-*.backup
 
-# System files
-.DS_Store
-Thumbs.db
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
 ```
