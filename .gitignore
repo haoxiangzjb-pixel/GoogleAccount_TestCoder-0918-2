@@ -1,1 +1,28 @@
-(empty)
+```
+# F# specific
+*.fsx~
+*.fsi
+*.fsproj.user
+*.fsproj.binlog
+bin/
+obj/
+out/
+
+# Dependencies
+.paket/
+packages/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+```
