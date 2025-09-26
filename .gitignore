@@ -1,1 +1,4 @@
-(filter_closure.groovy)
+```
+# Compiled and build artifacts
+*.fs
+```
