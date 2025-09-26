@@ -1,1 +1,36 @@
-Nothing should be ignored since only a Kotlin source file (GgKpF2.kt) was added and no build artifacts, dependencies, or temporary files are present in the changes.
+```
+# Ruby specific
+*.gem
+*.rbc
+coverage/
+InstalledFiles
+pkg/
+spec/reports/
+test/tmp/
+test/version_tmp/
+tmp/
+
+# Environment
+.env
+.env.local
+.env.
+
+# Dependencies
+.bundle/
+vendor/bundle/
+vendor/ruby/
+
+# Logs
+*.log
+
+# System
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+```
