@@ -1,37 +1,52 @@
 ```
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-.venv/
-.ENV
-.venv.bak/
-pip-log.txt
-pip-delete-this-directory.txt
+# Compiled and build artifacts
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
-# Django
+# Dependencies
+target/
+Cargo.lock
+
+# Logs and temp files
 *.log
-local_settings.py
-db.sqlite3
-db.sqlite3-journal
+*.tmp
+*.swp
 
-# IDE
+# Editors
 .vscode/
 .idea/
-*.swp
-*.swo
-
-# OS
-.DS_Store
-Thumbs.db
 
 # Environment
 .env
 .env.local
 *.env.*
-.env.*
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+.Python
+*.so
+*.egg-info/
+.eggs/
+
+# Rust specific
+**/*.rs.bk
+*.d
+```
+
+Wait, I need to reconsider this. The only added file is `ownership_demo_5566.rs`, which is a Rust source file. There are no build artifacts, dependency directories, or temporary files in the change list that would require ignoring.
+
+```
+
 ```
