@@ -1,127 +1,33 @@
 ```
 # R-specific ignores
-*.RData
-*.Rhistory
-*.Rproj.user/
+.Rhistory
+.RData
 .Rproj.user/
-.Rprofile.swp
-
-# Dependencies and packages
+*.Rproj
+*.RData
+*.Rds
+*.rds
+*.Rout
+*.Rout.fail
+*.o
 *.so
 *.dll
 *.dylib
-lib/
+*.tar.gz
+*.zip
 
-# Temporary files
+# Dependencies
+library/
+packrat/
+renv/
+.Rprofile
+
+# Logs and temp files
+*.log
 *.tmp
 *.swp
-*~
-
-# Logs
-*.log
-
-# Environment files
-.env
-.env.local
-*.env.*
-
-# Editor/IDE
-.vscode/
-.idea/
-*.swp
-*.swo
 
 # System files
 .DS_Store
 Thumbs.db
-
-# Build artifacts
-dist/
-build/
-target/
-*.o
-*.obj
-*.a
-*.so
-*.dll
-*.exe
-*.out
-
-# Python artifacts (if any Python in project)
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-*.so
-*.egg-info/
-.eggs/
-
-# Node.js artifacts (if any JS in project)
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Compiled files
-*.class
-*.jar
-*.war
-*.ear
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
-
-# Coverage reports
-coverage/
-htmlcov/
-.coverage
-
-# Virtual environments
-venv/
-.venv/
-env/
-.venv.bak/
-env.bak/
-
-# Cache directories
-.cache/
-.mypy_cache/
-.pytest_cache/
-.tox/
-.coverage*/
-.hypothesis/
-
-# Gradle
-.gradle/
-build/
-
-# Maven
-target/
-
-# Temporary files
-*.tmp
-*.temp
-*.bak
-*.backup
-
 ```
