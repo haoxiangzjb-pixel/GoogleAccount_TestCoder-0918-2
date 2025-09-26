@@ -1,3 +1,53 @@
-(random_page_12345.html is a source file, not a build artifact, dependency, or temp file - no ignores needed)
+```
+# Compiled and build artifacts
+*.vcd
+*.vvp
+*.bin
+*.out
+*.obj
+*.o
 
-(empty - output nothing)
+# Dependencies
+lib/
+deps/
+build/
+_dist/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Simulation and synthesis tools
+*.fst
+*.ghw
+*.vcd
+*.vvp
+iverilog/
+modelsim/
+quartus/
+vivado/
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Coverage and testing
+coverage/
+htmlcov/
+.coverage
+*.gcda
+*.gcno
+
+# OS specific
+.DS_Store
+Thumbs.db
+```
