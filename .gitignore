@@ -2,15 +2,12 @@
 # Compiled and build artifacts
 *.o
 *.obj
-*.exe
-*.dll
-*.so
-*.a
 *.out
 
 # Dependencies
-vendor/
-Godeps/
+.Packages/
+.build/
+DerivedData/
 
 # Logs and temp files
 *.log
@@ -24,14 +21,5 @@ Godeps/
 # Environment
 .env
 .env.local
-*.env.*
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# OS generated files
-.DS_Store
-Thumbs.db
+.env.*
 ```
