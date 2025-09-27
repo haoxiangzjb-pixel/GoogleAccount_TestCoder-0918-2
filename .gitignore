@@ -1,30 +1,37 @@
 ```
 # Compiled and build artifacts
-*.mex*
+*.pyc
+__pycache__/
 *.o
 *.obj
+*.exe
 *.dll
 *.so
 *.a
-*.lib
-*.dylib
-*.exe
+*.out
 
 # Dependencies
-matlab/
-octave/
+node_modules/
+venv/
+.venv/
+.env
+.env.local
+*.env.*
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
 
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
+
+# Build directories
+dist/
+build/
+target/
+*.class
 
 # System files
 .DS_Store
