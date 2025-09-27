@@ -1,47 +1,72 @@
 ```
-# R-specific ignores
-*.RData
-*.Rhistory
-*.Rproj.user/
-.Rproj.user/
-.Rapp.history
-.Rbuildignore
-*.[Rr]md
-*.html
-*.pdf
-*.png
-*.jpg
-*.jpeg
-*.gif
-*.svg
-*.tiff
-*.bmp
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+*.class
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
 # Dependencies
-renv/
-packrat/
-lib/
-libs/
+.venv/
+venv/
+node_modules/
+dist/
+build/
+target/
+.gradle/
+.mypy_cache/
+.pytest_cache/
 
-# Output files
-*.csv
-*.tsv
-*.txt
-*.json
-*.xml
-*.yaml
-*.yml
-
-# Temporary files
-*.tmp
-*.temp
+# Logs and temp files
 *.log
-*.out
-*.bak
+*.tmp
 *.swp
-*~
+*.swo
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
 
 # System files
 .DS_Store
 Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
