@@ -1,32 +1,3 @@
-```
-# Compiled and build artifacts
-*.mex*
-*.o
-*.obj
-*.dll
-*.so
-*.a
-*.lib
-*.dylib
-*.exe
+(book.xml is a source/config file, and there are no build artifacts, dependencies, or temp files in the changes)
 
-# Dependencies
-matlab/
-octave/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-*.swo
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# System files
-.DS_Store
-Thumbs.db
-```
+(empty — output nothing)
