@@ -1,1 +1,38 @@
-Nothing should be ignored since only Python source files (.py) were added and no build artifacts, dependencies, or temporary files are present in the changes.
+```
+# Compiled and build artifacts
+*.nimble
+*.nims
+*.so
+*.dll
+*.exe
+*.out
+
+# Dependencies
+.nimble/
+nimcache/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Coverage and testing
+coverage/
+htmlcov/
+.coverage
+
+# System files
+.DS_Store
+Thumbs.db
+```
