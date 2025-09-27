@@ -1,7 +1,27 @@
 ```
-# SQL query files (if they are auto-generated)
-*.sql
+# Compiled and build artifacts
+*.mex*
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.exe
 
-# If this is a specific query format that gets generated
-query_*.sql
+# Dependencies
+octave-workspace
+*.mat
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
