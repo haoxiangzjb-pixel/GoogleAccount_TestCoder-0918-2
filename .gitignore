@@ -1,4 +1,7 @@
 ```
-# CI/CD
-.github/workflows/
+# Database dumps
+*.sql
+
+# Timestamp-based files
+*_[0-9]*.sql
 ```
