@@ -1,3 +1,34 @@
-(gen_script.py and ggycj3hhjg.py appear to be source code files based on their .py extension, and there are no build artifacts, dependencies, or temporary files in the changes)
+```
+# Jenkins artifacts
+Jenkinsfile.*
 
-(empty — output nothing)
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+dist/
+build/
+target/
+.gradle/
+
+# System files
+.DS_Store
+Thumbs.db
+```
