@@ -1,1 +1,5 @@
-(random_name_12345.lua is just a regular source code file, no build artifacts, dependencies, or temp files in the changes)
+(book_data.xml is a source/data file, not a build artifact or temporary file, so no ignores are needed)
+
+```gitignore
+
+```
