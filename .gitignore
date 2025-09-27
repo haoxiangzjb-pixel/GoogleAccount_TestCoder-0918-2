@@ -1,4 +1,25 @@
 ```
-# Generated from file changes
-*.thrift
+# Compiled and build artifacts
+*.zig
+*.o
+*.obj
+*.out
+
+# Dependencies
+zig*/
+.zig-cache/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+*.env.*
 ```
