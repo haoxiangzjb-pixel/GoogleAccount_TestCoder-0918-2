@@ -1,6 +1,11 @@
 ```
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+
 # Dependencies
-node_modules/
+vendor/
 
 # Logs and temp files
 *.log
@@ -15,37 +20,4 @@ node_modules/
 # Editors
 .vscode/
 .idea/
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-.venv/
-pip-log.txt
-pip-delete-this-directory.txt
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.log
-.gitattributes
-.next
-build/
-dist/
-*.egg-info/
-.eggs/
-eggs/
-parts/
-develop-eggs/
-.sconsign.dblite
-._*
-.DS_Store
-Thumbs.db
 ```
