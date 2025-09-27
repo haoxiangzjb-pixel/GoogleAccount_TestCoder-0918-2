@@ -1,0 +1,8 @@
+# Makefile rule to compile a C program
+# Usage: make compile TARGET=your_program_name SOURCE=your_source_file.c
+
+compile:
+	gcc -o $(TARGET) $(SOURCE)
+
+# Example usage:
+# make compile TARGET=my_program SOURCE=main.c
