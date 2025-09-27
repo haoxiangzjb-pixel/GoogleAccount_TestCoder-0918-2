@@ -1,35 +1,16 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-
-# Dependencies
-.venv/
-venv/
-node_modules/
-
-# Logs and temp files
-*.log
+# Temporary files
 *.tmp
-*.swp
+tmp.*
 
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# Coverage
-.coverage
-coverage/
-htmlcov/
-
-# System files
-.DS_Store
-Thumbs.db
+# Erlang/OTP specific
+*.beam
+*.app
+*.app.src
+ebin/
+deps/
+_plt/
+.erlang.cookie
+.rebar3/
+_rebar/
 ```
