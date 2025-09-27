@@ -1,39 +1,19 @@
 ```
-# iOS build artifacts and derived data
-*.app
-*.ipa
-*.dSYM/
-build/
-DerivedData/
-*.xcodeproj/project.xcworkspace/
-*.xcodeproj/xcuserdata/
-*.xcodeproj/xcshareddata/
+# Compiled and build artifacts
+*.pyc
+__pycache__/
 
-# Swift compilation
-*.swiftmodule/
-*.swiftdo/
-*.swo/
-*.swp/
-
-# iOS simulator
-*.app/
-*.ipa/
-*.dmg/
-
-# iOS specific temp files
+# Logs and temp files
 *.log
 *.tmp
-*.DS_Store
+*.swp
 
-# Xcode
-*.mode1v3
-*.mode2v3
-*.perspectivev3
-*.pbxuser
-*.xccheckout
-*.moved-aside
-*.xcuserstate
-project.xcworkspace/xcuserdata/
-project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
-project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
 ```
