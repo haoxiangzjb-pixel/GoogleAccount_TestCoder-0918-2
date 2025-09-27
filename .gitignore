@@ -1,34 +1,47 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.class
-*.pyc
-__pycache__/
+# R-specific ignores
+*.RData
+*.Rhistory
+*.Rproj.user/
+.Rproj.user/
+.Rapp.history
+.Rbuildignore
+*.[Rr]md
+*.html
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.tiff
+*.bmp
 
 # Dependencies
-node_modules/
-venv/
-.venv/
-.env
-.env.local
-*.env.*
+renv/
+packrat/
+lib/
+libs/
 
-# Logs and temp files
-*.log
+# Output files
+*.csv
+*.tsv
+*.txt
+*.json
+*.xml
+*.yaml
+*.yml
+
+# Temporary files
 *.tmp
+*.temp
+*.log
+*.out
+*.bak
 *.swp
-
-# Editors
-.vscode/
-.idea/
+*~
 
 # System files
 .DS_Store
 Thumbs.db
-
-# Build directories
-build/
-dist/
-target/
 ```
