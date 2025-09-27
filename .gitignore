@@ -1,1 +1,32 @@
-Nothing should be ignored since only a source code file (.go) was added without any build artifacts, dependencies, or temporary files.
+```
+# Compiled and build artifacts
+*.mex*
+*.o
+*.obj
+*.dll
+*.so
+*.a
+*.lib
+*.dylib
+*.exe
+
+# Dependencies
+matlab/
+octave/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+```
