@@ -1,1 +1,23 @@
-Nothing should be ignored based on the provided changes. The added file '1a05a468cb4b46aeaca3188b7896ba74.kt' is a Kotlin source file, which should not be ignored. There are no build artifacts, dependencies, or temporary files in the changes that would warrant adding ignore rules.
+```
+# Temporary and backup scripts
+*.sh~
+
+# Environment and config files
+.env
+.env.local
+.env.*
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Backup and recovery files
+*~
+*.bak
+*.backup
+```
