@@ -1,0 +1,23 @@
+# Конфигурация приложения
+
+[app]
+name = "MyAwesomeApp"
+version = "1.0.0"
+debug = true
+
+[app.database]
+host = "localhost"
+port = 5432
+name = "myapp_db"
+
+[app.logging]
+level = "info"
+file = "app.log"
+
+[server]
+host = "0.0.0.0"
+port = 8080
+
+[features]
+new_ui = true
+beta_features = false
