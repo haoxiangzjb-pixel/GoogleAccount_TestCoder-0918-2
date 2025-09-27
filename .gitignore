@@ -2,49 +2,23 @@
 # Compiled and build artifacts
 *.pyc
 __pycache__/
-*.o
-*.obj
+*.fsi
+*.fsscript
+*.fsx~
 
 # Dependencies
-.venv/
-venv/
-node_modules/
+.paket/
+packages/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Environment
-.env
-.env.local
-.env.*
-
 # Editors
 .vscode/
 .idea/
 
-# Coverage
-.coverage
-coverage/
-htmlcov/
-
-# Distribution / packaging
-dist/
-build/
-*.egg-info/
-*.egg
-
-# Python
-.pytest_cache/
-.mypy_cache/
-*.pyc
-*.pyo
-*.pyd
-.Python
-*.so
-
-# System files
-.DS_Store
-Thumbs.db
+# Output files from F# processing
+*.txt
 ```
