@@ -1,4 +1,5 @@
 ```
-# Docker
-docker-compose_*.yml
+# Temporary files
+*.tmp
+tmp.*/
 ```
