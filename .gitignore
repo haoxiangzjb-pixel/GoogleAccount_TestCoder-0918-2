@@ -1,1 +1,33 @@
-Nothing to output - the change list contains only a source code file (.rb) with no build artifacts, dependencies, or temporary files that need to be ignored.
+```
+# Go build artifacts
+*.o
+*.a
+*.so
+*.out
+
+# Go cache
+go.sum
+!go.mod
+
+# Dependencies
+vendor/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+```
