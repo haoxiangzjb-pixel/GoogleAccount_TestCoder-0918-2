@@ -1,34 +1,23 @@
 ```
-# Docker
-docker-compose*.yaml
-docker-compose*.yml
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Dependencies
-node_modules/
-.venv/
-venv/
-__pycache__/
-*.egg-info/
-dist/
-build/
-target/
-.gradle/
-
-# Compiled files
+# Compiled and build artifacts
 *.pyc
-*.class
+__pycache__/
 *.o
 *.obj
+*.class
 *.exe
 *.dll
 *.so
 *.a
 *.out
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+.env
+.env.local
+.env.*
 
 # Logs and temp files
 *.log
@@ -45,9 +34,9 @@ target/
 Thumbs.db
 
 # Coverage
-.coverage
 coverage/
 htmlcov/
+.coverage
 
 # Compressed files
 *.zip
