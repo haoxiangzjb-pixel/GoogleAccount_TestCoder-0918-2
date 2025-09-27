@@ -1,5 +1,40 @@
-(lambda_function_8472.py matches the pattern of a source code file (.py), which should not be ignored according to the rules. Since only source files are present and no build artifacts, dependencies, or temp files exist in the change list, the output should be empty.)
+```
+# Configuration and deployment files
+*.yaml
+*.yml
+*.json
+*.toml
+*.cfg
+*.ini
 
-(lambda_function_8472.py is a Python source file and should be tracked, not ignored. No build artifacts, dependencies, or temporary files are present in the changes.)
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
 
-(nothing to output since only source code files are in the change list)
+# Environment files
+.env
+.env.local
+.env.*
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Build artifacts and dependencies (if any)
+dist/
+build/
+target/
+node_modules/
+.venv/
+venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+```
