@@ -1,3 +1,1 @@
-(config_app_2025.toml is a source/config file, so no ignores needed)
-
-(empty output)
+Nothing should be ignored based on the provided changes. The added file `login-form-8a3f.vue` is a source code file that should be tracked in version control.
