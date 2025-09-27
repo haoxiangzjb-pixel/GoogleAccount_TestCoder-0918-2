@@ -1,11 +1,12 @@
 ```
 # Compiled and build artifacts
-*.o
-*.obj
-*.out
+*.pyc
+__pycache__/
 
 # Dependencies
-vendor/
+.venv/
+venv/
+pip-wheel-metadata/
 
 # Logs and temp files
 *.log
@@ -21,11 +22,13 @@ vendor/
 .vscode/
 .idea/
 
-# Go-specific
-*.exe
-*.dll
-*.so
-*.a
-*.obj
-*.out
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
 ```
