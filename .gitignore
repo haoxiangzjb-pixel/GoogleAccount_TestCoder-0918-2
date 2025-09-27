@@ -1,1 +1,4 @@
-Nothing to output - the change list contains only a source code file (.scala) and no build artifacts, dependencies, or temp files that need to be ignored.
+```
+# Generated files
+*.csv
+```
