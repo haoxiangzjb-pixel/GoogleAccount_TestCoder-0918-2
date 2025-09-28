@@ -4,34 +4,25 @@
 __pycache__/
 *.o
 *.obj
-*.class
 *.dll
 *.so
-*.a
 *.exe
+*.class
 *.out
 
 # Dependencies
-.venv/
-venv/
 node_modules/
-target/
-.gradle/
-.mypy_cache/
-.pytest_cache/
-dist/
-build/
+venv/
+.venv/
+.env
+.env.local
+.env.*
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 *.swo
-
-# Environment
-.env
-.env.local
-.env.*
 
 # Editors
 .vscode/
@@ -41,10 +32,15 @@ build/
 .DS_Store
 Thumbs.db
 
-# Coverage
+# Build directories
+dist/
+build/
+target/
+.mypy_cache/
+.pytest_cache/
+.coverage
 coverage/
 htmlcov/
-.coverage
 
 # Compressed files
 *.zip
@@ -69,4 +65,14 @@ htmlcov/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
+
+# Gradle
+.gradle/
+
+# Azure Functions specific
+bin/
+obj/
+*.user
+*.userosscache
+*.sln.docstates
 ```
