@@ -1,32 +1,33 @@
 ```
-# Compiled files
-*.fsx
-*.fsi
-*.exe
-*.dll
-*.so
+# Compiled and build artifacts
 *.o
 *.obj
 *.out
 
 # Dependencies
-.paket/
-packages/
-bin/
-obj/
+vendor/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
+# Environment
+.env
+.env.local
+.env.*
+
 # Editors
 .vscode/
 .idea/
-*.userprefs
-*.user
 
-# OS
-.DS_Store
-Thumbs.db
+# Go-specific
+*.exe
+*.dll
+*.so
+*.a
+*.dylib
+*.test
+*.prof
+cover.out
 ```
