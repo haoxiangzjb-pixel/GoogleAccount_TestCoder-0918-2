@@ -4,11 +4,10 @@
 __pycache__/
 *.o
 *.obj
-*.class
 *.exe
 *.dll
 *.so
-*.a
+*.class
 *.out
 
 # Dependencies
@@ -18,6 +17,12 @@ venv/
 .env
 .env.local
 .env.*
+
+# Build directories
+dist/
+build/
+target/
+.gradle/
 
 # Logs and temp files
 *.log
@@ -37,20 +42,6 @@ Thumbs.db
 coverage/
 htmlcov/
 .coverage
-
-# Build directories
-dist/
-build/
-target/
-.gradle/
-
-# Python specific
-*.pyc
-__pycache__/
-*.pyo
-*.pyd
-.Python
-*.so
 
 # Compressed files
 *.zip
