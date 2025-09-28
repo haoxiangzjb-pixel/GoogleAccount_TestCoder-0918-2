@@ -1,5 +1,41 @@
 ```
-# Generated based on project files
-# No build artifacts, dependencies, or temp files detected in changes
-# Only source/config files present, so no additional ignores needed
+# Compiled and build artifacts
+*.o
+*.obj
+*.hi
+*.chi
+*.chs
+*.hie
+*.dump-hi
+
+# Dependencies
+.cabal-sandbox/
+cabal-dev/
+dist/
+dist-newstyle/
+.stack-work/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# System files
+.DS_Store
+Thumbs.db
 ```
