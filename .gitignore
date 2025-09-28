@@ -1,25 +1,25 @@
 ```
 # Compiled and build artifacts
-*.beam
-*.app
-*.ez
-ebin/
-_build/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
 # Dependencies
-deps/
-node_modules/
-.rebar3/
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
+target/
+Cargo.lock
 
 # Logs and temp files
 *.log
 *.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
 
 # Environment
 .env
