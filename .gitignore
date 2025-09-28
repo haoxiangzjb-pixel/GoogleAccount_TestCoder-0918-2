@@ -1,1 +1,1 @@
-Nothing needs to be ignored since only a source file (`django_view_template.py`) was added without any build artifacts, dependencies, or temporary files.
+Nothing to ignore - the added file 'hello.adb' is a source code file (.adb is an Ada source file) and there are no build artifacts, dependencies, or temporary files in the changes.
