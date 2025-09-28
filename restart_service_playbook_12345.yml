@@ -1,0 +1,16 @@
+---
+# Ansible playbook to restart a service
+- name: Restart a service
+  hosts: localhost
+  become: yes
+  tasks:
+    - name: Restart the specified service
+      ansible.builtin.systemd:
+        name: "{{ service_name | default('httpd') }}"
+        state: restarted
+      notify: daemon_reload
+
+  handlers:
+    - name: daemon_reload
+      ansible.builtin.systemd:
+        daemon_reload: yes
