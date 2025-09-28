@@ -1,34 +1,3 @@
-```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
+(book_data.xml is a source data file, not a build artifact, dependency, or temp file - so no ignores needed)
 
-# Dependencies
-.venv/
-venv/
-pip-wheel-metadata/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# Coverage
-.coverage
-coverage/
-htmlcov/
-
-# Distribution / packaging
-dist/
-build/
-*.egg-info/
-```
+(empty - output nothing)
