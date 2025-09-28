@@ -1,40 +1,20 @@
 ```
-# Configuration and deployment files
-*.yaml
-*.yml
-*.json
-*.toml
-*.cfg
-*.ini
+# Compiled and build artifacts
+*.o
+*.obj
+*.mod
+*.smod
+*.exe
 
-# Logs and temporary files
+# Dependencies
+build/
+
+# Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Environment files
-.env
-.env.local
-.env.*
-
-# Editor/IDE files
+# Editors
 .vscode/
 .idea/
-*.swp
-*.swo
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Build artifacts and dependencies (if any)
-dist/
-build/
-target/
-node_modules/
-.venv/
-venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
 ```
