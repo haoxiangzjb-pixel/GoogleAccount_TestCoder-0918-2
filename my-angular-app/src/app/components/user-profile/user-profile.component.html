@@ -1,0 +1,6 @@
+<div class="profile-card" *ngIf="user">
+  <img [src]="user.avatar || 'default-avatar.png'" [alt]="'Avatar of ' + user.name" class="avatar">
+  <h2>{{ user.name }}</h2>
+  <p>ID: {{ user.id }}</p>
+  <p>Email: <a [href]="'mailto:' + user.email">{{ user.email }}</a></p>
+</div>
