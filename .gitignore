@@ -1,110 +1,39 @@
 ```
-# Serverless framework
-.serverless/
-.sls/
-.sls-local/
+# Compiled files
+*.plc
+*.plx
+*.pmc
 
-# Environment variables
-.env
-.env.local
-*.env.*
+# Perl-specific
+__Perl/
+perl-*/
+local/lib/perl/
+blib/
+Makefile
+*.o
+*.bs
+*.so
+*.dll
+*.exe
 
-# Logs
+# Logs and temp files
 *.log
-
-# Temporary files
 *.tmp
 *.swp
+*.swo
 
-# IDE files
+# Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-.venv/
-pip-log.txt
-pip-delete-this-directory.txt
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.log
+# System files
 .DS_Store
 Thumbs.db
 
-# Node.js
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-.pnp
-.pnp.js
-.next/
-.nuxt/
-.vuepress/dist
-.static
-# Serverless build artifacts
-.serverless/
-.sls/
-.sls-local/
-
-# Environment files
+# Environment
 .env
 .env.local
 *.env.*
-
-# Logs
-*.log
-
-# Temporary files
-*.tmp
-*.swp
-
-# IDE files
-.vscode/
-.idea/
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-.venv/
-pip-log.txt
-pip-delete-this-directory.txt
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.log
-.DS_Store
-Thumbs.db
-
-# Node.js
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-.pnp
-.pnp.js
-.next/
-.nuxt/
-.vuepress/dist
-.static
 ```
