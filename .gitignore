@@ -1,3 +1,23 @@
-(config_12345.toml is a config file, not a build artifact or temporary file, so no ignores needed)
+```
+# Compiled and build artifacts
+*.pyc
+__pycache__/
 
-(empty output)
+# Images and output files
+*.tiff
+output_*.tiff
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+```
