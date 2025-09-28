@@ -1,1 +1,1 @@
-Nothing should be ignored based on the provided file changes. The added files (api_data.json, api_script.py) are source/config files that should be tracked in version control.
+Nothing should be ignored based on the provided file changes. The added file 'FocusDirective.vue' is a source code file that should be tracked in version control.
