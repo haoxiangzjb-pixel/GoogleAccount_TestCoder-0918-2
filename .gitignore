@@ -1,19 +1,35 @@
 ```
 # Compiled and build artifacts
-*.beam
-*.ez
-*.plt
-*.dump
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+*.a
+*.pyc
+__pycache__/
+*.class
 
 # Dependencies
-deps/
-_build/
-erl_crash.dump
-
-# Environment
+node_modules/
+venv/
+.venv/
 .env
 .env.local
-*.env.*
+.env.*
+
+# Build directories
+dist/
+build/
+target/
+.gradle/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
 
 # Editors
 .vscode/
@@ -21,12 +37,40 @@ erl_crash.dump
 *.swp
 *.swo
 
-# Logs and temp files
-*.log
-*.tmp
+# System files
+.DS_Store
+Thumbs.db
 
-# Elixir specific
-*.eex
-*.leex
-*.heex
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Python specific
+.mypy_cache/
+.pytest_cache/
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
