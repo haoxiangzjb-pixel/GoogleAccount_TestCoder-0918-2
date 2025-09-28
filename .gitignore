@@ -1,1 +1,10 @@
-Nothing to ignore - the added file `even_check_ghi789.pl` is a Perl source file which should be tracked in version control.
+```
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Tests
+.test_*
+```
