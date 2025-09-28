@@ -1,23 +1,23 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
-
 # Dependencies
-.Packages/
-.build/
-DerivedData/
+chef_recipes/.bundle/
+chef_recipes/vendor/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
+# Environment
+.env
+.env.local
+.env.*
+
 # Editors
 .vscode/
 .idea/
 
-# System files
+# OS generated files
 .DS_Store
+Thumbs.db
 ```
