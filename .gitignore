@@ -1,39 +1,4 @@
 ```
-# Compiled files
-*.plc
-*.plx
-*.pmc
-
-# Perl-specific
-__Perl/
-perl-*/
-local/lib/perl/
-blib/
-Makefile
-*.o
-*.bs
-*.so
-*.dll
-*.exe
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-*.swo
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Environment
-.env
-.env.local
-*.env.*
+# Build system
+*.mk
 ```
