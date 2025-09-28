@@ -1,16 +1,4 @@
 ```
-# Temporary files
-*.tmp
-tmp.*
-
-# Erlang/OTP specific
-*.beam
-*.app
-*.app.src
-ebin/
-deps/
-_plt/
-.erlang.cookie
-.rebar3/
-_rebar/
+# Configuration and source files only - no build artifacts or dependencies detected
+# No .gitignore rules needed for this project
 ```
