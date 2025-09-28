@@ -1,5 +1,18 @@
-(data-fetch.service.ts is a source code file, so no ignores needed)
+```
+# Compiled files
+*.cr
 
-```ts
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+.env.*
 ```
