@@ -1,1 +1,18 @@
-(scrape_titles.py appears to be a Python source file and pQmfskFraX.txt appears to be a text file - these are source/config files, not build artifacts, dependencies, or temp files that should be ignored)
+```
+# Compiled and build artifacts
+*.css
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.
+
+# Editors
+.vscode/
+.idea/
+```
