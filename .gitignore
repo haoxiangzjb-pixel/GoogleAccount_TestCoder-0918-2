@@ -1,13 +1,17 @@
 ```
+# Jenkins artifacts
+Jenkinsfile
+
 # Compiled and build artifacts
 *.pyc
 __pycache__/
 *.o
 *.obj
+*.class
 *.exe
 *.dll
 *.so
-*.class
+*.a
 *.out
 
 # Dependencies
