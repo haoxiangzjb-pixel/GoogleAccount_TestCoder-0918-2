@@ -1,25 +1,90 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-
 # Dependencies
-.venv/
-venv/
+node_modules/
 
-# Logs and temp files
+# Build outputs
+dist/
+build/
+coverage/
+
+# Logs
 *.log
-*.tmp
-*.swp
 
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
-# Editors
+# Editor/IDE
 .vscode/
 .idea/
+*.swp
+*.swo
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.out
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Compiled and build artifacts
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+*.class
+*.jar
+*.war
+*.zip
+*.tar
+*.gz
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+
+# Vite specific
+!.vite/
+vite.config.js
+
+# React/Vite build outputs
+public/dist/
+public/build/
 ```

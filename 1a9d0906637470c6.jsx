@@ -1,10 +1,10 @@
 import { useState } from 'react';
+import './App.css';
 
-const TodoList = () => {
+function App() {
   const [todos, setTodos] = useState([
-    { id: 1, text: 'Изучить React', completed: false },
-    { id: 2, text: 'Создать компонент списка дел', completed: true },
-    { id: 3, text: 'Настроить проект', completed: false },
+    { id: 1, text: 'Изучить React', completed: true },
+    { id: 2, text: 'Создать список дел', completed: false },
   ]);
   const [inputValue, setInputValue] = useState('');
 
@@ -28,27 +28,30 @@ const TodoList = () => {
   };
 
   return (
-    <div>
+    <div className="App">
       <h1>Список дел</h1>
       <div>
         <input
           type="text"
           value={inputValue}
           onChange={(e) => setInputValue(e.target.value)}
-          placeholder="Добавить новую задачу..."
+          placeholder="Добавить задачу..."
         />
         <button onClick={addTodo}>Добавить</button>
       </div>
       <ul>
         {todos.map(todo => (
           <li key={todo.id} style={{ textDecoration: todo.completed ? 'line-through' : 'none' }}>
-            <span onClick={() => toggleTodo(todo.id)} style={{ cursor: 'pointer' }}>{todo.text}</span>
-            <button onClick={() => deleteTodo(todo.id)} style={{ marginLeft: '10px' }}>Удалить</button>
+            {todo.text}
+            <button onClick={() => toggleTodo(todo.id)}>
+              {todo.completed ? 'Отменить' : 'Выполнить'}
+            </button>
+            <button onClick={() => deleteTodo(todo.id)}>Удалить</button>
           </li>
         ))}
       </ul>
     </div>
   );
-};
+}
 
-export default TodoList;
+export default App;
