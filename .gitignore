@@ -1,32 +1,33 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
+# Compiled files
 *.o
 *.obj
-*.exe
-*.dll
-*.so
-*.class
 *.out
+
+# Build artifacts
+build/
+dist/
 
 # Dependencies
 node_modules/
 venv/
 .venv/
-.env
-.env.local
-.env.*
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-*.swo
+__pycache__/
+*.pyc
 
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
 
 # System files
 .DS_Store
