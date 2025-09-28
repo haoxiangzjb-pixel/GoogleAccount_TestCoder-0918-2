@@ -1,4 +1,50 @@
 ```
-# Output files
-*.txt
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+*.a
+
+# Dependencies
+__pycache__/
+*.pyc
+*.pyo
+.Python
+venv/
+.venv/
+env/
+ENV/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
+# Build directories
+build/
+dist/
 ```
