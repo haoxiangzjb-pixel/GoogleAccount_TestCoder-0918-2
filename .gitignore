@@ -1,80 +1,31 @@
 ```
-# Dependencies
-node_modules/
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
 
-# Build outputs
-dist/
-build/
-coverage/
+# Dependencies
+.Packages/
+.build/
+DerivedData/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
 # Environment
 .env
 .env.local
-.env.
+.env.*
 
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# Logs
-*.log
-
-# OS generated files
+# macOS
 .DS_Store
+
+# Windows
 Thumbs.db
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-venv/
-.venv/
-.env
-.env.local
-.env.
-.pytest_cache/
-.mypy_cache/
-.coverage
-htmlcov/
-
-# Compiled files
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
-*.class
-
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
-
-# Temp files
-*.tmp
 ```
