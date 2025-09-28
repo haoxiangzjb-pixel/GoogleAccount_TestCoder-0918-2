@@ -1,26 +1,4 @@
 ```
-# Compiled and build artifacts
-*.ji
-*.o
-*.obj
-*.so
-*.dylib
-*.dll
-
-# Dependencies
-.julia/
-*.julia_packages/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# System files
-.DS_Store
-Thumbs.db
+# GraphQL schema
+schema.graphql
 ```
