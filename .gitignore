@@ -1,37 +1,25 @@
 ```
-# Database files
-*.db
+# Compressed files
+*.tar.xz
+*.xz
 
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-.venv/
-.venv*/
-.ENV/
+# Dependencies and build artifacts
+zig-*/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment
 .env
 .env.local
-.env.*
-.venv/
-venv/
-ENV/
-env.bak/
-.ENV.bak/
-.venv.bak/
+*.env.*
 
-# Logs
-*.log
+# Editors
+.vscode/
+.idea/
 
 # OS generated files
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
 Thumbs.db
 ```
