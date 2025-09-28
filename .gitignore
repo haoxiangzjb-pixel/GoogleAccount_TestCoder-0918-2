@@ -1,11 +1,18 @@
 ```
-# Compiled and build artifacts
-*.php~
-
-# Temp files
+# SQL build artifacts and temp files
 *.tmp
-*.swp
-
-# Logs
 *.log
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
