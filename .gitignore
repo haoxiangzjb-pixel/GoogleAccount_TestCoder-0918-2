@@ -1,1 +1,25 @@
-Nothing should be ignored based on the provided changes. The only added file is a Julia source file (.jl), which is source code and should not be ignored.
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.hi
+
+# Dependencies
+.cabal/
+dist/
+dist-newstyle/
+.stack-work/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+```
