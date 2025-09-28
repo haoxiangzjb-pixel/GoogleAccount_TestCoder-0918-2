@@ -1,1 +1,17 @@
-(empty)
+```
+# Julia specific
+julia-*/
+*.ji
+*.so
+
+# Compressed files
+*.tar.gz
+*.gz
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+```
