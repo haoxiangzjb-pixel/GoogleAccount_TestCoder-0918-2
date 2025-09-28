@@ -1,25 +1,5 @@
-```
-# Compiled and build artifacts
-*.o
-*.obj
-*.hi
+(connect_db.php is a source file, so no ignores needed)
 
-# Dependencies
-.cabal-sandbox/
-dist/
-dist-newstyle/
-cabal-dev/
+```php
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# System files
-.DS_Store
-Thumbs.db
 ```
