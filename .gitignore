@@ -1,1 +1,1 @@
-(empty)
+Nothing needs to be added to .gitignore since the only change is adding a PowerShell script file (.ps1), which is a source code file and should not be ignored.
