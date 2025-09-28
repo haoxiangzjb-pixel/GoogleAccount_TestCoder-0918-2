@@ -1,15 +1,15 @@
+```r
+# R-specific ignores
+*.RData
+*.Rhistory
+*.Rproj.user/
+.Rproj.user/
+.Rapp.history
+.Rbuildignore
 ```
-# LaTeX build artifacts
-*.aux
-*.log
-*.toc
-*.lof
-*.lot
-*.out
-*.bbl
-*.blg
-*.fls
-*.fdb_latexmk
-*.synctex.gz
-*.pdf
+
+Wait, let me reconsider - the only file added is a source code file (.R file), not any build artifacts, dependencies, or temporary files. Following rule #6, since this contains only source files and no build artifacts, dependencies, or temp files, the output should be empty.
+
+```r
+
 ```
