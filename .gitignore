@@ -1,1 +1,32 @@
-Nothing needs to be ignored in this case - only a JavaScript source file was added, which should be tracked in version control.
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+
+# Dependencies
+vendor/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# System files
+.DS_Store
+Thumbs.db
+```
