@@ -1,9 +1,22 @@
 ```
-# Executables
-sort_array_*
+# Puppet related
+*.pp.bak
+*.rb.bak
 
-# Compiled files
-*.o
-*.obj
-*.out
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*~
+```
+
+Wait, let me reconsider - the only file added is `apache_setup.pp` which is a Puppet configuration file. This appears to be a source configuration file, not a build artifact or temporary file. Following rule #6, if the changes contain only source/config files and no build artifacts, dependencies, or temp files, the output should be empty.
+
+````
 ```
