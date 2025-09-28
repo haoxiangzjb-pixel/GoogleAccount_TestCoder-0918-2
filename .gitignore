@@ -1,78 +1,47 @@
 ```
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfplan
+*.lock.hcl
+
 # Compiled and build artifacts
 *.pyc
 __pycache__/
 *.o
 *.obj
+dist/
+build/
+target/
 
 # Dependencies
 .venv/
 venv/
 node_modules/
+.pip/
+.mypy_cache/
+.pytest_cache/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
+*.swo
 
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
 # Editors
 .vscode/
 .idea/
-
-# Coverage
-.coverage
-coverage/
-htmlcov/
-
-# Python specific
-*.pyc
-*.pyo
-*.pyd
-.Python
-*.so
-*.egg-info/
-dist/
-build/
-*.egg
-*.eggs
-*.dist-info/
-*.whl
-*.spec
-
-# MyPy
-.mypy_cache/
-.dmypy.json
-dmypy.json
-
-# Pytest
-.pytest_cache/
-
-# Jupyter
-.ipynb_checkpoints/
-
-# Virtual environments
-.venv/
-venv/
-env/
-ENV/
-
-# IDEs
-.idea/
-.vscode/
 *.swp
 *.swo
 
-# OS generated files
+# System
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
 Thumbs.db
 ```
