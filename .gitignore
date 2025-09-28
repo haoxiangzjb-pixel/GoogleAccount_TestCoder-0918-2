@@ -1,19 +1,29 @@
 ```
-# Compiled and build artifacts
-*.pyc
+# Python
 __pycache__/
-*.o
-*.obj
-
-# Dependencies
-.venv/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
 venv/
-node_modules/
+.venv/
+.ENV
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
 
-# Logs and temp files
+# Django
 *.log
-*.tmp
-*.swp
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
 
 # Environment
 .env
@@ -23,28 +33,10 @@ node_modules/
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# Coverage
-.coverage
-coverage/
-htmlcov/
-
-# Distribution / packaging
-dist/
-build/
-*.egg-info/
-*.egg
-
-# Python
-.pytest_cache/
-.mypy_cache/
-*.pyc
-*.pyo
-*.pyd
-.Python
-*.so
-
-# System files
+# System
 .DS_Store
 Thumbs.db
 ```
