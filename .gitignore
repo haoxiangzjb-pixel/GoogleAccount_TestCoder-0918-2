@@ -1,10 +1,27 @@
 ```
-# Backup files
-backup_*.txt
-backup_*.sh
+# Compiled and build artifacts
+*.plc
+*.plx
+*.pbi
+*.pbo
+*.exe
+*.out
 
-# Temp files
+# Dependencies
+cpan/
+local/
+
+# Logs and temp files
+*.log
 *.tmp
 *.swp
 *.swo
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
