@@ -1,1 +1,5 @@
-Nothing needs to be ignored in this case - only a JavaScript source file was added, which should be tracked in version control.
+(current_time.cr is a source file, so no ignores needed)
+
+```crystal
+
+```
