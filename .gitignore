@@ -1,25 +1,44 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.mod
-*.exe
-
-# Dependencies
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
 build/
+develop-eggs/
 dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
-# Logs and temp files
+# Django
 *.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
 
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
 ```
