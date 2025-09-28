@@ -1,0 +1,28 @@
+# This is a simple Makefile to demonstrate compile and clean targets.
+# It assumes a simple C project with a main.c file and an executable named 'my_program'.
+
+CC=gcc
+CFLAGS=-Wall -g
+OBJ=main.o
+TARGET=my_program
+
+# The 'all' target is the default goal.
+all: $(TARGET)
+
+# Link the object files to create the executable.
+$(TARGET): $(OBJ)
+	$(CC) -o $@ $^
+
+# Compile the source code into object files.
+%.o: %.c
+	$(CC) $(CFLAGS) -c $< -o $@
+
+# The 'clean' target removes generated files.
+clean:
+	rm -f $(OBJ) $(TARGET)
+
+# The 'run' target compiles (if necessary) and runs the program.
+run: all
+	./$(TARGET)
+
+.PHONY: all clean run
