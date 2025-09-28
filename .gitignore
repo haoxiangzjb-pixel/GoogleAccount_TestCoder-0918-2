@@ -1,25 +1,5 @@
 ```
-# Backup and temp files
-*backup_*.sh
-*.tmp
-*.swp
-*.swo
-
-# Logs
-*.log
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# System files
-.DS_Store
-Thumbs.db
+# Generated based on project files
+# No build artifacts, dependencies, or temp files detected in changes
+# Only source/config files present, so no additional ignores needed
 ```
