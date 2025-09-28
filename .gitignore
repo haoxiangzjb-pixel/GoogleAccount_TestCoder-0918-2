@@ -1,1 +1,35 @@
-(script_5513240022.php is a source file, not a build artifact or temp file, so no ignores needed)
+```
+# Compiled and build artifacts
+*.rs.bk
+*.exe
+*.dll
+*.so
+*.a
+*.obj
+*.out
+
+# Dependencies
+target/
+Cargo.lock
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Rust-specific
+**/target/
+Cargo.lock
+*.rs.bk
+```
