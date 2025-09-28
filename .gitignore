@@ -1,22 +1,56 @@
 ```
-# Puppet related
-*.pp.bak
-*.rb.bak
+# Dependencies
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
-# System files
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# OS generated files
 .DS_Store
 Thumbs.db
 
-# Logs
-*.log
+# Python specific
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-# Temporary files
-*.tmp
-*.temp
-*~
-```
-
-Wait, let me reconsider - the only file added is `apache_setup.pp` which is a Puppet configuration file. This appears to be a source configuration file, not a build artifact or temporary file. Following rule #6, if the changes contain only source/config files and no build artifacts, dependencies, or temp files, the output should be empty.
-
-````
+# Coverage reports
+.coverage
+htmlcov/
+.coverage.*
+.coverage.xml
 ```
