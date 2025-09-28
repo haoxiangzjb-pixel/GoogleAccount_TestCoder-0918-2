@@ -1,15 +1,1 @@
-```
-# LaTeX build artifacts
-*.aux
-*.log
-*.toc
-*.lof
-*.lot
-*.out
-*.bbl
-*.blg
-*.fls
-*.fdb_latexmk
-*.synctex.gz
-*.pdf
-```
+(service_config_789.yaml is a config file, not a build artifact or dependency, so no ignores needed)
