@@ -1,4 +1,4 @@
 ```
-# Configuration and source files only - no build artifacts or dependencies detected
-# No .gitignore rules needed for this project
+# GraphQL schema files
+schema.graphql
 ```
