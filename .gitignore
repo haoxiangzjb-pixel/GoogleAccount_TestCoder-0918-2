@@ -5,10 +5,10 @@ __pycache__/
 *.o
 *.obj
 *.class
-*.exe
 *.dll
 *.so
 *.a
+*.exe
 *.out
 
 # Dependencies
@@ -37,6 +37,31 @@ Thumbs.db
 coverage/
 htmlcov/
 .coverage
+
+# Build directories
+dist/
+build/
+target/
+.gradle/
+
+# Python specific
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg-info/
+.eggs/
+
+# Dart specific
+.dart_tool/
+.pub/
+*.dart.js
+*.part.js
+*.g.dart
+*.freezed.dart
+*.config.dart
 
 # Compressed files
 *.zip
