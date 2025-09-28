@@ -1,3 +1,33 @@
-(button_styles_42.css is a CSS source file, which should not be ignored)
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.hi
+*.chi
+*.chs.h
+*.hie
+*.dump-hi
 
-(empty — output nothing)
+# Dependencies
+.cabal-sandbox/
+cabal-dev/
+dist/
+dist-newstyle/
+.stack-work/
+.hie-bios/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# System files
+.DS_Store
+Thumbs.db
+```
