@@ -1,27 +1,13 @@
 ```
-# Elixir specific ignores
+# Compiled and build artifacts
 *.beam
+*.app
 *.ez
-.erlang.cookie
-.eunit
-.coverage
-.nifs
-_obj
 
 # Dependencies
+ebin/
 deps/
 _build/
-_concrete/
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
 
 # Editors
 .vscode/
@@ -29,7 +15,17 @@ _concrete/
 *.swp
 *.swo
 
-# System
-.DS_Store
-Thumbs.db
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Coverage and test
+.coverage
+coverage/
+htmlcov/
 ```
