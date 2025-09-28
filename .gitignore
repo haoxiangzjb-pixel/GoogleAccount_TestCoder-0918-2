@@ -1,1 +1,4 @@
-Nothing should be ignored since only a TypeScript source file (.ts) was added, which is a source code file that should be tracked in version control.
+```
+# Output files
+*.txt
+```
