@@ -1,6 +1,6 @@
 program circle_area
     implicit none
-    real, parameter :: pi = 3.14159265
+    real, parameter :: pi = 3.14159265359
     real :: radius, area
 
     write(*,*) 'Enter the radius of the circle:'
@@ -8,6 +8,6 @@ program circle_area
 
     area = pi * radius**2
 
-    write(*,*) 'The area of the circle is:', area
+    write(*,*) 'The area of the circle is: ', area
 
 end program circle_area
