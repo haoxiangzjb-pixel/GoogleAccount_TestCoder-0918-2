@@ -1,11 +1,6 @@
 ```
-# Compiled and build artifacts
-*.php~
-
-# Temp files
+#Temp files
 *.tmp
-*.swp
-
-# Logs
-*.log
+*.sh
+tmp.*
 ```
