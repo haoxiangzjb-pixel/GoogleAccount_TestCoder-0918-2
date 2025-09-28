@@ -1,1 +1,33 @@
-Nothing to output - the added file 'greeting_widget_2384.dart' is a source code file and should not be ignored.
+```
+# Erlang specific ignores
+*.beam
+*.app
+*.app.src
+ebin/
+test/
+.erlang.cookie
+
+# Dependencies
+.rebar3/
+_build/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+```
