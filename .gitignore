@@ -1,25 +1,34 @@
 ```
-# Compressed files
-*.tar.xz
-*.xz
+# Compiled and build artifacts
+*.cmi
+*.cmo
+*.cma
+*.cmx
+*.cmxa
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
-# Dependencies and build artifacts
-zig-*/
+# Dependencies
+_dune/
+.opam/
+esy.lock/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
 
 # Logs and temp files
 *.log
 *.tmp
 
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# OS generated files
+# System files
 .DS_Store
 Thumbs.db
 ```
