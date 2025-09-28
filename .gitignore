@@ -1,1 +1,23 @@
-Nothing should be ignored based on the provided changes. The added file '1a05a468cb4b46aeaca3188b7896ba74.kt' is a Kotlin source file, which should not be ignored. There are no build artifacts, dependencies, or temporary files in the changes that would warrant adding ignore rules.
+```
+# R-specific ignores
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+*.RData
+*.Rds
+*.rds
+*.Rout
+*.Rout.save
+*.Rapp.history
+*.Rbuildignore
+*.Rinstignore
+*.Renviron
+*.Renviron.local
+.Rprofile
+.Rprofile.site
+.Renv
+.Renv.lock
+packrat/
+renv/
+```
