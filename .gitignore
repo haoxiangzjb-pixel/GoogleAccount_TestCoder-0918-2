@@ -1,17 +1,1 @@
-```
-# Julia specific
-julia-*/
-*.ji
-*.so
-
-# Compressed files
-*.tar.gz
-*.gz
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
-```
+Nothing should be ignored based on the provided changes. The added file `form_handler_a1b2c3.php` is a source code file that should be tracked in version control.
