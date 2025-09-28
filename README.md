@@ -1,0 +1,1 @@
+This directory contains the VBA function for summing cells.
