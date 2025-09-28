@@ -1,4 +1,1 @@
-```
-# CI/CD
-.gitlab-ci.yml
-```
+(file_list.txt and random_script.sh are source files, not build artifacts, dependencies, or temp files - no ignores needed)
