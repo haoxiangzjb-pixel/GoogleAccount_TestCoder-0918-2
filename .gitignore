@@ -1,21 +1,12 @@
 ```
-# Compiled and build artifacts
-*.plc
-*.plx
-*.pmc
-*.p6c
-*.nqp
-
-# Dependencies
-lib/
-blib/
-pm-to-blib/
-
-# Logs and temp files
-*.log
+# Backup and temp files
+*backup_*.sh
 *.tmp
 *.swp
 *.swo
+
+# Logs
+*.log
 
 # Environment
 .env
