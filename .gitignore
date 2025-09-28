@@ -1,15 +1,21 @@
 ```
-# Erlang specific ignores
-*.beam
-*.app
-*.app.src
-ebin/
-test/
-.erlang.cookie
+# Compiled and build artifacts
+*.swiftmodule
+*.swiftdoc
+*.sib
+*.sib~
+*.bc
+*.o
+*.obj
 
 # Dependencies
-.rebar3/
-_build/
+Pods/
+Carthage/
+.swift-version
+
+# Build directories
+build/
+DerivedData/
 
 # Logs and temp files
 *.log
@@ -19,7 +25,7 @@ _build/
 # Environment
 .env
 .env.local
-*.env.*
+.env.
 
 # Editors
 .vscode/
