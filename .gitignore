@@ -1,11 +1,15 @@
 ```
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tf.backup
+*.log
+.terraform.lock.hcl
+
 # Dependencies
 node_modules/
-
-# Build outputs
-dist/
-build/
-coverage/
 
 # Environment
 .env
@@ -18,92 +22,11 @@ coverage/
 *.swp
 *.swo
 
-# Logs
+# Logs and temp files
 *.log
+*.tmp
 
-# OS generated files
+# OS
 .DS_Store
 Thumbs.db
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-.venv/
-pip-log.txt
-pip-delete-this-directory.txt
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.log
-.git/
-
-# Compiled and binary files
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
-
-# Temp files
-*.tmp
-*.temp
-*.bak
-*.backup
-
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
-
-# Testing
-.pytest_cache/
-.mypy_cache/
-.hypothesis/
-
-# Java/Gradle
-target/
-.gradle/
-build/
-
-# Go
-*.out
-
-# Rust
-target/
-
-# Ruby
-*.gem
-*.rbc
-.bundle/
-vendor/
 ```
