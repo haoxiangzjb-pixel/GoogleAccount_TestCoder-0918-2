@@ -1,26 +1,16 @@
 ```
-# Compiled files
-*.pyc
-*.class
-*.o
-*.exe
-*.dll
-*.so
-*.a
-*.obj
-*.out
-
 # Dependencies
 node_modules/
-venv/
-.venv/
-__pycache__/
+
+# Build outputs
 dist/
 build/
-.mypy_cache/
-.pytest_cache/
-target/
-.gradle/
+coverage/
+
+# Environment
+.env
+.env.local
+.env.
 
 # Editors
 .vscode/
@@ -28,40 +18,40 @@ target/
 *.swp
 *.swo
 
-# System files
-.DS_Store
-Thumbs.db
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
 .env
 .env.local
-*.env.*
 
-# Logs and coverage
-*.log
+# Compiled JavaScript
+*.js.map
+*.mjs.map
+
+# Temporary files
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Testing
 coverage/
 htmlcov/
 .coverage
+.nyc_output/
+.jest/
 
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+# System
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
 ```
