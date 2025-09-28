@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <appSettings>
+        <param name="AppName" value="MySampleApp" />
+        <param name="Version" value="1.2.3" />
+        <param name="DebugMode" value="true" />
+        <param name="MaxConnections" value="100" />
+        <param name="DefaultTimeout" value="30" />
+    </appSettings>
+    <database>
+        <host>localhost</host>
+        <port>5432</port>
+        <name>myapp_db</name>
+        <username>db_user</username>
+        <password>secure_password</password>
+    </database>
+    <logging>
+        <level>INFO</level>
+        <file>/var/log/myapp/app.log</file>
+    </logging>
+</configuration>
