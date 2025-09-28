@@ -1,0 +1,23 @@
+/* 定义一个旋转动画 */
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* 应用动画到一个类 */
+.animated-rotate {
+  animation: rotate 2s linear infinite;
+}
+
+/* 可选：为动画元素设置一些基础样式，例如尺寸和背景色 */
+.animated-rotate {
+  width: 100px;
+  height: 100px;
+  background-color: #3498db;
+  /* 可选：添加边框圆角使其更像一个旋转的圆 */
+  border-radius: 10px;
+}
