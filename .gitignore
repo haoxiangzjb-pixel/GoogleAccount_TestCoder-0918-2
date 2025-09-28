@@ -1,34 +1,15 @@
 ```
-# Docker-related
-.dockerignore
-*.dockerfile
-
-# Build artifacts
-build/
-dist/
-*.o
-*.obj
-*.out
-
-# Dependencies
-node_modules/
-venv/
-.venv/
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Logs and temp files
+# LaTeX build artifacts
+*.aux
 *.log
-*.tmp
-
-# OS
-.DS_Store
-Thumbs.db
+*.toc
+*.lof
+*.lot
+*.out
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.pdf
 ```
