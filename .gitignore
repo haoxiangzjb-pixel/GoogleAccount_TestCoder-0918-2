@@ -1,5 +1,1 @@
-```
-# Temporary files
-*.tmp
-tmp.*/
-```
+Nothing should be ignored based on the provided changes. The added file `circle_area_12345.lua` is a source code file that should be tracked in version control.
