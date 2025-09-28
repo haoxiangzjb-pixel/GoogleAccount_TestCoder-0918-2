@@ -1,30 +1,19 @@
 ```
 # Compiled and build artifacts
-*.plc
-*.plx
-*.pmc
-*.p6c
-*.nqp
-
-# Dependencies
-local/lib/perl5/
-blib/
-lib/
-pm_to_blib/
+*.pyc
+__pycache__/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
 
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
-
-# System files
-.DS_Store
-Thumbs.db
 ```
