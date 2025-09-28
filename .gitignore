@@ -1,4 +1,8 @@
 ```
-# CI/CD
-.github/workflows/
+# Ada build artifacts
+*.adb
+*.o
+*.ali
+*.out
+obj/
 ```
