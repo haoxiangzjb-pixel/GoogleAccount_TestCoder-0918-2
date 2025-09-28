@@ -1,3 +1,5 @@
-```
-# Configuration and source files only - no build artifacts or dependencies detected
+(book.xml is a source/config file, so no ignores needed)
+
+```gitignore
+
 ```
