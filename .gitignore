@@ -1,34 +1,32 @@
 ```
-# Compiled and build artifacts
-*.plc
-*.plx
-*.pmc
-*.p6c
-*.nqp
+# Compiled files
+*.fsx
+*.fsi
+*.exe
+*.dll
+*.so
+*.o
+*.obj
+*.out
 
 # Dependencies
-lib/
-blib/
-pm-to-blib/
+.paket/
+packages/
+bin/
+obj/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
-
-# Environment
-.env
-.env.local
-*.env.*
 
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
+*.userprefs
+*.user
 
-# System files
+# OS
 .DS_Store
 Thumbs.db
 ```
