@@ -1,38 +1,8 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
-*.exe
-*.dll
-*.so
-*.a
-
-# Executable files
-find_max
-
-# Generated result files
-*.txt
-
-# Logs and temp files
-*.log
+# Temporary files
 *.tmp
-*.swp
+*.temp
 
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
+# Generated JSON output files
+output_*.json
 ```
