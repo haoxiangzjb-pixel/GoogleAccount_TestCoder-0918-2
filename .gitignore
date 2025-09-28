@@ -1,21 +1,17 @@
 ```
-# Build artifacts
-*.o
-*.obj
-*.out
-
-# Temp files
-*.tmp
-*.swp
-
-# Logs
-*.log
-
-# Editors
-.vscode/
-.idea/
-
-# Environment
-.env
-.env.
+# Thrift generated files
+*.py
+*.js
+*.java
+*.go
+*.cpp
+*.rb
+*.php
+*.c
+*.h
+*.m4
+*.html
+*.md
+*.txt
+gen-*/
 ```
