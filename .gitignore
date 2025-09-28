@@ -1,33 +1,14 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
+# R plots and graphics
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
 
-# Dependencies
-vendor/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# Go-specific
-*.exe
-*.dll
-*.so
-*.a
-*.dylib
-*.test
-*.prof
-cover.out
+# R build artifacts
+.Rproj.user/
+.Rhistory
+.Rdata
 ```
