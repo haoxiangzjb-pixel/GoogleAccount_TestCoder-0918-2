@@ -1,10 +1,13 @@
 ```
+# SQL query files
+*.sql
+
 # Compiled and build artifacts
 *.pyc
 __pycache__/
+*.class
 *.o
 *.obj
-*.class
 *.exe
 *.dll
 *.so
@@ -23,7 +26,6 @@ venv/
 *.log
 *.tmp
 *.swp
-*.swo
 
 # Editors
 .vscode/
@@ -38,15 +40,11 @@ coverage/
 htmlcov/
 .coverage
 
-# Build directories
+# Distribution / build artifacts
 dist/
 build/
 target/
 .gradle/
-
-# Python specific
-*.pyc
-__pycache__/
 .mypy_cache/
 .pytest_cache/
 
