@@ -1,35 +1,42 @@
 ```
-# Elixir specific ignores
-*.beam
-*.ez
-.erlang.cookie
-.eunit
-.coverage
-.nifs
-_obj
+# Image files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.webp
 
-# Dependencies
-deps/
-_build/
-_concrete/
-
-# Environment
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
 .env
 .env.local
-.env.*
+.env.
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
 
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
-
-# System
-.DS_Store
-Thumbs.db
 ```
