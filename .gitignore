@@ -1,1 +1,24 @@
-Nothing to ignore - only a MATLAB script file (.m) was added, which is source code and should not be ignored.
+```
+# Compiled and build artifacts
+*.beam
+*.o
+*.obj
+
+# Dependencies
+ebin/
+deps/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.
+
+# Editors
+.vscode/
+.idea/
+```
