@@ -1,32 +1,8 @@
 ```
-# Compiled and build artifacts
-*.beam
-*.ez
-*.plt
-*.dump
+# Plot files
+*.pdf
+*.png
 
-# Dependencies
-deps/
-_build/
-erl_crash.dump
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Logs and temp files
-*.log
-*.tmp
-
-# Elixir specific
-*.eex
-*.leex
-*.heex
+# R build artifacts
+Rplots.pdf
 ```
