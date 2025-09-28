@@ -1,44 +1,5 @@
-```
-# Compiled and build artifacts
-*.class
-*.o
-*.obj
-*.out
-build/
-target/
+(book_1882.json is a source data file, not a build artifact or temporary file, so no .gitignore rules needed)
 
-# Dependencies
-.gradle/
-lib/
-deps/
+```json
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Java specific
-*.jar
-*.war
-*.ear
 ```
