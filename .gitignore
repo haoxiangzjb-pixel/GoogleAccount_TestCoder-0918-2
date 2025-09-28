@@ -1,28 +1,42 @@
 ```
-# Database files
-*.db
-*.sqlite
-*.sqlite3
+# Compiled and build artifacts
+*.swiftmodule
+*.swiftdoc
+*.sib
+*.sib~
+*.d
+*.o
+*.a
+*.dylib
+*.so
+*.bundle
 
-# SQL query results
-query_result_*.sql
+# Dependencies
+Pods/
+Carthage/
+DerivedData/
+build/
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
 
-# Environment files
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Environment
 .env
 .env.local
-*.env.*
+.env.
 
-# Logs
-*.log
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
 
-# Temporary files
-*.tmp
-*.temp
-*~
-```
-
-Wait, let me reconsider this. The files listed are `query_result_3f8b1a.sql`, `sample.db`, and `setup.sql`. These appear to be actual project files - a query result file, a database file, and a setup SQL file. These seem like legitimate project files that should be tracked, not ignored.
-
-```
-
+# OS generated files
+.DS_Store
+Thumbs.db
 ```
