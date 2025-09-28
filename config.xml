@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <appSettings>
+        <add key="AppName" value="MySampleApp" />
+        <add key="Version" value="1.0.0" />
+        <add key="DebugMode" value="true" />
+    </appSettings>
+    <connectionStrings>
+        <add key="DefaultConnection" value="Server=localhost;Database=MySampleAppDb;Trusted_Connection=true;" />
+    </connectionStrings>
+</configuration>
