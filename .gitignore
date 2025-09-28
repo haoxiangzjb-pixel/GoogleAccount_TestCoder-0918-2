@@ -1,17 +1,1 @@
-```
-# Thrift generated files
-*.py
-*.js
-*.java
-*.go
-*.cpp
-*.rb
-*.php
-*.c
-*.h
-*.m4
-*.html
-*.md
-*.txt
-gen-*/
-```
+Nothing to output - the added file 'greeting_widget_2384.dart' is a source code file and should not be ignored.
