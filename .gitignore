@@ -1,28 +1,28 @@
 ```
-# Database files
-*.db
-*.sqlite
-*.sqlite3
+# Compiled and build artifacts
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
-# SQL query results
-query_result_*.sql
+# Dependencies
+.nimble/
+nimcache/
 
-# Environment files
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
 .env
 .env.local
 *.env.*
-
-# Logs
-*.log
-
-# Temporary files
-*.tmp
-*.temp
-*~
-```
-
-Wait, let me reconsider this. The files listed are `query_result_3f8b1a.sql`, `sample.db`, and `setup.sql`. These appear to be actual project files - a query result file, a database file, and a setup SQL file. These seem like legitimate project files that should be tracked, not ignored.
-
-```
-
 ```
