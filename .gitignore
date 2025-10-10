@@ -1,13 +1,12 @@
 ```
 # Compiled and build artifacts
-*.pyc
-__pycache__/
+*.beam
+*.o
+*.obj
 
 # Dependencies
-chef_recipes/cookbooks/
-chef_recipes/.chef/
-chef_recipes/cache/
-chef_recipes/checksums/
+.rebar3/
+_build/
 
 # Logs and temp files
 *.log
@@ -17,7 +16,7 @@ chef_recipes/checksums/
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
 # Editors
 .vscode/
