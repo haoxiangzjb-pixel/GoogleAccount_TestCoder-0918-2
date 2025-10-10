@@ -1,17 +1,1 @@
-```
-# VBA specific ignores
-*.frx
-*.bas
-*.cls
-*.frm
-*.vba
-*.vbe
-*.vbs
-
-# Office/Excel related
-*.tmp
-*.log
-*.cache
-~$*
-Thumbs.db
-```
+(book_data.json is a data file, not a build artifact, dependency, or temp file - it appears to be source data that should be tracked)
