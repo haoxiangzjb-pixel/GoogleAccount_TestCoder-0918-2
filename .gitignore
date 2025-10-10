@@ -1,4 +1,1 @@
-(index.html is a source file, so no ignores needed)
-
-```(empty)
-```
+Nothing should be ignored based on the provided file changes. The added file 'MyPlayerController.cpp' is a source code file that should be tracked in version control.
