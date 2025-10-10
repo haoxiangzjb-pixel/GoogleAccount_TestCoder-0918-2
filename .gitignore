@@ -1,4 +1,1 @@
-```
-# Generated from file changes
-*.proto
-```
+Nothing should be ignored since only a source code file (.scala) was added without any build artifacts, dependencies, or temporary files.
