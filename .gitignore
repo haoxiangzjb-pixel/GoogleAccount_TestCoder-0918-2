@@ -1,3 +1,8 @@
-(database_config.ini is a config file, not a build artifact or temporary file, so it should not be added to .gitignore)
-
-(empty — output nothing)
+```
+# R-specific ignores
+*.rds
+*.RData
+*.Rhistory
+*.Rproj.user/
+.Rproj.user/
+```
