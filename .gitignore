@@ -2,45 +2,48 @@
 # Dependencies
 node_modules/
 
-# Build outputs
-dist/
-build/
-coverage/
-
-# Logs
+# Logs and temp files
 *.log
+*.tmp
+*.swp
 
-# Environment variables
+# Editors
+.vscode/
+.idea/
+
+# Environment
 .env
 .env.local
 .env.*
 
-# Editor/IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-*.tmp
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+dist/
+build/
+target/
+*.class
 
-# OS generated files
+# System files
 .DS_Store
 Thumbs.db
 
-# Python artifacts (if any Python files exist in project)
-__pycache__/
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Python specific
 *.pyc
+__pycache__/
 *.pyo
 *.pyd
-
-# Compiled files
-*.class
-*.o
-*.obj
-*.exe
-*.dll
+.Python
 *.so
-*.a
-*.out
+*.egg-info/
+.eggs/
 
 # Compressed files
 *.zip
@@ -65,20 +68,4 @@ __pycache__/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-
-# Test and coverage
-.mypy_cache/
-.pytest_cache/
-htmlcov/
-.coverage
-
-# Gradle
-.gradle/
-target/
-
-# Other common ignores
-*.swp
-*.swo
-.DS_Store
-Thumbs.db
 ```
