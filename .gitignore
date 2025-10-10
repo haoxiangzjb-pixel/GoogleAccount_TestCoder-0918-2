@@ -1,1 +1,28 @@
-Nothing should be ignored since `vector_dot_product.f` is a source code file (Fortran source file) and no build artifacts, dependencies, or temporary files are present in the changes.
+```
+# Configuration files
+*.yml
+*.yaml
+
+# Serverless framework
+.serverless/
+.sls/
+.serverless_plugins/
+
+# Environment files
+.env
+.env.local
+.env.*
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*~
+```
+
+Wait, let me reconsider this. The only file added is `serverless_abc123.yml`, which appears to be a configuration file that should likely be tracked in version control. Since this is just a single configuration file and not a build artifact or temporary file, I should not ignore it.
+
+```
+
+```
