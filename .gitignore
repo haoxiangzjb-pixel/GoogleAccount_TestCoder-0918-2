@@ -1,1 +1,10 @@
-Nothing should be ignored based on the provided file changes, as only a source code file (`person_class.rb`) was added without any build artifacts, dependencies, or temporary files.
+```
+# Backup files
+backup_*
+
+# Script files
+*.sh
+
+# Test files
+test_file.txt
+```
