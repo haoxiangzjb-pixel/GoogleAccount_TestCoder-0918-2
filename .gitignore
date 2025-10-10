@@ -1,1 +1,1 @@
-(summary_stats.R)
+Nothing needs to be added to .gitignore since the only change is adding a Perl source file (.pl) which is a source code file and should not be ignored.
