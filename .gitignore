@@ -1,38 +1,31 @@
 ```
 # Compiled and build artifacts
-*.nimble
-*.nims
-*.so
-*.dll
-*.exe
-*.out
+*.o
+*.obj
+*.hi
+*.chi
+*.chs.h
+*.dyn_o
+*.p_o
+dist/
+build/
 
 # Dependencies
-.nimble/
-nimcache/
+.cabal-sandbox/
+cabal-dev/
+dist-newstyle/
+.cabal/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Environment
-.env
-.env.local
-*.env.*
-
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# Coverage and testing
-.coverage
-coverage/
-htmlcov/
-
-# OS generated files
+# System files
 .DS_Store
 Thumbs.db
 ```
