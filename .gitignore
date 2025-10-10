@@ -1,1 +1,39 @@
-(product_5559bb10.thrift is a source code file, not a build artifact or temporary file, so no .gitignore rules are needed)
+```
+# Julia specific
+*.ji
+*.jl.c
+*.jl.o
+*.jl.so
+*.jl.dll
+*.jl.lib
+*.jl.dSYM/
+*.jl~
+
+# Dependencies
+.julia/
+deps/
+build/
+
+# Compiled/Cache
+*.ji
+*.o
+*.so
+*.dll
+*.lib
+*.dSYM/
+*.~
+
+# Logs
+*.log
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# System
+.DS_Store
+Thumbs.db
+```
