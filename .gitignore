@@ -1,1 +1,1 @@
-Nothing needs to be added to .gitignore for this change list. The added file `list_files_6SH.sh` is a shell script source file, which should be tracked in version control.
+Nothing should be ignored based on the provided file changes. The added file 'create_table.py' is a source code file that should be tracked in version control.
