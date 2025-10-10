@@ -1,0 +1,1 @@
+This is a sample file to be copied by the Ansible task.
