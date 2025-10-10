@@ -1,4 +1,1 @@
-```
-# Build system
-*.mk
-```
+Nothing should be ignored since the added file `math_ops-4242.adb` is a source code file (.adb is an Ada source file extension) and there are no build artifacts, dependencies, or temporary files in the changes.
