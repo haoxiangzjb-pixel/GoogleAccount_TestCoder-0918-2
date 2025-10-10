@@ -1,15 +1,1 @@
-```
-# LaTeX build artifacts
-*.aux
-*.log
-*.toc
-*.lof
-*.lot
-*.out
-*.bbl
-*.blg
-*.fls
-*.fdb_latexmk
-*.synctex.gz
-*.pdf
-```
+(form.html is a source file, no build artifacts, dependencies, or temp files in the changes - output nothing)
