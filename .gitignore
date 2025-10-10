@@ -1,53 +1,48 @@
 ```
-# Temporary files
-*.tmp
-*.swp
-*.swo
-
-# Environment files
-.env
-.env.local
-*.env.*
-
-# Logs
-*.log
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
+# Compiled and build artifacts
+*.class
+*.jar
+*.war
+*.aar
+*.so
+*.dll
+*.exe
+*.out
+*.o
+*.obj
 
 # Dependencies
-.venv/
-venv/
-env/
-.Python
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Build artifacts
+.gradle/
 build/
 dist/
-*.egg
-*.egg-info/
-.installed.cfg
-*.egg-info/
-
-# Testing
-.coverage
+target/
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+coverage/
 htmlcov/
-.coverage.*
-.noserc
-.tox/
+*.egg-info/
 
-# IDE
+# Editors
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# OS
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+
+# System files
 .DS_Store
 Thumbs.db
+
+# Environment
+.env
+.env.local
+*.env.*
 ```
