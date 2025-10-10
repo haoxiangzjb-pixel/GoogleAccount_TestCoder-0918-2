@@ -1,29 +1,27 @@
 ```
-# Configuration and setup files
-*.pp
+# Dependencies
+.bundle/
+vendor/bundle/
 
-# Environment and temporary files
-*.env
-*.env.local
-*.tmp
+# Logs
 *.log
 
-# Editor/IDE files
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editor/IDE
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# Build artifacts and dependencies
-build/
-dist/
-target/
-node_modules/
-venv/
-.venv/
-__pycache__/
-*.pyc
-*.class
+# System
+.DS_Store
+Thumbs.db
+
+# Build artifacts
 *.o
 *.obj
 *.exe
@@ -32,16 +30,27 @@ __pycache__/
 *.a
 *.out
 
-# System files
-.DS_Store
-Thumbs.db
-
-# Coverage and testing
-coverage/
-htmlcov/
-.coverage
-.mypy_cache/
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+*.pyc
+*.pyo
+*~
 .pytest_cache/
+.mypy_cache/
+
+# Ruby
+*.gem
+*.rbc
+coverage/
+InstalledFiles
+pkg/
+spec/reports/
+test/tmp/
+test/version_tmp/
+tmp/
 
 # Compressed files
 *.zip
