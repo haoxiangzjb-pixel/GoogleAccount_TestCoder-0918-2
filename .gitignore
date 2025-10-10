@@ -1,64 +1,10 @@
 ```
-# Compiled and build artifacts
-*.swiftmodule
-*.swiftdoc
-*.sib
-*.sib~
-*.d
-*.o
-*.a
-*.dylib
-*.so
-*.bundle
-
-# Dependencies
-Pods/
-Carthage/
-DerivedData/
-build/
-.xcworkspace/xcuserdata/
-.xcodeproj/xcuserdata/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-*.swo
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# macOS
-.DS_Store
-*.DS_Store
-.AppleDouble
-.LSOverride
-Icon?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-
-# Xcode
-*.xcodeproj/*.moved-aside
-*.xccheckout
-*.moved-aside
-DerivedData/
-*.hmap
-*.ipa
-*.dSYM.zip
-*.dSYM
-
-# Swift Package Manager
-.xcworkspace
-xcuserdata/
-playground.xcworkspace
-playground xcuserdata
+# R-specific ignores
+*.Rhistory
+.Rprofile
+.RData
+*.rds
+*.Rds
+*.Rproj.user/
+.Rproj.user/
 ```
