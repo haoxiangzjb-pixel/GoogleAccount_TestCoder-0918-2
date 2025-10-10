@@ -1,20 +1,4 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.mod
-*.smod
-*.out
-
-# Dependencies
-build/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
+# Compiled files
+*.fs
 ```
