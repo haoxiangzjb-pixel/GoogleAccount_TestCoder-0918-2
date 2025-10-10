@@ -1,1 +1,35 @@
-Nothing should be ignored based on the provided file changes, as only a Python source file (`keras_model_dense_layer.py`) was added without any build artifacts, dependencies, or temporary files.
+```
+# Compiled and build artifacts
+*.class
+*.o
+*.obj
+*.out
+
+# Dependencies
+lib/
+target/
+build/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# System files
+.DS_Store
+Thumbs.db
+```
