@@ -1,13 +1,53 @@
 ```
-# Thrift generated files
-*.py
-*.js
-*.java
-*.go
-*.cpp
-*.rb
-*.php
-*.c
-*.h
-gen-*/
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tf.json
+.terragrunt-cache/
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.egg-info/
+.Python
+
+# Build artifacts
+build/
+dist/
+target/
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Logs
+*.log
+*.out
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.coverage
+htmlcov/
+coverage/
+.pytest_cache/
+.mypy_cache/
 ```
