@@ -1,39 +1,23 @@
 ```
-# Dependencies
-node_modules/
-
-# Compiled and build artifacts
-dist/
-build/
-*.js
-*.cjs
-*.mjs
-*.tsbuildinfo
-
-# Logs and temp files
-*.log
+# PowerShell temp files
 *.tmp
-*.swp
+*.temp
 
-# Environment
+# Logs
+*.log
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment files
 .env
 .env.local
 *.env.*
 
-# Editors
-.vscode/
-.idea/
-
-# OS generated files
+# System files
 .DS_Store
 Thumbs.db
-
-# Package manager
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Testing
-coverage/
-.nyc_output/
 ```
