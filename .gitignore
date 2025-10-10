@@ -1,1 +1,52 @@
-Nothing should be ignored in this case. The added file 'sine_wave_5124.m' appears to be a source code file (likely MATLAB/Octave), which should be tracked in version control. There are no build artifacts, dependencies, or temporary files in the changes that would warrant adding ignore rules.
+```
+# Compiled Python files
+*.pyc
+__pycache__/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Coverage reports
+.coverage
+coverage/
+htmlcov/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build directories
+build/
+dist/
+*.egg-info/
+
+# Python cache
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Testing
+.pytest_cache/
+.mypy_cache/
+```
