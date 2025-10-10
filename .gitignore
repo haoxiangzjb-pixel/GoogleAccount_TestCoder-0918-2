@@ -1,17 +1,39 @@
 ```
-# VBA specific ignores
-*.frx
-*.bas
-*.cls
-*.frm
-*.vba
-*.vbe
-*.vbs
+# Dependencies
+node_modules/
 
-# Office/Excel related
-*.tmp
+# Compiled and build artifacts
+dist/
+build/
+*.js
+*.cjs
+*.mjs
+*.tsbuildinfo
+
+# Logs and temp files
 *.log
-*.cache
-~$*
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
 Thumbs.db
+
+# Package manager
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+coverage/
+.nyc_output/
 ```
