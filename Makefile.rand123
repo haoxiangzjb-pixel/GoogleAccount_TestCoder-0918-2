@@ -1,0 +1,46 @@
+# Basic Makefile for a C++ project
+# This Makefile compiles all .cpp files in the current directory into a single executable named 'app'.
+# It also provides targets for running tests (phony target, customize as needed) and cleaning build artifacts.
+
+# Define the C++ compiler
+CXX = g++
+
+# Define compiler flags
+CXXFLAGS = -Wall -Wextra -std=c++17
+
+# Define the name of the output executable
+TARGET = app
+
+# Automatically gather all .cpp source files in the current directory
+SOURCES = $(wildcard *.cpp)
+
+# Automatically generate the list of object files by replacing .cpp extensions with .o
+OBJECTS = $(SOURCES:.cpp=.o)
+
+# Default target: build the application
+all: $(TARGET)
+
+# Link the executable from all object files
+$(TARGET): $(OBJECTS)
+	$(CXX) $(OBJECTS) -o $(TARGET)
+
+# Compile each .cpp file into a corresponding .o file
+# The $(CXXFLAGS) ensures consistent compilation flags
+%.o: %.cpp
+	$(CXX) $(CXXFLAGS) -c $< -o $@
+
+# Phony targets: these don't correspond to actual files
+.PHONY: all build test clean
+
+# Alias for the 'all' target
+build: all
+
+# Test target: customize this section to run your specific tests
+# For example, you might compile a separate test executable and run it.
+test:
+	@echo "Running tests..."
+	# Add your test commands here, e.g., ./run_tests
+
+# Clean target: remove generated files (object files and the executable)
+clean:
+	rm -f $(OBJECTS) $(TARGET)
