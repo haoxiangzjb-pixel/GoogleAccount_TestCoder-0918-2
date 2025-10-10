@@ -1,1 +1,4 @@
-Nothing to ignore - only a Julia source file was added.
+```
+# Configuration backup files
+config_*.xml
+```
