@@ -1,1 +1,33 @@
-(user-profile-component-2f3e4a.ts)
+```
+# Dart/Flutter build artifacts
+.dart_tool/
+.build/
+dist/
+*.dart.js
+*.js
+*.map
+
+# Dependencies
+.pub/
+.packages
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+```
