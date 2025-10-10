@@ -1,32 +1,29 @@
-```python
+```
 # Compiled and build artifacts
-*.pyc
-__pycache__/
+*.rs.bk
+target/
 
 # Dependencies
-.venv/
-venv/
+Cargo.lock
+**/vendor/
+**/deps/
 
-# Logs and temp files
-*.log
-*.tmp
+# Editors
+.vscode/
+.idea/
 *.swp
+*.swo
 
 # Environment
 .env
 .env.local
 .env.*
 
-# Editors
-.vscode/
-.idea/
+# Logs and temp files
+*.log
+*.tmp
 
-# Coverage
-.coverage
-coverage/
-htmlcov/
-
-# Python cache
-.mypy_cache/
-.pytest_cache/
+# OS generated files
+.DS_Store
+Thumbs.db
 ```
