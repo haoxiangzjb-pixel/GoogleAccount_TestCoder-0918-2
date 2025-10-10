@@ -1,1 +1,1 @@
-Nothing needs to be added to .gitignore since the only change is adding a Perl source file (.pl) which is a source code file and should not be ignored.
+Nothing needs to be added to .gitignore for this change list. The added file `list_files_6SH.sh` is a shell script source file, which should be tracked in version control.
