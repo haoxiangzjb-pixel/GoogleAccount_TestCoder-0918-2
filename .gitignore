@@ -1,19 +1,26 @@
 ```
+# Compiled and build artifacts
+*.o
+*.obj
+*.mod
+*.smod
+*.exe
+
+# Dependencies
+build/
+dist/
+
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Environment
-.env
-.env.local
-*.env.*
-
 # Editors
 .vscode/
 .idea/
 
-# System files
-.DS_Store
-Thumbs.db
+# Environment
+.env
+.env.local
+*.env.*
 ```
