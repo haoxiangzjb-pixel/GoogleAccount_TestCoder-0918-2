@@ -1,5 +1,5 @@
-(person_class.rb is a source file, so no .gitignore rules needed)
+(check_disk_usage.sh is a shell script source file, so no ignores needed)
 
-```ruby
+```bash
 
 ```
