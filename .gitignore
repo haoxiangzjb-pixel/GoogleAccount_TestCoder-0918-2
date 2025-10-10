@@ -1,1 +1,4 @@
-(book_data.json is a data file, not a build artifact, dependency, or temp file - it appears to be source data that should be tracked)
+```
+# Build system
+*.mk
+```
