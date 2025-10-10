@@ -2,31 +2,24 @@
 # Compiled and build artifacts
 *.o
 *.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
+*.hi
 
 # Dependencies
-target/
-Cargo.lock
+.cabal-sandbox/
+dist/
+dist-newstyle/
+.cabal/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Environment
-.env
-.env.local
-*.env.*
-
 # Editors
 .vscode/
 .idea/
 
-# OS generated files
+# System files
 .DS_Store
 Thumbs.db
 ```
