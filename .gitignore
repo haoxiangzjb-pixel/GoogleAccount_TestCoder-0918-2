@@ -1,17 +1,48 @@
 ```
-# VBA specific ignores
-*.frx
-*.bas
-*.cls
-*.frm
-*.vba
-*.vbe
-*.vbs
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.ENV
+.venv.bak/
+pip-log.txt
+pip-delete-this-directory.txt
 
-# Office/Excel related
-*.tmp
+# Generated files
+dist/
+build/
+*.egg-info/
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Logs
 *.log
-*.cache
-~$*
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# OS
+.DS_Store
 Thumbs.db
+
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
+# Testing
+.pytest_cache/
+.mypy_cache/
 ```
