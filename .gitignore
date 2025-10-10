@@ -1,1 +1,26 @@
-(summary_stats.R)
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.hi
+
+# Dependencies
+.stack-work/
+dist/
+cabal-dist/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment
+.env
+.env.local
+*.env.*
+```
