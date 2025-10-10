@@ -1,1 +1,85 @@
-Nothing to output - the change list contains only a source code file (.dart) and no build artifacts, dependencies, or temp files that need to be ignored.
+```
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+
+# Dependencies
+.venv/
+venv/
+node_modules/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Python specific
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+*.zip
+
+# MyPy
+.mypy_cache/
+
+# PyTest
+.pytest_cache/
+
+# Distribution / packaging
+.Python
+*.so
+.Python
+*.pyc
+*.pyo
+*.pyd
+*.zip
+*.egg
+*.egg-info/
+dist/
+build/
+*.egg-info/
+*.dist-info/
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+.env/
+.ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+```
