@@ -1,38 +1,5 @@
-```
-# Compiled and build artifacts
-*.nimble
-*.nims
-*.so
-*.dll
-*.exe
-*.out
+(button_style_5f2b1a.css is a source file, so no ignores needed)
 
-# Dependencies
-.nimble/
-nimcache/
+```gitignore
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Coverage and testing
-.coverage
-coverage/
-htmlcov/
-
-# OS generated files
-.DS_Store
-Thumbs.db
 ```
