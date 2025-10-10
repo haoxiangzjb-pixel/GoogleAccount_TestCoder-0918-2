@@ -1,4 +1,6 @@
 ```
-# Configuration files
-config_*.xml
+# Environment files
+.env
+.env.local
+*.env.*
 ```
