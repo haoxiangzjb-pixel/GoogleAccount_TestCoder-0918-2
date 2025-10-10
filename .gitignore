@@ -1,17 +1,16 @@
 ```
 # Compiled and build artifacts
-*.mex*
 *.o
 *.obj
-*.a
-*.so
-*.dll
 *.exe
+*.dll
+*.so
+*.a
 *.out
 
 # Dependencies
-matlab/
-octave/
+target/
+Cargo.lock
 
 # Logs and temp files
 *.log
@@ -22,7 +21,8 @@ octave/
 .vscode/
 .idea/
 
-# System files
-.DS_Store
-Thumbs.db
+# Environment
+.env
+.env.local
+*.env.*
 ```
