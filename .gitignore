@@ -1,5 +1,22 @@
 ```
-# Output files
-found_emails_*.txt
-random_email_script_output.txt
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+
+# Dependencies
+*.framework/
+*.a/
+*.dylib/
+*.so
+*.dll
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.DS_Store
+Thumbs.db
 ```
