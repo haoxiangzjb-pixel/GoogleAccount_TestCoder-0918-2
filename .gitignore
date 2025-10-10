@@ -1,1 +1,32 @@
-Nothing should be ignored in this case. The added file 'sine_wave_5124.m' appears to be a source code file (likely MATLAB/Octave), which should be tracked in version control. There are no build artifacts, dependencies, or temporary files in the changes that would warrant adding ignore rules.
+```
+# Configuration and deployment files
+*.yaml
+*.yml
+
+# Kubernetes related
+k8s-*.yaml
+
+# Temporary and backup files
+*.tmp
+*~
+.swp
+.swo
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+```
