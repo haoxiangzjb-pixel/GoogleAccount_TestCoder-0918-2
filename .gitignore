@@ -1,20 +1,42 @@
 ```
-# Compiled files
-*.class
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
 
 # Dependencies
-target/
-dist/
-build/
+.venv/
+venv/
+node_modules/
 
-# IDE
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
 .vscode/
 .idea/
 
-# Logs
-*.log
+# Coverage
+.coverage
+coverage/
+htmlcov/
 
-# Temp files
-*.tmp
-*.swp
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.whl
+*.egg
+
+# Python
+.pytest_cache/
+.mypy_cache/
 ```
