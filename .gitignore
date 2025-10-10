@@ -1,5 +1,41 @@
 ```
-# SQL query files
-*.sql
+# JSON data files
+*.json
 
+# Temp files
+*.tmp
+*.temp
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build artifacts
+dist/
+build/
+*.so
+*.dll
+*.exe
+*.out
+
+# OS generated files
+.DS_Store
+Thumbs.db
 ```
