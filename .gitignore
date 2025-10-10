@@ -1,69 +1,35 @@
 ```
-# Configuration and setup files
-*.pp
+# Generated .gitignore for JavaScript project
 
-# Environment and temporary files
-*.env
-*.env.local
-*.tmp
+# Dependencies
+node_modules/
+
+# Logs
 *.log
 
-# Editor/IDE files
+# Environment variables
+.env
+.env.local
+*.env.*
+
+# Editor files
 .vscode/
 .idea/
 *.swp
 *.swo
+*.tmp
 
-# Build artifacts and dependencies
-build/
+# Build outputs
 dist/
-target/
-node_modules/
-venv/
-.venv/
-__pycache__/
-*.pyc
-*.class
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
+build/
+*.js.map
 
-# System files
-.DS_Store
-Thumbs.db
-
-# Coverage and testing
+# Coverage reports
 coverage/
 htmlcov/
-.coverage
-.mypy_cache/
-.pytest_cache/
+*.coverage
 
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+# OS generated files
+.DS_Store
+Thumbs.db
 ```
