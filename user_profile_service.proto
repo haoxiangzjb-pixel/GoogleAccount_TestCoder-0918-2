@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+package user_profile;
+
+// Сервис для получения профиля пользователя
+service UserProfileService {
+  // Метод для получения профиля по ID
+  rpc GetUserProfile (GetUserProfileRequest) returns (GetUserProfileResponse);
+}
+
+// Запрос на получение профиля
+message GetUserProfileRequest {
+  string user_id = 1;
+}
+
+// Ответ с профилем
+message GetUserProfileResponse {
+  User user = 1;
+}
+
+// Сообщение с данными пользователя
+message User {
+  string id = 1;
+  string name = 2;
+  string email = 3;
+  int32 age = 4;
+}
