@@ -2,6 +2,24 @@
 # Compiled and build artifacts
 *.o
 *.obj
-*.out
-sort_array_42
+*.mod
+*.smod
+
+# Dependencies
+build/
+dist/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+*.env.*
 ```
