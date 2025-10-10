@@ -1,9 +1,3 @@
-```
-# Image files
-*.png
-*.jpg
-*.jpeg
-*.bmp
-*.gif
-*.webm
-```
+Nothing should be ignored in this case, as the added file `user_mutation.graphql` is a source code file that should be tracked in version control. The change list contains only a GraphQL source file, which falls under the category of source files that should be preserved.
+
+(empty output)
