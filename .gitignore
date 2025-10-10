@@ -1,4 +1,22 @@
 ```
-# GraphQL schema
-schema.graphql
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+*.a
+
+# Temp files
+*.tmp
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Backup files
+*~
+.#*
 ```
