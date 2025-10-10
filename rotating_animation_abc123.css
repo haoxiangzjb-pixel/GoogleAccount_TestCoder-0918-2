@@ -1,0 +1,24 @@
+/* 定义旋转动画的关键帧 */
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* 应用动画到一个类 */
+.rotating-element {
+  width: 100px;
+  height: 100px;
+  background-color: #3498db;
+  /* 可选：添加一些样式使元素更明显 */
+  margin: 50px auto;
+  border-radius: 10px;
+  /* 应用动画 */
+  animation-name: rotate;
+  animation-duration: 2s; /* 动画持续时间 */
+  animation-timing-function: linear; /* 匀速动画 */
+  animation-iteration-count: infinite; /* 无限循环 */
+}
