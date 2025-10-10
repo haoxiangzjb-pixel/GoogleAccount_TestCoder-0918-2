@@ -1,35 +1,94 @@
 ```
 # Compiled and build artifacts
-*.o
-*.obj
 *.exe
 *.dll
 *.so
-*.a
+*.class
+*.pyc
+__pycache__/
+*.o
+*.obj
 *.out
 
 # Dependencies
-target/
-**/target/
-Cargo.lock
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
+node_modules/
+venv/
+.venv/
 .env
 .env.local
 *.env.*
 
-# Editors
+# Build directories
+dist/
+build/
+target/
+.gradle/
+
+# Editor/IDE files
 .vscode/
 .idea/
 *.swp
 *.swo
+*.tmp
 
-# Rust-specific
-**/Cargo.lock
-*.rs.bk
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Python specific
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.nox/
+*.mo
+*.pot
+
+# Dotnet specific
+bin/
+obj/
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+nuget.exe
+MSBuild.exe
+MSBuild.Community.Tasks.dll
+packages/
+*.nupkg
+project.lock.json
+project.assets.json
+global.json
+appsettings*.json
+bundleconfig.json
+bower.json
+package.json
+package-lock.json
+yarn.lock
+node_modules/
+jspm_packages/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+.vs/
+.vscode/
+
 ```
