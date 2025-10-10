@@ -1,24 +1,23 @@
 ```
 # Compiled and build artifacts
-*.plc
-*.plx
-*.out
+*.pyc
+__pycache__/
 
 # Dependencies
-cpan/
-lib/
+.venv/
+venv/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Editors
-.vscode/
-.idea/
-
 # Environment
 .env
 .env.local
 *.env.*
+
+# Editors
+.vscode/
+.idea/
 ```
