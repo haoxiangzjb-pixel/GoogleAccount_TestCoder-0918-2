@@ -1,1 +1,60 @@
-(random_name_12345.scala is a source code file, so nothing should be ignored)
+```
+# Protobuf generated files
+*.pb.go
+*.pb.java
+*.pb.py
+*.pb.rb
+*.pb.js
+*.pb.ts
+*_pb2.py
+*_pb2_grpc.py
+
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+*.class
+*.dll
+*.so
+*.a
+*.exe
+*.out
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+.env
+.env.local
+.env.*
+
+# Build directories
+dist/
+build/
+target/
+.gradle/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Python specific
+.mypy_cache/
+.pytest_cache/
+```
