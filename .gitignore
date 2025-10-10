@@ -1,1 +1,26 @@
-(user-profile-component-2f3e4a.ts)
+```
+# Compiled and build artifacts
+*.beam
+*.app
+*.appup
+*.rel
+
+# Dependencies
+rebar3/
+.erlang.cookie
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Elixir/OTP specific
+_ebuild/
+ebin/
+include/
+priv/
+```
