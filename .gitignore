@@ -1,29 +1,4 @@
 ```
-# Compiled and build artifacts
-*.beam
-*.app
-*.appup
-*.rel
-ebin/
-_build/
-
-# Dependencies
-deps/
-.rebar3/
-erl_crash.dump
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Logs and temp files
-*.log
-*.tmp
-
-# Environment
-.env
-.env.local
-*.env.*
+# Configuration files
+config_*.xml
 ```
