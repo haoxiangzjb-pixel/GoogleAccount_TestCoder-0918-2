@@ -1,11 +1,12 @@
 ```
 # Compiled and build artifacts
-*.php~
+*.plc
+*.plx
+*.out
 
-# Environment
-.env
-.env.local
-.env.*
+# Dependencies
+cpan/
+lib/
 
 # Logs and temp files
 *.log
@@ -15,10 +16,9 @@
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# System files
-.DS_Store
-Thumbs.db
+# Environment
+.env
+.env.local
+*.env.*
 ```
