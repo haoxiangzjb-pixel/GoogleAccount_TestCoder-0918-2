@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "email": "alice.johnson@example.com",
+      "profile": {
+        "age": 30,
+        "city": "New York"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Bob Smith",
+      "email": "bob.smith@example.com",
+      "profile": {
+        "age": 25,
+        "city": "San Francisco"
+      }
+    }
+  ],
+  "total": 2,
+  "page": 1
+}
