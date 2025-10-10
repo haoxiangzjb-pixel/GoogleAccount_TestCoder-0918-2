@@ -1,12 +1,30 @@
 ```
 # Compiled and build artifacts
-*.rs.bk
-target/
+*.swiftc
+*.o
+*.obj
+*.a
+*.dylib
+*.so
+*.dll
+*.exe
+*.out
 
 # Dependencies
-Cargo.lock
-**/vendor/
-**/deps/
+Pods/
+Carthage/
+.build/
+DerivedData/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
 
 # Editors
 .vscode/
@@ -14,16 +32,7 @@ Cargo.lock
 *.swp
 *.swo
 
-# Environment
-.env
-.env.local
-.env.*
-
-# Logs and temp files
-*.log
-*.tmp
-
-# OS generated files
+# System files
 .DS_Store
 Thumbs.db
 ```
