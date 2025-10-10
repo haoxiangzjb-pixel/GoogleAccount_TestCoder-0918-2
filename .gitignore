@@ -1,4 +1,18 @@
 ```
-# GraphQL schema
-schema.graphql
+# Compiled and build artifacts
+*.o
+*.obj
+*.bin
+
+# Dependencies
+zig*/
+.zig-cache/
+
+# Logs and temp files
+*.tmp
+*.log
+
+# Editors
+.vscode/
+.idea/
 ```
