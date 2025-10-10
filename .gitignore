@@ -1,1 +1,29 @@
-Nothing should be ignored since the only added file is a source code file (.lua) and there are no build artifacts, dependencies, or temporary files in the changes.
+```
+# Compiled files
+*.plc
+*.plx
+*.pmc
+
+# Perl-specific
+__Perl/
+perl-*/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Backup files
+*~
+*.bak
+*.old
+```
