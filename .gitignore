@@ -1,20 +1,25 @@
 ```
-# Compiled files
-*.class
+# Compiled and build artifacts
+*.o
+*.obj
+*.hi
 
 # Dependencies
-target/
 dist/
 build/
+cabal-dist/
+.stack-work/
 
-# IDE
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
 .vscode/
 .idea/
 
-# Logs
-*.log
-
-# Temp files
-*.tmp
-*.swp
+# System files
+.DS_Store
+Thumbs.db
 ```
