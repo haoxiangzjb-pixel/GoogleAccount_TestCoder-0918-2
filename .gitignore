@@ -1,36 +1,26 @@
 ```
-# Kubernetes/Docker related
-*.yaml
-*.yml
+# Compiled and build artifacts
+*.o
+*.obj
+*.mod
+*.smod
+*.out
 
-# If this is a Kubernetes project with potential build artifacts
+# Dependencies
 build/
 dist/
-*.tar
-*.gz
 
-# Editor/IDE files
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
 .vscode/
 .idea/
-*.swp
-*.swo
-*.tmp
 
-# Logs
-*.log
-
-# Environment files
+# Environment
 .env
 .env.local
 *.env.*
-
-# Dependency directories (if any common ones exist)
-node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-target/
-.gradle/
 ```
