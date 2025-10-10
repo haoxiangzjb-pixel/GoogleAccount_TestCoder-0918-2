@@ -1,31 +1,4 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.hi
-*.chi
-*.chs.h
-*.dyn_o
-*.p_o
-dist/
-build/
-
-# Dependencies
-.cabal-sandbox/
-cabal-dev/
-dist-newstyle/
-.cabal/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# System files
-.DS_Store
-Thumbs.db
+# GraphQL schema
+schema.graphql
 ```
