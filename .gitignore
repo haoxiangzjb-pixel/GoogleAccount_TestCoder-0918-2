@@ -1,69 +1,47 @@
 ```
-# Configuration and setup files
-*.pp
+# Compiled and build artifacts
+*.pyc
+__pycache__/
 
-# Environment and temporary files
-*.env
-*.env.local
-*.tmp
+# Dependencies
+.venv/
+venv/
+node_modules/
+
+# Logs and temp files
 *.log
+*.tmp
+*.swp
 
-# Editor/IDE files
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# Build artifacts and dependencies
-build/
-dist/
-target/
-node_modules/
-venv/
-.venv/
-__pycache__/
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Python specific
 *.pyc
-*.class
-*.o
-*.obj
-*.exe
-*.dll
+*.pyo
+*.pyd
+.Python
 *.so
-*.a
-*.out
+*.egg-info/
+dist/
+build/
+*.egg
+*.zip
+*.tar.gz
+*.whl
 
 # System files
 .DS_Store
 Thumbs.db
-
-# Coverage and testing
-coverage/
-htmlcov/
-.coverage
-.mypy_cache/
-.pytest_cache/
-
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
 ```
