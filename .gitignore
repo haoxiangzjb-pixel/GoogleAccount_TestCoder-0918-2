@@ -1,9 +1,16 @@
 ```
-# Image files
-*.png
-*.jpg
-*.jpeg
-*.bmp
-*.gif
-*.webm
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+
+# Editors
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Temp files
+*.tmp
 ```
