@@ -24,26 +24,15 @@ nimcache/
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
 # Coverage and testing
+.coverage
 coverage/
 htmlcov/
-.coverage
-*.gcda
-*.gcno
 
-# Distribution artifacts
-dist/
-build/
-target/
-
-# Python artifacts (if any mixed)
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# System files
+# OS generated files
 .DS_Store
 Thumbs.db
 ```
