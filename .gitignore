@@ -1,19 +1,5 @@
-```
-# Puppet related
-**/modules/
-**/spec/fixtures/modules/
-**/.tmp/
-**/pkg/
+(book.xml is a source/config file, so no ignores needed)
 
-# System files
-.DS_Store
-Thumbs.db
+```gitignore
 
-# Logs
-*.log
-
-# Environment files
-.env
-.env.local
-*.env.*
 ```
