@@ -1,1 +1,44 @@
-Nothing should be ignored in this case, as the only added file is a Java source file (.java) which is source code and should be tracked in version control.
+```
+# TypeScript/JavaScript build artifacts
+*.js
+*.tsbuildinfo
+dist/
+build/
+lib/
+out/
+.nyc_output/
+coverage/
+
+# Dependencies
+node_modules/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Test coverage
+coverage/
+htmlcov/
+.nyc_output/
+*.lcov
+
+# TypeScript specific
+*.d.ts
+*.map
+```
