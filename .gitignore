@@ -1,1 +1,1 @@
-(product_5559bb10.thrift is a source code file, not a build artifact or temporary file, so no .gitignore rules are needed)
+Nothing should be ignored based on the provided file changes. The added file 'swap_template.cpp' is a source code file that should be tracked in version control.
