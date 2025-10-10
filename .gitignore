@@ -1,33 +1,53 @@
 ```
-# Dart/Flutter build artifacts
-.dart_tool/
-.build/
-dist/
-*.dart.js
-*.js
-*.map
-
-# Dependencies
-.pub/
-.packages
-
-# Logs and temp files
-*.log
+# Temporary files
 *.tmp
 *.swp
+*.swo
 
-# Environment
+# Environment files
 .env
 .env.local
 *.env.*
 
-# Editors
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Dependencies
+.venv/
+venv/
+env/
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Build artifacts
+build/
+dist/
+*.egg
+*.egg-info/
+.installed.cfg
+*.egg-info/
+
+# Testing
+.coverage
+htmlcov/
+.coverage.*
+.noserc
+.tox/
+
+# IDE
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# OS generated files
+# OS
 .DS_Store
 Thumbs.db
 ```
