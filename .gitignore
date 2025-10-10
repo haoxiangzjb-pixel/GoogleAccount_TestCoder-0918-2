@@ -1,32 +1,4 @@
 ```
-# Configuration and deployment files
-*.yaml
-*.yml
-
-# Kubernetes related
-k8s-*.yaml
-
-# Temporary and backup files
-*.tmp
-*~
-.swp
-.swo
-
-# Logs
-*.log
-
-# Environment files
-.env
-.env.local
-*.env.*
-
-# IDE specific
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS generated files
-.DS_Store
-Thumbs.db
+# Compiled and build artifacts
+*.cr
 ```
