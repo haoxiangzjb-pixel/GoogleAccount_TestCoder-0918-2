@@ -1,15 +1,36 @@
 ```
-# TypeScript/JavaScript build artifacts
-*.js.map
-*.tsbuildinfo
+# VBA/Excel related
+*.vba
+*.bas
+*.cls
+*.frm
+*.vbp
+
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+*.dll
+*.so
+*.exe
 
 # Dependencies
+.venv/
+venv/
 node_modules/
+dist/
+build/
+target/
+.gradle/
+.mypy_cache/
+.pytest_cache/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
+*.swo
 
 # Environment
 .env
@@ -19,14 +40,9 @@ node_modules/
 # Editors
 .vscode/
 .idea/
+*.swp
 
-# Coverage
-coverage/
-htmlcov/
-*.coverage
-
-# Distribution and build
-dist/
-build/
-target/
+# System
+.DS_Store
+Thumbs.db
 ```
