@@ -1,51 +1,13 @@
 ```
-# Environment files
-.env
-.env.local
-*.env.*
-
-# Logs
-*.log
-
-# Editor/IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-*.tmp
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-venv/
-.venv/
-.env
-.env.local
-*.env.*
-
-# Build artifacts
-dist/
-build/
-*.o
-*.obj
-*.so
-*.a
-*.dll
-*.exe
-*.out
-
-# Dependencies
-node_modules/
-.mypy_cache/
-.pytest_cache/
-.coverage
-coverage/
-htmlcov/
-
-# System files
-.DS_Store
-Thumbs.db
+# Thrift generated files
+*.py
+*.js
+*.java
+*.go
+*.cpp
+*.rb
+*.php
+*.c
+*.h
+gen-*/
 ```
