@@ -1,20 +1,5 @@
-```
-# Compiled files
-*.class
+(config.toml is a source/config file, so no ignores needed)
 
-# Dependencies
-target/
-dist/
-build/
+```toml
 
-# IDE
-.vscode/
-.idea/
-
-# Logs
-*.log
-
-# Temp files
-*.tmp
-*.swp
 ```
