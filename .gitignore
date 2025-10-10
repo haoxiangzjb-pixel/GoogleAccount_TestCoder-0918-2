@@ -1,4 +1,42 @@
-(index.html is a source file, so no ignores needed)
+```
+# Compiled and build artifacts
+*.pyc
+__pycache__/
 
-```(empty)
+# Dependencies
+.venv/
+venv/
+bundler/
+vendor/bundle/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
+# Ruby specific
+*.gem
+*.rbc
+.bundle/
+.cover/
+.rspec
+.ruby-version
 ```
