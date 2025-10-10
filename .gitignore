@@ -1,17 +1,5 @@
-```
-# VBA specific ignores
-*.frx
-*.bas
-*.cls
-*.frm
-*.vba
-*.vbe
-*.vbs
+(car.dart is a source code file, so no .gitignore rules needed)
 
-# Office/Excel related
-*.tmp
-*.log
-*.cache
-~$*
-Thumbs.db
+```dart
+
 ```
