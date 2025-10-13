@@ -1,69 +1,51 @@
 ```
-# Compiled and build artifacts
-*.pl~
-
-# Logs and temp files
+# VBA specific ignores
+*.frx
+*.bas
+*.cls
+*.frm
+*.vba
+*.vbe
+*.dsr
+*.ctl
+*.pag
+*.dob
+*.vbs
+*.js
+*.hta
+*.wsh
+*.wsf
+*.vsmacros
+*.vsspell
+*.sln
+*.user
+*.userosscache
+*.suo
 *.tmp
 *.log
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# Backup and swap files
+*.bak
+*.cache
+*.obj
+*.tlb
+*.dll
+*.exe
+*.msi
+*.msp
+*.msm
+*.tmp
+*.temp
+*.old
+*.orig
+*.rej
+*.~
 *~
+Thumbs.db
+.DS_Store
+desktop.ini
 *.swp
 *.swo
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Coverage reports
-coverage/
-htmlcov/
-.coverage
-
-# Dependency directories
-node_modules/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-venv/
-.venv/
-dist/
-build/
-target/
-.gradle/
-julia-*/
-zig*/
-
-# Common compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+.vba.bak
+.vbs.bak
+.vba~
+.vbs~
 ```
