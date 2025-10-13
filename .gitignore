@@ -1,59 +1,16 @@
 ```
-# Compiled and build artifacts
-*.fsx
-*.fsi
-*.dll
-*.exe
-*.pdb
-*.o
-*.obj
-*.out
-*.a
-*.so
-*.dylib
+# Puppet related
+*.pp.bak
+*.rb.bak
 
-# Dependencies
-.paket/
-packages/
-node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-target/
-.gradle/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-*.swo
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS generated files
+# System files
 .DS_Store
 Thumbs.db
 
-# Coverage
-coverage/
-htmlcov/
-.coverage
+# Logs
+*.log
 
-# Build directories
-dist/
-build/
-bin/
-obj/
-out/
+# Temporary files
+*.tmp
+*.temp
 ```
