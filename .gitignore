@@ -1,35 +1,33 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.hi
-*.dyn_o
+# Kubernetes/Docker related
+*.yaml
+*.yml
 
-# Dependencies
-.cabal-sandbox/
-cabal-dev/
+# If this is a Kubernetes project with potential build artifacts
+build/
 dist/
-dist-newstyle/
-.stack-work/
+target/
 
-# Logs and temp files
-*.log
+# Common temp files
 *.tmp
-*.swp
+*.log
 
-# Editors
+# Editor/IDE files
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# Environment
+# Environment files
 .env
 .env.local
 *.env.*
 
-# Coverage and testing
-coverage/
-htmlcov/
-.coverage
-*.prof
-*.vix
+# Dependency directories (if any get added)
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
 ```
