@@ -1,1 +1,7 @@
-Nothing should be ignored in this case. The added file 'add_numbers.asm' is an assembly source code file, which is a source code file that should be tracked in version control. No build artifacts, dependencies, or temporary files are present in the changes.
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+find_max
+```
