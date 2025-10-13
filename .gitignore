@@ -1,35 +1,36 @@
 ```
-# Compiled and build artifacts
+# Compiled Haskell files
 *.o
-*.obj
 *.hi
+*.chi
+*.chs.h
 *.dyn_o
+*.dyn_hi
 
-# Dependencies
-.cabal-sandbox/
-cabal-dev/
+# Cabal and Stack build artifacts
 dist/
 dist-newstyle/
+.cabal-sandbox/
+cabal.sandbox.config
 .stack-work/
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+# GHCi files
+.hpc/
+.hsenv/
+.ghc.environment.*
 
-# Editors
+# Editor/IDE files
 .vscode/
 .idea/
+*.swp
+*.swo
+*.tmp
 
-# Environment
+# Logs
+*.log
+
+# Environment files
 .env
 .env.local
 *.env.*
-
-# Coverage and testing
-coverage/
-htmlcov/
-.coverage
-*.prof
-*.vix
 ```
