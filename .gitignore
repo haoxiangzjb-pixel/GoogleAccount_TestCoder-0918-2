@@ -1,1 +1,1 @@
-Nothing should be ignored based on the provided file changes. The added file 'reverse_list_func.ex' appears to be a source code file (Elixir) and no build artifacts, dependencies, or temporary files are present in the changes.
+Nothing should be ignored based on the provided file changes. The added file 'math_ops.ads' appears to be a source code file (likely Ada specification file) that should be tracked in version control.
