@@ -1,5 +1,4 @@
 ```
-# Kubernetes deployment files (auto-generated)
-*k8s_deployment_template*.yaml
-*nodejs_app_deployment*.yaml
+# Configuration files
+*.hcl
 ```
