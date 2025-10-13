@@ -1,26 +1,39 @@
 ```
 # Compiled and build artifacts
-*.o
-*.obj
-*.mod
-*.smod
-*.out
+*.fsi
+*.dll
+*.exe
+*.pdb
+*.cache
+*.bin/
+*.obj/
 
 # Dependencies
-build/
-dist/
+.paket/
+packages/
+bin/
+obj/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Editors
-.vscode/
-.idea/
-
 # Environment
 .env
 .env.local
 *.env.*
+
+# Editors
+.vscode/
+.idea/
+*.userprefs
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# OS generated files
+.DS_Store
+Thumbs.db
 ```
