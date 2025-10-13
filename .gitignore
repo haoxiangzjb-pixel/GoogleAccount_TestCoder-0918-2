@@ -1,47 +1,7 @@
 ```
-# Environment
-.env
-.env.local
-.env.*
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-venv/
-.venv/
-.env
-.env.local
-pyvenv.cfg
-pip-log.txt
-pip-delete-this-directory.txt
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.log
-.gitattributes
-.next
-.next/cache/
-storybook-static/
-*.egg-info/
-*.egg-info/*
-.eggs/
-.eggs/*
-build/
-dist/
+# R build artifacts
+*.Rproj.user/
+.Rhistory
+.RData
+*.png
 ```
