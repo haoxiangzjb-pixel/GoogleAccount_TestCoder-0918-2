@@ -1,16 +1,1 @@
-```
-# Puppet related
-*.pp.bak
-*.rb.bak
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
-
-# Temporary files
-*.tmp
-*.temp
-```
+HttpTriggerFunction_2a7b4e9c.cs
