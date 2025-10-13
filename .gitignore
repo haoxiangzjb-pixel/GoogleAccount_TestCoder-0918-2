@@ -1,31 +1,11 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
+# Executables
+find_max
 
-# Dependencies
-.Packages/
-.build/
-DerivedData/
-
-# Logs and temp files
-*.log
+# Temporary files
 *.tmp
-*.swp
+*.txt
 
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# macOS
-.DS_Store
-
-# Windows
-Thumbs.db
+# Logs
+*.log
 ```
