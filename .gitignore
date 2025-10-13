@@ -1,4 +1,31 @@
 ```
-# Configuration backup files
-app_settings_*.toml
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+
+# Dependencies
+.Packages/
+.build/
+DerivedData/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
 ```
