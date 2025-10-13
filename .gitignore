@@ -1,4 +1,31 @@
 ```
-# Docker
-docker-compose_*.yml
+# Compiled and build artifacts
+*.o
+*.obj
+*.hi
+
+# Dependencies
+dist/
+build/
+*.cabal-dev/
+.cabal-sandbox/
+cabal-sandbox/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Other common ignores
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+coverage/
+htmlcov/
+.coverage
 ```
