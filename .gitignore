@@ -1,7 +1,1 @@
-```
-# R plots and generated files
-Rplots.pdf
-*.pdf
-*.png
-plot_*.r
-```
+Nothing should be ignored based on the provided file changes. The added file 'circle_area.f90' is a source code file that should be tracked in version control.
