@@ -1,8 +1,1 @@
-```
-#Temp files
-*.tmp
-tmp/
-
-#Logs
-*.log
-```
+Nothing to output - the change list contains only a source code file (.adb) which should not be ignored.
