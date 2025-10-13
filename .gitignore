@@ -1,1 +1,19 @@
-(connect_postgres_12345.py is a source code file, and there are no build artifacts, dependencies, or temporary files in the changes, so no .gitignore rules are needed)
+```
+# VBA/Excel specific
+*.tmp
+*.log
+*.bak
+*.old
+*.~*
+Thumbs.db
+desktop.ini
+
+# Editor/IDE files
+*.swp
+*.swo
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
+```
