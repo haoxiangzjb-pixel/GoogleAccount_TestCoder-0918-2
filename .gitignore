@@ -1,5 +1,1 @@
-```
-# Kubernetes deployment files (auto-generated)
-*k8s_deployment_template*.yaml
-*nodejs_app_deployment*.yaml
-```
+Nothing to output - the added file 'selenium_test.py' is a source code file and should not be ignored.
