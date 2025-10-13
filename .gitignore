@@ -1,1 +1,60 @@
-Nothing should be ignored based on the provided file changes. The added file 'login-form-34b1a.vue' is a source code file that should be tracked in version control.
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+*.a
+
+# Dependencies
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+```
