@@ -1,4 +1,1 @@
-```
-# Compiled and build artifacts
-*.fs
-```
+Nothing should be ignored based on the provided file changes. The added file `word_freq_counter.pl` is a Perl source code file and should not be ignored.
