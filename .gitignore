@@ -1,29 +1,6 @@
 ```
-# Terraform files
-.terraform/
-*.tfstate
-*.tfstate.*
-*.tfvars
-*.tfplan
-*.lock.hcl
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS generated files
-.DS_Store
-Thumbs.db
+# Temporary and backup scripts
+*.sh.bak
+*backup*.sh
+random_backup_script_*.sh
 ```
