@@ -1,18 +1,7 @@
 ```
-# Compiled and build artifacts
-*.js
+# Temporary Ansible task files
+ansible_task_*.yml
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
+# Source files - keep in version control
+# source_file.txt should be tracked
 ```
