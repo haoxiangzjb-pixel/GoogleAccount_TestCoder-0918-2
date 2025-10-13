@@ -1,1 +1,35 @@
-Nothing needs to be ignored in this case. The added files are a Python source file and a temporary text file, which don't require any special ignore rules. The temporary text file might be intentionally tracked in the repository.
+```
+# Compiled Python files
+*.pyc
+__pycache__/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Editor/IDE files
+.vscode/
+.idea/
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Python cache
+.mypy_cache/
+.pytest_cache/
+```
