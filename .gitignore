@@ -1,11 +1,3 @@
-```
-# Terraform files
-*.tfstate
-*.tfstate.*
-*.tfvars
-.terraform/
-terraform.tfstate
-terraform.tfstate.backup
-*.backup
-*.lock.hcl
-```
+The provided file change list appears to be malformed or incomplete, containing only a fragment `'recipe_$(date'` rather than proper file paths. Since there are no recognizable file extensions or patterns that indicate build artifacts, dependencies, or temporary files that should be ignored, and the change list doesn't contain valid file paths to analyze, no .gitignore rules are needed.
+
+Output: (empty - no content)
