@@ -1,1 +1,1 @@
-Nothing should be ignored since only a source code file (.r) was added.
+Nothing should be ignored based on the provided file changes. The added file `adder_4bit.v` appears to be a Verilog source file, which is a source code file that should not be ignored.
