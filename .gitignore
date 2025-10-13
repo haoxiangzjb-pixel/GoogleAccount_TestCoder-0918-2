@@ -1,1 +1,59 @@
-(factorial_3544.py is a source file, and there are no build artifacts, dependencies, or temp files in the changes)
+```
+# Compiled and build artifacts
+*.fsx
+*.fsi
+*.dll
+*.exe
+*.pdb
+*.o
+*.obj
+*.out
+*.a
+*.so
+*.dylib
+
+# Dependencies
+.paket/
+packages/
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Build directories
+dist/
+build/
+bin/
+obj/
+out/
+```
