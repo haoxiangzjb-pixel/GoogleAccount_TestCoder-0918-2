@@ -1,63 +1,19 @@
 ```
-# Build artifacts
-*.js.map
-dist/
-build/
+# Compiled Scala files
+*.class
 
-# Logs and temp files
+# Dependencies
+target/
+
+# IDE
+.idea/
+.vscode/
+
+# Logs
 *.log
-*.tmp
 
 # Environment
 .env
 .env.local
 *.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-*.so
-
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Output files
-output_*.json
 ```
