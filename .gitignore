@@ -1,1 +1,41 @@
-Nothing should be ignored based on the provided file changes. The added file 'login-form-34b1a.vue' is a source code file that should be tracked in version control.
+```
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Dependencies
+venv/
+.venv/
+.env
+.env.local
+.env.*
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Django specific
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+media/
+staticfiles/
+*.log
+.env
+.env.local
+.env.*
+venv/
+.venv/
+```
