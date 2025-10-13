@@ -1,29 +1,20 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-
-# Dependencies
-.venv/
-venv/
-node_modules/
-
-# Logs and temp files
+# VBA project files
+*.bas
+*.vba
+*.frm
+*.cls
+*.vbp
+*.sln
+*.user
+*.userosscache
+*.suo
+*.vbproj*
+*.cache
 *.log
+*.bak
 *.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# Database/query files
-*.sql
+*.~
+Thumbs.db
+.DS_Store
 ```
