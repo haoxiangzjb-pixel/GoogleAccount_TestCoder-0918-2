@@ -1,1 +1,19 @@
-Nothing should be ignored based on the provided file changes. The added file `user_recipe.rb` is a source code file that should be tracked in version control.
+```
+# Backup files
+backup_*
+*.backup
+*.bak
+
+# Shell scripts (if they are temporary)
+*.sh.bak
+*.sh~
+
+# Temporary files
+*.tmp
+*~
+.swp
+.swo
+
+# Logs
+*.log
+```
