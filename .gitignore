@@ -1,7 +1,1 @@
-```
-# R build artifacts
-*.Rproj.user/
-.Rhistory
-.RData
-*.png
-```
+Nothing to ignore - only a PHP source file was added.
