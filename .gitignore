@@ -1,23 +1,41 @@
 ```
 # Compiled and build artifacts
-*.pyc
-__pycache__/
+*.class
 
 # Dependencies
-.venv/
-venv/
+lib/
+libs/
+jars/
+target/
+build/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
 
 # Logs and temp files
 *.log
 *.tmp
-*.swp
 
 # Environment
 .env
 .env.local
 *.env.*
 
-# Editors
-.vscode/
-.idea/
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Package managers
+.gradle/
+node_modules/
+__pycache__/
+*.egg-info/
 ```
