@@ -1,16 +1,12 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.hi
-*.dyn_o
-
 # Dependencies
-.cabal-sandbox/
-cabal-dev/
-dist/
-dist-newstyle/
-.stack-work/
+node_modules/
+package-lock.json
+
+# Environment
+.env
+.env.local
+.env.*
 
 # Logs and temp files
 *.log
@@ -21,15 +17,33 @@ dist-newstyle/
 .vscode/
 .idea/
 
-# Environment
-.env
-.env.local
-*.env.*
-
-# Coverage and testing
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.ENV
+.pipenv
+.pytest_cache/
+.mypy_cache/
+.coverage
 coverage/
 htmlcov/
-.coverage
-*.prof
-*.vix
+
+# Node.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+node_modules/
+dist/
+build/
+.nyc_output/
+coverage/
+.nyc_output/
+istanbul/
+.coverage/
 ```
