@@ -1,71 +1,52 @@
 ```
+# Compiled and build artifacts
+*.pl~
+
+# Logs and temp files
+*.tmp
+*.log
+
 # Environment
 .env
 .env.local
-.env.*
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+*.env.*
 
 # Editors
 .vscode/
 .idea/
 
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-venv/
-.venv/
-env/
-ENV/
-pip-log.txt
-pip-delete-this-directory.txt
-.tox/
+# Backup and swap files
+*~
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+coverage/
+htmlcov/
 .coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.log
-.git/
+
+# Dependency directories
+node_modules/
+__pycache__/
 .mypy_cache/
 .pytest_cache/
-.hypothesis/
-
-# Node.js
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-node_modules/
+venv/
+.venv/
 dist/
 build/
-.nyc_output/
-coverage/
-*.lcov
-.nyc_output
-coverage/
+target/
+.gradle/
+julia-*/
+zig*/
 
-# Compiled and build artifacts
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
-*.class
-*.jar
-*.war
+# Common compressed files
 *.zip
-*.tar
 *.gz
+*.tar
 *.tgz
 *.bz2
 *.xz
@@ -85,24 +66,4 @@ coverage/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-
-# System files
-.DS_Store
-Thumbs.db
-desktop.ini
-*.swp
-*.swo
-
-# Dependencies
-target/
-.gradle/
-.cargo/
-Cargo.lock
-__pycache__/
-*.egg-info/
-.eggs/
-.installed.cfg
-lib/
-lib64/
-*.egg
 ```

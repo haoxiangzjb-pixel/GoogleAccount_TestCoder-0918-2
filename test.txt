@@ -1,0 +1,4 @@
+This is a test file.
+It contains several words.
+Some words appear more than once.
+This is good for testing.
