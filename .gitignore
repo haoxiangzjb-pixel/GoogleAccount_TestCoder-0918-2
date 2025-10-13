@@ -1,5 +1,1 @@
-```
-# Kubernetes deployment files (auto-generated)
-*k8s_deployment_template*.yaml
-*nodejs_app_deployment*.yaml
-```
+Nothing to ignore - the change list contains only a source code file (.groovy) without any build artifacts, dependencies, or temporary files.
