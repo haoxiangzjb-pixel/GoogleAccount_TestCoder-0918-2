@@ -1,11 +1,27 @@
 ```
-# Docker-related
-Dockerfile*
+# Compiled and build artifacts
+*.mex*
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.exe
+*.out
+
+# Dependencies
+.mypy_cache/
+.pytest_cache/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
+*.swo
 
 # Environment
 .env
@@ -15,49 +31,16 @@ Dockerfile*
 # Editors
 .vscode/
 .idea/
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-*.so
-
-# Dependencies
-.venv/
-venv/
-env/
-ENV/
-.venv.bak/
-venv.bak/
-
-# Build artifacts
-build/
-dist/
-*.egg
-*.egg-info/
-.installed.cfg
-*.egg-info/
-
-# OS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-
-# Testing
-.coverage
-htmlcov/
-.coverage.*
-.nyc_output/
-coverage/
-
-# IDE
 *.swp
 *.swo
-*~
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Build directories
+build/
+dist/
+target/
 ```
