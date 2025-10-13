@@ -1,4 +1,3 @@
 ```
-# Docker
-docker-compose_*.yml
+# Configuration and source files only - no build artifacts, dependencies, or temp files to ignore
 ```
