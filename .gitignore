@@ -1,14 +1,6 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-
-# Dependencies
-.venv/
-venv/
-node_modules/
+# Docker-related
+Dockerfile*
 
 # Logs and temp files
 *.log
@@ -24,6 +16,48 @@ node_modules/
 .vscode/
 .idea/
 
-# Database/query files
-*.sql
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Dependencies
+.venv/
+venv/
+env/
+ENV/
+.venv.bak/
+venv.bak/
+
+# Build artifacts
+build/
+dist/
+*.egg
+*.egg-info/
+.installed.cfg
+*.egg-info/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Testing
+.coverage
+htmlcov/
+.coverage.*
+.nyc_output/
+coverage/
+
+# IDE
+*.swp
+*.swo
+*~
 ```
