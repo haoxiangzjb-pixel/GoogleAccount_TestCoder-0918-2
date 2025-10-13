@@ -1,45 +1,31 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
+# Build artifacts and compiled files
+*.dll
+*.exe
+*.pdb
+*.unity3d
+*.asset
+*.prefab
+*.meta
 
-# Dependencies
-.venv/
-venv/
-node_modules/
+# Unity specific
+Library/
+Temp/
+Obj/
+Logs/
+MemoryCaptures/
+Build/
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+# IDE
+.vs/
+*.user
+*.userprefs
+*.sln.DotSettings
+*.csproj.DotSettings
+*.pidb
+*.suo
 
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# System files
+# OS
 .DS_Store
 Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Python specific
-*.pyo
-*.pyd
-.Python
-*.so
-*.egg-info/
-
-# Build directories
-dist/
-build/
-target/
 ```
