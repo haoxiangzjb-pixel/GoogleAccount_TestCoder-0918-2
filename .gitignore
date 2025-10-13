@@ -1,59 +1,30 @@
 ```
-# Compiled and build artifacts
-*.class
+# Zig compiler distribution
+zig-linux-x86_64-0.13.0/
+
+# Dependencies and build artifacts
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 *.o
 *.obj
-*.exe
-*.dll
 *.so
-*.a
+*.dll
+*.exe
 *.out
-
-# Dependencies
-.venv/
-venv/
-__pycache__/
-node_modules/
-dist/
-build/
-target/
-.gradle/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-*.swo
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# MyPy
-.mypy_cache/
-
-# PyTest
-.pytest_cache/
-
-# Compressed files
+*.a
+*.lib
+*.dylib
+*.class
+*.jar
+*.war
 *.zip
-*.gz
 *.tar
-*.tgz
+*.gz
 *.bz2
 *.xz
 *.7z
@@ -68,8 +39,103 @@ htmlcov/
 *.Z
 *.lz
 *.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+
+# Build directories
+build/
+dist/
+target/
+.release/
+.tmp/
+temp/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+*.log
+*.bak
+*.cache
+*.compiled
+
+# System files
+.DS_Store
+Thumbs.db
+*.DS_Store
+ehthumbs.db
+Icon?
+._*
+
+# Environment variables
+.env
+.env.local
+.env.dev
+.env.test
+.env.production
+.env.staging
+*.env
+*.env.*
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+*.coverage
+
+# Python specific
+*.pyc
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.hypothesis/
+
+# Node.js specific
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Java specific
+*.class
+*.jar
+*.war
+*.ear
+target/
+.gradle/
+build/
+
+# C/C++ specific
+*.o
+*.a
+*.so
+*.dll
+*.exe
+*.out
+obj/
+*.dSYM/
+*.stackdump
+
+# Go specific
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.prof
+
+# Rust specific
+target/
+Cargo.lock
+
+# Zig specific
+zig-cache/
+zig-out/
+
 ```
