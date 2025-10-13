@@ -1,26 +1,8 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.hi
-
-# Dependencies
-.cabal-sandbox/
-dist/
-dist-newstyle/
-.stack-work/
-
-# Logs and temp files
-*.log
+#Temp files
 *.tmp
-*.swp
+tmp/
 
-# Editors
-.vscode/
-.idea/
-
-# Environment
-.env
-.env.local
-*.env.*
+#Logs
+*.log
 ```
