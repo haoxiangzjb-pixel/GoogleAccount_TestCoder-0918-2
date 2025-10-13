@@ -1,33 +1,4 @@
 ```
-# Executables
-find_max
-
-# Generated result files
-*.txt
-
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
-
-# Dependencies
-node_modules/
-.venv/
-venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# System files
-.DS_Store
-Thumbs.db
+# No build artifacts, dependencies, or temp files detected in changes
+# Only Makefile added, which is a source/config file
 ```
