@@ -1,29 +1,33 @@
 ```
-# Node.js/JavaScript
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-dist/
-build/
-coverage/
+# Executables
+find_max
 
-# Editor/IDE
+# Generated result files
+*.txt
+
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+
+# Dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
 .vscode/
 .idea/
-*.swp
-*.swo
-*.tmp
 
-# Environment
-.env
-.env.local
-*.env.*
-
-# Logs
-*.log
-
-# OS generated files
+# System files
 .DS_Store
 Thumbs.db
 ```
