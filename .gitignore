@@ -1,4 +1,12 @@
 ```
-# Docker
-docker-compose_*.yml
+# Dependencies
+node_modules/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment
+.env
+.env.
 ```
