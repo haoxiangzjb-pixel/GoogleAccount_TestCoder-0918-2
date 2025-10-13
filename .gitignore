@@ -1,1 +1,18 @@
-Nothing should be ignored based on the provided file changes. The added file `check_even_abc123.ml` is a source code file (OCaml) and does not fall into any of the categories that should be ignored according to the rules.
+```
+# Compiled and build artifacts
+*.js
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+```
