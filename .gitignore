@@ -1,11 +1,7 @@
 ```
 # Compiled and build artifacts
-*.o
-*.obj
-*.out
-
-# Dependencies
-vendor/
+*.pyc
+__pycache__/
 
 # Logs and temp files
 *.log
@@ -15,38 +11,33 @@ vendor/
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
 # Editors
 .vscode/
 .idea/
+
+# Dependencies
+.venv/
+venv/
+node_modules/
 
 # Coverage
 coverage/
 htmlcov/
 .coverage
 
-# Archives
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+# Python specific
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# System files
+.DS_Store
+Thumbs.db
 ```
