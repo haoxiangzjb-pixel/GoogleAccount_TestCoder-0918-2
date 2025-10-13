@@ -1,54 +1,43 @@
 ```
-# Environment files
+# Workflow files
+*.yml
+*.yaml
+
+# Environment and config
 .env
 .env.local
-*.env.*
+.env.*
 
 # Logs
 *.log
 
-# Temporary files
+# Temp files
 *.tmp
 *.swp
 *.swo
-
-# OS generated files
-.DS_Store
-Thumbs.db
 
 # Dependencies
 node_modules/
 venv/
 .venv/
 __pycache__/
-.mypy_cache/
-.pytest_cache/
-.julia/
-zig*/
-target/
-.gradle/
-
-# Build artifacts
+*.egg-info/
 dist/
 build/
-*.pyc
-*.class
-*.o
-*.exe
-*.dll
-*.so
-*.a
-*.obj
-*.out
+target/
+.gradle/
+.mypy_cache/
+.pytest_cache/
 
-# Coverage
-coverage/
-htmlcov/
-.coverage
+# OS generated files
+.DS_Store
+Thumbs.db
 
-# Editor/IDE
+# Editors
 .vscode/
 .idea/
+*.sublime-project
+*.sublime-workspace
 
 # Compressed files
 *.zip
