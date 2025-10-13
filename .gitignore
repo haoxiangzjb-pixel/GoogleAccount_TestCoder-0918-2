@@ -1,42 +1,25 @@
 ```
-# Julia specific
-*.ji
-*.jl.cov
-*.jl.mem
-*.so
-*.dll
-*.dylib
+# Terraform files
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
 
-# Dependencies
-.julia/
-
-# Compiled and build artifacts
-*.o
-*.obj
-*.a
-*.lib
-*.so
-*.dll
-*.dylib
-*.exe
-*.out
-
-# Logs and temp files
-*.log
+# Temporary and backup files
 *.tmp
-*.swp
-*.swo
+*.backup
+*.bak
+*~
+.swp
+.swo
 
-# Editors
-.vscode/
-.idea/
+# Logs
+*.log
 
-# System files
-.DS_Store
-Thumbs.db
-
-# Environment
+# Environment files
 .env
 .env.local
-*.env.*
+.env.*
 ```
