@@ -1,1 +1,40 @@
-Nothing should be ignored based on the provided file changes. The added file `connect_to_mysql_abc123.php` is a PHP source code file that should be tracked in version control.
+```
+# Compiled Python files
+*.pyc
+__pycache__/
+
+# Generated Python files
+filtered_data_*.py
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Python cache
+.mypy_cache/
+.pytest_cache/
+
+# Build directories
+dist/
+build/
+target/
+
+# Virtual environments
+.venv/
+venv/
+```
