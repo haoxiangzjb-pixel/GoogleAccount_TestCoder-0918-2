@@ -1,1 +1,66 @@
-Nothing should be ignored since only a source code file (.r) was added.
+```
+# Compiled Python files
+*.pyc
+__pycache__/
+
+# Model files (if they are large binary files)
+*.keras
+
+# Virtual environments
+venv/
+.venv/
+.env
+.env.local
+
+# Logs
+*.log
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+coverage/
+htmlcov/
+*.coverage
+
+# Distribution / build artifacts
+dist/
+build/
+target/
+*.egg-info/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+```
