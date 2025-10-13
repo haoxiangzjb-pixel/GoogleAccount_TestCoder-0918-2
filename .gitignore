@@ -1,1 +1,3 @@
-Nothing should be ignored based on the provided file changes. The added file `connect_to_mysql_abc123.php` is a PHP source code file that should be tracked in version control.
+```
+# Schema file is a source file, no need to ignore
+```
