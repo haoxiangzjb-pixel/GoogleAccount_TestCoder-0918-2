@@ -1,1 +1,7 @@
-Nothing should be ignored since only a source code file (.asm) was added.
+```bash
+# Temporary and random script files
+*.sh
+!create_random_script.sh
+!get_user_info.sh
+random_*.sh
+```
