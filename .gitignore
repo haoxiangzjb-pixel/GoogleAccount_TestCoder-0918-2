@@ -1,21 +1,54 @@
 ```
+# Build system
+Makefile
+
 # Dependencies
 node_modules/
-package-lock.json
+.venv/
+venv/
+__pycache__/
+*.egg-info/
+dist/
+build/
+target/
+.gradle/
 
-# Environment
-.env
-.env.local
-.env.*
+# Compiled files
+*.pyc
+*.class
+*.o
+*.exe
+*.dll
+*.so
+*.a
+*.obj
+*.out
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
+*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
 
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage
+.coverage
+coverage/
+htmlcov/
 
 # Python
 __pycache__/
@@ -23,27 +56,10 @@ __pycache__/
 *.pyo
 *.pyd
 .Python
-env/
-venv/
-.venv/
-.ENV
-.pipenv
-.pytest_cache/
-.mypy_cache/
-.coverage
-coverage/
-htmlcov/
+*.so
 
-# Node.js
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-node_modules/
+# Build artifacts
 dist/
 build/
-.nyc_output/
-coverage/
-.nyc_output/
-istanbul/
-.coverage/
+*.egg-info/
 ```
