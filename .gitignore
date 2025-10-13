@@ -1,6 +1,19 @@
 ```
-# PowerShell/Windows specific
-*.ps1~
-*.psm1~
-*.psd1~
+# R build artifacts
+*.Rproj.user/
+.Rhistory
+.RData
+*.o
+*.so
+*.dll
+
+# Images (keeping as they appear to be output files)
+# scatter_plot_7129.png - not ignoring as it appears to be a generated output that might be useful
+
+# Dependencies
+Rplots.pdf
+
+# Temp files
+*.tmp
+*.log
 ```
