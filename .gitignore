@@ -1,17 +1,17 @@
 ```
-# Build artifacts
-*.o
-*.obj
-*.out
+# Dependencies
+node_modules/
 
-# Environment files
+# Build artifacts
+dist/
+build/
+*.bundle.js
+*.chunk.js
+
+# Environment
 .env
 .env.local
-*.env.*
-
-# Logs and temp files
-*.log
-*.tmp
+.env.
 
 # Editors
 .vscode/
@@ -19,19 +19,10 @@
 *.swp
 *.swo
 
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-dist/
-build/
-target/
-.gradle/
+# Logs
+*.log
 
-# System files
+# OS
 .DS_Store
 Thumbs.db
 
@@ -40,7 +31,32 @@ coverage/
 htmlcov/
 .coverage
 
-# Compressed files
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage*
+.cache
+
+# Compiled and binary
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
+# Compressed
 *.zip
 *.gz
 *.tar
@@ -59,8 +75,55 @@ htmlcov/
 *.Z
 *.lz
 *.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+
+# Temp files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Testing
+.mypy_cache/
+.pytest_cache/
+.nyc_output/
+coverage/
+
+# Java/Gradle
+target/
+.gradle/
+build/
+*.class
+*.jar
+*.war
+*.ear
+
+# Node.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+node_modules/
+jspm_packages/
+*.npm
+.npm
+.npmrc
+
+# Vite specific
+!.vite/
+vite/dist
+
+# React specific
+*.hot-update.js
+*.hot-update.json
+
+# Browsers
+*.css.map
+*.js.map
+
+# System
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 ```
