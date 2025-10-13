@@ -1,3 +1,1 @@
-```
-# Schema file is a source file, no need to ignore
-```
+Nothing should be ignored based on the provided file changes. The added file 'login-form-34b1a.vue' is a source code file that should be tracked in version control.
