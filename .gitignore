@@ -1,1 +1,33 @@
-(factorial_3544.py is a source file, and there are no build artifacts, dependencies, or temp files in the changes)
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+
+# Dependencies
+vendor/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Go-specific
+*.a
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.prof
+.cover
+```
