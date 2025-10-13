@@ -1,23 +1,19 @@
 ```
-# Build artifacts
-*.o
-*.obj
-*.out
-
-# Environment files
-.env
-.env.local
-*.env.*
+# Jenkins-related files
+Jenkinsfile
 
 # Logs and temp files
 *.log
 *.tmp
 
+# Environment
+.env
+.env.local
+*.env.*
+
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
 # Dependencies
 node_modules/
@@ -30,6 +26,17 @@ dist/
 build/
 target/
 .gradle/
+
+# Compiled files
+*.pyc
+*.class
+*.o
+*.exe
+*.dll
+*.so
+*.a
+*.obj
+*.out
 
 # System files
 .DS_Store
