@@ -1,47 +1,59 @@
 ```
-# PHP specific ignores
-*.php~
-*.php.bak
-*.bak
-*.tmp
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
 
-# Environment and config
+# Dependencies
+.venv/
+venv/
+node_modules/
+dist/
+build/
+target/
+.gradle/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
 .env
 .env.local
 .env.*
 
-# Logs
-*.log
-*.out
-
-# Editor/IDE files
+# Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
 # System files
 .DS_Store
 Thumbs.db
 
-# Cache and temporary directories
-__pycache__/
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Python specific
 *.pyc
+__pycache__/
 *.pyo
+*.pyd
 .Python
-.pytest_cache/
-.mypy_cache/
+*.so
 
-# Build and distribution
-build/
-dist/
-*.egg-info/
-target/
-node_modules/
-vendor/
-composer.lock
+# Django specific
+*.mo
+*.pot
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
 
-# Compression files
+# Compressed files
 *.zip
 *.gz
 *.tar
