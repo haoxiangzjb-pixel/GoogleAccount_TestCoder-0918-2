@@ -1,42 +1,9 @@
 ```
-# Compiled Python files
-*.pyc
-__pycache__/
-
-# Logs
-*.log
-
 # Environment files
 .env
 .env.local
 *.env.*
 
-# Temporary files
-*.tmp
-*.swp
-*.swo
-
-# Coverage reports
-.coverage
-coverage/
-htmlcov/
-
-# Python cache
-.mypy_cache/
-.pytest_cache/
-
-# Virtual environments
-.venv/
-venv/
-env/
-
-# Editor/IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# System files
-.DS_Store
-Thumbs.db
+# Configuration files (if they contain sensitive data)
+*config*.toml
 ```
