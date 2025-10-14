@@ -1,11 +1,6 @@
 ```
-# Executables
-find_max
-
-# Temporary files
-*.tmp
-*.txt
-
-# Logs
-*.log
+# Environment files
+.env
+.env.local
+.env.*
 ```
