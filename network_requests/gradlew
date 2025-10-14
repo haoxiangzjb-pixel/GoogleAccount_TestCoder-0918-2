@@ -1,0 +1,4 @@
+#!/bin/sh
+
+echo "This is a mock gradlew script for demonstration."
+echo "In a real project, this would be the Gradle wrapper executable."

@@ -1,5 +1,29 @@
-(todo_list_20251014.md is a markdown file, which is a source/config file, so no .gitignore content needed)
+```
+# Gradle
+.gradle/
+build/
+dist/
+target/
 
-```markdown
+# Dependencies
+.libs/
+lib/
 
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
 ```
