@@ -1,7 +1,44 @@
 ```
-# Temporary Ansible task files
-ansible_task_*.yml
+# Compiled and build artifacts
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar
+*.tar.gz
+build/
+dist/
+target/
 
-# Source files - keep in version control
-# source_file.txt should be tracked
+# Dependencies
+.gradle/
+node_modules/
+lib/
+libs/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# System files
+.DS_Store
+Thumbs.db
 ```
