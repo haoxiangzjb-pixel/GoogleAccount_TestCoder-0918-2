@@ -1,4 +1,5 @@
 ```
-# GraphQL schema
-schema.graphql
+# Logs and temp files
+*.log
+stats_*.pl
 ```
