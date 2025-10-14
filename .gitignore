@@ -1,36 +1,5 @@
-```
-# Compiled and build artifacts
-*.swiftmodule
-*.swiftdoc
-*.sib
-*.sib~
-*.bc
-*.o
-*.obj
+(todo_list_20251014.md is a markdown file, which is a source/config file, so no .gitignore content needed)
 
-# Dependencies
-Packages/
-.build/
-.derived/
-DerivedData/
+```markdown
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# System files
-.DS_Store
-Thumbs.db
 ```
