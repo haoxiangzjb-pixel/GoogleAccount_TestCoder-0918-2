@@ -1,24 +1,7 @@
 ```
-# Compiled and build artifacts
-*.beam
-*.o
-*.obj
+# SQL query files (if they contain sensitive data or are auto-generated)
+*.sql
 
-# Dependencies
-ebin/
-deps/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# Environment
-.env
-.env.local
-.env.*
+# If the SQL file is in a specific directory pattern
+query_*.sql
 ```
