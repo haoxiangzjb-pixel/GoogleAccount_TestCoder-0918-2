@@ -1,1 +1,15 @@
-Nothing should be ignored since the added file `square_function_9274.fs` is a source code file (.fs - F# source file) and no build artifacts, dependencies, or temporary files are present in the changes.
+```
+# LaTeX build artifacts
+*.aux
+*.log
+*.toc
+*.lof
+*.lot
+*.out
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.pdf
+```
