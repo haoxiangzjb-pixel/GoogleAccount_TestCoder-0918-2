@@ -1,25 +1,19 @@
 ```
-# Compiled and build artifacts
-*.class
-*.o
-*.obj
-
-# Dependencies
-*.jar
-lib/
-target/
+# PowerShell script backup/autosave files
+*~
+*.tmp
+*.bak
 
 # Logs and temp files
 *.log
-*.tmp
-*.swp
 
-# Editors
+# Editor/IDE files
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# Environment
-.env
-.env.local
-*.env.*
+# System files
+.DS_Store
+Thumbs.db
 ```
