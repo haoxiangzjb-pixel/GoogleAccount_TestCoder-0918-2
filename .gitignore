@@ -1,38 +1,37 @@
 ```
-# Compiled and build artifacts
+# Compiled files
+*.cmi
+*.cmo
+*.cma
+*.cmx
+*.cmxa
+*.cmxs
 *.o
-*.obj
-*.exe
-*.dll
-*.so
 *.a
-*.out
+*.so
+*.exe
+
+# Build artifacts
+_build/
+_dbuild/
+*.native
+*.byte
+*.js
 
 # Dependencies
-.venv/
-venv/
-node_modules/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-dist/
-build/
-target/
-.gradle/
+.opam/
+.dune/
+esy.lock/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
 
 # Logs and temp files
 *.log
 *.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
 
 # System files
 .DS_Store
