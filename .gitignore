@@ -1,1 +1,36 @@
-(empty)
+```matlab
+# Compiled and build artifacts
+*.mex*
+*.oct
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.out
+
+# Dependencies
++*
+@*
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# MATLAB specific
+*.fig
+*.mat
+*.mexw64
+*.mexa64
+*.mexmaci64
+*.mexmaca64
+*.p
+```
