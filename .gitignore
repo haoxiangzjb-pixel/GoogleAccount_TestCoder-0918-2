@@ -1,63 +1,24 @@
 ```
-# Build artifacts
-*.js.map
-dist/
-build/
+# Compiled and build artifacts
+*.class
+*.o
+*.obj
+
+# Dependencies
+*.jar
+target/
 
 # Logs and temp files
 *.log
 *.tmp
-
-# Environment
-.env
-.env.local
-*.env.*
+*.swp
 
 # Editors
 .vscode/
 .idea/
 
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-*.so
-
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Output files
-output_*.json
+# Environment
+.env
+.env.local
+*.env.*
 ```
