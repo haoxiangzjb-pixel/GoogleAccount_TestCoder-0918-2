@@ -1,51 +1,24 @@
 ```
-# VBA specific ignores
-*.frx
-*.bas
-*.cls
-*.frm
-*.vba
-*.vbe
-*.dsr
-*.ctl
-*.pag
-*.dob
-*.vbs
-*.js
-*.hta
-*.wsh
-*.wsf
-*.vsmacros
-*.vsspell
-*.sln
-*.user
-*.userosscache
-*.suo
-*.tmp
-*.log
-*.bak
-*.cache
+# Compiled and build artifacts
+*.beam
+*.o
 *.obj
-*.tlb
-*.dll
-*.exe
-*.msi
-*.msp
-*.msm
+
+# Dependencies
+deps/
+_build/
+
+# Logs and temp files
+*.log
 *.tmp
-*.temp
-*.old
-*.orig
-*.rej
-*.~
-*~
-Thumbs.db
-.DS_Store
-desktop.ini
 *.swp
-*.swo
-.vba.bak
-.vbs.bak
-.vba~
-.vbs~
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
 ```
