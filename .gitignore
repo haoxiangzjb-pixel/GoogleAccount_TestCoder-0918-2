@@ -1,4 +1,4 @@
 ```
-# Kubernetes config
-k8s_service_config_webapp.yaml
+# Compiled and build artifacts
+*.ex
 ```
