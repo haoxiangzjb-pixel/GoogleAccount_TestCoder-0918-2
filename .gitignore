@@ -1,31 +1,30 @@
 ```
-# Build artifacts and compiled files
-*.dll
-*.exe
-*.pdb
-*.unity3d
-*.asset
-*.prefab
-*.meta
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
 
-# Unity specific
-Library/
-Temp/
-Obj/
-Logs/
-MemoryCaptures/
-Build/
+# Assembly specific
+*.lst
+*.map
+*.bin
+*.hex
 
-# IDE
-.vs/
-*.user
-*.userprefs
-*.sln.DotSettings
-*.csproj.DotSettings
-*.pidb
-*.suo
+# Dependencies
+build/
+dist/
 
-# OS
-.DS_Store
-Thumbs.db
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+*.env.*
 ```
