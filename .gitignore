@@ -1,5 +1,18 @@
-(reverse_list.ex is a source code file, so no ignores needed)
+```
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
-```elixir
+# Environment
+.env
+.env.local
+*.env.*
 
+# Editors
+.vscode/
+.idea/
+
+# Output files
+*.txt
 ```
