@@ -1,4 +1,1 @@
-```
-*.tmp
-temp_*
-```
+Nothing should be ignored based on the provided file changes, as only a source code file (`person_class.rb`) was added without any build artifacts, dependencies, or temporary files.
