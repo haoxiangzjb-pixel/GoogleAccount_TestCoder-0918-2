@@ -1,25 +1,22 @@
 ```
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-.venv/
-pip-log.txt
-pip-delete-this-directory.txt
+# Compiled files
+*.o
+*.obj
+*.hi
+*.chi
+*.chs
 
-# Generated files
+# Dependencies
+.cabal-sandbox/
+cabal-dev/
 dist/
-build/
-*.egg
-*.egg-info/
-.eggs/
+dist-newstyle/
+.stack-work/
 
-# Logs
+# Logs and temp files
 *.log
+*.tmp
+*.swp
 
 # Environment
 .env
@@ -31,6 +28,17 @@ build/
 .idea/
 *.swp
 *.swo
+
+# Build artifacts
+build/
+target/
+out/
+bin/
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
 
 # OS
 .DS_Store
