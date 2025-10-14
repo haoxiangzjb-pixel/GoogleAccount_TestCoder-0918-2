@@ -1,0 +1,9 @@
+---
+- name: Copy a file using Ansible
+  hosts: localhost
+  tasks:
+    - name: Copy source file to destination
+      copy:
+        src: /workspace/source_file.txt
+        dest: /workspace/copied_file_destination.txt
+        mode: '0644'
