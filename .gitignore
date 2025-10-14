@@ -1,23 +1,33 @@
-```matlab
+```
+# Julia-specific ignores
+*.ji
+*.jl.cov
+*.jl.mem
+.julia/
+.JuliaFormatter.toml
+.JuliaFormatter/
+
 # Compiled and build artifacts
-*.mex*
-*.oct
 *.o
 *.obj
+*.out
 *.so
 *.dll
 *.exe
-*.out
 
 # Dependencies
-+*
-@*
+.julia/
+julia-*/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
 
 # Editors
 .vscode/
@@ -25,12 +35,12 @@
 *.swp
 *.swo
 
-# MATLAB specific
-*.fig
-*.mat
-*.mexw64
-*.mexa64
-*.mexmaci64
-*.mexmaca64
-*.p
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# OS
+.DS_Store
+Thumbs.db
 ```
