@@ -1,35 +1,12 @@
 ```
-# Compiled and build artifacts
-*.f
-*.o
-*.obj
-*.exe
-*.out
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfplan
+*.lock.hcl
 
-# Dependencies
-.julia/
-.zig-cache/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# System files
-.DS_Store
-Thumbs.db
+# Variables file (if it contains sensitive data)
+variable.tf
 ```
