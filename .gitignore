@@ -1,4 +1,12 @@
 ```
-# Configuration backup files
-app_settings_*.toml
+#Temp files
+*.tmp
+temp_*.txt
+
+#Compiled and build artifacts
+*.css.map
+*.min.css
+
+#Logs
+*.log
 ```
