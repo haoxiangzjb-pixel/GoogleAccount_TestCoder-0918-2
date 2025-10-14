@@ -1,1 +1,9 @@
-Nothing should be ignored based on the provided file changes. The added file 'MyController.cs' is a source code file that should be tracked in version control.
+```
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Configuration files with sensitive names
+*config*.ini
+```
