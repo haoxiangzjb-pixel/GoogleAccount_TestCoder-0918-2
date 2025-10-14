@@ -1,7 +1,32 @@
 ```
-# R build artifacts
-*.Rproj.user/
-.Rhistory
-.RData
-*.png
+# Compiled and build artifacts
+*.beam
+*.ez
+*.app
+ebin/
+_build/
+
+# Dependencies
+deps/
+mix/
+.rebar3/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Logs and temp files
+*.log
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
 ```
