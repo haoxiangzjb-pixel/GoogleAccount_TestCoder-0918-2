@@ -1,33 +1,17 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
+# Julia build artifacts and compiled files
+*.ji
+*.cache
 
-# Dependencies
-vendor/
+# Julia installation directory
+julia-*/
+julia.tar.gz
 
-# Logs and temp files
-*.log
+# Temporary and build files
 *.tmp
-*.swp
+*.log
 
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# Go-specific
-*.a
-*.exe
-*.dll
-*.so
-*.dylib
-*.test
-*.prof
-.cover
+# System files
+.DS_Store
+Thumbs.db
 ```
