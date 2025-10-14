@@ -1,5 +1,41 @@
-(button_styles.css is a source file, so no .gitignore rules needed)
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
 
-```gitignore
+# Dependencies
+__pycache__/
+*.pyc
+*.pyo
 
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Build directories
+build/
+dist/
+target/
 ```
