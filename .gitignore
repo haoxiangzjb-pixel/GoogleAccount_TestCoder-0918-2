@@ -1,1 +1,36 @@
-(random_view_abc123.py is a source file, so no .gitignore rules needed)
+```
+# Compiled files
+*.cmi
+*.cmo
+*.cma
+*.cmx
+*.cmxa
+*.cmxs
+*.exe
+*.out
+
+# Build artifacts
+_build/
+_dbuild/
+*.native
+*.byte
+
+# Dependencies
+.opam/
+.dune/
+esy.lock/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
+```
