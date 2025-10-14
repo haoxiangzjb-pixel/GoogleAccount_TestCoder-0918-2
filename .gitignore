@@ -1,4 +1,18 @@
 ```
+# PowerShell/Windows specific
+*.tmp
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
 # Environment files
 .env
 .env.local
@@ -7,48 +21,10 @@
 # Logs
 *.log
 
-# Temporary files
-*.tmp
-*.swp
-*.swo
-
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-.julia/
-zig*/
-target/
-.gradle/
-
-# Build artifacts
-dist/
-build/
-*.pyc
-*.class
-*.o
-*.exe
-*.dll
-*.so
-*.a
-*.obj
-*.out
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Editor/IDE
-.vscode/
-.idea/
+# Backup files
+*~
+*.bak
+*.backup
 
 # Compressed files
 *.zip
