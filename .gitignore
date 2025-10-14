@@ -1,44 +1,48 @@
 ```
-# Compiled Python files
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfplan
+*.lock.hcl
+
+# Compiled and build artifacts
 *.pyc
 __pycache__/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
-# Model files (if they are large binary files)
-*.keras
-
-# Virtual environments
+# Dependencies
+node_modules/
 venv/
 .venv/
 .env
 .env.local
+.env.*
 
-# Logs
+# Logs and temp files
 *.log
+*.tmp
+*.swp
 
-# Editor files
+# Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
 # System files
 .DS_Store
 Thumbs.db
 
-# Coverage reports
+# Coverage
 coverage/
 htmlcov/
-*.coverage
-
-# Distribution / build artifacts
-dist/
-build/
-target/
-*.egg-info/
-
-# Temporary files
-*.tmp
-*.temp
+.coverage
 
 # Compressed files
 *.zip
