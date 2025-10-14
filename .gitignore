@@ -1,1 +1,9 @@
-Nothing should be ignored in this case, as the added file is a source code file (.lua) and there are no build artifacts, dependencies, or temporary files in the changes.
+```
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Configuration files (if they contain sensitive data)
+*.ini
+```
