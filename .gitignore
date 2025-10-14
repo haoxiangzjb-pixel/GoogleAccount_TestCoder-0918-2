@@ -1,1 +1,5 @@
-Nothing should be ignored based on the provided file changes. The added file 'SY95MSlU6lYy.rb' is a source code file that should be tracked in version control.
+(check_memory.sh is a shell script file, which is a source code file, so no .gitignore rules needed)
+
+```bash
+
+```
