@@ -1,1 +1,40 @@
-(binary_classifier_4567.py is a source file, and there are no build artifacts, dependencies, or temp files in the changes)
+```
+# Zig build artifacts
+zig-cache/
+zig-out/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.lib
+*.dylib
+*.pdb
+*.dSYM/
+*.ilk
+*.exp
+*.iobj
+*.ipdb
+*.tlog
+*.obj
+*.res
+
+# Dependencies
+.zig/
+zig-*/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+```
