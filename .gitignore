@@ -1,4 +1,1 @@
-```
-# Kubernetes config
-k8s_service_config_webapp.yaml
-```
+(book_data.json is a data file, not a build artifact, dependency, or temp file - it should not be ignored)
