@@ -1,22 +1,12 @@
 ```
-# Executables
-find_max
-
-# Generated result files
-*.txt
-
 # Compiled and build artifacts
+*.beam
 *.o
 *.obj
-*.out
 
 # Dependencies
-node_modules/
-.venv/
-venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
+deps/
+_build/
 
 # Logs and temp files
 *.log
@@ -27,7 +17,8 @@ __pycache__/
 .vscode/
 .idea/
 
-# System files
-.DS_Store
-Thumbs.db
+# Environment
+.env
+.env.local
+*.env.*
 ```
