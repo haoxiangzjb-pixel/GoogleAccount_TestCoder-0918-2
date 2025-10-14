@@ -1,4 +1,1 @@
-```
-# SQL query files
-*.sql
-```
+Nothing should be ignored since only a MATLAB source file (.m) was added, which is a source code file and not a build artifact, dependency, or temporary file.
