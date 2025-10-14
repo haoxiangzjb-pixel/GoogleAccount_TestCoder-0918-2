@@ -1,47 +1,13 @@
 ```
-# Terraform
-.terraform/
-*.tfstate
-*.tfstate.*
-*.tfvars
-*.tf.json
-.terraform.lock.hcl
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Build artifacts
-dist/
-build/
-target/
-*.out
-*.exe
-*.dll
-*.so
-*.a
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-*.swo
-
-# Editors
-.vscode/
-.idea/
-
-# System files
-.DS_Store
-Thumbs.db
+# Thrift generated files
+*.py
+*.js
+*.java
+*.go
+*.cpp
+*.rb
+*.php
+*.c
+*.h
+gen-*/
 ```
