@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<student>
+    <name>Иванов Иван Иванович</name>
+    <id>12345</id>
+    <major>Информационные технологии</major>
+    <year>3</year>
+    <gpa>4.5</gpa>
+</student>
