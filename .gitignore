@@ -1,22 +1,16 @@
 ```
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
+# Compiled and build artifacts
+*.ji
+*.o
+*.obj
+*.out
 
-# Tests
-.pytest_cache/
-.coverage
-coverage/
-htmlcov/
-
-# Environment
-.venv/
-venv/
-.env
-.env.local
-*.env.*
+# Dependencies
+.julia/
+.julia-*/ 
+deps/
+test/
+build/
 
 # Logs and temp files
 *.log
@@ -24,10 +18,6 @@ venv/
 *.swp
 
 # Editors
-.vscode/
-.idea/
-
-# OS
-.DS_Store
-Thumbs.db
+.julia_config/
+.julia_history
 ```
