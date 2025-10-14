@@ -1,11 +1,11 @@
 ```
-# TypeScript/JavaScript build artifacts
-*.js
-*.js.map
-*.tsbuildinfo
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
 
 # Dependencies
-node_modules/
+vendor/
 
 # Logs and temp files
 *.log
@@ -21,19 +21,13 @@ node_modules/
 .vscode/
 .idea/
 
-# Coverage and test reports
-coverage/
-htmlcov/
-*.coverage
-.nyc_output/
-
-# Build directories
-dist/
-build/
-out/
-lib/
-
-# OS generated files
-.DS_Store
-Thumbs.db
+# Go specific
+*.a
+*.so
+*.dll
+*.dylib
+*.exe
+*.test
+*.prof
+.cover
 ```
