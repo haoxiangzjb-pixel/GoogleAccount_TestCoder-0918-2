@@ -1,36 +1,67 @@
 ```
-# Compiled Haskell files
-*.o
-*.hi
-*.chi
-*.chs.h
-*.dyn_o
-*.dyn_hi
+# Compiled and build artifacts
+*.class
+*.jar
+*.war
+*.ear
+*.scala
+target/
 
-# Cabal and Stack build artifacts
-dist/
-dist-newstyle/
-.cabal-sandbox/
-cabal.sandbox.config
-.stack-work/
+# Dependencies
+lib/
+project/target/
+.mvn/
+.gradle/
 
-# GHCi files
-.hpc/
-.hsenv/
-.ghc.environment.*
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
-# Editor/IDE files
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
 .vscode/
 .idea/
 *.swp
 *.swo
-*.tmp
 
-# Logs
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Python (if mixed project)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
 *.log
-
-# Environment files
-.env
-.env.local
-*.env.*
+.git/
+*.git
+!*.gitignore
+*.gitignore
+*.gitmodules
+*.gitattributes
+.DS_Store
+Thumbs.db
 ```
