@@ -1,1 +1,30 @@
-Nothing to output - the change list contains only a source code file (.adb) which should not be ignored.
+```
+# VBA specific ignores
+*.vba.bak
+*.vbs.bak
+*.bas.bak
+
+# Excel related ignores (if VBA is Excel-related)
+*.xlsm
+*.xlsb
+*.xlam
+*.xla
+
+# General temp files
+*.tmp
+*.temp
+*.bak
+
+# Logs
+*.log
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+```
