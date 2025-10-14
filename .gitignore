@@ -1,12 +1,16 @@
 ```
 # Compiled and build artifacts
-*.beam
+*.mex
+*.mexa64
+*.mexw64
+*.mexw32
+*.oct
 *.o
 *.obj
 
 # Dependencies
-ebin/
-deps/
+octave-workspace/
+*.mat
 
 # Logs and temp files
 *.log
@@ -17,8 +21,7 @@ deps/
 .vscode/
 .idea/
 
-# Environment
-.env
-.env.local
-.env.*
+# System files
+.DS_Store
+Thumbs.db
 ```
