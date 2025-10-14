@@ -1,20 +1,47 @@
 ```
-# VBA project files
-*.bas
-*.vba
-*.frm
-*.cls
-*.vbp
-*.sln
-*.user
-*.userosscache
-*.suo
-*.vbproj*
-*.cache
+# Dependencies
+node_modules/
+
+# Build artifacts
+dist/
+build/
+target/
+
+# Package lock files
+package-lock.json
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs
 *.log
-*.bak
+
+# Temporary files
 *.tmp
-*.~
-Thumbs.db
+*.swp
+*.swo
+
+# OS generated files
 .DS_Store
+Thumbs.db
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# IDE files
+.vscode/
+.idea/
+
+# MyPy cache
+.mypy_cache/
 ```
