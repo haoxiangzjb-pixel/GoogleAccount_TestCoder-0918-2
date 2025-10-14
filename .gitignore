@@ -1,1 +1,35 @@
-Nothing should be ignored based on the provided file changes. The added file 'factorial_1.ml' is a source code file (.ml extension indicates OCaml source code) and should be tracked in version control. No build artifacts, dependencies, or temporary files are present in the changes.
+```
+# Compiled and build artifacts
+*.cmi
+*.cmo
+*.cma
+*.cmx
+*.cmxa
+*.cmxs
+*.exe
+*.out
+*.o
+*.obj
+
+# Dependencies
+_dune/
+.opam/
+esy.lock/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OCaml specific
+*.annot
+*.cmt
+*.cmti
+*.merlin
+```
