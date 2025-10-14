@@ -1,1 +1,1 @@
-Nothing should be ignored since the only added file is a source code file (.adb) and there are no build artifacts, dependencies, or temporary files in the changes.
+(ts is a source code file, so no need to ignore)
