@@ -4,21 +4,23 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building..'
-                // Add your build commands here, e.g., sh 'make'
+                echo 'Compiling source code...'
+                // Insert your specific build commands here, for example:
+                // sh 'npm install' or sh 'mvn compile'
             }
         }
         stage('Test') {
             steps {
-                echo 'Testing..'
-                // Add your test commands here, e.g., sh 'make test'
+                echo 'Running unit tests...'
+                // Insert your specific test commands here, for example:
+                // sh 'npm test' or sh 'mvn test'
             }
         }
     }
 
     post {
         always {
-            echo 'Pipeline finished.'
+            echo 'Pipeline execution completed.'
         }
     }
 }
