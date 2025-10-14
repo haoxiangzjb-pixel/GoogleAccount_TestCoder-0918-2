@@ -1,1 +1,39 @@
-Nothing should be ignored based on the provided file changes. The added file 'analyze_data.R' is a source code file that should be tracked in version control.
+```
+# OCaml build artifacts
+*.cmi
+*.cmo
+*.cmx
+*.cma
+*.cmxa
+*.cmxs
+*.exe
+*.out
+*.o
+*.obj
+
+# Dune build directory
+_build/
+_dbuild/
+
+# OPAM local switch
+.opam/
+
+# Merlin configuration
+.merlin
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+```
