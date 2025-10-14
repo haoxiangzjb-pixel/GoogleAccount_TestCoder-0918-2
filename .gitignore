@@ -1,31 +1,30 @@
 ```
-# Executables
-find_max
-
-# Generated result files
-*.txt
-
 # Compiled and build artifacts
+*.mex*
 *.o
 *.obj
-*.out
+*.dll
+*.so
+*.a
+*.lib
+*.dylib
+*.exe
 
 # Dependencies
-node_modules/
-.venv/
-venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
+matlab/
+octave/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
+*.swo
 
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
 # System files
 .DS_Store
