@@ -1,39 +1,45 @@
 ```
-# Unity specific ignores
-Library/
-Temp/
-Obj/
-Build/
-Builds/
-*.unityproj
-*.sln
-*.user
-*.userprefs
-*.pidb
-*.booproj
-*.svd
-*.meta
-*.cache
-*.log
-
 # Compiled and build artifacts
-*.dll
-*.exe
-*.pdb
-*.mdb
-*.exe.config
-*.userprefs
+*.pyc
+__pycache__/
 
-# Dependencies
-Packages/
-ProjectSettings/
-
-# Temp files
+# Logs and temp files
+*.log
 *.tmp
-*.temp
-*.bak
+*.swp
 
-# OS generated files
-.DS_Store
-Thumbs.db
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Python specific
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 ```
