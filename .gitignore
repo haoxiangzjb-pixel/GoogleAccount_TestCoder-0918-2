@@ -1,1 +1,30 @@
-Nothing to ignore - the change list contains only a source code file (.groovy) without any build artifacts, dependencies, or temporary files.
+```
+# Compiled and build artifacts
+*.nimble
+*.nims
+*.out
+*.exe
+*.dll
+*.so
+*.a
+*.o
+*.obj
+
+# Dependencies
+.nimble/
+nimcache/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+*.env.*
+```
