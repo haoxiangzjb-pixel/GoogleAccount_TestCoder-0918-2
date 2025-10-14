@@ -1,1 +1,1 @@
-Nothing needs to be added to .gitignore for this change list, as it only contains a source code file (.swift) without any build artifacts, dependencies, or temporary files.
+(check_disk_usage.sh is a shell script source file, not a build artifact, dependency, or temp file, so no .gitignore rules are needed)
