@@ -1,51 +1,55 @@
 ```
-# Build system
-compile_rule.mk
+# SQL query files
+*.sql
 
-# Compiled and build artifacts
-*.o
-*.obj
-*.a
-*.so
-*.dll
-*.exe
-*.out
-
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-dist/
-build/
-target/
-.gradle/
-
-# Logs and temp files
-*.log
+# Temporary and backup files
 *.tmp
-*.swp
-*.swo
+*.bak
+*~
+.swp
+.swo
 
-# Environment
+# Logs
+*.log
+
+# Environment files
 .env
 .env.local
 *.env.*
 
-# Editors
+# Editor/IDE files
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# System files
+# OS generated files
 .DS_Store
 Thumbs.db
 
-# Coverage
+# Build artifacts and dependencies (if any)
+dist/
+build/
+target/
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
+# Coverage and testing
 coverage/
 htmlcov/
 .coverage
+*.coverage
 
 # Compressed files
 *.zip
