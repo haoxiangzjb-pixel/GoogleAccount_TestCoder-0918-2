@@ -1,6 +1,12 @@
 ```
-# PowerShell/Windows specific
-*.ps1~
-*.psm1~
-*.psd1~
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+*.auto.tfvars
+.terraform.lock.hcl
+
+# Variables file (if it contains sensitive data)
+terraform_variable_1.hcl
 ```
