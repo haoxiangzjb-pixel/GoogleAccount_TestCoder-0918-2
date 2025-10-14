@@ -1,1 +1,56 @@
-(ts is a source code file, so no need to ignore)
+```
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+
+# Dependencies
+.venv/
+venv/
+node_modules/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
+# Python specific
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Distribution / packaging
+.Python
+*.egg-info/
+.egg-info
+dist/
+build/
+*.egg
+*.whl
+*.zip
+*.tar.gz
+*.tar.bz2
+
+# IDE
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+```
