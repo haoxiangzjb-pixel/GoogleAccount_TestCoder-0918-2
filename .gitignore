@@ -1,1 +1,4 @@
-(random_email_script_72945.pl is a source code file, not a build artifact, dependency, or temp file, so no .gitignore rules needed)
+```
+*.tmp
+tmp.*
+```
