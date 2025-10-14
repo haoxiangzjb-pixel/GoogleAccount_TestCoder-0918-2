@@ -1,1 +1,20 @@
-(random_email_script_72945.pl is a source code file, not a build artifact, dependency, or temp file, so no .gitignore rules needed)
+```
+# Configuration files
+*.yml
+*.yaml
+
+# Ansible specific
+*.retry
+*.log
+
+# Backup and swap files
+*.swp
+*.swo
+*~
+```
+
+Wait, let me reconsider - the only file added is `restart_service_playbook_12345.yml` which appears to be a source/config file (Ansible playbook). This is not a build artifact, dependency, or temporary file. Following rule #6, since this is primarily a source/config file and not build artifacts or dependencies, the output should be empty.
+
+```
+
+```
