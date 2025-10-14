@@ -1,1 +1,1 @@
-(api_data.json is a data file, not a build artifact, dependency, or temp file - it appears to be source data that should be tracked)
+(student_grades.lua is a source code file, and there are no build artifacts, dependencies, or temp files in the changes)
