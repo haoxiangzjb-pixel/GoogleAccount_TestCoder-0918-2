@@ -1,5 +1,13 @@
-(button_styles.css is a source file, so no .gitignore rules needed)
+```
+# PowerShell files
+*.ps1
 
-```gitignore
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
+# Editors
+.vscode/
+.idea/
 ```
