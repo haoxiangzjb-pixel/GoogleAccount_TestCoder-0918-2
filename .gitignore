@@ -1,1 +1,40 @@
-Nothing should be ignored based on the provided file changes. The added file 'README_12345.md' is a source/config file and should not be added to .gitignore.
+```
+# Compiled and build artifacts
+*.pl~
+
+# Logs and temp files
+*.tmp
+*.log
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.dll
+*.exe
+*.out
+
+# Build directories
+dist/
+build/
+target/
+*.class
+
+# OS generated files
+.DS_Store
+Thumbs.db
+```
