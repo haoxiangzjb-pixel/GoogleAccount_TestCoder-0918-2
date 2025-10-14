@@ -1,12 +1,19 @@
 ```
-# Compiled and build artifacts
-*.beam
-*.o
-*.obj
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tf.backup
+*.tf.json
+*.tfplan
+*.tfplan.json
+*.lock.hcl
 
-# Dependencies
-deps/
-_build/
+# Environment
+.env
+.env.local
+.env.
 
 # Logs and temp files
 *.log
@@ -16,9 +23,10 @@ _build/
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# Environment
-.env
-.env.local
-*.env.*
+# OS
+.DS_Store
+Thumbs.db
 ```
