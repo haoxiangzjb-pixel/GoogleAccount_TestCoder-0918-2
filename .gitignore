@@ -1,29 +1,15 @@
 ```
-# TypeScript/JavaScript build artifacts
-*.js
-*.js.map
-*.tsbuildinfo
+# Temporary shell scripts
+*.sh
+!check_memory.sh
+!save_random_memory_check.sh
 
-# Dependencies
-node_modules/
-
-# Editors
-.vscode/
-.idea/
+# Backup and temp files
+*.tmp
+*~
+.swp
+.swo
 
 # Logs
 *.log
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Temp files
-*.tmp
-*.swp
-
-# Build directories
-dist/
-build/
 ```
