@@ -1,4 +1,5 @@
 ```
-# Backup scripts
-backup_*.sh
+# Configuration file
+*.yml
+*.yaml
 ```
