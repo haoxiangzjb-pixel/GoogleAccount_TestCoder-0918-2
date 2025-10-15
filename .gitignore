@@ -1,19 +1,29 @@
 ```
-# PHP specific
-*.php~
-
 # Compiled and build artifacts
-*.o
+*.exe
+*.dll
+*.so
+*.a
 *.obj
 *.out
+obj/
+bin/
+dist/
+build/
 
 # Dependencies
-vendor/
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.egg-info/
+.Python
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
+*.swo
 
 # Environment
 .env
@@ -26,7 +36,7 @@ vendor/
 *.swp
 *.swo
 
-# System files
+# OS
 .DS_Store
 Thumbs.db
 
@@ -35,37 +45,27 @@ coverage/
 htmlcov/
 .coverage
 
-# Distribution / packaging
-dist/
-build/
-*.tar.gz
+# Compressed files
 *.zip
-
-# PHP tools configuration
-.php_cs
-.php_cs.dist
-.php-cs-fixer.php
-.php-cs-fixer.dist.php
-
-# PHP cache
-.php-cache/
-opcache/
-
-# Session files
-sess_*
-
-# Backup files
-*~
-*.bak
-*.swp
-
-# IDE specific
-nbproject/
-.settings/
-
-# OS generated files
-.DS_Store
-ehthumbs.db
-Icon?
-Thumbs.db
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
