@@ -1,32 +1,44 @@
 ```
-# Compiled files
-*.hs-boot
-*.hi
-*.o
-
-# Dependencies
-.cabal-sandbox/
-cabal-dev/
-dist/
-dist-newstyle/
-.stack-work/
-
-# Logs and temp files
-*.log
-*.tmp
-
-# Environment
+# Environment files
 .env
 .env.local
 *.env.*
 
+# Configuration files that might contain sensitive data
+*.ini
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# System
+# Dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+
+# Build artifacts
+dist/
+build/
+target/
+*.pyc
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
+# System files
 .DS_Store
 Thumbs.db
 ```
