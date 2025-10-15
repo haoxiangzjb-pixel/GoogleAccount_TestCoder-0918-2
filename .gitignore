@@ -1,1 +1,32 @@
-Nothing should be ignored since only a source code file (.pl - Perl file) was added and no build artifacts, dependencies, or temporary files are present in the changes.
+```
+# Compiled files
+*.hs-boot
+*.hi
+*.o
+
+# Dependencies
+.cabal-sandbox/
+cabal-dev/
+dist/
+dist-newstyle/
+.stack-work/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System
+.DS_Store
+Thumbs.db
+```
