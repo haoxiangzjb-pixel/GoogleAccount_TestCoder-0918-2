@@ -1,31 +1,4 @@
 ```
-# Terraform files
-.terraform/
-*.tfstate
-*.tfstate.*
-*.tfvars
-*.tf.json
-*.tfplan
-*.lock.hcl
-
-# Environment files
-.env
-.env.local
-*.env.*
-
-# Logs
-*.log
-
-# Temporary files
-*.tmp
-*.swp
-*~
-
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Backup files
-*.bak
-*.backup
+# GraphQL files - preserving source files
+# Note: GraphQL files (.graphql) are source code and should not be ignored
 ```
