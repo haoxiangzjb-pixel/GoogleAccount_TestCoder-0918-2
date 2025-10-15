@@ -1,1 +1,18 @@
-(empty)
+```
+#Temp files
+*.tmp
+*.temp
+tmp.*
+
+#System files
+.DS_Store
+Thumbs.db
+
+#Logs
+*.log
+
+#Environment
+.env
+.env.local
+*.env.*
+```
