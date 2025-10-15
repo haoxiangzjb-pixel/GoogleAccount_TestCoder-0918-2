@@ -1,29 +1,34 @@
 ```
 # Compiled and build artifacts
+*.ex
 *.pyc
-__pycache__/
+*.class
 *.o
 *.obj
-*.class
-*.exe
-*.dll
-*.so
-*.a
 *.out
+dist/
+build/
+target/
 
 # Dependencies
 node_modules/
 venv/
 .venv/
-.env
-.env.local
-.env.*
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+.gradle/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 *.swo
+
+# Environment
+.env
+.env.local
+*.env.*
 
 # Editors
 .vscode/
@@ -37,12 +42,6 @@ Thumbs.db
 coverage/
 htmlcov/
 .coverage
-
-# Build directories
-dist/
-build/
-target/
-.gradle/
 
 # Compressed files
 *.zip
@@ -63,19 +62,4 @@ target/
 *.Z
 *.lz
 *.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
-
-# Flutter/Dart specific
-*.dart.js
-*.part.js
-*.map
-.dart_tool/
-.flutter-plugins
-.flutter-plugins-dependencies
-.packages
-pubspec.lock
-build/
 ```
