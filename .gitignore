@@ -1,1 +1,26 @@
-Nothing should be ignored in this case, as the added file `components/login-form-67890.vue` is a source code file (Vue component) and there are no build artifacts, dependencies, or temporary files in the changes.
+```
+# Kubernetes/OpenShift deployment files
+*.yaml
+*.yml
+
+# If this is a Node.js project (based on the deployment file name)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+```
