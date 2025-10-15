@@ -1,1 +1,30 @@
-(empty)
+```
+# Compiled and build artifacts
+*.vcd
+*.o
+*.obj
+*.bin
+*.out
+
+# Dependencies
+*.lib
+*.a
+*.so
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Simulation and synthesis tools
+*.vvp
+*.fst
+*.ghw
+work/
+__pycache__/
+*.pyc
+```
