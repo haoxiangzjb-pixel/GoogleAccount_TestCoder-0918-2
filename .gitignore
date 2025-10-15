@@ -1,4 +1,28 @@
 ```
-# Compiled and build artifacts
-*.ex
+# Rust specific
+target/
+Cargo.lock
+
+# JSON files that might be generated
+*.json
+
+# Dependencies
+vendor/
+.cargo/
+
+# Build artifacts
+build/
+dist/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
