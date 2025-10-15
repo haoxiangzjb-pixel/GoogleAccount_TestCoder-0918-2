@@ -1,8 +1,35 @@
 ```
-# Compiled and build artifacts
-*.asm
-*.o
-*.obj
-*.out
-tmp.*
+# Compiled Java class files
+*.class
+
+# Maven build directory
+target/
+
+# Dependencies
+lib/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Coverage reports
+coverage/
+htmlcov/
+*.coverage
+
+# Test reports
+**/surefire-reports/
 ```
