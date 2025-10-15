@@ -1,4 +1,7 @@
 ```
+# GraphQL files
+*.graphql
+
 # Compiled and build artifacts
 *.pyc
 __pycache__/
