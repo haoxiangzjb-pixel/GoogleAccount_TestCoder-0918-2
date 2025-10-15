@@ -1,6 +1,13 @@
 ```
-# PowerShell session files
-*.ps1
+# VBA/Office files
+*.vba
+*.bas
+
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
 
 # Logs and temp files
 *.log
@@ -15,8 +22,10 @@
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# OS generated files
+# OS
 .DS_Store
 Thumbs.db
 ```
