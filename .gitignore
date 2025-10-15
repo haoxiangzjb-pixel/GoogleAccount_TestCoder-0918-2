@@ -1,1 +1,29 @@
-(empty)
+```
+# TypeScript/JavaScript build artifacts
+*.js
+*.js.map
+*.tsbuildinfo
+
+# Dependencies
+node_modules/
+
+# Editors
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Temp files
+*.tmp
+*.swp
+
+# Build directories
+dist/
+build/
+```
