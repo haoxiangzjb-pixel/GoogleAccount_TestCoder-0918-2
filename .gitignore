@@ -1,4 +1,45 @@
 ```
-# CI/CD
-.gitlab-ci.yml
+# Go build artifacts
+*.o
+*.a
+*.out
+*.test
+*.prof
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Go cache and tools
+.cache/
+go.sum
+!go.mod
+
+# Dependencies
+vendor/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# System files
+.DS_Store
+Thumbs.db
 ```
