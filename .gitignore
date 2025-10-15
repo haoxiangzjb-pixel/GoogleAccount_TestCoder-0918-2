@@ -1,29 +1,26 @@
 ```
-# TypeScript/JavaScript build artifacts
-*.js
-*.js.map
-*.tsbuildinfo
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
 
 # Dependencies
-node_modules/
+vendor/
+*.mod
+*.sum
 
-# Editors
-.vscode/
-.idea/
-
-# Logs
+# Logs and temp files
 *.log
+*.tmp
+*.swp
 
 # Environment
 .env
 .env.local
 .env.*
 
-# Temp files
-*.tmp
-*.swp
+# Editors
+.vscode/
+.idea/
 
-# Build directories
-dist/
-build/
 ```
