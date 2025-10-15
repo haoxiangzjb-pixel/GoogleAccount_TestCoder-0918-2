@@ -1,1 +1,32 @@
-Nothing needs to be added to .gitignore since only a source code file (.cs) was added and no build artifacts, dependencies, or temporary files were included in the changes.
+```
+# Compiled files
+*.hi
+*.o
+*.dyn_o
+
+# Dependencies
+.stack-work/
+.cabal-sandbox/
+cabal-dev/
+dist/
+dist-newstyle/
+node_modules/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+*.env.*
+```
