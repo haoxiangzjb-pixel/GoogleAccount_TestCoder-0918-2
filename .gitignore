@@ -1,4 +1,4 @@
 ```
-# Temporary data files
-*Numbers_*.json
+# Configuration files
+*.hcl
 ```
