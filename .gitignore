@@ -1,28 +1,43 @@
 ```
-# Rust specific
-target/
-Cargo.lock
-
-# JSON files that might be generated
-*.json
+# Compiled and build artifacts
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
 # Dependencies
-vendor/
-.cargo/
-
-# Build artifacts
-build/
-dist/
+target/
+Cargo.lock
 
 # Logs and temp files
 *.log
 *.tmp
+*.swp
 
 # Editors
 .vscode/
 .idea/
 
-# System files
-.DS_Store
-Thumbs.db
+# Environment
+.env
+.env.local
+*.env.*
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Rust-specific
+**/*.rs.bk
+*.d
+```
+
+Wait, let me reconsider. The added files are just Rust source files (.rs), and there are no build artifacts, dependency directories, or other files that need to be ignored in the provided change list. The current .gitignore is empty and there are no files that match the ignore patterns.
+
+```
+
 ```
