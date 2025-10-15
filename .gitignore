@@ -1,0 +1,28 @@
+```
+# Compiled and build artifacts
+*.fsi
+*.dll
+*.exe
+*.out
+*.obj
+
+# Dependencies
+.paket/
+packages/
+bin/
+obj/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+```
