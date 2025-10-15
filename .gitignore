@@ -1,30 +1,38 @@
 ```
 # Compiled and build artifacts
-*.plc
-*.plx
-*.pmc
+*.rs.bk
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
 # Dependencies
-lib/
-local/
+target/
+.cargo/
+.cargo-lock
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
+# Editors
+.vscode/
+.idea/
+
 # Environment
 .env
 .env.local
 *.env.*
 
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
+# Coverage
+coverage/
+htmlcov/
+.coverage
 
-# System files
-.DS_Store
-Thumbs.db
+# Rust specific
+**/*.rs.bk
 ```
