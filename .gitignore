@@ -1,0 +1,29 @@
+```
+# Compiled and build artifacts
+*.class
+*.jar
+*.war
+*.scala
+*.sbt
+project/
+target/
+
+# Dependencies
+lib_managed/
+project/project/
+*.lock
+
+# Editors
+.idea/
+.vscode/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+```
