@@ -1,1 +1,1 @@
-Nothing should be ignored based on the provided file changes. The only added file is `filterStrings.kt`, which is a source code file and should not be ignored.
+Nothing needs to be added to .gitignore for this change list. The added file 'get-user-info.ps1' is a PowerShell script file which is source code and should not be ignored.
