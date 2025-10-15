@@ -1,13 +1,6 @@
 ```
-# Node.js/JavaScript build artifacts
-*.js.map
-*.min.js
-dist/
-build/
-coverage/
-
-# Dependencies
-node_modules/
+# XML files (if generated)
+*.xml
 
 # Logs and temp files
 *.log
@@ -17,11 +10,23 @@ node_modules/
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
 # Editors
 .vscode/
 .idea/
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+dist/
+build/
+target/
+.gradle/
 
 # System files
 .DS_Store
