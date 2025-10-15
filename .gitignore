@@ -1,1 +1,45 @@
-Nothing should be ignored based on the provided file changes. The only added file is `filterStrings.kt`, which is a source code file and should not be ignored.
+```
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+*.out
+
+# Dependencies
+.venv/
+venv/
+env/
+dist/
+build/
+*.egg-info/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.pyc
+*.pyo
+*.pyd
+
+# Testing
+.coverage
+htmlcov/
+.coverage.*
+.nyc_output/
+coverage-final.json
+
+# OS generated files
+.DS_Store
+Thumbs.db
+```
