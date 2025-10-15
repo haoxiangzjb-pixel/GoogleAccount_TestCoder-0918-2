@@ -1,8 +1,13 @@
 ```
-# Compiled and build artifacts
-*.asm
-*.o
-*.obj
-*.out
-tmp.*
+# Thrift generated files
+*.py
+*.js
+*.java
+*.go
+*.cpp
+*.rb
+*.php
+*.c
+*.h
+gen-*/
 ```
