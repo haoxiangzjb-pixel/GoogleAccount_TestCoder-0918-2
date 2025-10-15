@@ -1,53 +1,20 @@
 ```
-# CI/CD
-.github/
+# Compiled Haskell files
+*.hi
+*.o
+*.dyn_hi
+*.dyn_o
 
-# Environment
-.env
-.env.local
-.env.*
-
-# Logs
-*.log
+# Haskell build artifacts
+dist/
+dist-newstyle/
+.cabal-sandbox/
+cabal-dev/
 
 # Temporary files
 *.tmp
 *.swp
-*.swo
 
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-pip-log.txt
-pipenv.lock
-
-# Build artifacts
-dist/
-build/
-*.pyc
-*.class
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Editors
-.vscode/
-.idea/
-
-# System
-.DS_Store
-Thumbs.db
+# Logs
+*.log
 ```
