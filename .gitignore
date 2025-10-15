@@ -1,16 +1,11 @@
-```rust
+```
 # Compiled and build artifacts
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
+*.js
+*.min.js
+*.bundle.js
 
 # Dependencies
-target/
-Cargo.lock
+node_modules/
 
 # Logs and temp files
 *.log
@@ -26,17 +21,58 @@ Cargo.lock
 .env.local
 *.env.*
 
-# Coverage
+# Coverage and testing
 coverage/
 htmlcov/
 .coverage
+*.coverage
 
-# Rust-specific
-**/*.rs.bk
-```
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage*
+.nosetests.xml
+.pytest_cache/
+.mypy_cache/
 
-Wait, let me reconsider - the only file added is `ownership_demo_7394.rs` which is a source code file. There are no build artifacts, dependencies, or temporary files in the change list. According to rule #6, if the change list contains ONLY source files and NO build artifacts, dependencies, or temp files, I should output an empty .gitignore.
+# Build directories
+build/
+dist/
+*.egg
+*.egg-info/
+.installed.cfg
+*.egg-info/
 
-```rust
-
+# Compression files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
