@@ -1,1 +1,8 @@
-(empty)
+```
+# Temporary files
+*.tmp
+temp_*
+
+# PowerShell files (if not part of source)
+*.ps1
+```
