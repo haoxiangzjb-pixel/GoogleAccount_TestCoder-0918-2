@@ -1,9 +1,1 @@
-```
-# Temporary files
-*.tmp
-*.temp
-*~
-
-# Build artifacts
-Makefile_temp*
-```
+Nothing should be ignored since the only added file is a source code file (.lua) and there are no build artifacts, dependencies, or temporary files in the changes.
