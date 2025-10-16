@@ -1,3 +1,11 @@
-(postgres_connect_7x9k2m.py is a source file, and there are no build artifacts, dependencies, or temp files in the changes, so no ignores are needed)
+```
+# Compiled and build artifacts
+*.pl~
 
-(empty — output nothing)
+# Temp files
+*.tmp
+*.swp
+
+# Logs
+*.log
+```
