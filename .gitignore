@@ -1,28 +1,16 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.mod
-*.out
-*.exe
-*.dll
-*.so
-*.a
-
-# Dependencies
-.julia/
-.zig-cache/
-
-# Logs and temp files
+# LaTeX auxiliary files
+*.aux
 *.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# System files
-.DS_Store
-Thumbs.db
+*.toc
+*.lof
+*.lot
+*.out
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+*.pdf
 ```
