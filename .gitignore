@@ -1,9 +1,4 @@
 ```
-# Temporary files
-*.tmp
-*.temp
-*~
-
-# Build artifacts
-Makefile_temp*
+# Compiled files
+*.fs
 ```
