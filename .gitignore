@@ -1,4 +1,12 @@
 ```
-# GraphQL schema files
-*.graphql
+# Temporary/Generated deployment files
+*deployment-*.yaml
+nginx-deployment-*.yaml
+
+# Temp files
+*.tmp
+*.temp
+
+# Logs
+*.log
 ```
