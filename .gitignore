@@ -1,15 +1,3 @@
 ```
-#Temp files
-*.tmp
-*.temp
-tmp.*
-
-#HTML temp files
-*.html
-!*.html  # Don't ignore all HTML files, only specific temp patterns
-
-#Backup files
-*~
-*.bak
-*.backup
+*.xml
 ```
