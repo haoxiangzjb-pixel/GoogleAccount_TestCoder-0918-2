@@ -1,20 +1,47 @@
 ```
-# Compiled Haskell files
-*.hi
-*.o
-*.dyn_hi
-*.dyn_o
+# Puppet related
+.r10k-cache/
+.r10k-module-cache/
+spec/fixtures/modules/
+spec/fixtures/forge_cache/
+pkg/
 
-# Haskell build artifacts
-dist/
-dist-newstyle/
-.cabal-sandbox/
-cabal-dev/
-
-# Temporary files
-*.tmp
+# Common system files
+.DS_Store
+Thumbs.db
 *.swp
+*.swo
+*.tmp
 
 # Logs
 *.log
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.pyc
+__pycache__/
+*.class
+*.o
+*.obj
+*.out
+
+# Dependency directories
+node_modules/
+venv/
+.venv/
+.mypy_cache/
+.pytest_cache/
+.coverage
+coverage/
+htmlcov/
+target/
+.gradle/
+build/
+dist/
 ```
