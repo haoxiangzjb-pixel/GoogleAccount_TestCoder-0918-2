@@ -1,10 +1,33 @@
 ```
-# R plots and generated images
-Rplots.pdf
-*.png
+# Compiled Elixir files
+*.beam
 
-# R specific
-.Rhistory
-.RData
-.Rproj.user/
+# Temporary compilation files
+*.ex~
+
+# Build artifacts
+_ebuild/
+_build/
+
+# Dependencies
+deps/
+.erlang.cookie
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
 ```
