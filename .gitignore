@@ -1,5 +1,1 @@
-(redis_operation_a7b3c9.py and redis_set_kv_12345.py are Python source files, so no .gitignore rules needed)
-
-```python
-
-```
+Nothing should be ignored based on the provided file changes. The added file `get_processes.ps1` is a PowerShell script file, which is source code and should be tracked in version control.
