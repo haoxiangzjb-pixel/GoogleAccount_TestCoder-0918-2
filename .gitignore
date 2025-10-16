@@ -1,35 +1,15 @@
 ```
-# Compiled files
-*.cmi
-*.cmo
-*.cma
-*.cmx
-*.cmxa
-*.cmxs
-*.exe
-*.out
-
-# Build artifacts
-_build/
-_dbuild/
-*.native
-*.byte
-
-# Dependencies
-.opam/
-esy.lock/
-
-# Editor/IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Logs and temp files
-*.log
+#Temp files
 *.tmp
+*.temp
+tmp.*
 
-# System files
-.DS_Store
-Thumbs.db
+#HTML temp files
+*.html
+!*.html  # Don't ignore all HTML files, only specific temp patterns
+
+#Backup files
+*~
+*.bak
+*.backup
 ```
