@@ -1,8 +1,28 @@
 ```
-# R-specific ignores
-*.rds
-*.RData
-*.Rhistory
-*.Rproj.user/
-.Rproj.user/
+# Dart/Flutter
+.dart_tool/
+.dart_server/
+.build/
+.packages
+*.dart.js
+*.dart.js.map
+*.part.js
+*.part.js.map
+*.vm.dart
+*.vm.dart.map
+*.dev.js
+*.dev.js.map
+*.prod.js
+*.prod.js.map
+
+# Dependencies
+pubspec.lock
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+.env.*
 ```
