@@ -1,4 +1,27 @@
 ```
-# Generated from detected file changes
-*.thrift
+# Compiled and build artifacts
+*.vcd
+*.fst
+*.log
+*.tmp
+
+# Simulation and build outputs
+sim/
+build/
+target/
+
+# Environment and temp files
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
 ```
