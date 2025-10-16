@@ -1,4 +1,16 @@
 ```
-# Compiled and build artifacts
-*.r
+# Logs
+*.log
+
+# Perl temporary files
+*.pl~
+
+# Editor/IDE files
+*.swp
+*.swo
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
 ```
