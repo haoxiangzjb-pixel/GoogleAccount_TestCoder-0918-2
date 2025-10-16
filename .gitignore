@@ -1,15 +1,31 @@
 ```
-# Compiled and build artifacts
-*.class
-*.o
-*.obj
-*.out
+# Ruby specific
+*.gem
+*.rbc
+coverage/
+InstalledFiles
+pkg/
+spec/reports/
+test/tmp/
+test/version_tmp/
+tmp/
+
+# Environment
+.env
+.env.local
+.env.
 
 # Dependencies
-target/
-.gradle/
-__pycache__/
-*.egg-info/
+.bundle/
+vendor/bundle/
+vendor/ruby/
+
+# Build artifacts
+*.o
+*.obj
+*.so
+*.a
+*.dylib
 
 # Logs and temp files
 *.log
@@ -19,42 +35,16 @@ __pycache__/
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# Environment
-.env
-.env.local
-*.env.*
-
-# System files
+# System
 .DS_Store
 Thumbs.db
 
-# Coverage reports
+# Coverage
 coverage/
-htmlcov/
-.coverage
-
-# Compression files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+*.gcov
+*.lcov
+*.profdata
 ```
