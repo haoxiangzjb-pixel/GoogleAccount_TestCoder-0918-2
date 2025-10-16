@@ -1,37 +1,61 @@
 ```
-# Compiled files
-*.cmi
-*.cmo
-*.cma
-*.cmx
-*.cmxa
-*.cmxs
-*.exe
-*.out
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.venv-*/
+pyvenv.cfg
+pip-log.txt
+pip-delete-this-directory.txt
 
-# Build artifacts
-_dbuild/
-_build/
-*.native
-*.byte
+# Generated files
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+*.dist-info/
 
-# Editor/IDE files
+# IDE
 .vscode/
 .idea/
 *.swp
 *.swo
-*.log
-*.tmp
-
-# System files
-.DS_Store
-Thumbs.db
 
 # Logs
 *.log
 
+# Temp files
+*.tmp
+*.temp
+
+# Environment
+.env
+.env.local
+*.env.*
+
 # Coverage
-_coverage/
-htmlcov/
 .coverage
+coverage/
+htmlcov/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# PyTest
+.pytest_cache/
+
+# Distribution
+*.tar.gz
+*.whl
+*.egg
 ```
