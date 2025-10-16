@@ -1,13 +1,11 @@
 ```
-# VBA/Office files
-*.vba
-*.bas
-
-# Python
+# Compiled and build artifacts
 *.pyc
 __pycache__/
-*.pyo
-*.pyd
+
+# Dependencies
+.venv/
+venv/
 
 # Logs and temp files
 *.log
@@ -17,15 +15,25 @@ __pycache__/
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# OS
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
+# Python specific
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg-info/
+
+# System files
 .DS_Store
 Thumbs.db
 ```
