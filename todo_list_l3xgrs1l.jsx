@@ -1,0 +1,118 @@
+import React, { useState } from 'react';
+
+const TodoList = () => {
+  const [todos, setTodos] = useState([]);
+  const [inputValue, setInputValue] = useState('');
+
+  const handleInputChange = (e) => {
+    setInputValue(e.target.value);
+  };
+
+  const addTodo = () => {
+    if (inputValue.trim() !== '') {
+      setTodos([...todos, { id: Date.now(), text: inputValue, completed: false }]);
+      setInputValue('');
+    }
+  };
+
+  const deleteTodo = (id) => {
+    setTodos(todos.filter(todo => todo.id !== id));
+  };
+
+  const toggleTodo = (id) => {
+    setTodos(
+      todos.map(todo =>
+        todo.id === id ? { ...todo, completed: !todo.completed } : todo
+      )
+    );
+  };
+
+  const handleKeyPress = (e) => {
+    if (e.key === 'Enter') {
+      addTodo();
+    }
+  };
+
+  return (
+    <div style={{ padding: '20px', fontFamily: 'Arial, sans-serif' }}>
+      <h1>Todo List</h1>
+      <div style={{ marginBottom: '20px' }}>
+        <input
+          type="text"
+          value={inputValue}
+          onChange={handleInputChange}
+          onKeyPress={handleKeyPress}
+          placeholder="Enter a new task..."
+          style={{
+            padding: '10px',
+            fontSize: '16px',
+            width: '300px',
+            marginRight: '10px',
+            border: '1px solid #ccc',
+            borderRadius: '4px'
+          }}
+        />
+        <button
+          onClick={addTodo}
+          style={{
+            padding: '10px 20px',
+            fontSize: '16px',
+            backgroundColor: '#4CAF50',
+            color: 'white',
+            border: 'none',
+            borderRadius: '4px',
+            cursor: 'pointer'
+          }}
+        >
+          Add Task
+        </button>
+      </div>
+      <ul style={{ listStyleType: 'none', padding: 0 }}>
+        {todos.map(todo => (
+          <li
+            key={todo.id}
+            style={{
+              padding: '10px',
+              margin: '5px 0',
+              backgroundColor: '#f9f9f9',
+              border: '1px solid #ddd',
+              borderRadius: '4px',
+              display: 'flex',
+              justifyContent: 'space-between',
+              alignItems: 'center'
+            }}
+          >
+            <span
+              style={{
+                textDecoration: todo.completed ? 'line-through' : 'none',
+                color: todo.completed ? '#888' : '#000'
+              }}
+              onClick={() => toggleTodo(todo.id)}
+              style={{ cursor: 'pointer', flex: 1 }}
+            >
+              {todo.text}
+            </span>
+            <button
+              onClick={() => deleteTodo(todo.id)}
+              style={{
+                padding: '5px 10px',
+                backgroundColor: '#f44336',
+                color: 'white',
+                border: 'none',
+                borderRadius: '4px',
+                cursor: 'pointer'
+              }}
+            >
+              Delete
+            </button>
+          </li>
+        ))}
+      </ul>
+      {todos.length === 0 && (
+        <p style={{ textAlign: 'center', color: '#888' }}>No tasks yet. Add a new task to get started!</p>
+      )}
+    </div>
+  );
+};
+
+export default TodoList;
