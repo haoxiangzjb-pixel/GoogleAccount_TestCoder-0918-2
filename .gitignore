@@ -1,45 +1,27 @@
 ```
+# Compiled and build artifacts
+*.beam
+*.app
+*.appup
+*.rel
+
 # Dependencies
-node_modules/
+_deps/
+_rebar/
+_rebuild/
 
-# Build artifacts
-dist/
-build/
-*.js
+# Logs and temp files
+*.log
+erl_crash.dump
 
-# Editor/IDE files
+# Editors
 .vscode/
 .idea/
 *.swp
 *.swo
-*.tmp
 
 # Environment
 .env
 .env.local
 *.env.*
-
-# Logs
-*.log
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# MyPy
-.mypy_cache/
-
-# Pytest
-.pytest_cache/
-
-# Virtual environments
-venv/
-.venv/
 ```
