@@ -1,1 +1,7 @@
-Nothing should be ignored since the added file 'connect_to_postgres_12345.py' is a source code file and there are no build artifacts, dependencies, or temporary files in the changes.
+```
+# Executables
+max_finder_1234
+
+# Text results (likely generated)
+result_1136.txt
+```
