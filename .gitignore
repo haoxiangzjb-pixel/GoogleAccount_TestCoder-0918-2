@@ -1,3 +1,10 @@
-Nothing should be ignored in this case, as the only added file is a C++ source file (.cpp) which is source code that should be tracked in version control. There are no build artifacts, dependencies, or temporary files in the changes list.
+```
+# R plots and generated images
+Rplots.pdf
+*.png
 
-(empty output)
+# R specific
+.Rhistory
+.RData
+.Rproj.user/
+```
