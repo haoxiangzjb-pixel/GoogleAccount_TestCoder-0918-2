@@ -1,36 +1,47 @@
 ```
-# Compiled class files
-*.class
-
-# Scala specific
-*.scala~
-
-# Temporary files
-*.tmp
-*.swp
-
-# Logs
-*.log
-
 # Environment files
 .env
 .env.local
-*.env.*
+.env.*
 
-# Editor/IDE files
+# JSON files that might be generated/config
+*.json
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+dist/
+build/
+target/
+.gradle/
+
+# Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
 # System files
 .DS_Store
 Thumbs.db
 
-# Coverage reports
-coverage/
-htmlcov/
-*.coverage
+# Compiled files
+*.pyc
+*.class
+*.o
+*.exe
+*.dll
+*.so
+*.a
+*.obj
+*.out
 
 # Compressed files
 *.zip
@@ -55,4 +66,19 @@ htmlcov/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Python specific
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg-info/
+.eggs/
 ```
