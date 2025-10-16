@@ -1,13 +1,51 @@
-```
-# Temporary and backup files
-*.tmp
-*.bak
-*.backup
-*~
-.#*
-.#
-*.sh.swp
+```python
+# Compiled Python files
+*.pyc
+__pycache__/
 
-# Backup and temporary scripts
-pcz5c7U4hYZu.sh
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Coverage reports
+.coverage
+coverage/
+htmlcov/
+
+# Python cache
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Build directories
+build/
+dist/
+*.egg-info/
+
+# Testing
+.pytest_cache/
+.mypy_cache/
+.tox/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
