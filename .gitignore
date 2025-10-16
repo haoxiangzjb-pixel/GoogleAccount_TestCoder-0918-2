@@ -1,36 +1,12 @@
 ```
-# Compiled files
-*.mex*
-*.o
-*.obj
-*.dll
-*.so
-*.a
-
-# MATLAB specific
-*.mat
-*.fig
-*.log
+#Temp files
 *.tmp
+*.temp
+tmp*/
 
-# Dependencies and build directories
-mexw*
-build/
-dist/
-lib/
+#SQL files (if generated)
+*.sql
 
-# Editor/IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Environment
-.env
-.env.local
-*.env.*
+#Logs
+*.log
 ```
