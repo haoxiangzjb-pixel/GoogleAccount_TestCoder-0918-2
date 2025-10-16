@@ -1,1 +1,36 @@
-(empty)
+```
+# Compiled and build artifacts
+*.plc
+*.plx
+*.plx.*
+
+# Dependencies
+cpan/
+local/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Coverage and testing
+.coverage
+coverage/
+htmlcov/
+*.gcov
+*.profraw
+
+# System files
+.DS_Store
+Thumbs.db
+```
