@@ -1,42 +1,29 @@
-```rust
+```
 # Compiled and build artifacts
 *.o
 *.obj
-*.exe
-*.dll
-*.so
-*.a
 *.out
 
 # Dependencies
-target/
-Cargo.lock
+vendor/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Editors
-.vscode/
-.idea/
-
 # Environment
 .env
 .env.local
 *.env.*
 
-# Coverage
-coverage/
-htmlcov/
-.coverage
+# Editors
+.vscode/
+.idea/
 
-# Rust-specific
-**/*.rs.bk
-```
-
-Wait, let me reconsider - the only file added is `ownership_demo_7394.rs` which is a source code file. There are no build artifacts, dependencies, or temporary files in the change list. According to rule #6, if the change list contains ONLY source files and NO build artifacts, dependencies, or temp files, I should output an empty .gitignore.
-
-```rust
-
+# Go specific
+*.a
+*.so
+*.dll
+*.exe
 ```
