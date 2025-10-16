@@ -1,0 +1,46 @@
+/* CSS Animation for Rotation */
+
+/* Define the rotation animation */
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Apply the rotation animation to an element */
+.rotating-element {
+  width: 100px;
+  height: 100px;
+  background-color: #3498db;
+  margin: 50px auto;
+  animation: rotate 2s linear infinite;
+}
+
+/* Alternative: Rotate with different timing functions */
+.rotating-slow-start {
+  width: 100px;
+  height: 100px;
+  background-color: #e74c3c;
+  margin: 50px auto;
+  animation: rotate 3s ease-in-out infinite;
+}
+
+.rotating-fast-middle {
+  width: 100px;
+  height: 100px;
+  background-color: #2ecc71;
+  margin: 50px auto;
+  animation: rotate 1.5s ease-in infinite;
+}
+
+/* Class for elements that should rotate on hover */
+.hover-rotate {
+  transition: transform 0.3s ease;
+}
+
+.hover-rotate:hover {
+  transform: rotate(360deg);
+}
