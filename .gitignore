@@ -1,21 +1,26 @@
 ```
 # Compiled and build artifacts
-*.pl~
+*.beam
+*.app
+ebin/
+_build/
 
-# Logs and temp files
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-.env.*
+# Dependencies
+rebar3/
+_erl_crash.dump
 
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# OS generated files
-.DS_Store
-Thumbs.db
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment
+.env
+.env.local
+*.env.*
 ```
