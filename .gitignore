@@ -1,5 +1,5 @@
 ```
-# LaTeX auxiliary files
+# LaTeX build artifacts
 *.aux
 *.log
 *.toc
@@ -11,6 +11,5 @@
 *.fls
 *.fdb_latexmk
 *.synctex.gz
-*.synctex(busy)
 *.pdf
 ```
