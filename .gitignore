@@ -1,13 +1,27 @@
 ```
-# Environment and config files
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.lock.hcl
+*.backup
+
+# Environment
 .env
 .env.local
-.env.*
+*.env.*
 
 # Logs and temp files
 *.log
 *.tmp
 
-# JSON files that might be generated/config
-*.json
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
 ```
