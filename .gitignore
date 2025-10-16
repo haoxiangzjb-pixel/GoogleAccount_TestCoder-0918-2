@@ -1,4 +1,21 @@
 ```
-# CI/CD
-.gitlab-ci.yml
+# Compiled and build artifacts
+*.pl~
+
+# Logs and temp files
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
 ```
