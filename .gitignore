@@ -1,1 +1,23 @@
-Nothing should be ignored based on the provided file changes. The added file 'circle_area_1.lua' is a source code file that should be tracked in version control.
+```
+# Compiled and build artifacts
+*.groovy.class
+*.class
+
+# Dependencies
+.gradle/
+build/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+```
