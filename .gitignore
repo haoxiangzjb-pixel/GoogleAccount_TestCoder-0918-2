@@ -1,14 +1,4 @@
 ```
-# Compiled and build artifacts
-*.m
-*.o
-*.obj
-*.out
-
-# Temporary files
-*.tmp
-temp_*
-
-# Logs
-*.log
+# Build system
+*.mk
 ```
