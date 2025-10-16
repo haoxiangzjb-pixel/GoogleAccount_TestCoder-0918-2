@@ -1,10 +1,9 @@
 ```
-# R plots and generated images
-Rplots.pdf
-*.png
+# Temporary files
+*.tmp
+tmp.*
 
-# R specific
-.Rhistory
-.RData
-.Rproj.user/
+# Perl specific
+*.pl~
+*.plx~
 ```
