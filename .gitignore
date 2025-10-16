@@ -1,17 +1,10 @@
 ```
-# Compiled and build artifacts
-*.zig
-zig-install/
-zig.tar.xz
+# HTML files (if generated)
+*.html
 
-# Dependencies
-zig-*/
-
-# Logs and temp files
-*.log
+# Temp files
 *.tmp
 
-# Editors
-.vscode/
-.idea/
+# Logs
+*.log
 ```
