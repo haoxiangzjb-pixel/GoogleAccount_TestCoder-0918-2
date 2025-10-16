@@ -1,1 +1,29 @@
-Nothing should be ignored based on the provided file changes. The added file 'Xz9p2kLm.kt' is a Kotlin source file, which should not be ignored.
+```
+# Compiled Java files
+*.class
+
+# Dependencies
+lib/
+libs/
+target/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# OS generated
+.DS_Store
+Thumbs.db
+```
