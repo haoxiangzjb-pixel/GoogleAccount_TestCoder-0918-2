@@ -1,1 +1,46 @@
-Nothing should be ignored since the added file 'BmeLH1FKQ6jc.ts' is a TypeScript source file, which is a source code file that should be tracked in version control. No build artifacts, dependencies, or temporary files are present in the changes.
+```
+# LaTeX auxiliary files
+*.aux
+*.log
+*.toc
+*.lof
+*.lot
+*.out
+*.bbl
+*.blg
+*.idx
+*.ind
+*.ilg
+*.pdf
+*.dvi
+*.ps
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.xdv
+*.run.xml
+*.bcf
+*.synctex
+*.synctex(busy)
+*.synctex.gz(busy)
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Build directories
+build/
+_dist/
+_output/
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+```
