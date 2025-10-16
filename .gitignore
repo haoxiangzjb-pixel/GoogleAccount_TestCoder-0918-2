@@ -1,1 +1,37 @@
-(empty)
+```
+# Compiled files
+*.cmi
+*.cmo
+*.cma
+*.cmx
+*.cmxa
+*.cmxs
+*.exe
+*.out
+
+# Build artifacts
+_dbuild/
+_build/
+*.native
+*.byte
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.log
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Coverage
+_coverage/
+htmlcov/
+.coverage
+```
