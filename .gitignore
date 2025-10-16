@@ -1,36 +1,46 @@
 ```
-# Compiled files
-*.mex*
-*.o
-*.obj
-*.dll
-*.so
-*.a
+# Dependencies
+node_modules/
 
-# MATLAB specific
-*.mat
-*.fig
-*.log
-*.tmp
-
-# Dependencies and build directories
-mexw*
-build/
+# Build artifacts
 dist/
-lib/
-
-# Editor/IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# System files
-.DS_Store
-Thumbs.db
+build/
+coverage/
 
 # Environment
 .env
 .env.local
-*.env.*
+.env.
+
+# Editors
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git/
+*.git
+*.gitignore
+.DS_Store
+Thumbs.db
 ```
