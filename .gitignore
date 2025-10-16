@@ -1,1 +1,28 @@
-Nothing should be ignored based on the provided file changes. The added file `mysql_connect_1678886400.php` is a PHP source file that should be tracked in version control.
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.mod
+*.out
+*.exe
+*.dll
+*.so
+*.a
+
+# Dependencies
+.julia/
+.zig-cache/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+```
