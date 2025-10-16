@@ -1,44 +1,41 @@
 ```
-# Elixir compiled files
-*.beam
+# Compiled and build artifacts
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
-# Elixir build artifacts
-_build/
-ebin/
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+dist/
+build/
+target/
+.gradle/
 
-# Elixir dependency directory
-deps/
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
 
-# Elixir compilation logs
-compile_log_*.ex
-
-# Environment files
+# Environment
 .env
 .env.local
 *.env.*
 
-# Logs
-*.log
-
-# Temporary files
-*.tmp
-*~
-
-# Editor/IDE files
+# Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# OS files
+# System files
 .DS_Store
 Thumbs.db
-
-# Coverage
-cover/
-.coverage
-
-# Local config
-config/config.exs
-config/*.exs
 ```
