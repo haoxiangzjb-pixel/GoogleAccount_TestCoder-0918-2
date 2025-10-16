@@ -1,1 +1,14 @@
-Nothing needs to be ignored since only a Python source file (.py) was added and there are no build artifacts, dependencies, or temporary files in the changes.
+```
+# Compiled and build artifacts
+*.m
+*.o
+*.obj
+*.out
+
+# Temporary files
+*.tmp
+temp_*
+
+# Logs
+*.log
+```
