@@ -1,35 +1,23 @@
 ```
 # Compiled and build artifacts
-*.pyc
-__pycache__/
+*.class
 *.o
 *.obj
-*.class
-*.exe
-*.dll
-*.so
-*.a
-*.out
 
 # Dependencies
-node_modules/
-venv/
-.venv/
-.env
-.env.local
-.env.*
-
-# Build directories
-dist/
-build/
-target/
-*.egg-info/
+lib/
+libs/
+jars/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
+
+# Environment
+.env
+.env.local
+.env.*
 
 # Editors
 .vscode/
@@ -37,22 +25,111 @@ target/
 *.swp
 *.swo
 
-# OS generated files
+# System files
 .DS_Store
 Thumbs.db
 
-# Coverage
+# Coverage reports
 coverage/
 htmlcov/
-.coverage
+*.coverage
+
+# Build directories
+target/
+build/
+dist/
+out/
 
 # Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.nox/
 .mypy_cache/
 .pytest_cache/
-*.pyc
-__pycache__/
+.hypothesis/
 
-# Compressed files
+# Node.js specific
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+node_modules/
+dist/
+build/
+.nyc_output/
+coverage/
+*.log
+
+# Java specific
+*.class
+*.jar
+*.war
+*.ear
+*.tar.gz
+hs_err_pid*
+replay_pid*
+
+# Go specific
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.prof
+go.mod
+go.sum
+
+# C/C++ specific
+*.o
+*.a
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+*.obj
+*.ilk
+*.pdb
+*.sdf
+*.suo
+*.tlog
+*.cov
+*.gcda
+*.gcno
+*.gcov
+
+# Ruby specific
+*.gem
+*.rbc
+.bundle/
+.coverage
+InstalledFiles
+lib/bundler/man/
+pkg/
+rdoc/
+*.gemspec
+Gemfile.lock
+.sass-cache/
+.scmeta
+.yardoc/
+_yardoc/
+vendor/bundle/
+.travis.yml
+appveyor.yml
+*.jruby_gemspec
+
+# Compression files
 *.zip
 *.gz
 *.tar
@@ -75,4 +152,5 @@ __pycache__/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
+
 ```
