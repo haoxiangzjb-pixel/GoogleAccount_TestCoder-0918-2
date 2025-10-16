@@ -1,1 +1,35 @@
-Nothing should be ignored based on the provided file changes. The added file 'LoginForm.vue' is a source code file that should be tracked in version control.
+```
+# Compiled and build artifacts
+*.js.map
+*.min.js
+*.bundle.js
+
+# Dependencies
+node_modules/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Coverage and test reports
+coverage/
+htmlcov/
+*.coverage
+.coverage.*
+
+# Distribution and build directories
+dist/
+build/
+target/
+out/
+```
