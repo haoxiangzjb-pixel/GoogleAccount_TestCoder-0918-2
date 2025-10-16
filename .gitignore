@@ -1,7 +1,4 @@
 ```
-# R-specific files
-*.Rproj.user/
-.Rhistory
-.RData
-.Ruserdata/
+# Ansible artifacts
+.retry_files/
 ```

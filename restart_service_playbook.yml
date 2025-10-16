@@ -1,0 +1,23 @@
+---
+- name: Restart a service
+  hosts: localhost
+  become: yes
+  tasks:
+    - name: Restart service
+      systemd:
+        name: "{{ service_name | default('nginx') }}"
+        state: restarted
+      notify: Check service status
+
+    - name: Wait for service to be running
+      wait_for:
+        path: /var/run/{{ service_name | default('nginx') }}.pid
+        state: present
+        timeout: 30
+      when: service_name | default('nginx') in ['nginx', 'httpd', 'apache2']
+
+  handlers:
+    - name: Check service status
+      systemd:
+        name: "{{ service_name | default('nginx') }}"
+        state: status
