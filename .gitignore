@@ -1,1 +1,1 @@
-(empty)
+Nothing should be ignored since the added files are Perl source code files (.pl) which are source files and not build artifacts, dependencies, or temporary files.
