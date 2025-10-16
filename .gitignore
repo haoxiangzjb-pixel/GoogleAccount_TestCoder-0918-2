@@ -1,1 +1,3 @@
-Nothing should be ignored based on the provided file changes. The added file `word_freq_counter.pl` is a Perl source code file and should be tracked in version control.
+(postgres_connector_78901.py is a source file, so no .gitignore rules needed)
+
+(empty output)
