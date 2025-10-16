@@ -1,1 +1,40 @@
-(user-profile-rukvesyr.ts, user-profile.component.ts)
+```
+# Build artifacts
+*.html
+
+# Temp files
+*.tmp
+*.temp
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+.env/
+target/
+build/
+dist/
+```
