@@ -1,1 +1,48 @@
-Nothing should be ignored in this case. The added file 'person_963edad5.rb' is a source code file (.rb extension) and there are no build artifacts, dependencies, or temporary files in the changes list that would warrant adding ignore rules.
+```
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+
+# Dependencies
+.venv/
+venv/
+pip-wheel-metadata/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Python specific
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# MyPy cache
+.mypy_cache/
+# Pytest cache
+.pytest_cache/
+
+```
