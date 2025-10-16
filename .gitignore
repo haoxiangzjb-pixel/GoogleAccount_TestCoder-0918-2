@@ -1,36 +1,75 @@
 ```
-# OCaml compiled files
-*.cmi
-*.cmo
-*.cmx
-*.cma
-*.cmxa
-*.cmxs
+# VBA/Excel related build artifacts
+*.bas
+*.vba
+
+# Compiled files
+*.pyc
+*.class
+*.o
+*.obj
 *.exe
+*.dll
+*.so
+*.a
 *.out
 
-# OCaml build artifacts
-_dbuild/
-_build/
-*.native
-*.byte
+# Dependencies
+.venv/
+venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+node_modules/
 
-# Temporary files
-*.tmp
-*.temp
-*~
+# Build/dist directories
+dist/
+build/
+target/
 
 # Editor/IDE files
 .vscode/
 .idea/
 *.swp
 *.swo
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
+.env
+.env.local
+*.env.*
 
 # Logs
 *.log
 
-# Environment files
-.env
-.env.local
-*.env.*
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
