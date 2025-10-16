@@ -1,4 +1,13 @@
 ```
-# Generated from file changes
-*.html
+# Environment and config files
+.env
+.env.local
+.env.*
+
+# Logs and temp files
+*.log
+*.tmp
+
+# JSON files that might be generated/config
+*.json
 ```
