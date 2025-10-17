@@ -1,12 +1,4 @@
 ```
-# Temporary/Generated deployment files
-*deployment-*.yaml
-nginx-deployment-*.yaml
-
-# Temp files
-*.tmp
-*.temp
-
-# Logs
-*.log
+# Compiled and build artifacts
+*.r
 ```
