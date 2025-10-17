@@ -1,0 +1,3 @@
+support@example.com
+sales@company.org
+john.doe@test-domain.co.uk
