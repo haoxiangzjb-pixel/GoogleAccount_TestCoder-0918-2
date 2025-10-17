@@ -1,3 +1,8 @@
-(lambda_function_success.py and sa8lb9u9yg.py are Python source files, so they should not be added to .gitignore)
+```
+# Configuration and task files
+*.yml
+*.yaml
 
-Nothing to output (empty)
+# Ansible specific
+ansible_task_*.yml
+```
