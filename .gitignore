@@ -1,1 +1,1 @@
-Nothing should be ignored based on the provided file changes. The only added file is `filterStrings.kt`, which is a source code file and should not be ignored.
+Nothing should be ignored in this case. The added files are a source code file (.py) and an image file (.jpg), neither of which should be added to .gitignore according to the rules provided.
