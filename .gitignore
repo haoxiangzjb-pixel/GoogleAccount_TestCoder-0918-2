@@ -1,32 +1,32 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
+# TypeScript/JavaScript build artifacts
+*.tsbuildinfo
+*.js.map
+*.ts.map
+dist/
+build/
+out/
+lib/
 
 # Dependencies
-vendor/
+node_modules/
 
 # Logs and temp files
 *.log
 *.tmp
-*.swp
 
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
 # Coverage
 coverage/
-htmlcov/
-.coverage
-
-# OS generated files
-.DS_Store
-Thumbs.db
+.nyc_output/
 ```
