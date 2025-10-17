@@ -1,15 +1,49 @@
 ```
-# LaTeX build artifacts
-*.aux
+# Compiled and build artifacts
+*.pl~
+
+# Logs and temp files
+*.tmp
 *.log
-*.toc
-*.lof
-*.lot
-*.out
-*.bbl
-*.blg
-*.fls
-*.fdb_latexmk
-*.synctex.gz
-*.pdf
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build directories
+dist/
+build/
+target/
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+
+# Coverage and testing
+.coverage
+coverage/
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
