@@ -1,4 +1,1 @@
-```
-# Compiled and build artifacts
-*.r
-```
+Nothing should be ignored based on the provided file changes. The added files (`create_random_file.py` and `xjwekbjyte.py`) are Python source files, which should not be ignored.
