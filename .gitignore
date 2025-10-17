@@ -1,58 +1,27 @@
 ```
-# Compiled class files
-*.class
+# Compiled and build artifacts
+*.mex*
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.exe
+*.out
 
-# Scala specific
-*.scala~
-
-# Temporary files
-*.tmp
-*.swp
-
-# Logs
+# Dependencies
+*.mat
+*.fig
 *.log
+*.tmp
 
-# Environment files
-.env
-.env.local
-*.env.*
+# MATLAB specific
+*.m~
+*~
+```
 
-# Editor/IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
+Wait, let me reconsider. The file `sine_wave_plot_837492.m` appears to be a MATLAB file (`.m` extension), which is typically source code. This should not be ignored as it's likely source code rather than a build artifact.
 
-# System files
-.DS_Store
-Thumbs.db
+```
 
-# Coverage reports
-coverage/
-htmlcov/
-*.coverage
-
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
 ```
