@@ -1,3 +1,38 @@
-(postgres_connect_7x9k2m.py is a source file, and there are no build artifacts, dependencies, or temp files in the changes, so no ignores are needed)
+```
+# Lua-specific ignores
+*.luac
 
-(empty — output nothing)
+# Dependencies
+?.rockspec
+?.lua.dSYM/
+
+# Build artifacts
+build/
+dist/
+*.so
+*.dll
+*.dylib
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# System files
+.DS_Store
+Thumbs.db
+```
