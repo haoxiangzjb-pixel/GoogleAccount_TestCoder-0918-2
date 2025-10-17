@@ -1,53 +1,21 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-*.class
-*.exe
-*.dll
-*.so
-*.a
-*.out
+# HTML files that appear to be build artifacts or temporary files
+*.html
 
-# Dependencies
-node_modules/
-venv/
-.venv/
-.env
-.env.local
-.env.*
-
-# Logs and temp files
-*.log
+# Common temporary files
 *.tmp
-*.swp
+*.temp
 
-# Editors
+# Editor/IDE files
 .vscode/
 .idea/
-
-# Build directories
-dist/
-build/
-target/
-.gradle/
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Python specific
-*.pyc
-__pycache__/
-*.pyo
-*.pyd
-.Python
-*.so
+*.swp
+*.swo
 
 # System files
 .DS_Store
 Thumbs.db
+
+# Logs
+*.log
 ```
