@@ -1,20 +1,37 @@
 ```
-# Compiled Haskell files
-*.hi
+# Compiled and build artifacts
+*.pyc
+__pycache__/
 *.o
-*.dyn_hi
-*.dyn_o
+*.obj
+*.class
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
-# Haskell build artifacts
+# Dependencies
+node_modules/
+venv/
+.venv/
+.env
+.env.local
+.env.*
+
+# Build directories
 dist/
-dist-newstyle/
-.cabal-sandbox/
-cabal-dev/
-
-# Temporary files
+build/
+target/
+*.log
 *.tmp
 *.swp
 
-# Logs
-*.log
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
