@@ -18,40 +18,35 @@ nosetests.xml
 coverage.xml
 *.cover
 *.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.egg-info/
+.eggs/
+.eggs
+.eggs/
+dist/
+build/
+*.egg
+*.zip
+*.tar.gz
+*.whl
 .pytest_cache/
 .mypy_cache/
 .hypothesis/
 
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# IDEs
-.vscode/
-.idea/
-*.swp
-*.swo
-
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
+.envrc
+```
 
-# OS
-.DS_Store
-Thumbs.db
+Wait, let me reconsider. The added files are just `factorial_function.py` and `hec30otfvv.py`, which appear to be regular Python source files. There are no build artifacts, dependency directories, or temporary files in the change list that would warrant adding ignore rules.
+
+```
+
 ```
