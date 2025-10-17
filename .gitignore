@@ -1,16 +1,3 @@
 ```
-#Temp files
-*.tmp
-*.temp
-tmp.*
-
-#Editor/IDE files
-*.swp
-*.swo
-.vscode/
-.idea/
-
-#System files
-.DS_Store
-Thumbs.db
+*.bas
 ```
