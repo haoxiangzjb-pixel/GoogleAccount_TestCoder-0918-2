@@ -1,14 +1,54 @@
 ```
 # Compiled and build artifacts
-*.m
-*.o
-*.obj
-*.out
+*.pyc
+__pycache__/
 
-# Temporary files
+# Temp files
 *.tmp
-temp_*
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
 
 # Logs
 *.log
+
+# Python specific
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Coverage reports
+.coverage
+coverage/
+htmlcov/
+
+# Distribution / packaging
+dist/
+build/
+*.egg
+*.egg-info/
+*.whl
+MANIFEST
+
+# Virtual environments
+venv/
+.venv/
+.env/
+
+# Pytest cache
+.pytest_cache/
+
+# Mypy cache
+.mypy_cache/
+
+# Random temp file
+tmphq08cln0.py
 ```
