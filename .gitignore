@@ -1,27 +1,13 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
-
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-dist/
-build/
-target/
-.gradle/
-
-# Logs and temp files
-*.log
+# Temp files
 *.tmp
 *.swp
+*.swo
+
+# Build artifacts
+*.o
+*.obj
+*.out
 
 # Environment
 .env
@@ -32,14 +18,8 @@ target/
 .vscode/
 .idea/
 
-# System files
-.DS_Store
-Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
+# Logs
+*.log
 
 # Compressed files
 *.zip
