@@ -1,4 +1,4 @@
 ```
-# Build system
-*.mk
+# Compiled and build artifacts
+*.fs
 ```
