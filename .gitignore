@@ -1,13 +1,4 @@
 ```
-# Assembly build artifacts
-*.o
-*.obj
-*.out
-
-# Temp files
-*.tmp
-*.swp
-
-# Logs
-*.log
+# Compiled and build artifacts
+*.r
 ```
