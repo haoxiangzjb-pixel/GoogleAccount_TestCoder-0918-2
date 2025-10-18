@@ -1,4 +1,28 @@
 ```
-# Compiled files
-*.cs
+# Terraform files
+*.tf
+*.tfvars
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+
+# Temporary files
+*.tmp
+*.temp
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+.env.
+
+# Editors
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
 ```
