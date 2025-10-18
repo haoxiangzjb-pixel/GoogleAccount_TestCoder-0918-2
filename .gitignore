@@ -1,1 +1,24 @@
-(ts is a source file, and there are no build artifacts, dependencies, or temp files in the changes)
+```
+# Dependencies
+.dart_tool/
+.build/
+.dependencies/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+```
