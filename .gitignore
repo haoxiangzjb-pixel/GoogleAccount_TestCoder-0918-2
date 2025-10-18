@@ -1,7 +1,4 @@
 ```
-# GraphQL files
-*.graphql
-
 # Compiled and build artifacts
 *.pyc
 __pycache__/
@@ -22,22 +19,15 @@ venv/
 .env.local
 .env.*
 
-# Build directories
-dist/
-build/
-target/
-.gradle/
-
 # Logs and temp files
 *.log
 *.tmp
 *.swp
+*.swo
 
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
 # System files
 .DS_Store
@@ -48,9 +38,13 @@ coverage/
 htmlcov/
 .coverage
 
+# Build directories
+dist/
+build/
+target/
+.gradle/
+
 # Python specific
-*.pyc
-__pycache__/
 .mypy_cache/
 .pytest_cache/
 
