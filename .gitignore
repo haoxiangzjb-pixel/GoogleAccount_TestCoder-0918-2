@@ -1,4 +1,4 @@
 ```
-# Compiled files
-*.m
+# Backup files
+backup_script_*.sh
 ```
