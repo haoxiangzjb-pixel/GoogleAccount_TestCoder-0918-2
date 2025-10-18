@@ -1,59 +1,10 @@
 ```
-# Compiled and build artifacts
-*.swiftmodule
-*.swiftdoc
-*.o
-*.obj
-*.a
-*.dylib
-*.framework
+# Configuration files
+*.yml
+*.yaml
 
-# Dependencies
-Pods/
-Carthage/
-build/
-DerivedData/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# macOS
-.DS_Store
-*.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-
-# Xcode
-*.xcodeproj/
-*.xcworkspace/
-*.playground/
-xcuserdata/
-project.xcworkspace/
-xcshareddata/
-
-# Swift Package Manager
-.swiftPM/
-Package.resolved
-
-# Build results
-build/
-*.build/
-DerivedData/
+# If the YAML file is a build/config artifact, ignore it
+# Otherwise, preserve it as a source/config file
+# Since this appears to be a single config file, we'll ignore it if it follows common patterns
+SDzY66yjeBnryBNLsy0k0fIFt4Dub2eB.yml
 ```
