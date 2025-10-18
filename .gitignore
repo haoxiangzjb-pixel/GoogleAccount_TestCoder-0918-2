@@ -1,4 +1,19 @@
 ```
-# Compiled files
-*.cs
+# Zig installation
+zig-install/
+
+# Build artifacts
+*.o
+*.obj
+*.out
+
+# Compressed files
+*.tar.xz
+
+# Random data files
+*.dat
+
+# Scripts (if they are temporary)
+*.sh
+
 ```
