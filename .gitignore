@@ -1,22 +1,12 @@
 ```
-# PowerShell session files
-*.ps1
+# R files
+*.R
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+# Image files (not ignoring since they appear to be output files)
+# scatter_plot_*.png - keeping as these seem to be output files that might be versioned
 
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# OS generated files
-.DS_Store
-Thumbs.db
+# If R project, potentially add:
+.Rproj.user/
+.Rhistory
+.RData
 ```
