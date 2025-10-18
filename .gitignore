@@ -1,1 +1,1 @@
-Nothing to ignore - only a Ruby source file was added.
+Nothing should be ignored since the added file `apache_install.pp` is a Puppet manifest file (source code) and there are no build artifacts, dependencies, or temporary files in the changes.
