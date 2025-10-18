@@ -1,36 +1,58 @@
 ```
-# Compiled files
-*.o
-*.obj
-*.out
-
 # Dependencies
-__pycache__/
-*.pyc
-*.pyo
+node_modules/
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
+# Package manager
+package-lock.json
 
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
-# Coverage
-coverage/
-htmlcov/
-.coverage
+# Logs
+*.log
 
-# System files
+# Temporary files
+*.tmp
+*.swp
+
+# OS generated files
 .DS_Store
 Thumbs.db
+
+# Editor/IDE files
+.vscode/
+.idea/
+
+# Build outputs
+dist/
+build/
+target/
+coverage/
+htmlcov/
+*.out
+
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git/
 
 # Compressed files
 *.zip
@@ -55,4 +77,68 @@ Thumbs.db
 *.tar.bz2
 *.tar.xz
 *.tar.zst
+
+# Coverage and testing
+.coverage
+htmlcov/
+.nyc_output
+coverage/
+.coverage.*
+.cobertura.xml
+*.gcov
+*.lcov
+*.lst
+
+# Security
+.secret
+.token
+
+# Cache directories
+.haskell
+.cabal-sandbox/
+*.stack-work/
+.node_repl_history
+.rubocop.yml
+.bundle/
+.Gemfile.lock
+.PATH
+.LINKPATH
+.rvmrc
+.gem
+*.gem
+.rbc
+~~
+*.#*
+.*.swp
+.*.swo
+*~
+.DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db
+.directory
+.DS_Store?
+.Spotlight-V100
+.Trashes
+.AppleDouble
+.LSOverride
+.DocumentRevisions-V100
+.FBCIndex
+.SnapshotMetadata
+.Python
+.pyximport
+*.so
+*~
+.~lock.*
+lock.*
+*,v
+*,t
+._*
+.DS_Store
+.DS_Store?
+ehthumbs.db
+Thumbs.db
+.trash
+.Trash-*
+!.gitignore
 ```
