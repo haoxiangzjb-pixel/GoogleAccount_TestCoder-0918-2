@@ -4,12 +4,11 @@
 __pycache__/
 *.o
 *.obj
-*.out
 
 # Dependencies
 .venv/
 venv/
-pip-wheel-metadata/
+node_modules/
 
 # Logs and temp files
 *.log
@@ -25,7 +24,24 @@ pip-wheel-metadata/
 .vscode/
 .idea/
 
-# System files
-.DS_Store
-Thumbs.db
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
+# Python specific
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Distribution / packaging
+.Python
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
 ```
