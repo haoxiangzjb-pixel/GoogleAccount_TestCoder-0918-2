@@ -1,31 +1,29 @@
 ```
 # Compiled and build artifacts
-*.ex
-*.exs
+*.fsx~
+*.fsi~
+*.dll
+*.exe
+*.obj
+*.o
+*.out
+
+# Dependencies
+.paket/
+packages/
+bin/
+obj/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Environment
-.env
-.env.local
-*.env.*
-
 # Editors
 .vscode/
 .idea/
-
-# Coverage and testing
-.coverage
-coverage/
-htmlcov/
-
-# Backup files
-*~
-*.bak
-*.backup
+*.userprefs
+*.user
 
 # OS generated files
 .DS_Store
