@@ -1,6 +1,16 @@
 ```
-# Compiled files
-*.class
+# Compiled and build artifacts
+*.mlc
+*.cmi
+*.cmo
+*.cmx
+*.o
+*.obj
+
+# Dependencies
+.opam/
+_dune/
+_build/
 
 # Logs and temp files
 *.log
@@ -11,8 +21,9 @@
 .vscode/
 .idea/
 
-# Environment
-.env
-.env.local
-.env.*
+# OCaml specific
+*.annot
+*.cmt
+*.cmti
+*.out
 ```
