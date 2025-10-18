@@ -1,15 +1,4 @@
 ```
-# VBA files
-*.vba
-
-# Backup files
-*.bak
-*~
-
-# Temporary files
-*.tmp
-*.temp
-
-# Logs
-*.log
+# Docker
+docker-compose-*.yml
 ```
