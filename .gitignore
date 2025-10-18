@@ -1,9 +1,32 @@
 ```
-# Temporary shell scripts
-*_*.sh
+# Compiled and build artifacts
+*.swiftmodule
+*.swiftdoc
+*.swo
+*.swp
+
+# Dependencies
+Pods/
+Carthage/
+build/
+DerivedData/
 
 # Logs and temp files
 *.log
 *.tmp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
 *.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
 ```
