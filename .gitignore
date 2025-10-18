@@ -1,44 +1,26 @@
 ```
-# CI/CD
-.github/
+# Compiled and build artifacts
+*.class
+*.jar
+*.war
+*.ear
+*.groovy.class
+*.gvy.class
 
 # Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-*.egg-info/
-dist/
+.gradle/
 build/
 target/
-.gradle/
-.cargo/
-zig-cache/
-julia-*/
-
-# Compiled files
-*.pyc
-*.class
-*.o
-*.exe
-*.dll
-*.so
-*.a
-*.obj
-*.out
-*.swp
-*.swo
 
 # Logs and temp files
 *.log
 *.tmp
-*.temp
-*.cache
+*.swp
 
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
 # Editors
 .vscode/
@@ -46,36 +28,18 @@ julia-*/
 *.swp
 *.swo
 
-# System
-.DS_Store
-Thumbs.db
-
 # Coverage
 coverage/
 htmlcov/
 .coverage
 
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+# Python (if Python files present)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.pytest_cache/
+.mypy_cache/
 ```
