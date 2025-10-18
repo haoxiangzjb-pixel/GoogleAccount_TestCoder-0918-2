@@ -1,18 +1,4 @@
-```
-# PowerShell files
-*.ps1
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# Environment
-.env
-.env.local
-*.env.*
+```toml
+# Configuration
+app_config.toml
 ```
