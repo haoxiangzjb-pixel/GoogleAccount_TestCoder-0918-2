@@ -1,1 +1,54 @@
-Nothing should be ignored based on the provided file changes. The added file 'RandomController_12345.cs' is a source code file that should be tracked in version control.
+```
+# Compiled Python files
+*.pyc
+__pycache__/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.ENV/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+.coverage
+htmlcov/
+coverage/
+
+# Python build artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+
+# MyPy cache
+.mypy_cache/
+
+# Pytest cache
+.pytest_cache/
+
+# Git related (avoid ignoring actual git files)
+!.gitignore
+```
