@@ -1,5 +1,26 @@
-(dot_product.f is a source file, so no .gitignore rules needed)
+```
+# PowerShell/Windows specific
+*.ps1~
+*.psd1~
+*.psm1~
+Thumbs.db
 
-```text
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS specific
+.DS_Store
 ```
