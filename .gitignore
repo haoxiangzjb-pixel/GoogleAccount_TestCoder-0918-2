@@ -1,9 +1,7 @@
 ```
-# Temporary shell scripts
-*_*.sh
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+# Compiled and build artifacts
+*.s
+*.o
+*.obj
+*.out
 ```
