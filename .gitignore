@@ -1,90 +1,24 @@
 ```
-# Compiled and build artifacts
+# Compiled files
+*.mex*
 *.o
 *.obj
-*.mod
-*.smod
-*.so
 *.a
-*.exe
+*.so
 *.dll
+*.exe
 
-# Dependencies
-build/
-dist/
+# MATLAB specific
+*.fig
+*.mat
+*.m~
+*~
+```
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+Wait, let me reconsider. The added files are just `.m` files (MATLAB/Octave source files), which are source code and should not be ignored. Let me check again:
 
-# Editors
-.vscode/
-.idea/
+The changes only include source files (`.m` files) and no build artifacts, dependencies, or temporary files. Following rule #6, if the change list contains ONLY source files and NO build artifacts, dependencies, or temp files, output an EMPTY .gitignore.
 
-# Environment
-.env
-.env.local
-*.env.*
+```
 
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-.Python
-*.pyd
-
-# MyPy
-.mypy_cache/
-
-# PyTest
-.pytest_cache/
-
-# Gradle
-.gradle/
-build/
-
-# Node
-node_modules/
-
-# Virtual environments
-venv/
-.venv/
-env/
-.venv*/
-
-# Julia
-julia-*/
-
-# Zig
-zig*/
-
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
 ```
