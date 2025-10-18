@@ -1,13 +1,32 @@
 ```
-# Zig installation
-zig-install/
-zig-linux-x86_64-0.13.0/
+# Compiled and build artifacts
+*.class
+*.o
+*.obj
 
-# Compressed archives
-*.tar
-*.tar.gz
-*.zip
+# Dependencies
+*.jar
+*.war
+*.ear
 
-# Data files
-*.dat
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Java-specific
+target/
+build/
+dist/
 ```
