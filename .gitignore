@@ -1,15 +1,13 @@
 ```
-# Compiled and build artifacts
-*.nimble
-*.nims
-*.so
-*.dll
-*.exe
+# Compiled files
+*.o
+*.obj
 *.out
 
 # Dependencies
-.nimble/
-nimcache/
+.m/
+__pycache__/
+*.pyc
 
 # Logs and temp files
 *.log
@@ -24,4 +22,24 @@ nimcache/
 .env
 .env.local
 *.env.*
+
+# Build artifacts
+build/
+dist/
+target/
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Python specific
+*.pyc
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
