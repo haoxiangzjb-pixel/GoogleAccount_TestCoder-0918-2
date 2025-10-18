@@ -1,68 +1,76 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.mod
-*.smod
-*.so
-*.a
-*.exe
-*.dll
+# Configuration and data files
+*.json
 
-# Dependencies
-build/
-dist/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# Environment
+# Environment files
 .env
 .env.local
 *.env.*
 
-# Coverage
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build artifacts
+dist/
+build/
+target/
+*.so
+*.dll
+*.exe
+*.out
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
 coverage/
 htmlcov/
 .coverage
 
-# Python
-__pycache__/
-*.pyc
-*.pyo
-.Python
-*.pyd
+# Package manager caches
+.pip/
+.npm/
+.yarn/
 
-# MyPy
-.mypy_cache/
-
-# PyTest
-.pytest_cache/
-
-# Gradle
-.gradle/
-build/
-
-# Node
-node_modules/
-
-# Virtual environments
+# Python virtual environments
 venv/
 .venv/
 env/
-.venv*/
+.ENV
 
-# Julia
-julia-*/
+# Java/Maven
+*.class
+*.jar
+*.war
+*.ear
+.m2/
 
-# Zig
-zig*/
+# C/C++
+*.o
+*.a
+*.obj
+*.lib
+*.so
+*.dylib
+*.dll
 
 # Compressed files
 *.zip
