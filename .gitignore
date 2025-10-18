@@ -1,33 +1,29 @@
 ```
-# LaTeX build artifacts
-*.aux
-*.log
-*.toc
-*.lof
-*.lot
-*.out
-*.bbl
-*.blg
-*.idx
-*.ind
-*.ilg
-*.pdf
-*.dvi
-*.ps
-*.fls
-*.fdb_latexmk
-*.synctex.gz
-*.synctex(busy)
-
-# Temp files
+# Temporary files
 *.tmp
-*.temp
 *.swp
 *.swo
+
+# Ruby specific
+*.rb~
+*.rbc
+*.gem
+*.rdoc
+.ruby-version
+.bundle/
 
 # System files
 .DS_Store
 Thumbs.db
+
+# Logs
+*.log
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
 
 # Environment files
 .env
@@ -39,45 +35,7 @@ coverage/
 htmlcov/
 .coverage
 
-# Editor/IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Dependencies (if any Python/Ruby/Node detected)
+# Package manager
 node_modules/
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-.venv/
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Build outputs
-build/
-dist/
-*.egg
-*.egg-info/
-.tox/
-.nox/
-.coverage
-coverage.xml
-
-# Logs
-*.log
-
-# OS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-Thumbs.db:encryptable
+vendor/bundle/
 ```
