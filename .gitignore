@@ -1,1 +1,4 @@
-Nothing should be ignored - the added files are source code files (.f90) which should be tracked in version control.
+```
+# Compiled files
+*.m
+```
