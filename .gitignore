@@ -1,28 +1,12 @@
 ```
-# Configuration and deployment files
-*.yml
-*.yaml
+# Compiled and build artifacts
+*.html
 
-# Logs and temporary files
-*.log
+# Logs and temp files
 *.tmp
 *.swp
 
-# Environment files
-.env
-.env.local
-.env.*
-
-# Editor/IDE files
+# Editors
 .vscode/
 .idea/
-
-# Backup files
-*~
-*.bak
-*.backup
-
-# System files
-.DS_Store
-Thumbs.db
 ```
