@@ -1,1 +1,20 @@
-(load_and_summary.R is an R source file, so no build artifacts, dependencies, or temp files to ignore)
+```
+# PowerShell cache and temp files
+*.ps1xml
+*.psc1
+*.psd1
+*.psm1
+*.pssc
+*.psrc
+*.clixml
+Thumbs.db
+ehthumbs.db
+*.nupkg
+# Processed files
+*.tmp
+*.temp
+*.log
+# User-specific files
+AppData/
+LocalAppData/
+```
