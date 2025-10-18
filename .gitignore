@@ -1,1 +1,1 @@
-Nothing should be ignored - all added files are PowerShell source code files (.sh, .ps1) which are legitimate project files that should be tracked in version control.
+Nothing to output - the change list contains only a source file (.sol) which should not be ignored.
