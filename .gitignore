@@ -1,4 +1,1 @@
-```
-# Kubernetes config files
-k8s-service-config-*.yaml
-```
+Nothing should be ignored based on the provided file changes, as they only include source/config files (.ps1 and .md files) with no build artifacts, dependencies, or temporary files.
