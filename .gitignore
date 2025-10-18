@@ -1,1 +1,36 @@
-(lambda_handler_8c3f1e.py is a source file, and there are no build artifacts, dependencies, or temp files in the changes)
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
+# Dependencies
+.Rproj.user/
+.Rhistory
+.RData
+*.RData
+*.rds
+*.rda
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.Rproj
+.Rapp.history
+.Rbuildignore
+
+# Output files from R scripts
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.pdf
+*.svg
+```
