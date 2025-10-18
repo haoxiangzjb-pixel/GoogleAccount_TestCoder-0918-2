@@ -1,4 +1,29 @@
 ```
+# Temporary files
+*.tmp
+*.temp
+tmp.*
+
 # Compiled files
-*.cs
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
+# Editor/IDE files
+*.swp
+*.swo
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+*.env.*
 ```
