@@ -1,30 +1,19 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
+# PHP compiled files
+*.php~
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+# Backup files
+*~
 
-# Environment
+# Environment files
 .env
 .env.local
 *.env.*
 
-# Editors
-.vscode/
-.idea/
+# Logs
+*.log
 
-# VBA files backup/autosave
-*.bak
+# Temporary files
 *.tmp
-*~
-```
-
-Wait, let me reconsider. The added files are `.vba` and `.py` files, which are source code files. The `.vba` files are likely source code, not build artifacts. According to rule #6, if the changes contain only source files, output nothing.
-
-```
-
+*.temp
 ```
