@@ -1,4 +1,12 @@
 ```
-# Backup scripts
-backup_*.sh
+# Temporary files
+*.tmp
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Docker
+docker-compose-*.yml
 ```
