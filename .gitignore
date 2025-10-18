@@ -1,38 +1,58 @@
 ```
-# R-specific compiled files
-*.rds
-*.RData
-*.Rhistory
-*.Rproj.user/
-.Rproj.user/
-
-# R build artifacts
-Rplots.pdf
-*.so
+# Compiled and build artifacts
+*.mex*
 *.o
+*.obj
+*.a
+*.so
+*.dll
+*.exe
+*.out
 
-# Temporary files
+# Dependencies
+.mex/
+mex/
+build/
+dist/
+
+# Logs and temp files
+*.log
 *.tmp
-*.temp
-*~
+*.swp
 
-# Environment files
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
 .env
 .env.local
 *.env.*
 
-# Logs
-*.log
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
 
-# Backup files
-*.bak
-*.backup
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
 
-# Output files from R scripts
-*.csv
-*.txt
-*.png
-*.pdf
-*.jpg
-*.jpeg
+# Testing
+.pytest_cache/
+.mypy_cache/
+.tox/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
