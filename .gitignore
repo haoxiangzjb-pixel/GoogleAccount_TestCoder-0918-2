@@ -1,50 +1,33 @@
 ```
-# CI/CD
-.gitlab-ci.yml
-*.yml
+# Compiled files
+*.cmi
+*.cmo
+*.cma
+*.cmx
+*.cmxa
+*.cmxs
+*.exe
+*.out
 
-# Temporary CI files
-*.tmp
-*.temp
+# Build artifacts
+_build/
+_dbuild/
+*.native
+*.byte
 
-# Logs
-*.log
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
+# Editor/IDE
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-*.so
-
-# Build directories
-build/
-dist/
-*.egg-info/
-
-# Virtual environments
-venv/
-.venv/
-env/
-.ENV
+# Logs and temp files
+*.log
+*.tmp
 
 # Dependencies
+.dune/
+.opam/
+esy.lock/
 node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# System files
-.DS_Store
-Thumbs.db
 ```
