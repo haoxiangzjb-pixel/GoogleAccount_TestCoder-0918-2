@@ -1,1 +1,22 @@
-(load_and_summary.R is an R source file, so no build artifacts, dependencies, or temp files to ignore)
+```
+# Temporary files
+*.tmp
+*.temp
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Logs
+*.log
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Generated files
+*.json
+```
