@@ -1,1 +1,34 @@
-Nothing should be ignored based on the provided file changes. The added file `f33Yb2Q5b0fR.ts` is a TypeScript source file which should be tracked in version control.
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.class
+*.pyc
+__pycache__/
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+.env
+.env.local
+*.env.*
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Build directories
+dist/
+build/
+target/
+```
