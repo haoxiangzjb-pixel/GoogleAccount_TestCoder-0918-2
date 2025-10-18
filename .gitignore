@@ -1,28 +1,13 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
+# Zig installation
+zig-install/
+zig-linux-x86_64-0.13.0/
 
-# Dependencies
-target/
-Cargo.lock
+# Compressed archives
+*.tar
+*.tar.gz
+*.zip
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# Environment
-.env
-.env.local
-*.env.*
+# Data files
+*.dat
 ```
