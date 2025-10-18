@@ -1,35 +1,27 @@
 ```
-# Temp files
-*.tmp
-temp_*.txt
-*test*.js
-
-# Compiled and build artifacts
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.pyc
-__pycache__/
+# TypeScript/JavaScript build artifacts
+*.js
+*.js.map
+*.tsbuildinfo
 
 # Dependencies
 node_modules/
-venv/
-.venv/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
 .env
 .env.local
-*.env.*
+.env.*
 
 # Editors
 .vscode/
 .idea/
 *.swp
 *.swo
-
-# Logs
-*.log
 
 # Coverage
 coverage/
@@ -40,4 +32,24 @@ htmlcov/
 dist/
 build/
 target/
+out/
+lib/
+
+# Virtual environments
+venv/
+.venv/
+.env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+.mypy_cache/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
