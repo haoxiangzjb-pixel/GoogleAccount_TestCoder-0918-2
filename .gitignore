@@ -1,25 +1,37 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.hi
-*.chi
-*.chs
+# Compiled files
+*.class
 
-# Dependencies
-.stack-work/
-.cabal-sandbox/
-dist/
-dist-newstyle/
-
-# Logs and temp files
-*.log
+# Temporary files
 *.tmp
 *.swp
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
 
 # Editors
 .vscode/
 .idea/
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
 
 # System files
 .DS_Store
