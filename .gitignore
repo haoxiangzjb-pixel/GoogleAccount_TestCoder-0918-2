@@ -1,54 +1,47 @@
 ```
-# Compiled Python files
+# Compiled and build artifacts
 *.pyc
 __pycache__/
+*.o
+*.obj
 
-# Virtual environments
-venv/
+# Dependencies
 .venv/
-env/
-.ENV/
+venv/
+node_modules/
 
-# Logs
+# Logs and temp files
 *.log
-
-# Temporary files
 *.tmp
 *.swp
-*.swo
 
-# Environment files
+# Environment
 .env
 .env.local
 *.env.*
 
-# Editor/IDE files
+# Editors
 .vscode/
 .idea/
-*.sublime-project
-*.sublime-workspace
 
-# OS generated files
+# System files
 .DS_Store
 Thumbs.db
 
-# Coverage reports
-.coverage
-htmlcov/
+# Coverage
 coverage/
+htmlcov/
+.coverage
 
-# Python build artifacts
-build/
+# Distribution artifacts
 dist/
-*.egg-info/
-*.egg
+build/
+*.tar.gz
+*.zip
 
-# MyPy cache
+# Cache directories
 .mypy_cache/
-
-# Pytest cache
 .pytest_cache/
-
-# Git related (avoid ignoring actual git files)
-!.gitignore
+.gradle/
+target/
 ```
