@@ -1,10 +1,12 @@
 ```
-# Compiled files
-*.class
+# Compiled and build artifacts
+*.beam
+*.o
+*.obj
 
 # Dependencies
-__pycache__/
-*.pyc
+deps/
+_build/
 
 # Logs and temp files
 *.log
@@ -19,13 +21,4 @@ __pycache__/
 .env
 .env.local
 *.env.*
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# System
-.DS_Store
-Thumbs.db
 ```
