@@ -1,83 +1,58 @@
 ```
-# Compiled files
-*.csproj.user
-*.useros
-*.userprefs
-*.suo
-*.user
-*.aps
-*.ncb
-*.obj
-*.exe
-*.dll
-*.pdb
-*.ilk
-*.o
-*.a
-*.lib
-*.so
-*.dylib
-*.class
-*.jar
-*.war
-*.ear
+# Compiled Python files
 *.pyc
-*.pyo
-*.pyd
-*.coffee.md
-*.csp
-*.dll.config
-*.pdb.config
-*.config.install.xdt
-*.config.transform
-*.dat
+__pycache__/
 
-# Build results
-[Dd]ebug/
-[Dd]ebugPublic/
-[Rr]elease/
-[Rr]eleases/
-x64/
-x86/
-build/
-bld/
-[Bb]in/
-[Oo]bj/
-[Ll]ogs/
+# Virtual environments
+venv/
+.venv/
+env/
 
-# Visual Studio files
-*.VC.db
-*.VC.VC.opendb
-*.user
-*.useros
-*.suo
-*.sln.docstates
-*.userprefs
-ipch/
-obj/
-*.VC.db-shm
-*.VC.VC.opendb-shm
-*.VC.db-wal
-*.VC.VC.opendb-wal
+# TensorFlow/ML related
+*.pb
+*.pbtxt
+*.ckpt
+*.index
+*.meta
+*.sav
+*.pkl
 
-# Rider
-.idea/
-*.DotSettings
-*.DotSettings.user
-
-# CodeRush
-*.cr
-
-# Visual Studio Code
-.vscode/
-
-# Other
-*.tmp
-*.temp
+# Logs
 *.log
+
+# Temporary files
+*.tmp
 *.swp
 *.swo
-*~
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
 .DS_Store
 Thumbs.db
+
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
+# Build directories
+dist/
+build/
+target/
+*.egg-info/
+
+# Cache directories
+.mypy_cache/
+.pytest_cache/
+.tox/
 ```
