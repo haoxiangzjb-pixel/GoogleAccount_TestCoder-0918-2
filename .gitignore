@@ -1,55 +1,7 @@
 ```
-# TypeScript/JavaScript build artifacts
-*.js
-*.js.map
-*.tsbuildinfo
+# Solidity compiled artifacts
+*.sol
 
-# Dependencies
-node_modules/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Build directories
-dist/
-build/
-target/
-out/
-lib/
-
-# Virtual environments
-venv/
-.venv/
-.env/
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-.pytest_cache/
-.mypy_cache/
-
-# System files
-.DS_Store
-Thumbs.db
+# If this is a generated file, uncomment the line above
+# Otherwise, if it's source code, it should not be ignored
 ```
