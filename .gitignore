@@ -1,1 +1,89 @@
-Nothing should be ignored based on the provided file changes. The added file 'RandomController_12345.cs' is a source code file that should be tracked in version control.
+```
+# Temporary files and logs
+*.tmp
+*.log
+*.swp
+
+# Environment files
+.env
+.env.local
+.env.*
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swo
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Node.js
+node_modules/
+
+# Build directories
+dist/
+build/
+target/
+
+# Virtual environments
+venv/
+.venv/
+.env/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Compression files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+
+# MyPy cache
+.mypy_cache/
+
+# PyTest cache
+.pytest_cache/
+
+# Gradle
+.gradle/
+
+# Temporary generated files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# UUID-based temporary files
+*-[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}*
+
+# Specific file from changes
+ff059726-aece-47dd-8e85-c9ed69581ef7.json
+```
