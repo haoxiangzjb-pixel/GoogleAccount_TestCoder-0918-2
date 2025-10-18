@@ -1,59 +1,81 @@
 ```
 # Compiled and build artifacts
-*.swiftmodule
-*.swiftdoc
+*.pyc
+__pycache__/
 *.o
 *.obj
+*.class
+*.exe
+*.dll
+*.so
 *.a
-*.dylib
-*.framework
+*.out
 
 # Dependencies
-Pods/
-Carthage/
-build/
-DerivedData/
+node_modules/
+venv/
+.venv/
+.env
+.env.local
+.env.*
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Environment
-.env
-.env.local
-.env.*
-
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# macOS
-.DS_Store
-*.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-
-# Xcode
-*.xcodeproj/
-*.xcworkspace/
-*.playground/
-xcuserdata/
-project.xcworkspace/
-xcshareddata/
-
-# Swift Package Manager
-.swiftPM/
-Package.resolved
-
-# Build results
+# Build directories
+dist/
 build/
-*.build/
-DerivedData/
+target/
+.gradle/
+
+# Python specific
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg-info/
+.eggs/
+.coverage
+htmlcov/
+.mypy_cache/
+.pytest_cache/
+.tox/
+
+# Dart/Flutter specific (if applicable)
+.dart_tool/
+.packages
+.pub/
+build/
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
