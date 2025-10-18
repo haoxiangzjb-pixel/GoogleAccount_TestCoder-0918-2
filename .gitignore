@@ -1,1 +1,51 @@
-(get_processes.ps1 is a PowerShell script file, which is a source code file, so no .gitignore rules are needed)
+```
+# VBA/Excel files
+*.vba
+*.bas
+*.frm
+*.cls
+*.vbs
+
+# Excel files
+*.xlsx
+*.xls
+*.xlsm
+*.xlsb
+*.csv
+
+# Temporary files
+*.tmp
+*.temp
+~$*
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build/Output directories
+bin/
+obj/
+Debug/
+Release/
+build/
+dist/
+out/
+
+# Dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.egg-info/
+.Python/
+```
