@@ -1,19 +1,35 @@
 ```
-# Compiled files
-*.pl~
+# Compiled and build artifacts
+*.swiftmodule
+*.swiftdoc
+*.sib
+*.sil
+*.bc
+*.o
+*.obj
+
+# Dependencies
+Packages/
+.build/
+.swift-version
 
 # Logs and temp files
-*.tmp
 *.log
-
-# Editor/IDE files
+*.tmp
 *.swp
-*.swo
-.vscode/
-.idea/
 
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
 ```
