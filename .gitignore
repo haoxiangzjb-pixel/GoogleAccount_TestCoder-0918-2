@@ -1,3 +1,40 @@
-(greeting_21c39feb.dart is a source file, and there are no build artifacts, dependencies, or temp files in the changes, so no ignores are needed)
+```
+# Compiled and build artifacts
+*.mex*
+*.o
+*.obj
+*.dll
+*.so
+*.a
+*.lib
+*.dylib
+*.exe
 
-(empty — output nothing)
+# Dependencies
+*.mat
+*.fig
+*.m~
+*~
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# MATLAB specific
+*.fig
+*.mat
+*.m~
+*~
+```
