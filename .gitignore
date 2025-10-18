@@ -1,19 +1,27 @@
-```
-# Compiled files
-*.pl~
+```powershell
+# PowerShell modules and profiles
+Modules/
+PSModules/
+
+# PowerShell session state
+*.psm1
+*.psd1
 
 # Logs and temp files
-*.tmp
 *.log
-
-# Editor/IDE files
+*.tmp
 *.swp
-*.swo
-.vscode/
-.idea/
 
 # Environment
 .env
 .env.local
 *.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
