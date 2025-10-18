@@ -1,4 +1,24 @@
 ```
-# Kubernetes config files
-k8s-service-config-*.yaml
+# Compiled and build artifacts
+*.ji
+*.o
+*.obj
+*.out
+
+# Dependencies
+.julia/
+*.julia/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
