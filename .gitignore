@@ -1,4 +1,13 @@
 ```
-# No build artifacts, dependencies, or temp files detected in changes
-# Only Makefile added, which is a source/config file
+# Dependency directories
+zig-linux-x86_64-0.13.0/
+
+# Compressed files
+*.tar
+*.gz
+*.tar.gz
+
+# System files
+.DS_Store
+Thumbs.db
 ```
