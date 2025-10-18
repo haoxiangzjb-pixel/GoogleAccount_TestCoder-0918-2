@@ -1,1 +1,5 @@
-Nothing to ignore - only a Ruby source file was added.
+```
+# GraphQL schema files are source code - don't ignore them
+# lxbfcgnxk0.graphql
+# schema.graphql
+```
