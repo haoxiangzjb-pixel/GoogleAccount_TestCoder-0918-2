@@ -1,1 +1,22 @@
-Nothing should be ignored based on the provided file changes. The added file is a Swift source code file, which should be tracked in version control.
+```
+# Compressed files
+*.tar.xz
+*.xz
+*.gz
+*.zip
+*.bz2
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar
+*.tgz
+```
