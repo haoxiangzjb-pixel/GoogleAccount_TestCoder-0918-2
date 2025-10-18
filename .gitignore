@@ -1,28 +1,12 @@
 ```
-# Configuration and deployment files
-*.yml
-*.yaml
+# R plots and generated images
+Rplots.pdf
+*.png
 
-# Logs and temporary files
-*.log
+# Temporary files
 *.tmp
-*.swp
+*.temp
 
-# Environment files
-.env
-.env.local
-.env.*
-
-# Editor/IDE files
-.vscode/
-.idea/
-
-# Backup files
-*~
-*.bak
-*.backup
-
-# System files
-.DS_Store
-Thumbs.db
+# Logs
+*.log
 ```
