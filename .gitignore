@@ -1,25 +1,5 @@
 ```
-# Compiled files
-*.rb~
-
-# Editor/IDE files
-*.swp
-*.swo
+#Temp files
 *.tmp
-
-# Logs
-*.log
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Dependencies
-vendor/bundle/
-.bundle/
-
-# System files
-.DS_Store
-Thumbs.db
+tmp.*
 ```
