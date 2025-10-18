@@ -1,4 +1,1 @@
-```
-# No build artifacts, dependencies, or temp files detected in changes
-# Only Makefile added, which is a source/config file
-```
+Nothing to output - the added file 'person_class.rb' is a source code file and should not be ignored.
