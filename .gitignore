@@ -1,32 +1,33 @@
-```
-# Compiled and build artifacts
-*.class
-*.o
-*.obj
+```matlab
+% Compiled MATLAB files
+*.mex*
+*.fig
+*.mat
+*.p
 
-# Dependencies
-*.jar
-*.war
-*.ear
-
-# Logs and temp files
-*.log
+% MATLAB cache and temporary files
 *.tmp
-*.swp
+*.log
+*~
+%#*#*
+._*
 
-# Environment
-.env
-.env.local
-.env.*
+% Dependencies and build directories
++*
+@*
 
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
+% User preferences and session files
+*.mlappinstall
+*.mltbx
+*.mcp
+*.prj
 
-# Java-specific
-target/
-build/
-dist/
+% MATLAB toolbox and app files
+*.mlapp
+*.mlapp~*
+*.mltbx~
+
+% MATLAB cache directories
+matlab/
+cache/
 ```
