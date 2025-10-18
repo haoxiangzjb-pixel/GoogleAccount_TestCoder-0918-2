@@ -1,1 +1,4 @@
-Nothing should be ignored in this case, as the added files are source code files (.cpp and .h) which are not build artifacts, dependencies, or temporary files.
+```
+# CI/CD
+.github/workflows/
+```
