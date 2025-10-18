@@ -1,33 +1,45 @@
 ```
-# Dart tooling
-.dart_tool/
-
-# Dependencies
-pubspec.lock
+# Julia specific
+*.ji
+*.jl.c
+*.jl.o
+*.jl.so
+*.jl.dll
+*.jl.lib
+*.jl.a
 
 # Build artifacts
 build/
 dist/
-*.aar
-*.jar
-*.so
+target/
 
-# Logs
+# Dependencies
+.julia/
+Pkg.add/
+Pkg.build/
+
+# Logs and temp files
 *.log
+*.tmp
+*.swp
 
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
-# Editor/IDE
+# Editors
 .vscode/
 .idea/
 *.swp
 *.swo
-*.tmp
 
-# OS generated files
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# OS
 .DS_Store
 Thumbs.db
 ```
