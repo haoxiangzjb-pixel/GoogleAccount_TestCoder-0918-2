@@ -1,4 +1,25 @@
 ```
-# CI/CD
-.github/workflows/
+# Compiled files
+*.rb~
+
+# Editor/IDE files
+*.swp
+*.swo
+*.tmp
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Dependencies
+vendor/bundle/
+.bundle/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
