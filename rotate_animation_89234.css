@@ -1,0 +1,35 @@
+/* CSS animation for rotation */
+
+/* Define the rotation animation */
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Apply the animation to an element */
+.rotating-element {
+  animation: rotate 2s linear infinite;
+  display: inline-block;
+}
+
+/* Example usage with a box */
+.rotating-box {
+  width: 100px;
+  height: 100px;
+  background-color: #3498db;
+  margin: 50px auto;
+  animation: rotate 2s linear infinite;
+}
+
+/* Alternative with different speed */
+.rotating-slow {
+  animation: rotate 4s linear infinite;
+}
+
+.rotating-fast {
+  animation: rotate 0.5s linear infinite;
+}
