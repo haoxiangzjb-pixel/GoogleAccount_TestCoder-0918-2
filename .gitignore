@@ -1,24 +1,3 @@
-```
-# Compiled and build artifacts
-*.ji
-*.o
-*.obj
-*.out
+(random_filename.txt and uwpqvabwl5.py are source files, so no ignores needed)
 
-# Dependencies
-.julia/
-*.julia/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# System files
-.DS_Store
-Thumbs.db
-```
+(empty output)
