@@ -1,22 +1,383 @@
 ```
 # Compiled and build artifacts
-*.ex
-*.exs
+*.pyc
+__pycache__/
+*.o
+*.obj
+dist/
+build/
 
 # Dependencies
-deps/
-_build/
+.venv/
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
 *.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
 
 # Editors
 .vscode/
 .idea/
 
-# Environment
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg-info/
+.eggs/
+
+# JavaScript/Node
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+
+# Project specific build artifacts
+target/
+.gradle/
+*.class
+*.jar
+*.war
+*.ear
+*.dll
+*.so
+*.a
+*.out
+
+# Testing
+.pytest_cache/
+.mypy_cache/
+.tox/
+.coverage
+htmlcov/
+
+# Temporary files
+*.tmp
+*~
+*.swp
+*.swo
+
+# Configuration
 .env
 .env.local
-*.env.*
+.env.*
+config.env
+.env.production
+.env.development
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+nbproject/
+*.launch
+.settings/
+
+# Documentation
+docs/_build/
+
+# Distribution
+dist/
+build/
+*.egg
+*.egg-info/
+.eggs/
+.installed.cfg
+*.egg-info/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env/
+pyenv/
+.Python
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+node_modules/
+dist/
+build/
+
+# Python virtual environments
+venv/
+.venv/
+env/
+.venv/
+pyenv/
+.Python
+
+# Generated files
+*.generated.js
+*.generated.py
+*.generated.css
+
+# Cache directories
+.cache/
+.caches/
+__pycache__/
+*.cache
+.cache/
+
+# Lock files
+package-lock.json
+yarn.lock
+Pipfile.lock
+poetry.lock
+
+# System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+.directory
+*.nfs
+*~
+.#*
+.~lock*
+
+# Compression
+*.zip
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+
+# Images (if accidentally included)
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.gif
+*.webp
+*.tiff
+*.svg
+
+# Videos
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.flv
+*.webm
+
+# Audio
+*.mp3
+*.wav
+*.flac
+*.aac
+*.ogg
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup files
+*.bak
+*.backup
+*~
+*.swp
+*.swo
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+*.log
+
+# IDE specific
+.vscode/
+.idea/
+*.iml
+*.iws
+*.ipr
+.project
+.classpath
+.settings/
+
+# OS specific
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+.directory
+*.nfs
+*~
+.#*
+.~lock*
+
+# Environment files
+.env
+.env.local
+.env.*
+.env.production
+.env.development
+.env.test
+.env.staging
+
+# Build outputs
+dist/
+build/
+out/
+output/
+target/
+public/
+
+# Dependencies
+node_modules/
+vendor/
+lib/
+libs/
+deps/
+dependencies/
+
+# Compiled files
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.pyc
+*.pyo
+*.pyd
+*.class
+*.jar
+*.war
+*.ear
+*.swf
+*.dll
+*.so
+*.a
+*.out
+
+# Logs
+*.log
+*.out
+*.err
+
+# Cache
+.cache/
+.caches/
+__pycache__/
+*.cache
+.cache/
+
+# Temporary
+tmp/
+temp/
+.tmp
+.temp
+
+# Compressed
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.tox/
+
+# Distribution
+*.egg
+*.egg-info/
+.eggs/
+.installed.cfg
+
+# Virtual environments
+venv/
+.venv/
+env/
+.venv/
+pyenv/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg-info/
+.eggs/
+
+# Generated
+*.generated.js
+*.generated.py
+*.generated.css
+
+# Lock files
+package-lock.json
+yarn.lock
+Pipfile.lock
+poetry.lock
+
 ```
