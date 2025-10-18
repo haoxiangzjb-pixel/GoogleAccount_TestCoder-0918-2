@@ -1,7 +1,4 @@
 ```
-# XML files
-*.xml
-
-# If this is a generated file, you might want to be more specific
-# student_*.xml
+# Configuration files
+config_*.toml
 ```
