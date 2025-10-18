@@ -1,4 +1,22 @@
 ```
-# Compiled files
-*.cs
+# Temporary files
+*.tmp
+*.temp
+
+# Generated HTML files
+*.html
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+*.env.*
 ```
