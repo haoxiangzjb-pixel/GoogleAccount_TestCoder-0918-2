@@ -1,5 +1,9 @@
 ```
-# Configuration files
-*.yml
-*.yaml
+#Temp files
+*.tmp
+*.swp
+*.swo
+
+#System files
+tmp.*
 ```
