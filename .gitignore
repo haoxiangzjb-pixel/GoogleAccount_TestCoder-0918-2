@@ -1,1 +1,41 @@
-Nothing to ignore - only a Ruby source file was added.
+```
+# VBA/Office files
+*.bas
+*.vba
+*.vbs
+*.cls
+*.frm
+*.vbp
+*.dsv
+
+# Compiled/Generated VBA files
+*.o
+*.obj
+*.dll
+*.exe
+*.tmp
+
+# Backup and temporary files
+*.bak
+*.~*
+*.tmp
+*~
+
+# Environment and system files
+.env
+.env.local
+*.env.*
+
+# Logs
+*.log
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS specific
+.DS_Store
+Thumbs.db
+```
