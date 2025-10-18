@@ -1,17 +1,12 @@
 ```
 # Compiled and build artifacts
 *.swiftmodule
-*.swiftdoc
-*.o
-*.obj
-*.a
-*.dylib
-*.framework
+*.swiftdo
+*.swo
 
 # Dependencies
-Pods/
-Carthage/
-build/
+Packages/
+.build/
 DerivedData/
 
 # Logs and temp files
@@ -32,28 +27,4 @@ DerivedData/
 
 # macOS
 .DS_Store
-*.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-
-# Xcode
-*.xcodeproj/
-*.xcworkspace/
-*.playground/
-xcuserdata/
-project.xcworkspace/
-xcshareddata/
-
-# Swift Package Manager
-.swiftPM/
-Package.resolved
-
-# Build results
-build/
-*.build/
-DerivedData/
 ```
