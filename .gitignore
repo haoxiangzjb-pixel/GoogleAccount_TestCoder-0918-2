@@ -1,4 +1,3 @@
-```
-# CI/CD
-.gitlab-ci.yml
-```
+(dot_product_sub.f is a source file, so no .gitignore rules needed)
+
+(empty - output nothing)
