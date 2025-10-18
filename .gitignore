@@ -4,12 +4,11 @@
 __pycache__/
 *.o
 *.obj
-*.out
 
 # Dependencies
 .venv/
 venv/
-pip-cache/
+node_modules/
 
 # Logs and temp files
 *.log
@@ -30,17 +29,18 @@ coverage/
 htmlcov/
 .coverage
 
+# Distribution artifacts
+dist/
+build/
+*.egg-info/
+*.whl
+*.tar.gz
+
 # Python specific
-*.pyc
 *.pyo
 *.pyd
 .Python
 *.so
-*.egg-info/
-dist/
-build/
-*.egg
-*.zip
 
 # System files
 .DS_Store
