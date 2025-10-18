@@ -1,52 +1,28 @@
 ```
-# Terraform
-*.tfstate
-*.tfstate.*
-*.tfvars
-.terraform/
-terraform.tfstate
-terraform.tfstate.backup
+# Compiled files
+*.pl~
 
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-dist/
-build/
-target/
-
-# Dependencies
-.venv/
-venv/
-node_modules/
-.pip/
-.mypy_cache/
-.pytest_cache/
-
-# Logs and temp files
-*.log
-*.tmp
+# Backup and swap files
+*~
 *.swp
 *.swo
 
-# Environment
+# Log files
+*.log
+
+# Environment files
 .env
 .env.local
-.env.*
+*.env.*
 
-# Editors
+# Editor/IDE files
 .vscode/
 .idea/
-*.swp
-*.swo
+*.tmp
 
-# System
+# OS generated files
 .DS_Store
 Thumbs.db
-coverage/
-htmlcov/
-.coverage
 
 # Compressed files
 *.zip
