@@ -1,46 +1,49 @@
-```
-# Vue.js build artifacts
-*.vue
-
-# Compiled and build artifacts
-*.pyc
-*.class
-*.o
-*.obj
+```fsharp
+# Build artifacts
 *.exe
 *.dll
 *.so
 *.a
+*.obj
+*.o
 *.out
+*.pyc
+*.class
 
 # Dependencies
 node_modules/
 venv/
 .venv/
 __pycache__/
-dist/
-build/
-target/
-.gradle/
 .mypy_cache/
 .pytest_cache/
+target/
+.gradle/
+paket-files/
 
-# Logs and temp files
-*.log
-*.tmp
+# Build directories
+bin/
+obj/
+out/
+dist/
+build/
+
+# Editor/IDE
+.vscode/
+.idea/
 *.swp
 *.swo
+*.tmp
+
+# Logs
+*.log
 
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
-# Editors
-.vscode/
-.idea/
-
-# System files
+# OS
 .DS_Store
 Thumbs.db
 
@@ -49,7 +52,7 @@ coverage/
 htmlcov/
 .coverage
 
-# Compressed files
+# Archives
 *.zip
 *.gz
 *.tar
