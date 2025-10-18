@@ -1,48 +1,7 @@
 ```
-# Elixir/Erlang specific ignores
-*.beam
-*.ez
-ebin/
-_build/
-deps/
+# Executable files
+max_array_program
 
-# Environment
-.env
-.env.local
-.env.*
-
-# Logs
-*.log
-
-# Temporary files
-*.tmp
-*.swp
-*~
-
-# Editor/IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Dependency directories
-node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-target/
-.gradle/
-dist/
-build/
+# Text result files
+*.txt
 ```
