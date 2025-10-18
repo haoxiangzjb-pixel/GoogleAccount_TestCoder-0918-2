@@ -1,25 +1,20 @@
 ```
 # Compiled and build artifacts
-*.pyc
-__pycache__/
 *.o
 *.obj
-*.class
+*.out
 *.exe
 *.dll
 *.so
 *.a
-*.out
 
 # Dependencies
-node_modules/
 venv/
 .venv/
-.env
-.env.local
-.env.*
-
-# Build directories
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+node_modules/
 dist/
 build/
 target/
@@ -30,6 +25,11 @@ target/
 *.tmp
 *.swp
 *.swo
+
+# Environment
+.env
+.env.local
+*.env.*
 
 # Editors
 .vscode/
