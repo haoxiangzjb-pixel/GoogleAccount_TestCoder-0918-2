@@ -1,23 +1,19 @@
 ```
-# Temp files
-*.tmp
-temp_*.txt
-*test*.js
-
 # Compiled and build artifacts
 *.o
 *.obj
-*.exe
-*.dll
-*.so
-*.a
-*.pyc
-__pycache__/
+*.out
 
 # Dependencies
-node_modules/
-venv/
-.venv/
+zig-cache/
+zig-out/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
 .env
 .env.local
 *.env.*
@@ -25,19 +21,4 @@ venv/
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
-
-# Logs
-*.log
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Build directories
-dist/
-build/
-target/
 ```
