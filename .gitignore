@@ -1,1 +1,9 @@
-Nothing should be ignored based on the provided file changes. The added file `form_handler_7f3b1a9c.php` appears to be a source code file that should be tracked in version control.
+```
+# Temporary shell scripts
+*_*.sh
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+```
