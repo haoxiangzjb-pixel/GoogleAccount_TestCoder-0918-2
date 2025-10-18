@@ -1,3 +1,4 @@
 ```
-*.cs
+# JSON response files
+*.json
 ```
