@@ -1,96 +1,35 @@
 ```
 # Compiled and build artifacts
-*.csproj.user
-*.useros
-*.suo
-*.user
-*.aps
-*.ncb
-*.obj
-*.exe
-*.dll
-*.lib
-*.so
-*.a
-*.o
 *.pyc
-*.pyo
-*.class
-*.jar
-*.war
-*.ear
-*.swp
-*.swo
-*.tmp
-*.log
-*.out
+__pycache__/
+*.o
+*.obj
 
 # Dependencies
-node_modules/
-venv/
 .venv/
-__pycache__/
-*.egg-info/
-build/
-dist/
-target/
-.gradle/
-.mypy_cache/
-.pytest_cache/
-.nyc_output/
-coverage/
-htmlcov/
-.coverage
-julia-*/
-zig*/
+venv/
+node_modules/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
 # Environment
 .env
 .env.local
-.env.*
-!.env.example
+*.env.*
 
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
-*~
 
-# System
-.DS_Store
-Thumbs.db
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Icon?
-Network Trash Folder
-Temporary Items
-.apdisk
+# Coverage
+.coverage
+coverage/
+htmlcov/
 
-# Archives
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+# Python cache
+.mypy_cache/
+.pytest_cache/
 ```
