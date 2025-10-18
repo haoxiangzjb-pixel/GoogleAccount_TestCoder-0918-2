@@ -1,0 +1,1 @@
+{"url":"https://example.com/api/data","timestamp":"2025-10-18T05:01:59.728337","data":"This is simulated network data","status":"success"}

@@ -1,4 +1,33 @@
 ```
-# CI/CD
-.github/workflows/
+# Dart tooling
+.dart_tool/
+
+# Dependencies
+pubspec.lock
+
+# Build artifacts
+build/
+dist/
+*.aar
+*.jar
+*.so
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# OS generated files
+.DS_Store
+Thumbs.db
 ```
