@@ -1,31 +1,18 @@
 ```
-# Julia specific
-*.ji
-*.jl.c
-*.jl.o
-*.jl.so
-*.jl.dll
-*.jl.lib
-*.jl.dSYM/
-*.jl~
+# PowerShell files
+*.ps1
 
-# Dependencies and build artifacts
-.julia/
-build/
-dist/
-*.so
-*.dll
-*.lib
-*.a
-*.dylib
-*.dSYM/
-
-# Editors and IDEs
-.julia/config/
-.julia/logs/
-
-# Temporary files
+# Logs and temp files
+*.log
 *.tmp
 *.swp
-*~
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+*.env.*
 ```
