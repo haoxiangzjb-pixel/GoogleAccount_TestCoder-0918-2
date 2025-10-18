@@ -1,25 +1,15 @@
 ```
-# Compiled files
-*.rb~
+# VBA files
+*.vba
 
-# Editor/IDE files
-*.swp
-*.swo
+# Backup files
+*.bak
+*~
+
+# Temporary files
 *.tmp
+*.temp
 
 # Logs
 *.log
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Dependencies
-vendor/bundle/
-.bundle/
-
-# System files
-.DS_Store
-Thumbs.db
 ```
