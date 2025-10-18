@@ -1,4 +1,96 @@
 ```
-# No build artifacts, dependencies, or temp files detected in changes
-# Only Makefile added, which is a source/config file
+# Compiled and build artifacts
+*.csproj.user
+*.useros
+*.suo
+*.user
+*.aps
+*.ncb
+*.obj
+*.exe
+*.dll
+*.lib
+*.so
+*.a
+*.o
+*.pyc
+*.pyo
+*.class
+*.jar
+*.war
+*.ear
+*.swp
+*.swo
+*.tmp
+*.log
+*.out
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.egg-info/
+build/
+dist/
+target/
+.gradle/
+.mypy_cache/
+.pytest_cache/
+.nyc_output/
+coverage/
+htmlcov/
+.coverage
+julia-*/
+zig*/
+
+# Environment
+.env
+.env.local
+.env.*
+!.env.example
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# System
+.DS_Store
+Thumbs.db
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Icon?
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Archives
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
