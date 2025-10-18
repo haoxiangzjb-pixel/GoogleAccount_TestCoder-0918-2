@@ -1,22 +1,40 @@
 ```
 # Compiled and build artifacts
-*.ex
-*.exs
+*.pyc
+__pycache__/
+*.o
+*.obj
 
 # Dependencies
-deps/
-_build/
+.venv/
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
 *.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
 
 # Editors
 .vscode/
 .idea/
 
-# Environment
-.env
-.env.local
-*.env.*
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Build directories
+dist/
+build/
+target/
 ```
