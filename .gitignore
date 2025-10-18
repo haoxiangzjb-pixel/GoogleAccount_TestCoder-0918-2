@@ -1,6 +1,18 @@
 ```
-# PowerShell session files
-*.ps1
+# Compiled and build artifacts
+*.swiftmodule
+*.swiftdoc
+*.o
+*.obj
+*.a
+*.dylib
+*.framework
+
+# Dependencies
+Pods/
+Carthage/
+build/
+DerivedData/
 
 # Logs and temp files
 *.log
@@ -10,13 +22,38 @@
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# OS generated files
+# macOS
 .DS_Store
+*.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+*.playground/
+xcuserdata/
+project.xcworkspace/
+xcshareddata/
+
+# Swift Package Manager
+.swiftPM/
+Package.resolved
+
+# Build results
+build/
+*.build/
+DerivedData/
 ```
