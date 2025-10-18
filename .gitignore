@@ -1,63 +1,54 @@
 ```
-# Kubernetes/Docker deployment files
-*.yaml
-*.yml
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
-# Node.js specific
+# Dependencies
 node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Environment variables
+venv/
+.venv/
 .env
 .env.local
 .env.*
-!nodejs-deployment.yaml
 
-# Logs
-*.log
-
-# Temporary files
-*.tmp
-*.temp
-*~
-.DS_Store
-Thumbs.db
-
-# Build outputs
+# Build directories
 dist/
 build/
-coverage/
-.nyc_output/
-coverage-final.json
-
-# IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Dependency directories
-node_modules/
-julia-*/
-zig*/
 target/
 .gradle/
 
-# Python cache (if Python project detected)
-__pycache__/
-*.pyc
-*.pyo
-.Python
-*.so
-*.egg-info/
-.eggs/
-.coverage
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
 htmlcov/
-.pytest_cache/
+.coverage
+
+# MyPy
 .mypy_cache/
-.tox/
+
+# Pytest
+.pytest_cache/
 
 # Compressed files
 *.zip
