@@ -1,0 +1,17 @@
+---
+- name: Copy file with random name
+  hosts: localhost
+  tasks:
+    - name: Generate random suffix
+      set_fact:
+        random_suffix: "{{ lookup('password', '/dev/null chars=ascii_lowercase,digits length=8') }}"
+
+    - name: Copy file with random name
+      copy:
+        src: /path/to/source/file.txt
+        dest: "/path/to/destination/file_{{ random_suffix }}.txt"
+      register: copy_result
+
+    - name: Print the new file name
+      debug:
+        msg: "File copied to {{ copy_result.dest }}"
