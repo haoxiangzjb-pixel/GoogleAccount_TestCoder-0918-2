@@ -1,29 +1,5 @@
 ```
-# Compiled and build artifacts
-*.beam
-*.app
-*.ez
-ebin/
-_build/
-deps/
-
-# Dependencies
-rebar3/
-.erlang.cookie
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Environment
-.env
-.env.local
-*.env.*
+# Configuration files
+*.yml
+*.yaml
 ```
