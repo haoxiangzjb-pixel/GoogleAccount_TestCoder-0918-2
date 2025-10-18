@@ -1,8 +1,11 @@
 ```
-# Shell script backup/swap files
-*.sh.swp
-*.sh.swo
-
-# Temporary files
-*.tmp
+# R-specific ignores
+.Rproj.user/
+.Rhistory
+.Rdata
+*.RData
+*.rds
+*.Rds
+*.rda
+*.Rda
 ```
