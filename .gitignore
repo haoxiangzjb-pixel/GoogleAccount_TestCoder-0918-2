@@ -1,12 +1,1 @@
-```
-# R files
-*.R
-
-# Image files (not ignoring since they appear to be output files)
-# scatter_plot_*.png - keeping as these seem to be output files that might be versioned
-
-# If R project, potentially add:
-.Rproj.user/
-.Rhistory
-.RData
-```
+Nothing should be ignored based on the provided file changes. The added file 'README_project_setup.md' is a documentation file that should be tracked in version control.
