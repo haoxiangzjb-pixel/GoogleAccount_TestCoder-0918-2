@@ -1,0 +1,4 @@
+This is a sample text file.
+This file contains some words.
+Some words appear more than once in this file.
+The word "this" appears multiple times, just like the word "file".
