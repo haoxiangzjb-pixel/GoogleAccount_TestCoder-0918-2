@@ -1,0 +1,17 @@
+def factorial(n):
+    """Calculates the factorial of a non-negative integer n."""
+    if n < 0:
+        raise ValueError("Factorial is not defined for negative numbers.")
+    if n == 0 or n == 1:
+        return 1
+    result = 1
+    for i in range(2, n + 1):
+        result *= i
+    return result
+
+# Example usage:
+if __name__ == "__main__":
+    print(f"Factorial of 5 is: {factorial(5)}")  # Output: 120
+    print(f"Factorial of 0 is: {factorial(0)}")  # Output: 1
+    print(f"Factorial of 1 is: {factorial(1)}")  # Output: 1
+    print(f"Factorial of 10 is: {factorial(10)}")  # Output: 3628800

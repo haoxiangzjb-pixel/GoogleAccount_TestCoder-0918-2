@@ -1,29 +1,23 @@
 ```
-# Temporary files
-*.tmp
-*.temp
-tmp.*
+# Compiled and build artifacts
+*.pyc
+__pycache__/
 
-# Compiled files
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
+# Dependencies
+.venv/
+venv/
 
-# Editor/IDE files
-*.swp
-*.swo
+# Logs and temp files
 *.log
-
-# System files
-.DS_Store
-Thumbs.db
+*.tmp
+*.swp
 
 # Environment
 .env
 .env.local
 *.env.*
+
+# Editors
+.vscode/
+.idea/
 ```
