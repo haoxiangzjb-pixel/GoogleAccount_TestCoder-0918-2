@@ -1,0 +1,1 @@
+% MATLAB script to plot a sine wave\nx = 0:0.01:2*pi;  % Define x values from 0 to 2*pi\ny = sin(x);       % Calculate sine values\n\n% Create the plot\nfigure;\nplot(x, y, 'b-', 'LineWidth', 2);\ntitle('Sine Wave');\nxlabel('x (radians)');\nylabel('sin(x)');\ngrid on;
