@@ -1,18 +1,1 @@
-```
-# PowerShell files
-*.ps1
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# Environment
-.env
-.env.local
-*.env.*
-```
+Nothing should be ignored since only a source code file (.go) was added.
