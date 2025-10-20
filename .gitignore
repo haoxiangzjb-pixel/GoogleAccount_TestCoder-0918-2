@@ -1,4 +1,12 @@
-```toml
-# Configuration
-app_config.toml
+```
+# Shell script backup/swap files
+*.sh.swp
+*.sh.swo
+
+# Temporary files
+*.tmp
+*.temp
+
+# Logs
+*.log
 ```
