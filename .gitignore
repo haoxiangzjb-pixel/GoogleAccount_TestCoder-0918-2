@@ -1,53 +1,143 @@
 ```
-# Puppet related
-*.pp.bak
-*.rb.bak
+# Terraform files
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
 
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.class
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
+# Temporary files
+*.tmp
+*.temp
+*.swp
 
-# Dependencies
-node_modules/
-venv/
-.venv/
+# Logs
+*.log
+
+# Environment files
 .env
 .env.local
 .env.*
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
+# Editor files
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# System files
+# OS files
 .DS_Store
 Thumbs.db
 
-# Coverage
+# Coverage reports
 coverage/
 htmlcov/
 .coverage
 
-# Build directories
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage*
+.nox/
+.pytest_cache/
+.mypy_cache/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+node_modules/
 dist/
 build/
+.nyc_output/
+coverage/
+*.lcov
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
 target/
 .gradle/
+build/
 
-# Cache directories
-.mypy_cache/
-.pytest_cache/
+# C/C++
+*.o
+*.obj
+*.so
+*.a
+*.dll
+*.exe
+*.out
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Ruby
+*.gem
+*.rbc
+.bundle/
+.coverage*
+.rspec
+test.rbx
+spec/reports/
+spec/examples.txt
+.ruby-version
+.sass-cache/
+# unless it's needed
+
+# Rust
+target/
+Cargo.lock
+
+# Zig
+zig-cache/
+zig-out/
+
+# Julia
+julia-*/
+*.ji
+*.jl.cov
+*.jl.mem
+.JuliaProject.new
+
+# Archives
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
