@@ -1,17 +1,18 @@
 ```
-# Dart/Flutter
-.dart_tool/
-.dart_tool/
-.packages
-*.log
+# Compiled and build artifacts
+*.mex*
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.exe
+*.out
 
 # Dependencies
-pubspec.lock
-
-# Environment
-.env
-.env.local
-*.env.*
+*.m
+*.mat
+*.fig
 
 # Logs and temp files
 *.log
@@ -21,4 +22,11 @@ pubspec.lock
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
+
+# MATLAB specific
+*.fig
+*.mat
+*.mex*
 ```
