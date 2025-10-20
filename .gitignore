@@ -1,26 +1,25 @@
 ```
-# Terraform
-*.tfstate
-*.tfstate.*
-*.tfvars
-.terraform/
-terraform.tfstate
-terraform.tfstate.backup
-
 # Compiled and build artifacts
+*.ex
 *.pyc
-__pycache__/
+*.class
 *.o
 *.obj
+*.out
+*.exe
+*.dll
+*.so
+*.a
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
 dist/
 build/
 target/
-
-# Dependencies
-.venv/
-venv/
-node_modules/
-.pip/
+.gradle/
 .mypy_cache/
 .pytest_cache/
 
@@ -33,17 +32,17 @@ node_modules/
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# System
+# System files
 .DS_Store
 Thumbs.db
+
+# Coverage
 coverage/
 htmlcov/
 .coverage
