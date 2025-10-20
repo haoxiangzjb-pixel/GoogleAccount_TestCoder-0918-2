@@ -47,8 +47,12 @@ target/
 # Python specific
 *.pyc
 __pycache__/
-.mypy_cache/
+*.pyo
+*.pyd
+.Python
+*.so
 .pytest_cache/
+.mypy_cache/
 
 # Compressed files
 *.zip
