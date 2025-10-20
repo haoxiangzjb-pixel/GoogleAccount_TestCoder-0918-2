@@ -18,37 +18,37 @@
 *.swp
 *.swo
 
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Python
+# Dependency directories
+node_modules/
+venv/
+.venv/
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-*.so
-
-# Build artifacts
+.mypy_cache/
+.pytest_cache/
 dist/
 build/
-*.out
+target/
+.gradle/
+
+# Compiled files
+*.pyc
+*.class
+*.o
 *.exe
 *.dll
 *.so
 *.a
 *.obj
+*.out
 
-# Dependencies
-node_modules/
-venv/
-.venv/
-.mypy_cache/
-.pytest_cache/
-.coverage
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage
 coverage/
 htmlcov/
+.coverage
 
 # Compressed files
 *.zip
