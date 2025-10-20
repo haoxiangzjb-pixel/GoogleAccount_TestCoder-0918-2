@@ -1,9 +1,17 @@
 ```
-# Temporary files
-*.tmp
-tmp.*
+# Compiled files
+*.plc
+*.plx
 
-# PDF and image outputs
-*.pdf
-*.png
+# Editor/IDE files
+*.swp
+*.swo
+*.tmp
+
+# Logs
+*.log
+
+# Backup files
+*~
+.#*
 ```
