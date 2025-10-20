@@ -1,12 +1,43 @@
 ```
-# Shell script artifacts
-*.sh.swp
-*.sh.swo
+# Compiled and build artifacts
+*.ex
+*.exe
+*.dll
+*.so
+*.o
+*.obj
+*.out
+*.class
+*.pyc
+__pycache__/
 
-# Temp files
-*.tmp
-*.temp
+# Dependencies
+node_modules/
+venv/
+.venv/
+.env
+.env.local
+*.env.*
 
-# Logs
+# Build directories
+dist/
+build/
+target/
+.gradle/
+.mypy_cache/
+.pytest_cache/
+coverage/
+htmlcov/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
 *.log
+*.tmp
 ```
