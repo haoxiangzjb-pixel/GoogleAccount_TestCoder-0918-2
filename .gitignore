@@ -1,12 +1,4 @@
 ```
-# R plots and generated images
-Rplots.pdf
-*.png
-
-# Temporary files
-*.tmp
-*.temp
-
-# Logs
-*.log
+#Generated rules based on detected file changes
+*.json
 ```
