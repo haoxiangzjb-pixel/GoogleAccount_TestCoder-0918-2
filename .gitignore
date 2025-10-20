@@ -1,1 +1,9 @@
-(empty)
+```
+# Temporary files
+*.tmp
+*.temp
+tmp.*
+
+# Configuration files (if they follow tmp pattern)
+tmp.*.ini
+```
