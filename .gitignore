@@ -1,3 +1,35 @@
-(random_var_ab24b2df97b30e4d.hcl is a source/config file, not a build artifact or temp file, so no ignores needed)
+```
+# Puppet related
+**/modules/
+**/spec/fixtures/modules/
+**/.tmp/
+**/pkg/
 
-(empty)
+# Common build artifacts
+*.pp_compiled
+*.rb_compiled
+
+# Dependencies
+**/vendor/
+**/bundle/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+```
