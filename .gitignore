@@ -1,3 +1,35 @@
-(todo_list_fzkm3ky7.jsx is a source file, and there are no build artifacts, dependencies, or temp files in the changes)
+```
+# Erlang/OTP build artifacts
+.eunit/
+.coverage/
+ebin/
+*.beam
+*.app
+*.appup
+*.rel
+*.script
+*.boot
+*.dump
 
-(empty — output nothing)
+# Dependencies
+rebar3
+_rebuild/
+_build/
+deps/
+
+# Logs and temp files
+*.log
+erl_crash.dump
+*.tmp
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
+```
