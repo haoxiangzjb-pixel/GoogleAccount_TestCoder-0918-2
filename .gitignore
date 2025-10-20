@@ -1,46 +1,5 @@
-```php
-# PHP specific
-*.php~
-*.php.bak
-*.php.swp
+(date-format.pipe.ts is a source file, so no ignores needed)
 
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
-*.exe
-*.dll
-*.so
-*.a
-
-# Dependencies
-vendor/
-composer.lock
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-*.swo
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# System files
-.DS_Store
-Thumbs.db
-```
-
-Wait, I need to reconsider this. The added files are just PHP source files (.php), which are not build artifacts, dependencies, or temporary files. According to rule #6, if the change list contains only source or config files and no build artifacts, dependencies, or temp files, I should output an empty .gitignore.
-
-```php
+```ts
 
 ```
