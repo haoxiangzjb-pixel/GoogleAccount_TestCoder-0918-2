@@ -1,32 +1,23 @@
 ```
 # Compiled and build artifacts
-*.pyc
-__pycache__/
+*.o
+*.obj
+*.hi
 
 # Dependencies
-.venv/
-venv/
-pip-tools/
+.cabal/
+dist/
+dist-newstyle/
+.stack-work/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Environment
-.env
-.env.local
-*.env.*
-
 # Editors
 .vscode/
 .idea/
-
-# Testing
-.pytest_cache/
-.coverage
-coverage/
-htmlcov/
 
 # System files
 .DS_Store
