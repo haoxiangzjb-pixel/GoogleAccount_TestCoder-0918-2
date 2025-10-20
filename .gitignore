@@ -1,3 +1,12 @@
+The file name `"angular_http_service_$(openssl` appears to be malformed or potentially malicious (contains command substitution syntax), and should be ignored along with the other generated file.
+
 ```
-# Configuration and deployment files only - no build artifacts, dependencies, or temp files detected
+# Generated/Temporary files
+"angular_http_service_*
+angular_http_service_*.ts
+*.tmp
+*.temp
+
+# Logs
+*.log
 ```
