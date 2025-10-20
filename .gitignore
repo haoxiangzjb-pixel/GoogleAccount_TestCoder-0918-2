@@ -1,16 +1,8 @@
 ```
 # Compiled and build artifacts
-*.mlc
-*.cmi
-*.cmo
-*.cmx
 *.o
 *.obj
-
-# Dependencies
-.opam/
-_dune/
-_build/
+*.out
 
 # Logs and temp files
 *.log
@@ -20,10 +12,4 @@ _build/
 # Editors
 .vscode/
 .idea/
-
-# OCaml specific
-*.annot
-*.cmt
-*.cmti
-*.out
 ```
