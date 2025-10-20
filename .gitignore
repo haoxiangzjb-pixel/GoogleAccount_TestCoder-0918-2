@@ -1,41 +1,7 @@
 ```
-# Compiled and binary files
-*.ex
-*.exe
-*.dll
-*.so
-*.class
-*.pyc
-*.o
-*.obj
-*.out
+# SQL query files (if they contain sensitive data or are auto-generated)
+*.sql
 
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-dist/
-build/
-target/
-.gradle/
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# System files
-.DS_Store
-Thumbs.db
-*.log
-*.tmp
-
-# Environment
-.env
-.env.local
-*.env.*
+# If this is a generated/temporary file
+insert_users_query_*.sql
 ```
