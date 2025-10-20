@@ -1,24 +1,5 @@
 ```
-# Compiled files
-*.mex*
-*.o
-*.obj
-*.a
-*.so
-*.dll
-*.exe
-
-# MATLAB specific
-*.fig
-*.mat
-*.m~
-*~
-```
-
-Wait, let me reconsider. The added files are just `.m` files (MATLAB/Octave source files), which are source code and should not be ignored. Let me check again:
-
-The changes only include source files (`.m` files) and no build artifacts, dependencies, or temporary files. Following rule #6, if the change list contains ONLY source files and NO build artifacts, dependencies, or temp files, output an EMPTY .gitignore.
-
-```
-
+# CI/CD
+.gitlab-ci.yml
+*.yml
 ```
