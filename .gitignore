@@ -1,13 +1,22 @@
 ```
-# Zig installation
-zig-install/
-zig-linux-x86_64-0.13.0/
+# Compiled and build artifacts
+*.pyc
+__pycache__/
 
-# Compressed archives
-*.tar
-*.tar.gz
-*.zip
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
-# Data files
-*.dat
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# OpenSSL command artifacts (from suspicious filename)
+*$(openssl*
 ```
