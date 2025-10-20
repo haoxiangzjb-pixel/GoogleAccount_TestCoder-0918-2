@@ -1,26 +1,57 @@
 ```
+# SQL query files (if they are auto-generated)
+*.sql
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+dist/
+build/
+target/
+.gradle/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
 # Compiled files
-*.csproj.user
-*.useros
-*.userprefs
-*.suo
-*.user
-*.aps
-*.ncb
-*.obj
+*.pyc
+*.class
 *.o
 *.exe
 *.dll
 *.so
-*.dylib
-*.class
-*.pyc
-*.pyo
-*.jar
-*.war
+*.a
+*.obj
+*.out
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Compressed files
 *.zip
-*.tar
 *.gz
+*.tar
 *.tgz
 *.bz2
 *.xz
@@ -40,69 +71,4 @@
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-.pytest_cache/
-.mypy_cache/
-target/
-.gradle/
-julia-*/
-zig*/
-dist/
-build/
-out/
-release/
-debug/
-
-# Environment
-.env
-.env.local
-.env.*
-.envrc
-.env.local
-.env.staging
-.env.production
-.env.dev
-.env.development
-.env.test
-.env.testing
-.env.example
-.env.sample
-.env.template
-.env.default
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-*.tmp
-*~
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
-logs/
-log/
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-*.coverage
-
-# System
-.DS_Store
-Thumbs.db
-ehthumbs.db
-Icon?
-.nfs*
-*~
-.DS_Store?
-desktop.ini
 ```
