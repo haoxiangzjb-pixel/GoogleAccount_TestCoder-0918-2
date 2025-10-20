@@ -1,43 +1,70 @@
 ```
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+
 # Dependencies
-node_modules/
+vendor/
 
-# Build artifacts
-dist/
-build/
-target/
-
-# Package lock files
-package-lock.json
-
-# Logs
+# Logs and temp files
 *.log
+*.tmp
+*.swp
 
-# Environment files
+# Environment
 .env
 .env.local
 *.env.*
 
-# Editor/IDE files
+# Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# Python cache
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Distribution
+dist/
+build/
+target/
+
+# Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+.Python
+*.so
 
-# System files
-.DS_Store
-Thumbs.db
+# Go
+*.a
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.prof
 
-# Coverage reports
-coverage/
-htmlcov/
-*.coverage
+# Node
+node_modules/
+
+# Virtual environments
+venv/
+.venv/
+.env/
+
+# Gradle
+.gradle/
+build/
+
+# MyPy
+.mypy_cache/
+
+# PyTest
+.pytest_cache/
 
 # Compressed files
 *.zip
