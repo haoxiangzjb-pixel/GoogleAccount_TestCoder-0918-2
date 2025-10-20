@@ -1,1 +1,12 @@
-(scrape_titles_iza2pyv2.py is a source file, and there are no build artifacts, dependencies, or temp files in the changes)
+```
+# Swap result files
+swap_result_*.txt
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Logs
+*.log
+```
