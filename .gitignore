@@ -1,1 +1,24 @@
-Nothing should be ignored based on the provided file changes. The added file 'factorial_5ty8fo.rb' is a source code file that should be tracked in version control.
+```
+# Compiled files
+*.hi
+*.o
+
+# Dependencies
+.cabal-sandbox/
+dist/
+dist-newstyle/
+.cabal/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+*.env.*
+```
