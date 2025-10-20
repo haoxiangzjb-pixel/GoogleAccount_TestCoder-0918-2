@@ -1,1 +1,26 @@
-Nothing should be ignored since the added file `apache_install.pp` is a Puppet manifest file (source code) and there are no build artifacts, dependencies, or temporary files in the changes.
+```
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Database/query temp files
+*.sql
+!query_users_orders.sql
+```
