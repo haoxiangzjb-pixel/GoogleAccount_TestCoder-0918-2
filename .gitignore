@@ -1,10 +1,15 @@
-```
-# Configuration files
-*.yml
-*.yaml
+```bash
+# Temporary shell scripts
+*.sh.swp
+*.sh~
 
-# If the YAML file is a build/config artifact, ignore it
-# Otherwise, preserve it as a source/config file
-# Since this appears to be a single config file, we'll ignore it if it follows common patterns
-SDzY66yjeBnryBNLsy0k0fIFt4Dub2eB.yml
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
 ```
