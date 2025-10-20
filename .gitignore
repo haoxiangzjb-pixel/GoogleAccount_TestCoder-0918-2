@@ -1,33 +1,67 @@
 ```
-# Compiled files
+# Compiled and build artifacts
 *.class
+*.jar
+*.war
+*.ear
+*.o
+*.obj
+*.so
+*.dll
+*.exe
 
 # Dependencies
-__pycache__/
-*.pyc
-*.pyo
+libs/
+node_modules/
+.gradle/
+target/
 
-# Logs and temp files
+# Build directories
+build/
+dist/
+out/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# Logs
 *.log
-*.tmp
-*.swp
 
 # Environment
 .env
 .env.local
 *.env.*
 
-# Editors
-.vscode/
-.idea/
+# Temp files
+*.tmp
+*.swp
+*.swo
 
-# Coverage
-.coverage
-coverage/
-htmlcov/
+# OS files
+.DS_Store
+Thumbs.db
 
-# Build directories
-dist/
-build/
-target/
+# Archives
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
 ```
