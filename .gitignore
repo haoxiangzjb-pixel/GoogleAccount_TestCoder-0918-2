@@ -1,4 +1,40 @@
-```toml
-# Configuration
-app_config.toml
+```
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+
+# Dependencies
+.venv/
+venv/
+node_modules/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Django specific
+*.pyc
+__pycache__/
+*.log
+local_settings.py
+db.sqlite3
+media/
+staticfiles/
 ```
