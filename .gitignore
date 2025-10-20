@@ -1,9 +1,5 @@
 ```
-# Temporary files
-*.tmp
-tmp.*
-
-# PDF and image outputs
-*.pdf
-*.png
+# VBA/Excel macro files
+*.bas
+*.vba
 ```
