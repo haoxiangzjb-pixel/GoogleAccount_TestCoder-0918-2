@@ -1,17 +1,15 @@
 ```
-# Compiled and build artifacts
-*.swiftmodule
-*.swiftdoc
-*.sib
-*.sil
-*.bc
+# Build artifacts
+zig-cache/
+zig-out/
+*.zig.exe
+*.exe
 *.o
 *.obj
 
 # Dependencies
-Packages/
-.build/
-.swift-version
+.zigmod/
+deps/
 
 # Logs and temp files
 *.log
@@ -28,8 +26,4 @@ Packages/
 .idea/
 *.swp
 *.swo
-
-# OS generated files
-.DS_Store
-Thumbs.db
 ```
