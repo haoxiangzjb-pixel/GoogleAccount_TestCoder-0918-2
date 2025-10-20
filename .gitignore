@@ -1,1 +1,84 @@
-(empty)
+```fsharp
+# Compiled and build artifacts
+*.fsi
+*.dll
+*.exe
+*.pdb
+*.optdata
+*.obj
+*.o
+*.a
+*.so
+*.dylib
+
+# Dependencies
+.paket/
+packages/
+node_modules/
+venv/
+.venv/
+
+# Build directories
+bin/
+obj/
+out/
+target/
+build/
+dist/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Python specific (if Python files exist)
+__pycache__/
+*.pyc
+*.pyo
+.Python
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+
+# MyPy
+.mypy_cache/
+
+# Pytest
+.pytest_cache/
+
+# Node.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Gradle
+.gradle/
+build/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+```
