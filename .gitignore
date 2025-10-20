@@ -1,7 +1,1 @@
-```
-# SQL query files (if they contain sensitive data or are auto-generated)
-*.sql
-
-# If this is a generated/temporary file
-insert_users_query_*.sql
-```
+Nothing should be ignored based on the provided file changes. The added file `hello_asm_67890.asm` is a source code file that should be tracked in version control.
