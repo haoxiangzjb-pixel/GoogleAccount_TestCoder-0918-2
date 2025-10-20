@@ -1,4 +1,11 @@
 ```
-# Configuration files
-config_*.toml
+# Shell script artifacts
+*.sh~
+
+# Temporary files
+*.tmp
+*.swp
+
+# Logs
+*.log
 ```
