@@ -1,1 +1,39 @@
-Nothing should be ignored - all added files are PowerShell source code files (.sh, .ps1) which are legitimate project files that should be tracked in version control.
+```
+# Compiled Python files
+*.pyc
+__pycache__/
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Dependencies
+.venv/
+venv/
+node_modules/
+
+# Build artifacts
+dist/
+build/
+target/
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# System files
+.DS_Store
+Thumbs.db
+```
