@@ -1,78 +1,21 @@
-```fsharp
-# Build artifacts
-*.exe
-*.dll
-*.so
-*.a
-*.obj
-*.o
-*.out
-*.pyc
-*.class
+```
+# Process data files
+*.csv
 
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-target/
-.gradle/
-paket-files/
-
-# Build directories
-bin/
-obj/
-out/
-dist/
-build/
-
-# Editor/IDE
-.vscode/
-.idea/
-*.swp
-*.swo
+# Temporary and generated files
 *.tmp
-
-# Logs
 *.log
 
-# Environment
+# Environment files
 .env
 .env.local
 *.env.*
 
-# OS
+# Editors
+.vscode/
+.idea/
+
+# System files
 .DS_Store
 Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Archives
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
 ```
