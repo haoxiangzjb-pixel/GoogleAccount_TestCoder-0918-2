@@ -1,22 +1,25 @@
 ```
-# Compressed files
-*.tar.xz
-*.xz
-*.gz
-*.zip
-*.bz2
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar
-*.tgz
+# Compiled and build artifacts
+*.o
+*.obj
+*.mod
+*.exe
+
+# Dependencies
+build/
+dist/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+*.env.*
 ```
