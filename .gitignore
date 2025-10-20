@@ -1,11 +1,6 @@
 ```
 # Compiled and build artifacts
-*.pyc
-__pycache__/
-
-# Dependencies
-.venv/
-venv/
+*.js
 
 # Logs and temp files
 *.log
