@@ -1,18 +1,38 @@
 ```
-# Compiled files
-*.class
+# Compiled Haskell files
+*.o
+*.hi
+*.chi
+*.chs.h
+*.dyn_o
+*.dyn_hi
+
+# Cabal and Stack build artifacts
+dist/
+dist-newstyle/
+.cabal-sandbox/
+cabal-dev/
+*.cabal.project.local
+cabal.project.local~
+.cabal/
+stack-work/
+
+# GHCi files
+.hi-boot
+.o-boot
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
 
 # Logs and temp files
 *.log
 *.tmp
-*.swp
 
-# Editors
-.vscode/
-.idea/
-
-# Environment
+# Environment files
 .env
 .env.local
-.env.*
+*.env.*
 ```
