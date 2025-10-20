@@ -1,32 +1,4 @@
-```
-# Compiled and build artifacts
-*.class
-*.o
-*.obj
-
-# Dependencies
-*.jar
-*.war
-*.ear
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Java-specific
-target/
-build/
-dist/
+```xml
+# XML data files
+*.xml
 ```
