@@ -1,66 +1,49 @@
-```
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-.venv/
-pip-log.txt
-pip-delete-this-directory.txt
+# Compiled and build artifacts
+*.asm
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+*.a
+*.class
 
 # Dependencies
-requirements.txt.bak
-
-# Logs
-*.log
-
-# Coverage
-.coverage
-coverage/
-htmlcov/
-.coverage.*
-
-# Pytest
+node_modules/
+venv/
+.venv/
+__pycache__/
+dist/
+build/
+target/
+.gradle/
+.mypy_cache/
 .pytest_cache/
 
-# Mypy
-.mypy_cache/
-
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# IDE
-.vscode/
-.idea/
+# Logs and temp files
+*.log
+*.tmp
 *.swp
 *.swo
 
-# Environment
+# Environment files
 .env
 .env.local
-*.env.*
+.env.*
 
-# OS
+# Editors and IDEs
+.vscode/
+.idea/
+
+# System files
 .DS_Store
 Thumbs.db
+
+# Coverage and test reports
+coverage/
+htmlcov/
+.coverage
 
 # Compressed files
 *.zip
@@ -85,4 +68,3 @@ Thumbs.db
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-```
