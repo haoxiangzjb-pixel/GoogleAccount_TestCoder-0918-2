@@ -1,61 +1,13 @@
-```
-# CI/CD
-.github/
-
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-*.egg-info/
-dist/
-build/
-target/
-.gradle/
-.cargo/
-zig-cache/
-julia-*/
-
-# Compiled files
+#Compiled and build artifacts
 *.pyc
 *.class
 *.o
+*.obj
 *.exe
 *.dll
 *.so
 *.a
-*.obj
 *.out
-*.swp
-*.swo
-
-# Logs and temp files
-*.log
-*.tmp
-*.temp
-*.cache
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# System
-.DS_Store
-Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Compressed files
 *.zip
 *.gz
 *.tar
@@ -78,4 +30,32 @@ htmlcov/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-```
+*.log
+*.tmp
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+coverage/
+htmlcov/
+.cov
+.coverage
+.mypy_cache/
+.pytest_cache/
+.cache/
+#Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+dist/
+build/
+target/
+.gradle/
+#Environment files
+.env
+.env.local
+.env.*
+#Editors and IDEs
+.vscode/
+.idea/
