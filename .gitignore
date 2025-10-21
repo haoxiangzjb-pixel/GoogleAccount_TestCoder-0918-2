@@ -1,18 +1,70 @@
-```
-# PowerShell files
-*.ps1
+#Compiled and build artifacts
+*.pyc
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+dist/
+build/
+target/
+.coverage
+coverage/
+htmlcov/
+.mypy_cache/
+.pytest_cache/
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+#Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+.julia/
+.julia-*/
+.julia-*
+.julia/
+.julia/
+julia-*/
+zig*/
 
-# Editors
+#Editors and IDEs
 .vscode/
 .idea/
+*.swp
+*.swo
+*.log
+*.tmp
 
-# Environment
+#Environment files
 .env
 .env.local
-*.env.*
-```
+.env.*
+
+#System files
+.DS_Store
+Thumbs.db
