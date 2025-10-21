@@ -1,41 +1,38 @@
-```
-# Temporary files
-*.tmp
-*.swp
-*.swo
+# Compiled and build artifacts
+*.ji
+*.so
+*.cache
+*.appdata.xml
+*.config.jl
 
-# Ruby specific
-*.rb~
-*.rbc
-*.gem
-*.rdoc
-.ruby-version
-.bundle/
+# Julia-specific compiled and dependency directories
+julia-*/share/julia/compiled/
+julia-*/share/julia/stdlib/
+julia-*/share/julia/test/
+julia-*/share/julia/julia-config.jl
 
-# System files
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
-
-# Editor/IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Environment files
-.env
-.env.local
-*.env.*
-
-# Coverage reports
-coverage/
-htmlcov/
-.coverage
-
-# Package manager
-node_modules/
-vendor/bundle/
-```
+# Common build and dependency directories
+dist/
+build/
+target/
+*.tar.gz
+*.zip
+*.tgz
+*.gz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.xz
+*.tar.bz2
+*.tar.zst
