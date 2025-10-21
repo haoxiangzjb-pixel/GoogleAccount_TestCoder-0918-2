@@ -1,44 +1,13 @@
-```
-# TypeScript/JavaScript build artifacts
-*.js
-*.js.map
-*.tsbuildinfo
-
-# Dependencies
-node_modules/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# Coverage
-coverage/
-htmlcov/
-*.coverage
-
-# Python artifacts (if mixed project)
+#Compiled and build artifacts
 *.pyc
-__pycache__/
-*.pyo
-*.pyd
-
-# Build directories
-dist/
-build/
-target/
-out/
-
-# Compression files
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 *.zip
 *.gz
 *.tar
@@ -62,7 +31,36 @@ out/
 *.tar.xz
 *.tar.zst
 
-# System files
+#Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+dist/
+build/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
+
+#Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*.log
+*.tmp
+
+#Environment files
+.env
+.env.local
+.env.*
+
+#Coverage and test artifacts
+coverage/
+htmlcov/
+.coverage
+
+#System files
 .DS_Store
 Thumbs.db
-```
