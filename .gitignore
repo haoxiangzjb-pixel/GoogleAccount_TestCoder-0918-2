@@ -1,29 +1,46 @@
-```
 # Compiled and build artifacts
-*.plc
-*.plx
-*.plx.*
-*.pl.bak
-*.pl~
+*.beam
+*.pyc
+__pycache__/
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+*.a
+*.class
 
-#Temp files
+# Dependencies
+.venv/
+venv/
+node_modules/
+target/
+.julia/
+julia-*/
+zig*/
+
+# Logs and temp files
+*.log
 *.tmp
 *.swp
 *.swo
+*.log.*
 
-#Logs
-*.log
+# Environment files
+.env
+.env.local
+.env.*
 
-#Backup and swap files
-*~
-*.bak
-*.old
-*.orig
+# Editors and IDE
+.vscode/
+.idea/
 
-#Perl-specific
-*.al
-*.pm
-*.pod
-*.t
-blib/
-```
+# Build and distribution directories
+dist/
+build/
+.coverage
+coverage/
+htmlcov/
+.mypy_cache/
+.pytest_cache/
