@@ -1,4 +1,4 @@
-# Compiled and build artifacts
+#Compiled and build artifacts
 *.pyc
 *.class
 *.o
@@ -31,7 +31,7 @@
 *.tar.xz
 *.tar.zst
 
-# Dependencies
+#Dependencies
 node_modules/
 venv/
 .venv/
@@ -42,8 +42,10 @@ build/
 .pytest_cache/
 target/
 .gradle/
+julia-*/
+zig*/
 
-# Editors and IDEs
+#Editors and IDEs
 .vscode/
 .idea/
 *.swp
@@ -51,20 +53,16 @@ target/
 *.log
 *.tmp
 
-# System and environment files
-.DS_Store
-Thumbs.db
+#Environment files
 .env
 .env.local
 .env.*
 
-# Coverage and test artifacts
+#System files
+.DS_Store
+Thumbs.db
+
+#Coverage and test reports
 coverage/
 htmlcov/
 .coverage
-
-# Nim build artifacts (based on added file)
-*.nimble
-*.o
-*.so
-*.a
