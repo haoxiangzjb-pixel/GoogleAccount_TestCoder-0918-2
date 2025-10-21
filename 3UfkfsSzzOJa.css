@@ -1,0 +1,58 @@
+/* Rotation Animation */
+
+.rotate-element {
+  width: 100px;
+  height: 100px;
+  background-color: #3498db;
+  margin: 50px auto;
+  animation: rotateAnimation 2s linear infinite;
+}
+
+.rotate-element:hover {
+  animation-duration: 0.5s; /* Speed up on hover */
+}
+
+@keyframes rotateAnimation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Additional rotation animation for a different element */
+.rotate-slow {
+  width: 80px;
+  height: 80px;
+  background-color: #e74c3c;
+  margin: 50px auto;
+  animation: slowRotate 4s linear infinite;
+}
+
+@keyframes slowRotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Continuous rotation with easing */
+.rotate-ease {
+  width: 60px;
+  height: 60px;
+  background-color: #2ecc71;
+  margin: 50px auto;
+  animation: easeRotate 3s ease-in-out infinite;
+}
+
+@keyframes easeRotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
