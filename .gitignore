@@ -1,83 +1,66 @@
-```
-# Compiled files
-*.csproj.user
-*.useros
-*.userprefs
-*.suo
-*.user
-*.aps
-*.ncb
+# Compiled and build artifacts
+*.pyc
+*.class
+*.o
 *.obj
 *.exe
 *.dll
-*.pdb
-*.ilk
-*.o
-*.a
-*.lib
 *.so
-*.dylib
-*.class
-*.jar
-*.war
-*.ear
-*.pyc
-*.pyo
-*.pyd
-*.coffee.md
-*.csp
-*.dll.config
-*.pdb.config
-*.config.install.xdt
-*.config.transform
-*.dat
+*.a
+*.out
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 
-# Build results
-[Dd]ebug/
-[Dd]ebugPublic/
-[Rr]elease/
-[Rr]eleases/
-x64/
-x86/
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+dist/
 build/
-bld/
-[Bb]in/
-[Oo]bj/
-[Ll]ogs/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
 
-# Visual Studio files
-*.VC.db
-*.VC.VC.opendb
-*.user
-*.useros
-*.suo
-*.sln.docstates
-*.userprefs
-ipch/
-obj/
-*.VC.db-shm
-*.VC.VC.opendb-shm
-*.VC.db-wal
-*.VC.VC.opendb-wal
-
-# Rider
-.idea/
-*.DotSettings
-*.DotSettings.user
-
-# CodeRush
-*.cr
-
-# Visual Studio Code
+# Editors and IDEs
 .vscode/
-
-# Other
-*.tmp
-*.temp
-*.log
+.idea/
 *.swp
 *.swo
-*~
+*.log
+*.tmp
+
+# Environment files
+.env
+.env.local
+.env.*
+
+# System files
 .DS_Store
 Thumbs.db
-```
+
+# Coverage and test reports
+coverage/
+htmlcov/
+.coverage
