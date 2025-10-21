@@ -1,0 +1,14 @@
+(* OCaml program to calculate factorial recursively *)
+
+let rec factorial n =
+  if n <= 1 then
+    1
+  else
+    n * factorial (n - 1)
+
+let () =
+  print_string "Enter a number: ";
+  let input = read_line () in
+  let num = int_of_string input in
+  let result = factorial num in
+  print_endline ("Factorial of " ^ input ^ " is " ^ string_of_int result)
