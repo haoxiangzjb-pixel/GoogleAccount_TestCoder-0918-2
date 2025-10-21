@@ -1,64 +1,17 @@
-```
-# Compiled and build artifacts
-*.cmi
-*.cmo
-*.cma
-*.cmx
-*.cmxa
-*.cmxs
-*.exe
-*.out
+#Compiled and build artifacts
+*.pyc
+*.class
 *.o
 *.obj
-*.a
-*.so
+*.exe
 *.dll
-*.pyc
-__pycache__/
-
-# OCaml specific
-*.annot
-*.cmt
-*.cmti
-*.merlin
-_dbuild/
-*.native
-*.byte
-
-# Dependencies
-node_modules/
-venv/
-.venv/
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
+*.so
+*.a
+*.out
+*.log
+*.tmp
 *.swp
 *.swo
-
-# System
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
-
-# Build directories
-build/
-dist/
-target/
-.gradle/
-.cabal-sandbox/
-*.o/
-*.a/
-*.so/
-*.dylib/
-*.dll/
-
-# Compressed files
 *.zip
 *.gz
 *.tar
@@ -81,4 +34,29 @@ target/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-```
+
+#Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+dist/
+build/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
+
+#Editors and IDEs
+.vscode/
+.idea/
+
+#Environment files
+.env
+.env.local
+.env.*
+
+#Coverage and test artifacts
+coverage/
+htmlcov/
+.coverage
