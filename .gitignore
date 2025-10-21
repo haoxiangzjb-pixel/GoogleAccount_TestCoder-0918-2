@@ -1,5 +1,6 @@
-```
-# Compiled and build artifacts
+#Compiled and build artifacts
+*.pyc
+*.class
 *.o
 *.obj
 *.exe
@@ -7,30 +8,48 @@
 *.so
 *.a
 *.out
-
-# Dependencies
-.Rproj.user/
-.Rhistory
-.RData
-*.RData
-*.rds
-*.rda
-
-# Logs and temp files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+dist/
+build/
+target/
 *.log
 *.tmp
 *.swp
-
-# Editors
-.Rproj
-.Rapp.history
-.Rbuildignore
-
-# Output files from R scripts
-*.png
-*.jpg
-*.jpeg
-*.gif
-*.pdf
-*.svg
-```
+*.swo
+*.log
+.coverage
+coverage/
+htmlcov/
+.mypy_cache/
+.pytest_cache/
+__pycache__/
+.env
+.env.local
+.env.
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+julia-*/
+zig*/
