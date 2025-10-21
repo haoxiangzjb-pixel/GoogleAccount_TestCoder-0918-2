@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <application>
+        <name>MyApplication</name>
+        <version>1.0.0</version>
+        <debug>true</debug>
+    </application>
+    
+    <database>
+        <host>localhost</host>
+        <port>5432</port>
+        <username>admin</username>
+        <password>secret123</password>
+        <database_name>myapp_db</database_name>
+    </database>
+    
+    <server>
+        <host>0.0.0.0</host>
+        <port>8080</port>
+        <max_connections>100</max_connections>
+        <timeout>30</timeout>
+    </server>
+    
+    <logging>
+        <level>INFO</level>
+        <file_path>/var/log/myapp/app.log</file_path>
+        <max_size>10MB</max_size>
+    </logging>
+    
+    <features>
+        <enable_cache>true</enable_cache>
+        <enable_monitoring>false</enable_monitoring>
+        <enable_api>true</enable_api>
+    </features>
+</configuration>
