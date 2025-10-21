@@ -1,0 +1,2 @@
+Maximum number in the array: 15
+Array elements: 3, 7, 2, 9, 1, 5, 8, 4, 6, 10, -2, 15, 12
