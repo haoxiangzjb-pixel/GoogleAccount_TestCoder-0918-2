@@ -1,33 +1,65 @@
-```matlab
-% Compiled MATLAB files
-*.mex*
-*.fig
-*.mat
-*.p
+#Compiled and build artifacts
+*.pyc
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+dist/
+build/
+target/
+.mypy_cache/
+.pytest_cache/
+coverage/
+htmlcov/
+.coverage
 
-% MATLAB cache and temporary files
-*.tmp
+#Dependencies
+node_modules/
+venv/
+.venv/
+julia-*/
+zig*/
+.gradle/
+
+#Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
 *.log
-*~
-%#*#*
-._*
+*.tmp
 
-% Dependencies and build directories
-+*
-@*
+#Environment files
+.env
+.env.local
+.env.*
 
-% User preferences and session files
-*.mlappinstall
-*.mltbx
-*.mcp
-*.prj
-
-% MATLAB toolbox and app files
-*.mlapp
-*.mlapp~*
-*.mltbx~
-
-% MATLAB cache directories
-matlab/
-cache/
-```
+#System files
+.DS_Store
+Thumbs.db
