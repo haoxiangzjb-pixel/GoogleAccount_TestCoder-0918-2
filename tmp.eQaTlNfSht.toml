@@ -1,0 +1,12 @@
+[application]
+name = "MyApp"
+version = "1.0.0"
+debug = true
+
+[server]
+host = "localhost"
+port = 8080
+
+[database]
+url = "postgresql://localhost/myapp"
+max_connections = 20
