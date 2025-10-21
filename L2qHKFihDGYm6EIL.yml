@@ -1,0 +1,12 @@
+# GitLab CI configuration file
+test:
+  stage: test
+  script:
+    - echo "Running tests..."
+    - # Add your test commands here, for example:
+    # - npm test
+    # - pytest
+    # - ./gradlew test
+  artifacts:
+    reports:
+      junit: # Add path to your JUnit test results if available
