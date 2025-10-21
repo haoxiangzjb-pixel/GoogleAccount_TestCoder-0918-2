@@ -8,6 +8,10 @@
 *.so
 *.a
 *.out
+*.log
+*.tmp
+*.swp
+*.swo
 *.zip
 *.gz
 *.tar
@@ -46,17 +50,13 @@ target/
 #Editors and IDEs
 .vscode/
 .idea/
-*.swp
-*.swo
-*.log
-*.tmp
 
 #Environment files
 .env
 .env.local
 .env.*
 
-#Coverage and test output
+#Coverage and test artifacts
 coverage/
 htmlcov/
 .coverage
