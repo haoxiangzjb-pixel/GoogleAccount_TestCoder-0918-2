@@ -1,36 +1,58 @@
-```
-# Compiled Java files
-*.class
-
-# Dependencies
-__pycache__/
+#Compiled and build artifacts
 *.pyc
-*.pyo
-*.pyd
-
-# Build directories
-build/
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+#Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
 dist/
+build/
+.mypy_cache/
+.pytest_cache/
 target/
-out/
-
-# Logs and temp files
+.gradle/
+#Logs and temp files
 *.log
 *.tmp
 *.swp
-
-# Environment
+*.swo
+#Environment files
 .env
 .env.local
-*.env.*
-
-# Editors
+.env.*
+#Editors and IDEs
 .vscode/
 .idea/
-*.swp
-*.swo
-
-# OS generated files
+#System files
 .DS_Store
 Thumbs.db
-```
