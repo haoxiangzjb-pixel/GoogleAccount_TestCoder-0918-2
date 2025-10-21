@@ -1,36 +1,62 @@
-```
-# Compiled and build artifacts
+#Compiled and build artifacts
 *.pyc
-__pycache__/
-
-# Dependencies
-.venv/
-venv/
-pip-wheel-metadata/
-
-# Logs and temp files
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 *.log
 *.tmp
 *.swp
-
-# Environment
-.env
-.env.local
+*.swo
+*.env
 *.env.*
+.env.local
+.DS_Store
+Thumbs.db
 
-# Editors
+#Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+dist/
+build/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
+
+#Editors and IDEs
 .vscode/
 .idea/
 
-# Coverage
-.coverage
+#Coverage and test artifacts
 coverage/
 htmlcov/
-
-# Python specific
-*.pyo
-*.pyd
-.Python
-*.so
-*.egg-info/
-```
+.coverage
