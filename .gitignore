@@ -1,48 +1,15 @@
-```
-# Temporary files and logs
-*.tmp
-*.log
-*.swp
-
-# Environment files
-.env
-.env.local
-.env.*
-
-# Editor/IDE files
-.vscode/
-.idea/
-*.swo
-
-# Python
-__pycache__/
+# Compiled and build artifacts
 *.pyc
-*.pyo
-*.pyd
-
-# Node.js
-node_modules/
-
-# Build directories
-dist/
-build/
-target/
-
-# Virtual environments
-venv/
-.venv/
-.env/
-
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Coverage reports
-coverage/
-htmlcov/
-.coverage
-
-# Compression files
+__pycache__/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+*.class
+*.jar
 *.zip
 *.gz
 *.tar
@@ -66,24 +33,40 @@ htmlcov/
 *.tar.xz
 *.tar.zst
 
-# MyPy cache
-.mypy_cache/
-
-# PyTest cache
-.pytest_cache/
-
-# Gradle
+# Dependencies
+node_modules/
+venv/
+.venv/
+.julia/
+.julia/
+julia-*/
+zig*/
+target/
 .gradle/
 
-# Temporary generated files
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*.log
 *.tmp
-*.temp
-*.bak
-*.backup
 
-# UUID-based temporary files
-*-[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}*
+# Environment files
+.env
+.env.local
+.env.*
 
-# Specific file from changes
-ff059726-aece-47dd-8e85-c9ed69581ef7.json
-```
+# Coverage and test artifacts
+.coverage
+coverage/
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+
+# Build and distribution directories
+dist/
+build/
+out/
+release/
+debug/
