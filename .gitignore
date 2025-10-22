@@ -1,55 +1,37 @@
-```
-# Terraform files
-*.tfstate
-*.tfstate.*
-*.tfvars
-.terraform/
-.terraform.lock.hcl
-
-# Compiled and build artifacts
-*.pyc
-__pycache__/
+time_output_$(date
+time_output_1761149421_37.cr
+time_program.cr
+*.cr
 *.o
 *.obj
+*.out
+*.so
+*.a
+*.dll
+*.exe
+*.class
+*.pyc
+__pycache__/
 dist/
 build/
 target/
-
-# Dependencies
-.venv/
-venv/
 node_modules/
-.pip/
-.mypy_cache/
-.pytest_cache/
-
-# Logs and temp files
+venv/
+.venv/
+.env
+.env.local
+*.env.*
 *.log
 *.tmp
 *.swp
 *.swo
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# System files
 .DS_Store
 Thumbs.db
-
-# Coverage
+.vscode/
+.idea/
 coverage/
 htmlcov/
 .coverage
-
-# Compressed files
 *.zip
 *.gz
 *.tar
@@ -72,4 +54,3 @@ htmlcov/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-```
