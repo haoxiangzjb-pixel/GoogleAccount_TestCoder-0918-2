@@ -1,19 +1,62 @@
-```
-# Zig installation
-zig-install/
-
-# Build artifacts
+#Compiled and build artifacts
+*.pyc
+*.class
 *.o
 *.obj
+*.exe
+*.dll
+*.so
+*.a
 *.out
-
-# Compressed files
+*.log
+*.tmp
+*.swp
+*.swo
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
 *.tar.xz
+*.tar.zst
 
-# Random data files
-*.dat
+#Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+dist/
+build/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
 
-# Scripts (if they are temporary)
-*.sh
+#Editors and IDEs
+.vscode/
+.idea/
 
-```
+#Environment files
+.env
+.env.local
+.env.*
+
+#Coverage and test output
+coverage/
+htmlcov/
+.coverage
