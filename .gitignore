@@ -1,1 +1,24 @@
-Nothing needs to be added to .gitignore since the only change is adding a Swift source file (.swift), which is a source code file that should not be ignored.
+```plaintext
+#Compiled and build artifacts
+*.pyc
+pycache/
+*.o
+*.obj
+dist/
+build/
+#Dependencies
+.venv/
+venv/
+node_modules/
+#Logs and temp files
+*.log
+*.tmp
+*.swp
+#Environment
+.env
+.env.local
+.env.*
+#Editors
+.vscode/
+.idea/
+```
