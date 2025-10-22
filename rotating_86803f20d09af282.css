@@ -1,0 +1,30 @@
+/* 旋转动画定义 */
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* 应用旋转动画的元素类 */
+.rotating-element {
+  width: 100px;
+  height: 100px;
+  background-color: #3498db;
+  margin: 50px auto;
+  animation: rotate 2s linear infinite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 可选：添加一些样式让元素看起来更美观 */
+.rotating-element::before {
+  content: "";
+  width: 60px;
+  height: 60px;
+  background-color: #2980b9;
+  border-radius: 50%;
+}
