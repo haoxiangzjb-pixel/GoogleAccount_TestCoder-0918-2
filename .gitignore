@@ -1,6 +1,1 @@
-.json
-*.log
-*.tmp
-*.swp
-.vscode/
-.idea/
+check_parity_b3cd4183.ml
