@@ -1,20 +1,2 @@
 ```
-# Temporary and shell script files
-*.sh.swp
-*.sh~
-*.tmp
-
-# Environment files
-.env
-.env.local
-*.env.*
-
-# Logs
-*.log
-
-# Editor files
-.vscode/
-.idea/
-*.swp
-*.swo
 ```
