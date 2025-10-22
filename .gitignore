@@ -1,4 +1,11 @@
-```
-# Logs
+# Configuration files
+*.pp
+
+# Logs and temp files
 *.log
-```
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
