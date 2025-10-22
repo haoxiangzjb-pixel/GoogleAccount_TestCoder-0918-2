@@ -1,3 +1,15 @@
-```
-
-```
+# Fortran compiled files
+*.o
+*.mod
+*.swo
+*.swp
+# Editors
+.vscode/
+.idea/
+# Logs and temp files
+*.log
+*.tmp
+# Environment
+.env
+.env.local
+.env.
