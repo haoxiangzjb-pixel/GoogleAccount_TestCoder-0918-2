@@ -1,5 +1,16 @@
-(groovy_script.groovy is a source code file, so no .gitignore rules needed)
+# SQL files (if they are generated or part of the project)
+*.sql
 
-```gitignore
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
-```
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+.env.*
