@@ -1,0 +1,19 @@
+# GitLab CI configuration file
+test_job:
+  stage: test
+  script:
+    - echo "Running tests..."
+    - # Add your test commands here, for example:
+    # - npm test
+    # - python -m pytest
+    # - ./gradlew test
+  artifacts:
+    when: always
+    paths:
+      - test-results.xml  # Example path for test results
+    expire_in: 1 week
+  coverage: '/Coverage: \d+\.\d+%/'
+  
+# Optional: Add other stages like build, deploy, etc.
+stages:
+  - test
