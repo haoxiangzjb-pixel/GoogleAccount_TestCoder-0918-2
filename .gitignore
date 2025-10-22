@@ -1,10 +1,2 @@
 ```
-#Temp files
-*.tmp
-*.swp
-*.swo
-
-#Lua specific
-*.lua~
-tmp.*
 ```
