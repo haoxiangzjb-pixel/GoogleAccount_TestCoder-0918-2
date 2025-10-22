@@ -1,86 +1,20 @@
 ```
-# Compiled and build artifacts
-*.plc
-*.plx
-*.pm
-
-# Logs and temp files
+#Compiled and build artifacts
+*.fsx
+#Dependencies
+node_modules/
+venv/
+.venv/
+#Logs and temp files
 *.log
 *.tmp
 *.swp
-
-# Environment
+#Environment
 .env
 .env.local
-*.env.*
-
-# Editors
+.env.
+#Editors
 .vscode/
 .idea/
-
-# Dependencies
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.so
-*.dylib
-*.dll
-*.exe
-*.out
-*.class
-*.jar
-*.war
-*.ear
-*.o
-*.obj
-*.a
-*.lib
-*.so
-*.dll
-*.dylib
-*.exe
-*.out
-*.class
-*.jar
-*.war
-*.ear
-*.o
-*.obj
-*.a
-*.lib
-
-# Distribution / packaging
-.Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.coverage
-coverage/
-htmlcov/
-.pytest_cache/
-.mypy_cache/
-.tox/
-.venv/
-venv/
-env/
-ENV/
-node_modules/
-dist/
-build/
-*.egg-info/
-.eggs/
-pip-log.txt
-pip-delete-this-directory.txt
-*.egg
-
-# System files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
 ```
+packages-microsoft-prod.deb
