@@ -1,0 +1,29 @@
+/* CSS styles for a button with shadow effect */
+.shadow-button {
+  background-color: #4CAF50; /* Green background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 15px 32px; /* Some padding */
+  text-align: center; /* Center the text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Make the button inline */
+  font-size: 16px; /* Increase font size */
+  margin: 4px 2px; /* Some margin */
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 4px; /* Rounded corners */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Add shadow */
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect for the button */
+.shadow-button:hover {
+  background-color: #45a049; /* Darker green background */
+  box-shadow: 0 6px 12px 0 rgba(0,0,0,0.3); /* Deeper shadow on hover */
+  transform: translateY(-2px); /* Slight lift effect */
+}
+
+/* Active effect for the button */
+.shadow-button:active {
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2); /* Reduced shadow when pressed */
+  transform: translateY(1px); /* Pressed down effect */
+}
