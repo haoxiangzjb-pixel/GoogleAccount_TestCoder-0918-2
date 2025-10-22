@@ -1,29 +1,7 @@
-```
-# Terraform
-.terraform/
-*.tfstate
-*.tfstate.backup
-*.tfvars
-*.tfplan
-*.lock.hcl
+# Generated from file changes
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+# PHP-related files
+form_handler_4948.php
 
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS
-.DS_Store
-Thumbs.db
-```
+# Temporary or malicious files
+");
