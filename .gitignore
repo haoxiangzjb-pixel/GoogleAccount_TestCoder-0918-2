@@ -1,2 +1,9 @@
-```
-```
+# Assembly files
+*.asm
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+# Editors
+.vscode/
+.idea/
