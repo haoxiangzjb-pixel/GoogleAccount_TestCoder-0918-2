@@ -1,13 +1,73 @@
-#Compiled and build artifacts
+# Source files and documentation
+*.md
+*.txt
+*.json
+*.yml
+*.yaml
+*.toml
+*.cfg
+*.ini
+*.xml
+*.html
+*.css
+*.js
+*.ts
+*.jsx
+*.tsx
+*.py
+*.java
+*.cpp
+*.h
+*.go
+*.rs
+*.sh
+*.bash
+*.zsh
+*.sql
+*.csv
+*.log
+*.tmp
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+.env
+.env.local
+.env.*
+# Build artifacts
 *.pyc
+__pycache__/
 *.class
 *.o
-*.obj
 *.exe
 *.dll
 *.so
 *.a
+*.obj
 *.out
+dist/
+build/
+target/
+# Dependencies
+node_modules/
+venv/
+.venv/
+.mypy_cache/
+.pytest_cache/
+.gradle/
+# Editors
+.vscode/
+.idea/
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+# Environment
+.env
+.env.local
+.env.
+# Compressed files
 *.zip
 *.gz
 *.tar
@@ -30,37 +90,3 @@
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-
-#Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-dist/
-build/
-.mypy_cache/
-.pytest_cache/
-target/
-.gradle/
-
-#Editors and IDEs
-.vscode/
-.idea/
-*.swp
-*.swo
-*.log
-*.tmp
-
-#Environment files
-.env
-.env.local
-.env.*
-
-#Coverage and testing
-coverage/
-htmlcov/
-.coverage
-
-#System files
-.DS_Store
-Thumbs.db
