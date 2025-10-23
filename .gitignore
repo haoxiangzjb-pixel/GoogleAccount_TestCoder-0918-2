@@ -1,6 +1,6 @@
-# Compiled and build artifacts
+#Compiled and build artifacts
 *.pyc
-__pycache__/
+*.class
 *.o
 *.obj
 *.exe
@@ -8,11 +8,6 @@ __pycache__/
 *.so
 *.a
 *.out
-*.class
-*.jar
-dist/
-build/
-target/
 *.zip
 *.gz
 *.tar
@@ -35,39 +30,28 @@ target/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-
-# Dependencies
-node_modules/
-venv/
-.venv/
-.julia/
-.julia-*
-.julia/
-julia-*/
-zig*/
+dist/
+build/
 target/
-.gradle/
-
-# Editors and IDEs
-.vscode/
-.idea/
+*.log
+*.tmp
 *.swp
 *.swo
 *.log
-*.tmp
-
-# Environment files
+*.env.*
 .env
 .env.local
-.env.*
-
-# Coverage and test artifacts
 .coverage
 coverage/
 htmlcov/
-.pytest_cache/
+__pycache__/
 .mypy_cache/
-
-# System files
-.DS_Store
-Thumbs.db
+.pytest_cache/
+.julia-*/
+.zig*/
+.gradle/
+.node_modules/
+.venv/
+venv/
+.vscode/
+.idea/
