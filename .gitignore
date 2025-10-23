@@ -1,31 +1,16 @@
-```
-# Compiled and build artifacts
-*.fsx
-*.fsi
-*.dll
-*.exe
-*.pdb
-*.cache
-
-# Dependencies
-.paket/
-packages/
-bin/
-obj/
-
-# Logs and temp files
+node_modules/
+.pycache/
+dist/
+build/
+.coverage
+htmlcov/
+coverage/
 *.log
 *.tmp
 *.swp
-
-# Environment
+*.swo
 .env
 .env.local
-.env.*
-
-# Editors
+.env.
 .vscode/
 .idea/
-*.userprefs
-*.user
-```
