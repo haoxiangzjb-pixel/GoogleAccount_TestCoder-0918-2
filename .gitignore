@@ -1,41 +1,64 @@
-```
-# VBA/Office files
-*.bas
-*.vba
-*.vbs
-*.cls
-*.frm
-*.vbp
-*.dsv
-
-# Compiled/Generated VBA files
+#Compiled and build artifacts
+*.pyc
+*.class
 *.o
 *.obj
-*.dll
 *.exe
-*.tmp
-
-# Backup and temporary files
-*.bak
-*.~*
-*.tmp
-*~
-
-# Environment and system files
-.env
-.env.local
-*.env.*
-
-# Logs
+*.dll
+*.so
+*.a
+*.out
 *.log
-
-# Editor/IDE files
-.vscode/
-.idea/
+*.tmp
 *.swp
 *.swo
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 
-# OS specific
-.DS_Store
-Thumbs.db
-```
+#Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+dist/
+build/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
+
+#Editors and IDE
+.vscode/
+.idea/
+*.log
+*.tmp
+
+#Environment files
+.env
+.env.local
+.env.*
+
+#Coverage and test reports
+coverage/
+htmlcov/
+.coverage
