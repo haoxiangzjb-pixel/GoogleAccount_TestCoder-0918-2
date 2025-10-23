@@ -9,7 +9,6 @@ __pycache__/
 *.a
 *.out
 *.class
-*.jar
 *.zip
 *.gz
 *.tar
@@ -37,29 +36,31 @@ __pycache__/
 node_modules/
 venv/
 .venv/
-.env/
-.env.local
-.env.*
-.julia/
-.julia-*/
-.julia/.*
-.julia/
-.julia/
+julia-*/
+zig*/
 target/
 .gradle/
-.mypy_cache/
-.pytest_cache/
-.coverage
-coverage/
-htmlcov/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+*.log.*
+
+# Environment files
+.env
+.env.local
+.env.*
 
 # Editors and IDEs
 .vscode/
 .idea/
-*.swp
-*.swo
-*.log
-*.tmp
+
+# Coverage and test artifacts
+coverage/
+htmlcov/
+.coverage
 
 # System files
 .DS_Store
