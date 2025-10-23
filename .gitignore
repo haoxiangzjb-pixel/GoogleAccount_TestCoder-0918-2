@@ -1,3 +1,64 @@
-(random_var_ab24b2df97b30e4d.hcl is a source/config file, not a build artifact or temp file, so no ignores needed)
+#Compiled and build artifacts
+*.pyc
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+*.log
+*.tmp
+*.swp
+*.swo
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 
-(empty)
+#Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+dist/
+build/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
+
+#Editors and IDEs
+.vscode/
+.idea/
+*.log
+*.tmp
+
+#Environment files
+.env
+.env.local
+.env.*
+
+#Coverage and test artifacts
+coverage/
+htmlcov/
+.coverage
