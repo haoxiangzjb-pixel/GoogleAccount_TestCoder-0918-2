@@ -1,3 +1,61 @@
-(lambda_function_success.py and sa8lb9u9yg.py are Python source files, so they should not be added to .gitignore)
-
-Nothing to output (empty)
+#Compiled and build artifacts
+*.pyc
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+*.log
+*.tmp
+*.swp
+*.swo
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+#Dependencies
+.venv/
+venv/
+node_modules/
+__pycache__/
+dist/
+build/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
+#Editors and IDE
+.vscode/
+.idea/
+#Environment files
+.env
+.env.local
+.env.*
+#Coverage and test artifacts
+coverage/
+htmlcov/
+.coverage
+#System files
+.DS_Store
+Thumbs.db
