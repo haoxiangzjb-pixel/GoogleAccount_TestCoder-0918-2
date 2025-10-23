@@ -1,0 +1,41 @@
+# Makefile for C++ project
+# Define compiler and flags
+CXX = g++
+CXXFLAGS = -Wall -Wextra -std=c++17 -g
+LDFLAGS = 
+
+# Define source files and executable name
+SOURCES = $(wildcard *.cpp)
+EXECUTABLE = main
+
+# Define test source files and test executable name
+TEST_SOURCES = $(wildcard test_*.cpp)
+TEST_EXECUTABLE = test_runner
+
+# Build target - compiles the main executable
+build: $(EXECUTABLE)
+
+$(EXECUTABLE): $(SOURCES)
+	$(CXX) $(CXXFLAGS) $(SOURCES) -o $(EXECUTABLE) $(LDFLAGS)
+
+# Test target - compiles and runs tests
+test: $(TEST_EXECUTABLE)
+	@echo "Running tests..."
+	./$(TEST_EXECUTABLE)
+
+$(TEST_EXECUTABLE): $(TEST_SOURCES) $(filter-out $(TEST_SOURCES), $(SOURCES))
+	$(CXX) $(CXXFLAGS) $(TEST_SOURCES) $(filter-out $(TEST_SOURCES), $(SOURCES)) -o $(TEST_EXECUTABLE) $(LDFLAGS)
+
+# Clean target - removes generated files
+clean:
+	rm -f $(EXECUTABLE) $(TEST_EXECUTABLE) *.o
+
+# Help target to show available targets
+help:
+	@echo "Available targets:"
+	@echo "  build  - Compile the main executable"
+	@echo "  test   - Compile and run tests"
+	@echo "  clean  - Remove generated files"
+	@echo "  help   - Show this help message"
+
+.PHONY: build test clean help
