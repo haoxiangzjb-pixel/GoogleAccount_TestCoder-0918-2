@@ -2,16 +2,12 @@
 *.pyc
 *.class
 *.o
+*.obj
 *.exe
 *.dll
 *.so
 *.a
-*.obj
 *.out
-*.log
-*.tmp
-*.swp
-*.swo
 *.zip
 *.gz
 *.tar
@@ -34,6 +30,7 @@
 *.tar.bz2
 *.tar.xz
 *.tar.zst
+
 #Dependencies
 node_modules/
 venv/
@@ -45,17 +42,21 @@ build/
 .pytest_cache/
 target/
 .gradle/
+
 #Editors and IDEs
 .vscode/
 .idea/
+*.swp
+*.swo
+*.log
+*.tmp
+
 #Environment files
 .env
 .env.local
 .env.*
-#System files
-.DS_Store
-Thumbs.db
-#Coverage and test artifacts
+
+#Coverage and test reports
 coverage/
 htmlcov/
 .coverage
