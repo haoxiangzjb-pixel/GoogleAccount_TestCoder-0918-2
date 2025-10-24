@@ -1,1 +1,41 @@
-Nothing should be ignored based on the provided file changes. The added file `focusDirective.vue` is a source code file that should be tracked in version control.
+```
+# F#/.NET build artifacts
+obj/
+bin/
+*.fsproj.nuget.*
+*.nuspec
+*.nupkg
+project.assets.json
+project.nuget.cache
+*.AssemblyInfo.fs
+*.AssemblyAttributes.fs
+*.AssemblyInfoInputs.cache
+*.assets.cache
+*.CoreCompileInputs.cache
+
+# Dependencies
+packages/
+.nuget/
+.nuget/packages/
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Other temp files
+*jT60c2iDbN.txt
+```
