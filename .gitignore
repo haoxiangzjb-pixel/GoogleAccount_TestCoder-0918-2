@@ -1,11 +1,5 @@
 ```
-# R-specific ignores
-.Rproj.user/
-.Rhistory
-.Rdata
-*.RData
-*.rds
-*.Rds
-*.rda
-*.Rda
+# Docker compose files
+docker-compose*.yml
+docker-compose*.yaml
 ```
