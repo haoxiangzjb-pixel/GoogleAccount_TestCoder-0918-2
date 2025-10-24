@@ -1,0 +1,6 @@
+Here are some email addresses in a text file:
+contact@website.net
+admin@domain.co.uk
+user.name+tag@example.org
+This line has no email address
+but this one has: info@business.com
