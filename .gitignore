@@ -1,4 +1,4 @@
 ```
-# Docker
-docker-compose-*.yml
+# Compiled files
+*.pp
 ```
