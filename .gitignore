@@ -1,18 +1,1 @@
-```
-# PowerShell files
-*.ps1
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# Environment
-.env
-.env.local
-*.env.*
-```
+Nothing should be ignored based on the provided file changes. The added file `math_ops_package_7d3f9a.adb` appears to be a source code file (Ada source file) which should not be ignored.
