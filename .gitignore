@@ -1,1 +1,1 @@
-(ts is a source code file, so no need to add to .gitignore)
+Nothing to ignore - the added file is a source code file (.kt) which should be tracked in version control.
