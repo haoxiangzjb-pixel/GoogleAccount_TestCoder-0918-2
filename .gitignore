@@ -1,2 +1,46 @@
 ```
+# Compiled and build artifacts
+*.swiftmodule
+*.swiftdoc
+*.sib
+*.sil
+*.bc
+*.o
+*.a
+*.so
+*.dylib
+*.framework
+
+# Dependencies
+Pods/
+Carthage/
+.swiftlint.yml
+.packages/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build directories
+build/
+.debug/
+.release/
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+*.xcuserstate
+DerivedData/
 ```
