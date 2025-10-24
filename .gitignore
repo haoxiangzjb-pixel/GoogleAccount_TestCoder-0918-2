@@ -1,2 +1,1 @@
-# Generated executables and scripts
-email_finder_*
+Nothing should be ignored based on the provided file changes. The added files (`backup_script.sh` and `test_file.txt`) are regular source/config files that should be tracked in version control.
