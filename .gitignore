@@ -1,62 +1,44 @@
-#Compiled and build artifacts
-*.pyc
-*.class
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
-*.log
+```
+# Backup files
+*~
+*.bak
+*.backup
+
+# Temporary files
 *.tmp
-*.swp
-*.swo
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+*.temp
 
-#Dependencies
-.venv/
-venv/
-node_modules/
-__pycache__/
+# Haskell specific
+*.hi
+*.o
+*.dyn_hi
+*.dyn_o
+*.so
+*.dll
+*.dylib
+
+# Build artifacts
 dist/
-build/
-.mypy_cache/
-.pytest_cache/
-target/
-.gradle/
+dist-newstyle/
+cabal/
+.stack-work/
+.hie/
 
-#Editors and IDEs
+# Editor/IDE
 .vscode/
 .idea/
+*.swp
+*.swo
 
-#Environment files
+# Logs
+*.log
+
+# Environment
 .env
 .env.local
-.env.*
+*.env.*
 
-#Coverage and test artifacts
-coverage/
-htmlcov/
-.coverage
+# System files
+.DS_Store
+Thumbs.db
+```
