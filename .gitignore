@@ -1,4 +1,1 @@
-```
-#Generated rules based on detected file changes
-*.json
-```
+Nothing to ignore - the change list contains only a source code file (.rb) and no build artifacts, dependencies, or temporary files.
