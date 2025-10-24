@@ -1,13 +1,3 @@
 ```
-# Compiled and build artifacts
-*.pl~
-
-# Logs and temp files
 *.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-*.env.*
 ```
