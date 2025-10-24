@@ -1,19 +1,9 @@
 ```
-# Compiled files
-*.pl~
+# Script files (if they are temporary/generated)
+script_*.sh
 
 # Logs and temp files
-*.tmp
 *.log
-
-# Editor/IDE files
+*.tmp
 *.swp
-*.swo
-.vscode/
-.idea/
-
-# Environment
-.env
-.env.local
-*.env.*
 ```
