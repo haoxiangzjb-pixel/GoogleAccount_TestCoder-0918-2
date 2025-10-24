@@ -1,1 +1,16 @@
-Nothing should be ignored based on the provided file changes. The added file `hello_asm_67890.asm` is a source code file that should be tracked in version control.
+```
+# Compiled and build artifacts
+*.pl~
+
+# Logs and temp files
+*.tmp
+*.log
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+```
