@@ -1,33 +1,13 @@
+```gitignore
+# PowerShell script backups/autosave files
+*.ps1~
+*~
 ```
-# Dart tooling
-.dart_tool/
 
-# Dependencies
-pubspec.lock
+Wait, let me reconsider - those .ps1 files might just be regular PowerShell scripts being added to the repository, not temporary files. Without more context showing they are temporary/backup files, I shouldn't assume they should be ignored.
 
-# Build artifacts
-build/
-dist/
-*.aar
-*.jar
-*.so
+Since the .ps1 files appear to be regular script files that might be part of the project source, and there are no clear build artifacts, dependency directories, or temporary files in the changes, the output should be empty.
 
-# Logs
-*.log
+```gitignore
 
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editor/IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*.tmp
-
-# OS generated files
-.DS_Store
-Thumbs.db
 ```
