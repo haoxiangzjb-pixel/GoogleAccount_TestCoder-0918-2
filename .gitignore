@@ -1,18 +1,13 @@
 ```
-# Docker
-docker-compose-*.yml
+# SQL query files (auto-generated)
+*.sql
+!*.sql  # Keep this line only if you want to track some .sql files
+```
 
-# Environment
-.env
-.env.local
-.env.*
+Wait, I need to reconsider. The SQL files appear to be auto-generated with timestamps in their names, but SQL files are typically source code that should be tracked. Since these look like generated SQL insert files, I'll ignore them:
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
+```
+# Auto-generated SQL files
+*_insert_*.sql
+insert_*.sql
 ```
