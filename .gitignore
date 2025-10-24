@@ -1,31 +1,6 @@
 ```
-# Compiled and build artifacts
-*.fsx
-*.fsi
-*.dll
-*.exe
-*.pdb
-*.cache
-
-# Dependencies
-.paket/
-packages/
-bin/
-obj/
-
-# Logs and temp files
-*.log
 *.tmp
 *.swp
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
-*.userprefs
-*.user
+*.log
+tmp.*
 ```
