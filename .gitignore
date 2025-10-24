@@ -1,17 +1,41 @@
-#Compiled and build artifacts
-*.swift
-#Dependencies
+```
+# Compiled and build artifacts
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
+# Dependencies
 node_modules/
-.venv/
 venv/
-#Logs and temp files
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+dist/
+build/
+target/
+.gradle/
+
+# Logs and temp files
 *.log
 *.tmp
 *.swp
-#Environment
+
+# Environment
 .env
 .env.local
-.env.
-#Editors
+*.env.*
+
+# Editors
 .vscode/
 .idea/
+
+# System files
+.DS_Store
+Thumbs.db
+```
