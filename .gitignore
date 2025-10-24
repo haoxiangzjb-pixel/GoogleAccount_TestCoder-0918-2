@@ -1,16 +1,59 @@
-node_modules/
-.pycache/
-dist/
-build/
-.coverage
-htmlcov/
-coverage/
+```fsharp
+# F# specific
+*.fsx
+*.fsi
+*.fs
+*.exe
+*.dll
+*.pdb
+*.cache
 *.log
 *.tmp
 *.swp
-*.swo
-.env
-.env.local
-.env.
+*~
+.DS_Store
+Thumbs.db
+
+# Dependencies
+packages/
+bin/
+obj/
+out/
+target/
+
+# IDE
+.vs/
+.vshistory/
 .vscode/
 .idea/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Environment
+.env
+.env.local
+.env.*
+!env.example
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+!README.md
+
+# Temp files
+*.tmp
+*.temp
+*.bak
+*.backup
+```
