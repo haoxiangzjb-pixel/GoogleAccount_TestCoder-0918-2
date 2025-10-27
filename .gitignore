@@ -1,1 +1,8 @@
-(ts is a source code file, so no need to add to .gitignore)
+```
+# R-specific files
+*.Rhistory
+*.RData
+*.rds
+*.Rproj.user/
+.Rproj.user/
+```
