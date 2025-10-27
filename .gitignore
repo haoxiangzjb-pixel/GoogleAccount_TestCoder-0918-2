@@ -1,39 +1,62 @@
-.bA7J8Benud.pl
-*.pl
-# Perl script files
-*.pl
-# Logs and temp files
-*.log
+```
+# Temporary files
 *.tmp
-*.swp
-# Editors
-.vscode/
-.idea/
+
+# Backup files
+*~
+*.bak
+*.backup
+
+# Shell script backups
+*_bc*.sh
+
+# Logs
+*.log
+
 # Environment
 .env
 .env.local
 .env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
 # Build artifacts
 dist/
 build/
-# Dependencies
-node_modules/
-.venv/
-venv/
-# Compiled files
-*.o
-*.obj
+target/
 *.so
 *.dll
 *.exe
-*.a
 *.out
-# Cache directories
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Python specific
+*.pyc
 __pycache__/
-.mypy_cache/
 .pytest_cache/
-.gradle/
-target/
+.mypy_cache/
+
 # Compressed files
 *.zip
 *.gz
@@ -57,3 +80,4 @@ target/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
+```
