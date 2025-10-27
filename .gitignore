@@ -1,1 +1,7 @@
-Nothing should be ignored based on the provided file changes. The added file `c4CseARITM.kt` is a Kotlin source code file and should not be ignored.
+```
+# R-specific ignores
+*.RData
+*.Rhistory
+*.Rproj.user/
+.Rproj.user/
+```
