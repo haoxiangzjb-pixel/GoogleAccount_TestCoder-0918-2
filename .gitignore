@@ -1,51 +1,15 @@
 ```
-# Compiled Python files
-*.pyc
-__pycache__/
-
-# Virtual environments
-venv/
-.venv/
-env/
-
-# Logs
+# LaTeX build artifacts
+*.aux
 *.log
-
-# Temporary files
-*.tmp
-*.swp
-
-# Environment files
-.env
-.env.local
-*.env.*
-
-# Editor/IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Coverage reports
-coverage/
-htmlcov/
-.coverage
-
-# Python cache
-*.pyc
-__pycache__/
-*.pyo
-*.pyd
-
-# Distribution / packaging
-dist/
-build/
-*.egg
-*.egg-info/
-*.whl
-MANIFEST
-
-# Testing
-.pytest_cache/
-.mypy_cache/
+*.toc
+*.lof
+*.lot
+*.out
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.pdf
 ```
