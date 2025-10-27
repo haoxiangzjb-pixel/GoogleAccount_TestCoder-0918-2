@@ -1,0 +1,16 @@
+# Makefile to compile a C program
+CC = gcc
+CFLAGS = -Wall -g
+
+# Default target
+all: hello
+
+# Rule to compile the C program
+hello: hello.c
+	$(CC) $(CFLAGS) -o hello hello.c
+
+# Clean target to remove compiled files
+clean:
+	rm -f hello
+
+.PHONY: all clean
