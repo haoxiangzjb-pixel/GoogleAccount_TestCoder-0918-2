@@ -1,26 +1,10 @@
 ```
-# Compiled and build artifacts
-*.ji
-*.o
-*.obj
-*.out
+# Output files
+*.txt
+
+# Package files
+*.deb
 
 # Dependencies
-julia-*/
-*.jl.cov
-*.jl.info
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# Environment
-.env
-.env.local
-*.env.*
+packages/
 ```
