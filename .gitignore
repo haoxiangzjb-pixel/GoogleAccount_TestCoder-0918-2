@@ -1,2 +1,18 @@
 ```
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+
+# Executables
+max_finder
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment
+.env
+.env.local
+*.env.*
 ```
