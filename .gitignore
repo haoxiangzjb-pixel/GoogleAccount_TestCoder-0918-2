@@ -1,31 +1,7 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-*.out
+# SQL query files (if they are auto-generated)
+*.sql
 
-# Dependencies
-.venv/
-venv/
-pip-wheel-metadata/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# System files
-.DS_Store
-Thumbs.db
+# If the SQL file is a generated artifact, ignore it
+insert_users_query_*.sql
 ```
