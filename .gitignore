@@ -1,19 +1,15 @@
 ```
 # Compiled and build artifacts
-*.pyc
-__pycache__/
 *.o
 *.obj
+*.out
 
 # Dependencies
-.venv/
-venv/
-node_modules/
+vendor/
 
 # Logs and temp files
 *.log
 *.tmp
-*.swp
 
 # Environment
 .env
@@ -23,26 +19,9 @@ node_modules/
 # Editors
 .vscode/
 .idea/
+*.swp
 
-# Coverage reports
-coverage/
-htmlcov/
-.coverage
-
-# Python specific
-*.pyc
-__pycache__/
-*.pyo
-*.pyd
-.Python
-*.so
-
-# Testing
-.pytest_cache/
-.mypy_cache/
-
-# Distribution
-dist/
-build/
-*.egg-info/
+# Distribution and build
+bin/
+obj/
 ```
