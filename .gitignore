@@ -1,1 +1,20 @@
-greeting_module_b10f4d3e.ex
+```
+# Compiled files
+*.o
+*.obj
+*.out
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+*.env.*
+```
