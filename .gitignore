@@ -1,0 +1,15 @@
+```
+# Dependencies and packages
+packages-microsoft-prod.deb
+*.deb
+
+# Processed/output files
+processed_numbers_*.txt
+
+# Compiled artifacts
+*.fsx~
+*.fsi
+*.dll
+*.exe
+*.out
+```
