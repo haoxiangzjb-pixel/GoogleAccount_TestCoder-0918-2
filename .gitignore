@@ -1,4 +1,11 @@
 ```
-# Compiled and build artifacts
-*.ex
+# Temporary files
+*.tmp
+tmp.*
+
+# Shell scripts (if they are temporary)
+*.sh
+
+# Logs
+*.log
 ```
