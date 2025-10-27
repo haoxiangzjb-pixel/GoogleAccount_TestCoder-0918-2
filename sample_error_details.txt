@@ -1,0 +1,11 @@
+日志文件: /workspace/sample.log
+错误模式: error|Error|ERROR|failed|Failed|FAILED
+错误总数: 6
+
+错误详情:
+1: 2023-10-01 10:00:10 ERROR Failed to connect to database
+2: 2023-10-01 10:00:20 ERROR Connection timeout
+3: 2023-10-01 10:00:30 ERROR Authentication failed
+4: 2023-10-01 10:00:45 ERROR Failed to process request
+5: 2023-10-01 10:00:50 DEBUG Error code: 500
+6: 2023-10-01 10:00:55 ERROR Internal server error
