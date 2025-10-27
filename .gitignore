@@ -1,1 +1,5 @@
-Nothing to output - the change list contains only a source file (.sol) which should not be ignored.
+(HttpTriggerFunction.cs is a source code file, so no ignores are needed)
+
+```csharp
+
+```
