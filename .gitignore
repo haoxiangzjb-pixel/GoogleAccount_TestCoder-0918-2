@@ -1,19 +1,5 @@
 ```
-# PHP compiled files
-*.php~
-
 # Backup files
-*~
-
-# Environment files
-.env
-.env.local
-*.env.*
-
-# Logs
-*.log
-
-# Temporary files
-*.tmp
-*.temp
+*backup*
+backup_script.sh
 ```
