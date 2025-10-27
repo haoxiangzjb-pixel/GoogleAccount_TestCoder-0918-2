@@ -1,0 +1,14 @@
+{
+  "name": "hello-world-function",
+  "version": "1.0.0",
+  "description": "A simple Google Cloud Function",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14"
+  }
+}

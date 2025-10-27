@@ -1,11 +1,5 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-
 # Dependencies
-.venv/
-venv/
 node_modules/
 
 # Logs and temp files
@@ -22,17 +16,8 @@ node_modules/
 .vscode/
 .idea/
 
-# System files
-.DS_Store
-Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Build directories
+# Build artifacts
 dist/
 build/
-target/
+*.js.map
 ```
