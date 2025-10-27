@@ -1,30 +1,35 @@
 ```
 # Compiled and build artifacts
-*.rds
-*.RData
-*.o
-*.so
-*.dll
-*.exe
+*.vcd
+*.log
+*.tmp
 *.out
+*.o
+*.obj
 
-# Dependencies
-.packages/
-renv/
-library/
+# Simulation and build outputs
+sim/
+build/
+target/
+
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Editors
-.Rproj.user/
-.Rhistory
-.Rapp.history
-.DS_Store
-Thumbs.db
+# Environment files
+.env
+.env.local
+*.env.*
 
-# R-specific
-*.Rproj
-.Rbuildignore
+# Editors
+.vscode/
+.idea/
+
+# Coverage and testing
+coverage/
+htmlcov/
+*.coverage
+.pytest_cache/
+.mypy_cache/
 ```
