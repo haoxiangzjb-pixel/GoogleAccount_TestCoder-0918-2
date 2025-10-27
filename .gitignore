@@ -1,28 +1,12 @@
 ```
-# Build artifacts
-zig-cache/
-zig-out/
+# Compiled and build artifacts
 *.o
 *.obj
-*.exe
-*.dll
-*.so
-*.a
 *.out
-
-# Dependencies
-.zig-cache/
-zig-cache/
-zig-out/
 
 # Logs and temp files
 *.log
 *.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
 
 # Environment
 .env
