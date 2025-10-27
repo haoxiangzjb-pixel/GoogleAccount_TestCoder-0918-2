@@ -1,65 +1,26 @@
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.class
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
-
-# Dependencies
-.venv/
-venv/
-node_modules/
-target/
-.julia/
-.julia-*/
-julia-*/
-zig*/
-
-# Logs and temp files
-*.log
+```
+# Temporary files
 *.tmp
-*.swp
-*.swo
-*.log.*
 
 # Environment files
 .env
 .env.local
-.env.*
+*.env.*
 
-# Editors and IDEs
+# Editor/IDE files
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# Coverage and test artifacts
-coverage/
-htmlcov/
-.coverage
-.pytest_cache/
+# Logs
+*.log
+
+# Random/temporary PHP files
+*.php.bak
+*.php~
+form_handler_*.php
+
+# Random files
+random_filename.txt
+```
