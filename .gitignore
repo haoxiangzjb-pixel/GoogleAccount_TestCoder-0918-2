@@ -1,1 +1,7 @@
-Nothing should be ignored based on the provided file changes. The added file is a Swift source code file, which should be tracked in version control.
+```
+# JSON files that might be temporary/api responses
+*.json
+
+# If these are API response files, ignore them
+api_response.json
+```
