@@ -1,1 +1,23 @@
-(empty)
+```
+# Compiled files
+*.class
+
+# Dependencies
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+*.env.*
+```
