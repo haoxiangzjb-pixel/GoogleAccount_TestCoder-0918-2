@@ -1,37 +1,20 @@
 ```
-# Compiled Python files
-*.pyc
-__pycache__/
+# Compiled and build artifacts
+*.php~
 
-# Logs
+# Logs and temp files
 *.log
+*.tmp
+*.swp
 
-# Environment files
+# Environment
 .env
 .env.local
 *.env.*
 
-# Editor/IDE files
+# Editors
 .vscode/
 .idea/
-*.swp
-*.swo
-*.tmp
-
-# Dependencies
-.venv/
-venv/
-node_modules/
-
-# Build artifacts
-dist/
-build/
-target/
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
 
 # System files
 .DS_Store
