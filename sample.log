@@ -1,0 +1,15 @@
+2023-06-15 10:00:01 INFO Application started
+2023-06-15 10:00:02 ERROR Database connection failed
+2023-06-15 10:00:03 WARNING Low disk space
+2023-06-15 10:00:04 INFO User login successful
+2023-06-15 10:00:05 ERROR Invalid user credentials
+2023-06-15 10:00:06 CRITICAL System overload
+2023-06-15 10:00:07 INFO Processing request
+2023-06-15 10:00:08 ERROR Timeout occurred
+2023-06-15 10:00:09 WARNING Memory usage high
+2023-06-15 10:00:10 INFO Request completed
+2023-06-15 10:00:11 ERROR Database query failed
+2023-06-15 10:00:12 FATAL Application crash
+2023-06-15 10:00:13 ERROR Failed to send notification
+2023-06-15 10:00:14 INFO Recovery process started
+2023-06-15 10:00:15 WARNING Network instability detected
