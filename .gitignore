@@ -1,33 +1,20 @@
-```
-# Compiled files
-*.cmi
-*.cmo
-*.cma
-*.cmx
-*.cmxa
-*.cmxs
-*.exe
-*.out
-
-# Build artifacts
-_build/
-_dbuild/
-*.native
-*.byte
-
-# Editor/IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Logs and temp files
-*.log
+```bash
+# Temporary and backup files
 *.tmp
+*.bak
+*.backup
+*~
 
-# Dependencies
-.dune/
-.opam/
-esy.lock/
-node_modules/
+# Script backup files
+*.sh.bak
+*.sh~
+backup_*.sh
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+.env.*
 ```
