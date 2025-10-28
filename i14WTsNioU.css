@@ -1,0 +1,35 @@
+/* CSS Animation for Rotation */
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate-element {
+  width: 100px;
+  height: 100px;
+  background-color: #3498db;
+  margin: 50px auto;
+  animation: rotate 2s linear infinite;
+}
+
+/* Alternative with different timing function */
+.rotate-element-ease {
+  width: 100px;
+  height: 100px;
+  background-color: #e74c3c;
+  margin: 50px auto;
+  animation: rotate 2s ease-in-out infinite;
+}
+
+/* Faster rotation */
+.rotate-fast {
+  width: 100px;
+  height: 100px;
+  background-color: #f39c12;
+  margin: 50px auto;
+  animation: rotate 0.5s linear infinite;
+}
