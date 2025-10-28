@@ -1,17 +1,1 @@
-```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-
-# Temp files
-*.tmp
-*.swp
-
-# Logs
-*.log
-
-# Environment files
-.env
-.env.local
-*.env.*
-```
+Nothing should be ignored since the added files are VBA source files (.vba) which are source code files and should be tracked in version control.
