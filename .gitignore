@@ -1,1 +1,1 @@
-Nothing should be ignored based on the provided file changes. The added files (`check_memory.sh` and `create_random_memory_check.sh`) are shell script source files that should be tracked in version control.
+Nothing should be ignored based on the provided file changes, as they are all Python source files (.py) which are legitimate source code files that should be tracked in version control.
