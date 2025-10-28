@@ -1,0 +1,9 @@
+Log file: /workspace/sample.log
+Total errors found: 4
+
+Error lines:
+--------------------------------------------------
+2023-10-28 10:00:03 ERROR Database connection failed
+2023-10-28 10:00:05 WARNING Memory usage high
+2023-10-28 10:00:06 ERROR Authentication failed
+2023-10-28 10:00:08 CRITICAL Server overload
