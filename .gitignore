@@ -1,13 +1,16 @@
 ```
-# Compiled files
-*.o
-*.obj
-*.out
+# Terraform
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tf.json
+.terraform/
+.terraform.lock.hcl
 
-# Dependencies
-.m/
-__pycache__/
-*.pyc
+# Environment
+.env
+.env.local
+.env.*
 
 # Logs and temp files
 *.log
@@ -18,28 +21,49 @@ __pycache__/
 .vscode/
 .idea/
 
-# Environment
-.env
-.env.local
-*.env.*
-
-# Build artifacts
-build/
+# Dependencies and build artifacts
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 dist/
+build/
 target/
-
-# Coverage
+.gradle/
+.mypy_cache/
+.pytest_cache/
 coverage/
 htmlcov/
 .coverage
 
-# Python specific
-*.pyc
-__pycache__/
-.pytest_cache/
-.mypy_cache/
-
 # System files
 .DS_Store
 Thumbs.db
+
+# Common compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
