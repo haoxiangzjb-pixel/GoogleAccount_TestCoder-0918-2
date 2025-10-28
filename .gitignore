@@ -1,31 +1,3 @@
-```
-# Temporary files
-*.tmp
-tmp.*
+Nothing should be ignored in this case, as the added files are HTML files which are source code/config files. The list contains only `.html` files, which are source files and should not be ignored.
 
-# TypeScript compiled files
-*.js
-*.js.map
-*.tsbuildinfo
-
-# Editor/IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Logs
-*.log
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Dependencies
-node_modules/
-dist/
-build/
-coverage/
-.nyc_output/
-```
+Therefore, the output is empty.
