@@ -1,1 +1,22 @@
-Nothing should be ignored based on the provided file changes. The added file `focusDirective.vue` is a source code file that should be tracked in version control.
+```
+# Compiled files
+*.cr
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Dependencies (if any Crystal shards are used)
+lib/
+```
