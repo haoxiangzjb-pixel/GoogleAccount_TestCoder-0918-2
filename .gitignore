@@ -1,15 +1,24 @@
-```bash
-# Temporary shell scripts
-*.sh.swp
-*.sh~
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+
+# Dependencies
+.julia/
+*.jl.cov
+*.jl.log
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Environment
-.env
-.env.local
-*.env.*
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
