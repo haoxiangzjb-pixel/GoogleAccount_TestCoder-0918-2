@@ -1,24 +1,37 @@
 ```
-# Compiled and build artifacts
-*.ji
-*.o
-*.obj
-*.out
+# Elixir specific
+*.beam
+*.ez
+.erlang.cookie
+.eunit
+.coverage
+.cover
+
+# Build artifacts
+ebin/
+_build/
+*.ez
 
 # Dependencies
-.julia/
-*.julia/
+deps/
+.hex/
+.rebar3/
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# System files
+# OS generated files
 .DS_Store
 Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Logs
+*.log
+log/
 ```
