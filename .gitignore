@@ -1,1 +1,51 @@
-(todo-component-8372.jsx is a source file, so no .gitignore rules needed)
+```
+# Compiled Python files
+*.pyc
+__pycache__/
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Logs
+*.log
+
+# Coverage reports
+.coverage
+coverage/
+htmlcov/
+
+# Python specific
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+*.so
+.Python
+*.egg-info/
+.eggs/
+.venv/
+venv/
+.env/
+.mypy_cache/
+.pytest_cache/
+.tox/
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Build artifacts
+build/
+dist/
+*.egg
+*.whl
+```
