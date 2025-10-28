@@ -1,12 +1,1 @@
-```
-# Compiled and build artifacts
-*.html
-
-# Logs and temp files
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-```
+Nothing to output - the added file CounterComponent.vue is a source code file (.vue) and no build artifacts, dependencies, or temporary files are present in the changes.
