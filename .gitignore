@@ -1,1 +1,25 @@
-Nothing should be ignored based on the provided changes. The only file added is `mergeLists.hs` which is a source code file (.hs extension indicates Haskell source code), and there are no build artifacts, dependencies, or temporary files in the changes list.
+```
+# Compiled and build artifacts
+*.vcd
+*.vvp
+*.fst
+*.ghw
+*.log
+*.tmp
+
+# Simulation and synthesis outputs
+sim/
+sim_build/
+build/
+target/
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+```
