@@ -1,15 +1,1 @@
-# Zig project files
-*.zig~
-
-# Build artifacts
-build.zig.lock
-.zig-cache/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
+(empty)
