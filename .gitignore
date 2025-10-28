@@ -1,12 +1,27 @@
-```
-# Process data files
-*.csv
+```csharp
+# Compiled files
+*.exe
+*.dll
+*.so
+*.a
+*.obj
+*.out
+*.pdb
+*.ilk
 
-# Temporary and generated files
-*.tmp
+# Dependencies
+packages/
+bin/
+obj/
+lib/
+
+# Logs and temp files
 *.log
+*.tmp
+*.swp
+*.swo
 
-# Environment files
+# Environment
 .env
 .env.local
 *.env.*
@@ -14,8 +29,12 @@
 # Editors
 .vscode/
 .idea/
+*.userprefs
+*.user
 
-# System files
+# OS generated files
 .DS_Store
 Thumbs.db
+ehthumbs.db
+Icon?
 ```
