@@ -1,15 +1,10 @@
 ```
-# Dependencies and packages
-packages-microsoft-prod.deb
-*.deb
-
-# Processed/output files
-processed_numbers_*.txt
-
-# Compiled artifacts
-*.fsx~
-*.fsi
-*.dll
-*.exe
+# Executables and build artifacts
+max_finder
+*.o
+*.obj
 *.out
+
+# Temporary output files
+*.txt
 ```
