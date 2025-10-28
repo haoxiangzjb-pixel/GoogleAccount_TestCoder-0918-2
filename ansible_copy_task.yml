@@ -1,0 +1,14 @@
+---
+# Ansible task to copy a file with a random name
+- name: Copy file with random name
+  hosts: localhost
+  tasks:
+    - name: Copy file with random name
+      copy:
+        src: /path/to/source/file.txt
+        dest: "/tmp/file_{{ 10000 | random }}.txt"
+      register: copied_file
+
+    - name: Display the new filename
+      debug:
+        msg: "File copied to {{ copied_file.dest }}"
