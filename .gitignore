@@ -1,35 +1,28 @@
 ```
 # Compiled and build artifacts
-*.vcd
-*.log
-*.tmp
-*.out
+*.mex*
 *.o
 *.obj
+*.out
 
-# Simulation and build outputs
-sim/
-build/
-target/
+# Dependencies
+*.m~
+*.mexw64
+*.mexa64
+*.mexmaci64
+*.mexmaca64
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Environment files
-.env
-.env.local
-*.env.*
-
 # Editors
 .vscode/
 .idea/
 
-# Coverage and testing
-coverage/
-htmlcov/
-*.coverage
-.pytest_cache/
-.mypy_cache/
+# Environment
+.env
+.env.local
+*.env.*
 ```
