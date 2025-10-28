@@ -1,3 +1,42 @@
 ```
+# Dart/Flutter build artifacts
+.dart_tool/
+.packages
+.pub/
+build/
+*.dart.js
+*.part.js
+*.g.dart
+*.freezed.dart
+*.g.part
+
+# Environment
+.env
+.env.local
+.env.*
+!.env.example
+
+# Logs
+*.log
+**/logs
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*~
+```
+
+Wait, let me reconsider - the added files are just `network_data_fetcher.dart` and `pubspec.yaml`, which are source files. There are no build artifacts, dependency directories, or temporary files in the change list that need to be ignored.
+
+```
 
 ```
