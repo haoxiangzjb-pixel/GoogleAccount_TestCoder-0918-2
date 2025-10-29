@@ -1,1 +1,56 @@
-Nothing should be ignored based on the provided file changes, as they are all Python source files (.py) which are legitimate project files and not build artifacts, dependencies, or temporary files.
+```
+# Compiled and build artifacts
+*.swiftmodule
+*.swiftdoc
+*.sib
+*.sib~
+*.d
+*.o
+*.out
+
+# Dependencies
+Packages/
+.build/
+DerivedData/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+*.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+*.playground/
+xcuserdata/
+*.moved-aside
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM/
+
+# Swift Package Manager
+.swift-version
+```
