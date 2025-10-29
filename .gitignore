@@ -1,4 +1,5 @@
 ```
-# Compiled files
-*.cs
+# Backup files
+*.sh.bak
+*~
 ```
