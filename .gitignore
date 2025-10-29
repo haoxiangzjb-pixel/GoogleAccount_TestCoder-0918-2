@@ -1,1 +1,84 @@
-Nothing should be ignored based on the provided file changes. The added files (`backup_script.sh` and `test_file.txt`) are regular source/config files that should be tracked in version control.
+```
+# Compiled files
+*.csproj.user
+*.userosscache
+*.suo
+*.user
+*.aps
+*.ncb
+*.obj
+*.log
+*.ilk
+*.iobj
+*.ipdb
+*.pdb
+*.tlog
+*.res
+*.rsp
+*.rej
+*.o
+*.a
+*.lib
+*.so
+*.dll
+*.exe
+
+# Dependencies
+packages/
+bin/
+obj/
+out/
+target/
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vs/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Test and coverage
+coverage/
+htmlcov/
+.coverage
+*.coverage
+
+# Distribution / packaging
+dist/
+build/
+*.tar.gz
+*.whl
+*.egg
+*.egg-info/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+```
