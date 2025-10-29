@@ -1,1 +1,27 @@
-(ts is a source code file, so no need to add to .gitignore)
+```
+# Compiled and build artifacts
+*.beam
+*.app
+ebin/
+*.o
+*.obj
+
+# Dependencies
+deps/
+_build/
+
+# Logs and temp files
+*.log
+erl_crash.dump
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
+```
