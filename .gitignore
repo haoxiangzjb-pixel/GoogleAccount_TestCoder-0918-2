@@ -1,35 +1,10 @@
 ```
-# VBA/Excel related build artifacts
-*.bas
-*.vba
-
-# Python build artifacts
-*.pyc
-__pycache__/
-*.pyo
-*.pyd
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment files
-.env
+# Environment
 .env.local
-*.env.*
 
 # Editors
 .vscode/
-.idea/
 
-# Coverage reports
-coverage/
-htmlcov/
-.coverage
-
-# Distribution artifacts
-dist/
-build/
-*.egg-info/
+# Workflow artifacts (if any temp files are created during workflow execution)
+test_workflow_content
 ```
