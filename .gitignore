@@ -1,4 +1,6 @@
 ```
-# CI/CD
-.github/workflows/
+# Compiled and build artifacts
+*.o
+*.obj
+*.asm
 ```
