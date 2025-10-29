@@ -1,5 +1,3 @@
 ```
-# GraphQL schema files are source code - don't ignore them
-# lxbfcgnxk0.graphql
-# schema.graphql
+*.log
 ```
