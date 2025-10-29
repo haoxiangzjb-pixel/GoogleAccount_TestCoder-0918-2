@@ -1,5 +1,7 @@
-(car.dart is a source file, so no .gitignore rules needed)
-
-```dart
-
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+sort_program
 ```
