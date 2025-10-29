@@ -1,1 +1,29 @@
-Nothing should be ignored based on the provided file changes. The added file `mergeLists.hs` is a source code file that should be tracked in version control.
+```
+# Compiled and build artifacts
+*.class
+*.o
+*.obj
+*.out
+# Dependencies
+target/
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+# Logs and temp files
+*.log
+*.tmp
+# Environment
+.env
+.env.local
+*.env.*
+# Coverage
+coverage/
+htmlcov/
+.coverage
+# MyPy
+.mypy_cache/
+# PyTest
+.pytest_cache/
+```
