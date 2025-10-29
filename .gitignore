@@ -1,6 +1,1 @@
-```
-# Compiled and build artifacts
-*.o
-*.obj
-*.asm
-```
+Nothing needs to be added to .gitignore for this change list. The file 'greeting_module.ex' is a source code file (Elixir module) that should be tracked in version control, and there are no build artifacts, dependencies, or temporary files in the changes that would warrant adding ignore rules.
