@@ -1,13 +1,15 @@
 ```
-# Compiled files
+# Compiled and build artifacts
 *.o
 *.obj
-*.out
+*.mod
+*.smod
+*.exe
 
 # Dependencies
-.m/
-__pycache__/
-*.pyc
+*.a
+*.so
+*.dll
 
 # Logs and temp files
 *.log
@@ -18,28 +20,8 @@ __pycache__/
 .vscode/
 .idea/
 
-# Environment
-.env
-.env.local
-*.env.*
-
-# Build artifacts
-build/
-dist/
-target/
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Python specific
-*.pyc
-__pycache__/
-.pytest_cache/
-.mypy_cache/
-
-# System files
-.DS_Store
-Thumbs.db
+# Fortran specific
+*.mod
+*.smod
+*.exe
 ```
