@@ -1,24 +1,22 @@
-```xml
-# XML files
-*.xml
-
-# Environment files
-.env
-.env.local
-*.env.*
+```
+# Compiled and build artifacts
+*.css.map
+*.css.gz
+*.css.br
 
 # Logs and temp files
 *.log
 *.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
 
 # Editors
 .vscode/
 .idea/
-
-# Build artifacts
-build/
-dist/
-target/
 
 # Dependencies
 node_modules/
@@ -29,16 +27,20 @@ __pycache__/
 *.pyo
 *.pyd
 
+# Build directories
+dist/
+build/
+target/
+coverage/
+htmlcov/
+.mypy_cache/
+.pytest_cache/
+
 # System files
 .DS_Store
 Thumbs.db
 
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Compressed files
+# Compression files
 *.zip
 *.gz
 *.tar
