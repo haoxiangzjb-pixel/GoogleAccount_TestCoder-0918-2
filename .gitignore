@@ -1,1 +1,1 @@
-Nothing needs to be added to .gitignore for this change list, as it only contains a single PHP source file being added without any build artifacts, dependencies, or temporary files.
+(tasks_12345.md is a source/config file, not a build artifact or temp file, so no .gitignore rules needed)
