@@ -1,11 +1,30 @@
-```
-# Shell script artifacts
-*.sh~
+```rust
+# Compiled and build artifacts
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
-# Temporary files
+# Dependencies
+target/
+vendor/
+.cargo/
+.cargo-lock
+
+# Logs and temp files
+*.log
 *.tmp
 *.swp
 
-# Logs
-*.log
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+*.env.*
 ```
