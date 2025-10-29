@@ -1,18 +1,4 @@
 ```
-# Compiled and build artifacts
-*.pl~
-
-# Logs and temp files
-*.tmp
-*.swp
-*.log
-
-# Editors
-.vscode/
-.idea/
-
-# Environment
-.env
-.env.local
-*.env.*
+# Jenkins artifacts
+Jenkinsfile
 ```
