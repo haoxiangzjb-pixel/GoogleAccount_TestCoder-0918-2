@@ -1,5 +1,1 @@
-```
-# Configuration files
-*.yml
-*.yaml
-```
+Nothing should be ignored based on the provided file changes. The added file '3j6ReUJLiO.hs' appears to be a Haskell source file, which should not be ignored.
