@@ -1,11 +1,15 @@
 ```
-# Shell script artifacts
-*.sh~
-
-# Temporary files
+# Compiled and build artifacts
+*.fsproj.binlog
+*.fsi
+*.fsx
+# Dependencies
+.paket/
+# Logs and temp files
+*.log
 *.tmp
 *.swp
-
-# Logs
-*.log
+# Editors
+.vscode/
+.idea/
 ```
