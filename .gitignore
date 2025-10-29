@@ -1,31 +1,28 @@
 ```
-# Julia specific
-*.ji
-*.jl.c
-*.jl.o
-*.jl.so
-*.jl.dll
-*.jl.lib
-*.jl.dSYM/
-*.jl~
+# Swap files
+*swap_output_*.txt
+swap_template
 
-# Dependencies and build artifacts
-.julia/
-build/
-dist/
-*.so
+# Compiled and build artifacts
+*.o
+*.obj
+*.exe
 *.dll
-*.lib
+*.so
 *.a
-*.dylib
-*.dSYM/
+*.out
 
-# Editors and IDEs
-.julia/config/
-.julia/logs/
-
-# Temporary files
+# Logs and temp files
+*.log
 *.tmp
 *.swp
-*~
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+*.env.*
 ```
