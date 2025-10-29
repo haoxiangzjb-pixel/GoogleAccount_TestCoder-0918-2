@@ -1,1 +1,16 @@
-Nothing should be ignored based on the provided file changes. The added file is a Swift source code file, which should be tracked in version control.
+```
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Package files
+*.deb
+
+# Temporary files
+*.tmp
+*.swp
+
+# Logs
+*.log
+```
