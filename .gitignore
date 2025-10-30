@@ -1,5 +1,1 @@
-```
-# Executables and build artifacts
-hello_12345
-*.asm
-```
+Nothing needs to be added to .gitignore for this change list. The Makefile is a source configuration file that should be tracked in version control.
