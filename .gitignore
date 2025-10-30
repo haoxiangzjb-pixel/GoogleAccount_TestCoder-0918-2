@@ -1,2 +1,21 @@
 ```
+# Compiled and build artifacts
+*.pp
+
+# Dependencies
+# (no dependency directories detected in changes)
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
 ```
