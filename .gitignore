@@ -1,29 +1,40 @@
 ```
+# Solidity/Blockchain
+*.sol
+
 # Compiled and build artifacts
 *.pyc
-__pycache__/
-*.o
-*.obj
 *.class
+*.o
 *.exe
 *.dll
 *.so
 *.a
+*.obj
 *.out
 
 # Dependencies
 node_modules/
 venv/
 .venv/
-.env
-.env.local
-*.env.*
+__pycache__/
+dist/
+build/
+target/
+.gradle/
+.mypy_cache/
+.pytest_cache/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 *.swo
+
+# Environment
+.env
+.env.local
+*.env.*
 
 # Editors
 .vscode/
@@ -38,7 +49,7 @@ coverage/
 htmlcov/
 .coverage
 
-# Common compressed files
+# Compressed files
 *.zip
 *.gz
 *.tar
