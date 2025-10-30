@@ -1,17 +1,4 @@
 ```
-# Compiled files
-*.plc
-*.plx
-
-# Editor/IDE files
-*.swp
-*.swo
-*.tmp
-
-# Logs
-*.log
-
-# Backup files
-*~
-.#*
+# Thrift generated files
+*.thrift
 ```
