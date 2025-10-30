@@ -1,31 +1,11 @@
 ```
-# Compiled and build artifacts
-*.pl~
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# System files
-.DS_Store
-Thumbs.db
+# Terraform files
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.backup
+*.lock.hcl
 ```
