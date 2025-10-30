@@ -1,41 +1,52 @@
 ```
-# Compiled MATLAB files
-*.mex*
-*.mexw64
-*.mexa64
-*.mexmaci64
-*.mexglx
-*.mexsol
-*.mexw32
-*.mexmaci
-*.mexglx
-*.mexslnx
-*.mexlnx
-*.mexmac
-*.mexuni
-*.mexv5
-*.mexw64
-*.mexa64
-*.mexmaci64
-*.mexglx
-*.mexsol
-*.mexw32
-*.mexmaci
-*.mexglx
-*.mexslnx
-*.mexlnx
-*.mexmac
-*.mexuni
-*.mexv5
+# Environment files
+.env
+.env.local
+*.env.*
 
-# MATLAB cache and temporary files
-*.fig
-*.mat
-*.m~
-*~
+# Compiled files
+*.pyc
+__pycache__/
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+pip-wheel-metadata/
+
+# Logs
+*.log
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+target/
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+*.a
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Cache
+.mypy_cache/
+.pytest_cache/
+.gradle/
 ```
-Wait, I need to reconsider. The file `mean_func_m9g6dvff.m` appears to be a regular MATLAB source file (`.m` extension), not a compiled artifact or temporary file. MATLAB `.m` files are source code files that should typically be tracked in version control.
-
-Let me reconsider the content - since this appears to be a standard MATLAB source file, it should not be ignored. No files in the change list require ignoring.
-
-(empty - output nothing)
