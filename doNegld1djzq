@@ -1,0 +1,42 @@
+# Makefile for C++ project
+
+# Compiler
+CXX = g++
+
+# Compiler flags
+CXXFLAGS = -Wall -Wextra -std=c++17
+
+# Target executable name
+TARGET = main
+
+# Source files
+SOURCES = main.cpp
+
+# Object files
+OBJECTS = $(SOURCES:.cpp=.o)
+
+# Build target
+build: $(TARGET)
+
+$(TARGET): $(OBJECTS)
+	$(CXX) $(OBJECTS) -o $(TARGET)
+
+%.o: %.cpp
+	$(CXX) $(CXXFLAGS) -c $< -o $@
+
+# Test target (example - you would customize this based on your test framework)
+test: build
+	@echo "Running tests..."
+	# Add your test commands here, for example:
+	# ./run_tests
+	# Or if using a framework like Google Test:
+	# ./test_runner
+	@echo "Tests completed."
+
+# Clean target
+clean:
+	rm -f $(OBJECTS) $(TARGET)
+	@echo "Clean completed."
+
+# Phony targets
+.PHONY: build test clean
