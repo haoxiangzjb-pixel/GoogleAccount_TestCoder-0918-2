@@ -1,24 +1,4 @@
 ```
 # Compiled and build artifacts
-*.beam
-*.o
-*.obj
-
-# Dependencies
-ebin/
-deps/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# Environment
-.env
-.env.local
-*.env.*
+*.html
 ```
