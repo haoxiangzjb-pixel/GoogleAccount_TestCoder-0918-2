@@ -1,17 +1,2 @@
-```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-
-# Temp files
-*.tmp
-*.swp
-
-# Logs
-*.log
-
-# Environment files
-.env
-.env.local
-*.env.*
-```
+**.ini
+.zfImM7jawfQ2JfvS.ini**
