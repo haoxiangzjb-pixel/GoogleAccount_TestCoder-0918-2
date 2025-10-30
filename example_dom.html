@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Manipulação DOM</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .target {
+            background-color: #f0f0f0;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Exemplo de Manipulação DOM</h1>
+        
+        <div id="target1" class="target">Texto original do elemento com ID 'target1'</div>
+        <div id="target2" class="target">Texto original do elemento com ID 'target2'</div>
+        <div class="target class-target">Texto original do elemento com classe 'class-target'</div>
+        
+        <button onclick="changeElementText('#target1', 'Texto alterado via seletor CSS!')">Alterar por ID (seletor)</button>
+        <button onclick="changeElementTextById('target2', 'Texto alterado via ID!')">Alterar por ID direto</button>
+        <button onclick="changeElementText('.class-target', 'Texto alterado por classe!')">Alterar por classe</button>
+        
+        <h2>Script de manipulação DOM</h2>
+        <p>Este exemplo demonstra como o script pode alterar o texto de elementos na página.</p>
+    </div>
+
+    <!-- Inclui o script de manipulação DOM -->
+    <script src="dom_manipulation_script.js"></script>
+</body>
+</html>
