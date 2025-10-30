@@ -1,0 +1,4 @@
+Esta es la primera línea del archivo de entrada.
+Esta es la segunda línea del archivo de entrada.
+Aquí hay una tercera línea.
+Y esta es la cuarta línea.
