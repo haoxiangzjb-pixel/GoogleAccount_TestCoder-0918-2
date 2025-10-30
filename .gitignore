@@ -1,14 +1,47 @@
+```
 # Compiled and build artifacts
-*.pyc
-__pycache__/
-*.class
 *.o
 *.obj
-*.exe
-*.dll
-*.so
-*.a
+*.mod
+*.smod
 *.out
+build/
+dist/
+
+# Dependencies
+.venv/
+venv/
+__pycache__/
+*.egg-info/
+.Python
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
+# Compression
 *.zip
 *.gz
 *.tar
@@ -27,39 +60,4 @@ __pycache__/
 *.Z
 *.lz
 *.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
-
-# Dependencies
-.venv/
-venv/
-node_modules/
-target/
-.julia/
-.julia-*/
-julia-*/
-zig*/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-*.swo
-*.log.*
-
-# Environment files
-.env
-.env.local
-.env.*
-
-# Editors and IDEs
-.vscode/
-.idea/
-
-# Coverage and test artifacts
-coverage/
-htmlcov/
-.coverage
-.pytest_cache/
+```
