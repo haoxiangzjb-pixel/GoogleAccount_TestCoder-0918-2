@@ -4,6 +4,9 @@
 __pycache__/
 *.o
 *.obj
+dist/
+build/
+target/
 *.class
 *.exe
 *.dll
@@ -17,7 +20,7 @@ venv/
 .venv/
 .env
 .env.local
-.env.*
+*.env.*
 
 # Logs and temp files
 *.log
@@ -28,6 +31,8 @@ venv/
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
 # System files
 .DS_Store
@@ -38,12 +43,6 @@ coverage/
 htmlcov/
 .coverage
 
-# Build directories
-dist/
-build/
-target/
-.gradle/
-
 # Python specific
 *.pyc
 __pycache__/
@@ -53,10 +52,61 @@ __pycache__/
 *.so
 *.egg-info/
 .eggs/
-.mypy_cache/
-.pytest_cache/
 
-# Compressed files
+# JavaScript/Node specific
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+node_modules/
+dist/
+build/
+.npm
+.nuxt
+.next
+public/
+.nuxt/
+.output/
+
+# Java specific
+*.class
+*.jar
+*.war
+*.ear
+target/
+.gradle/
+build/
+
+# Go specific
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.prof
+vendor/
+
+# C/C++ specific
+*.o
+*.a
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+*.obj
+*.ilk
+*.pdb
+*.sln
+*.vcxproj
+*.vcproj
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vcxproj.filters
+
+# Compression
 *.zip
 *.gz
 *.tar
@@ -79,4 +129,30 @@ __pycache__/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
+
+# Cache
+.mypy_cache/
+.pytest_cache/
+.hypothesis/
+.tox/
+.coverage
+.coverage.*
+
+# IDE
+.vscode/
+.idea/
+.vs/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+```
+
+Wait, let me reconsider this. The added files are TypeScript files (`data-fetch-service.ts`, `http-data-service-3avxibyb.ts`), which are source code files, not build artifacts or dependencies. According to rule 6, if the change list contains only source or config files and no build artifacts, dependencies, or temp files, I should output an empty .gitignore.
+
+```
+
 ```
