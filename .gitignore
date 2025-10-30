@@ -1,4 +1,5 @@
 ```
-# Compiled and build artifacts
-*.ex
+# Configuration files with variable content
+configmap-*.yaml
+"configmap-*
 ```
