@@ -1,12 +1,4 @@
 ```
-# Temporary files
-*.tmp
-
-# Environment files
-.env
-.env.local
-*.env.*
-
-# Logs
-*.log
+# Compiled and build artifacts
+*.m
 ```
