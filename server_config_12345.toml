@@ -1,0 +1,7 @@
+[server]
+host = "localhost"
+port = 8080
+[server.ssl]
+enabled = true
+cert = "/path/to/cert.pem"
+key = "/path/to/key.pem"
