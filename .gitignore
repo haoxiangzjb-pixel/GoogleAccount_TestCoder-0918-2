@@ -1,32 +1,31 @@
 ```
-# Compiled and build artifacts
-*.plc
-*.plx
-*.po
-*.so
-*.o
-*.obj
+# TypeScript/JavaScript build artifacts
+*.js
+*.tsbuildinfo
+dist/
+build/
+out/
+lib/
 
 # Dependencies
-lib/
-*.a
-*.la
-*.lai
-*.lo
+node_modules/
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-*.swo
-
-# Editors
+# Editor/IDE files
 .vscode/
 .idea/
 *.swp
 *.swo
+*.tmp
 
-# System files
-.DS_Store
-Thumbs.db
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Coverage
+coverage/
+.nyc_output/
 ```
