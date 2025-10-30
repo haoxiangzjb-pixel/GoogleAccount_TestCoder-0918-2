@@ -1,49 +1,29 @@
 ```
-# Configuration files
-*.yml
-*.yaml
-
-# Environment and sensitive files
-.env
-.env.local
-*.env.*
-
-# Logs
-*.log
-
-# Temporary files
-*.tmp
-*.swp
-*.swo
+# Compiled and build artifacts
+*.tsbuildinfo
+*.js
+*.js.map
+*.ts.map
 
 # Dependencies
 node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-.pipenv/
-poetry.lock
 
-# Build artifacts
-dist/
-build/
-target/
-*.out
-*.exe
-*.dll
-*.so
-*.a
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
-# Editor/IDE files
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
 .vscode/
 .idea/
-*.iml
-*.ipr
-*.iws
 
-# System files
-.DS_Store
-Thumbs.db
+# Build outputs
+dist/
+build/
+out/
 ```
