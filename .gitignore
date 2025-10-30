@@ -1,5 +1,5 @@
-```toml
-# Configuration backup files
-*.toml.bak
-*.toml~
+```
+zig-cache/
+zig-out/
+*.zig-cache
 ```
