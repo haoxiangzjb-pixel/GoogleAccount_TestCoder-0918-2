@@ -1,4 +1,1 @@
-```
-# XML files
-*.xml
-```
+Nothing to output - the change list contains only a Dart source file (.dart) which should not be ignored.
