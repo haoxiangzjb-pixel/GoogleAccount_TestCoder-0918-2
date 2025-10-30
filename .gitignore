@@ -1,1 +1,51 @@
-Nothing should be ignored based on the provided file changes. The added file 'gi9fv7tg22.py' is a source code file that should be tracked in version control.
+```
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+*.out
+
+# Dependencies
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+*.so
+*.dylib
+*.dll
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
+# Python specific
+*.pyo
+*.pyd
+.Python
+*.sqlite3
+*.sqlite3-journal
+
+# System files
+.DS_Store
+Thumbs.db
+```
