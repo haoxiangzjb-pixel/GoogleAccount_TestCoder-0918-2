@@ -2,29 +2,43 @@
 # Compiled and build artifacts
 *.pyc
 __pycache__/
+*.fsxproj
+*.dll
+*.exe
 *.o
 *.obj
+*.out
+*.so
+*.a
 
 # Dependencies
-.venv/
-venv/
 node_modules/
+venv/
+.venv/
+.env
+.env.local
+.env.*
+
+# Build directories
+dist/
+build/
+target/
+release/
+debug/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-
-# Environment
-.env
-.env.local
-*.env.*
+*.swo
 
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# Coverage reports
+# Coverage
 coverage/
 htmlcov/
 .coverage
@@ -35,14 +49,45 @@ __pycache__/
 *.pyo
 *.pyd
 .Python
-*.so
-*.egg-info/
-dist/
-build/
-*.egg
+env/
+.venv/
+venv/
+ENV/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git/
+.mypy_cache/
+.pytest_cache/
+.hypothesis/
 
-# R specific
-.Rhistory
-.RData
-.Rproj.user/
+# F# specific
+*.fsxproj
+*.fsproj
+*.dll
+*.exe
+*.pdb
+*.userprefs
+*.[Bb]in
+*.[Oo]bj
+*.nupkg
+*.[Pp]ackages
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+.nuget/
+.nugetpackages/
+packages/
+bin/
+obj/
+out/
 ```
