@@ -1,8 +1,4 @@
-```julia
-# Julia-specific ignores
-*.ji
-*.jl.cov
-*.jl.info
-.coverage/
-.julia/
+```
+# GraphQL files - these appear to be source files, not build artifacts
+# No ignores needed for .graphql files as they are source code
 ```
