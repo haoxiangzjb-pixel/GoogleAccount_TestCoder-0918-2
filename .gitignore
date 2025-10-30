@@ -1,4 +1,45 @@
 ```
-# Compiled files
-*.class
+# Compiled and build artifacts
+*.o
+*.obj
+*.hi
+*.chi
+*.chs.h
+*.dyn_o
+*.p_o
+*.so
+*.dll
+*.exe
+
+# Dependencies
+cabal/
+dist/
+dist-newstyle/
+.stack-work/
+.hie/
+.hlint/
+.cabal-sandbox/
+.ghc.environment.*
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Coverage and testing
+coverage/
+htmlcov/
+.coverage
+.hpc/
+.tix
+
+# System files
+.DS_Store
+Thumbs.db
 ```
