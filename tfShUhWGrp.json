@@ -1,0 +1,16 @@
+{
+    "nome": "Ana Costa",
+    "idade": 28,
+    "email": "ana.costa@example.com",
+    "interesses": [
+        "leitura",
+        "viagem",
+        "tecnologia",
+        "esportes"
+    ],
+    "preferencias": {
+        "tema": "escuro",
+        "notificacoes": true,
+        "idioma": "pt-BR"
+    }
+}

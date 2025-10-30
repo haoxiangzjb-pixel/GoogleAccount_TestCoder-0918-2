@@ -1,0 +1,16 @@
+{
+    "nome": "Carlos Souza",
+    "idade": 35,
+    "email": "carlos.souza@example.com",
+    "endereco": {
+        "rua": "Av. Principal",
+        "numero": 123,
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+    },
+    "telefones": [
+        "+55 21 99999-9999",
+        "+55 21 3333-3333"
+    ],
+    "ativo": true
+}
