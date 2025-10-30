@@ -1,8 +1,1 @@
-```
-# R-specific files
-*.Rhistory
-*.RData
-*.rds
-*.Rproj.user/
-.Rproj.user/
-```
+Nothing should be ignored in this case, as the added files are Lua source code files (.lua) which are legitimate source files that should be tracked in version control. No build artifacts, dependencies, or temporary files are present in the changes.
