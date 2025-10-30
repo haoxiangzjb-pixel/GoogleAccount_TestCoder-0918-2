@@ -1,18 +1,5 @@
-```
-# Environment files
-.env
-.env.local
-*.env.*
-
-# Logs and temp files
-*.log
-*.tmp
-
-# Editors
-.vscode/
-.idea/
-
-# System files
-.DS_Store
-Thumbs.db
+```toml
+# Configuration backup files
+*.toml.bak
+*.toml~
 ```
