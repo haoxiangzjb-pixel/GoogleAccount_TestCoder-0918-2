@@ -1,1 +1,4 @@
-Nothing to output - the added file 'math_pkg_98765.adb' is a source code file and should not be ignored.
+```
+# Configuration files
+*.toml
+```
