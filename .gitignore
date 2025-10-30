@@ -1,9 +1,65 @@
 ```
-# Environment files
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+*.class
+
+# Dependencies
+node_modules/
+venv/
+.venv/
 .env
 .env.local
 *.env.*
 
-# Configuration files that might contain sensitive data
-*.ini
+# Build directories
+dist/
+build/
+target/
+*.jar
+*.war
+*.zip
+*.tar
+*.gz
+*.bz2
+*.xz
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Python specific
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Cache directories
+.mypy_cache/
+.pytest_cache/
+.gradle/
 ```
