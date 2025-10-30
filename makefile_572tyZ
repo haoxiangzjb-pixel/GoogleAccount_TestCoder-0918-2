@@ -1,0 +1,27 @@
+# Exemplo de Makefile com dependências entre alvos
+
+# Alvo principal
+all: programa
+
+# Alvo para compilar o programa (depende dos arquivos objeto)
+programa: main.o utils.o
+	gcc -o programa main.o utils.o
+
+# Alvo para compilar o arquivo main.c (gera main.o)
+main.o: main.c
+	gcc -c main.c
+
+# Alvo para compilar o arquivo utils.c (gera utils.o)
+utils.o: utils.c
+	gcc -c utils.c
+
+# Alvo para limpar os arquivos gerados
+clean:
+	rm -f *.o programa
+
+# Alvo para exibir mensagem de ajuda
+help:
+	@echo "Alvos disponíveis:"
+	@echo "  all: Compila o programa"
+	@echo "  clean: Remove arquivos gerados"
+	@echo "  help: Exibe esta mensagem"
