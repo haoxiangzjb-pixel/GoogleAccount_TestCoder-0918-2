@@ -1,19 +1,23 @@
+```
+# Machine learning model files
+*.ml
+
 # Compiled and build artifacts
-*.asm
+*.pyc
+__pycache__/
 *.o
 *.obj
-*.out
+*.class
 *.exe
 *.dll
 *.so
 *.a
-*.class
+*.out
 
 # Dependencies
-node_modules/
-venv/
 .venv/
-__pycache__/
+venv/
+node_modules/
 dist/
 build/
 target/
@@ -27,12 +31,12 @@ target/
 *.swp
 *.swo
 
-# Environment files
+# Environment
 .env
 .env.local
-.env.*
+*.env.*
 
-# Editors and IDEs
+# Editors
 .vscode/
 .idea/
 
@@ -40,7 +44,7 @@ target/
 .DS_Store
 Thumbs.db
 
-# Coverage and test reports
+# Coverage
 coverage/
 htmlcov/
 .coverage
@@ -68,3 +72,4 @@ htmlcov/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
+```
