@@ -1,2 +1,16 @@
-# HCL Terraform files
-*.hcl
+```
+# Compiled and build artifacts
+*.pl~
+
+# Logs and temp files
+*.tmp
+*.log
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+```
