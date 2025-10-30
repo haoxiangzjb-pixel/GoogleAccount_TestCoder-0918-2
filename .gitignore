@@ -1,11 +1,33 @@
-```
-# Shell script artifacts
-*.sh~
+```r
+# R-specific ignores
+*.RData
+*.Rhistory
+*.Rproj.user/
+.Rproj.user/
+.Rapp.history
+.Rbuildignore
 
-# Temporary files
+# Compiled/Binary files
+*.so
+*.o
+*.a
+*.dylib
+*.dll
+
+# Dependencies
+library/
+lib/
+libs/
+
+# Logs and temp files
+*.log
 *.tmp
 *.swp
 
-# Logs
-*.log
+# Environment
+.Renviron
+.Rprofile
+
+# Editors
+.Rproj
 ```
