@@ -1,16 +1,1 @@
-# SQL files (if they are generated or part of the project)
-*.sql
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# Environment
-.env
-.env.local
-.env.*
+Nothing to output - the change list contains only a Scala source file (.scala) which should not be ignored.
