@@ -1,1 +1,6 @@
-(empty)
+```
+# Temporary swap files
+*.txt
+swap_result_*.txt
+swap_template
+```
