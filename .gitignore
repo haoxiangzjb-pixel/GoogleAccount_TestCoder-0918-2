@@ -1,2 +1,5 @@
 ```
+# VBA specific
+*.vba
+vba_code.txt
 ```
