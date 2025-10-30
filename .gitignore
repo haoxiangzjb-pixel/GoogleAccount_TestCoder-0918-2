@@ -1,7 +1,10 @@
 ```
 # Compiled and build artifacts
+*.pyc
+__pycache__/
 *.o
 *.obj
+*.class
 *.exe
 *.dll
 *.so
@@ -9,10 +12,9 @@
 *.out
 
 # Dependencies
-node_modules/
-venv/
 .venv/
-__pycache__/
+venv/
+node_modules/
 dist/
 build/
 target/
@@ -29,7 +31,7 @@ target/
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
 # Editors
 .vscode/
