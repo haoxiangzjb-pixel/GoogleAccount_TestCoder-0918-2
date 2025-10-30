@@ -1,12 +1,14 @@
 ```
 # Compiled and build artifacts
 *.beam
-*.o
-*.obj
+*.app
+*.beam/
+*.app/
 
 # Dependencies
-ebin/
 deps/
+_build/
+ebin/
 
 # Logs and temp files
 *.log
@@ -17,8 +19,7 @@ deps/
 .vscode/
 .idea/
 
-# Environment
-.env
-.env.local
-*.env.*
+# Erlang-specific
+.rebar3/
+erl_crash.dump
 ```
