@@ -1,48 +1,44 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
+# Verilog/VHDL build artifacts
+*.vcd
+*.fst
+*.ghw
+*.vvp
+*.bin
+*.hex
+*.out
 *.obj
+*.a
+*.so
+*.dll
+*.exe
 
-# Dependencies
-.venv/
-venv/
-node_modules/
-
-# Logs and temp files
+# Simulation and synthesis tools
+sim/
+sim_build/
+build/
+target/
 *.log
 *.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-*.env.*
 
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# Coverage reports
-coverage/
-htmlcov/
-.coverage
-
-# Python specific
-*.pyc
+# Environment and dependency files
+.env
+.env.local
+.env.*
+venv/
+.venv/
 __pycache__/
+*.pyc
 *.pyo
 *.pyd
-.Python
-*.so
 
-# Testing
-.pytest_cache/
-.mypy_cache/
-
-# Distribution
-dist/
-build/
-*.egg-info/
+# OS generated files
+.DS_Store
+Thumbs.db
 ```
