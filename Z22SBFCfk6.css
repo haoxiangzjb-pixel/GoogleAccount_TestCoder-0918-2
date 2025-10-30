@@ -1,0 +1,33 @@
+/* 旋转动画CSS */
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* 应用旋转动画的类 */
+.rotating-element {
+  animation: rotate 2s linear infinite;
+  display: inline-block;
+}
+
+/* 示例：应用到一个正方形元素 */
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: #3498db;
+  margin: 50px auto;
+  animation: rotate 2s linear infinite;
+}
+
+/* 可调整速度的旋转动画示例 */
+.slow-rotate {
+  animation: rotate 4s linear infinite;
+}
+
+.fast-rotate {
+  animation: rotate 1s linear infinite;
+}
