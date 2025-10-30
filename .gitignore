@@ -1,35 +1,48 @@
 ```
 # Compiled and build artifacts
-*.php~
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+*.a
 
-# Editor/IDE files
+# Dependencies
+.venv/
+venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+node_modules/
+dist/
+build/
+target/
+.gradle/
+
+# Logs and temp files
+*.log
+*.tmp
 *.swp
 *.swo
-*.tmp
-
-# Logs
-*.log
 
 # Environment
 .env
 .env.local
 *.env.*
 
-# Dependencies
-node_modules/
-.venv/
-venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-dist/
-build/
-target/
-.gradle/
+# Editors
+.vscode/
+.idea/
 
 # System files
 .DS_Store
 Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
 
 # Compressed files
 *.zip
