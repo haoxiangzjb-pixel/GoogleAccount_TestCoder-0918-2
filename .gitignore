@@ -1,3 +1,57 @@
-```java
+```
+# Compiled and build artifacts
+*.fs
+*.fsi
+*.exe
+*.dll
+*.so
+*.o
+*.obj
+*.out
+*.pyc
+*.class
+*.jar
+*.war
+*.zip
+*.tar.gz
+*.tar.bz2
+*.tar.xz
 
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
+dist/
+build/
+coverage/
+htmlcov/
+*.egg-info/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*.backup
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
 ```
