@@ -1,55 +1,64 @@
 ```
-# Environment and config files
+# VBA/Office files
+*.bas
+*.vba
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+*.accdb
+*.mdb
+*.vsd
+*.vsdx
+
+# Compiled/Generated files
+*.pyc
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+dist/
+build/
+target/
+.gradle/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Environment
 .env
 .env.local
 *.env.*
 
-# Temporary and generated files
-*.tmp
-*.swp
-*.log
+# Editors
+.vscode/
+.idea/
 
-# Docker related
-docker-compose-*.yml
-
-# System files
+# System
 .DS_Store
 Thumbs.db
 
-# Coverage reports
+# Coverage
 coverage/
 htmlcov/
 .coverage
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-.venv/
-pip-log.txt
-pip-delete-this-directory.txt
-.tox/
-.coverage*
-.pytest_cache/
-.mypy_cache/
-
-# Build and distribution
-dist/
-build/
-*.egg
-*.egg-info/
-*.so
-*.o
-*.a
-*.obj
-*.out
-*.exe
-*.dll
-*.so
 
 # Compressed files
 *.zip
@@ -70,24 +79,4 @@ build/
 *.Z
 *.lz
 *.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Dependencies
-node_modules/
-target/
-.gradle/
-julia-*/
-zig*/
-
-# Logs
-*.log
 ```
