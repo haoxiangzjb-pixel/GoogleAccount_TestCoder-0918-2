@@ -1,1 +1,35 @@
-Nothing should be ignored based on the provided file changes. The added files (useCounter.jsx, useInput.jsx, useToggle.jsx) are source code files that should be tracked in version control.
+```
+# TypeScript/JavaScript build artifacts
+*.js
+*.tsbuildinfo
+dist/
+build/
+out/
+lib/
+
+# Dependencies
+node_modules/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Coverage
+coverage/
+htmlcov/
+*.coverage
+
+# System
+.DS_Store
+Thumbs.db
+```
