@@ -1,37 +1,55 @@
-```xml
-# XML files
-*.xml
-
-# Environment files
-.env
-.env.local
-*.env.*
-
-# Logs and temp files
-*.log
-*.tmp
-
-# Editors
-.vscode/
-.idea/
-
-# Build artifacts
-build/
-dist/
-target/
+```fsharp
+# Compiled and build artifacts
+*.fsi
+*.fsx~
+*.fsscript
+*.exe
+*.dll
+*.so
+*.dylib
+*.class
+*.pyc
+*.o
+*.obj
+*.out
 
 # Dependencies
+.paket/
+packages/
 node_modules/
 venv/
 .venv/
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
+
+# Build output
+bin/
+obj/
+out/
+dist/
+build/
+release/
+debug/
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+*.log
 
 # System files
 .DS_Store
 Thumbs.db
+
+# Environment
+.env
+.env.local
+*.env.*
 
 # Coverage
 coverage/
