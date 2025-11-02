@@ -1,1 +1,15 @@
-(book_1761800361_17957.json is a data file, not a build artifact, dependency, or temp file - it appears to be a legitimate project file that should be tracked in git, so no .gitignore rules are needed)
+```
+# LaTeX build artifacts
+*.aux
+*.log
+*.toc
+*.lof
+*.lot
+*.out
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.pdf
+```
