@@ -1,38 +1,24 @@
-```
-# R-specific compiled files
-*.rds
-*.RData
-*.Rhistory
-*.Rproj.user/
-.Rproj.user/
+```perl
+# Compiled and build artifacts
+*.pl~
 
-# R build artifacts
-Rplots.pdf
-*.so
-*.o
-
-# Temporary files
+# Logs and temp files
+*.log
 *.tmp
-*.temp
-*~
+*.swp
 
-# Environment files
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment
 .env
 .env.local
 *.env.*
-
-# Logs
-*.log
-
-# Backup files
-*.bak
-*.backup
-
-# Output files from R scripts
-*.csv
-*.txt
-*.png
-*.pdf
-*.jpg
-*.jpeg
 ```
