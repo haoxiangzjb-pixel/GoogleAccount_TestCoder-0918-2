@@ -1,15 +1,1 @@
-# Zig project files
-*.zig~
-
-# Build artifacts
-build.zig.lock
-.zig-cache/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
+Nothing should be ignored based on the provided file changes. The added files (`factorial_47m0dt5p.py` and `random_name.txt`) are source/config files that should be tracked in version control.
