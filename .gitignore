@@ -1,5 +1,31 @@
 ```
-# Configuration files
-*.yml
-*.yaml
+# VBA project specific ignores
+*.vba~
+
+# Python build artifacts (if any Python files are present)
+*.pyc
+__pycache__/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Backup files
+*~
+*.bak
+*.backup
+
+# OS files
+.DS_Store
+Thumbs.db
 ```
