@@ -1,4 +1,10 @@
 ```
-# CI/CD
-.github/
+# Compressed files
+*.zip
+*.deb
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 ```
