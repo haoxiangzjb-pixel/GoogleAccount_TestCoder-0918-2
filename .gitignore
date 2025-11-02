@@ -1,26 +1,7 @@
-```
-# PowerShell/Windows specific
-*.ps1~
-*.psd1~
-*.psm1~
-Thumbs.db
+```yaml
+# Configuration and deployment files
+*.yaml
+*.yml
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS specific
-.DS_Store
+# Original rules preserved
 ```
