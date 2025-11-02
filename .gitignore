@@ -1,23 +1,9 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-
-# Dependencies
-.venv/
-venv/
-
-# Logs and temp files
-*.log
+# Temp files and random files
 *.tmp
-*.swp
+random_name.txt
+Dockerfile_*
 
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
+# Logs
+*.log
 ```
