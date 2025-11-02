@@ -1,7 +1,25 @@
 ```
-# R-specific ignores
-*.RData
-*.Rhistory
-*.Rproj.user/
-.Rproj.user/
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Editor/IDE files
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Logs
+*.log
+
+# Temporary/scratch files
+tmp.*
 ```
