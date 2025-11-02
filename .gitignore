@@ -1,1 +1,38 @@
-(empty)
+```
+# Data files
+*.csv
+*.txt
+
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temp files
+*.tmp
+*~
+
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
+# OS
+.DS_Store
+Thumbs.db
+```
