@@ -1,41 +1,40 @@
-```
-# VBA/Office files
-*.bas
-*.vba
-*.vbs
-*.cls
-*.frm
-*.vbp
-*.dsv
-
-# Compiled/Generated VBA files
+```gitignore
+# Compiled and build artifacts
+*.pyc
+__pycache__/
 *.o
 *.obj
-*.dll
-*.exe
-*.tmp
 
-# Backup and temporary files
-*.bak
-*.~*
-*.tmp
-*~
+# Dependencies
+.venv/
+venv/
+node_modules/
 
-# Environment and system files
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
 .env
 .env.local
 *.env.*
 
-# Logs
-*.log
-
-# Editor/IDE files
+# Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# OS specific
+# System files
 .DS_Store
 Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Build directories
+dist/
+build/
+target/
 ```
