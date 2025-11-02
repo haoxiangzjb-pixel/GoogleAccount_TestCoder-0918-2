@@ -1,21 +1,29 @@
 ```
-# TypeScript/JavaScript build artifacts
-*.js
-*.js.map
-*.tsbuildinfo
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+*.class
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
 # Dependencies
 node_modules/
+venv/
+.venv/
+.env
+.env.local
+.env.*
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-
-# Environment
-.env
-.env.local
-.env.*
+*.swo
 
 # Editors
 .vscode/
@@ -24,21 +32,12 @@ node_modules/
 # Coverage
 coverage/
 htmlcov/
-*.coverage
+.coverage
 
-# Python artifacts (if mixed project)
-*.pyc
-__pycache__/
-*.pyo
-*.pyd
-
-# Build directories
+# Distribution / packaging
 dist/
 build/
-target/
-out/
-
-# Compression files
+*.tar.gz
 *.zip
 *.gz
 *.tar
@@ -57,12 +56,12 @@ out/
 *.Z
 *.lz
 *.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
 
 # System files
 .DS_Store
 Thumbs.db
+
+# Testing
+.mypy_cache/
+.pytest_cache/
 ```
