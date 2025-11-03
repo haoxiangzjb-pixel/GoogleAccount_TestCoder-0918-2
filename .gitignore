@@ -1,7 +1,5 @@
 ```
-# SQL query files (if they are auto-generated)
-*.sql
-
-# If the SQL file is a generated artifact, ignore it
-insert_users_query_*.sql
+# Generated from file changes
+# No build artifacts, dependencies, or temp files detected in changes
+# Only source/config files present - no ignores needed
 ```
