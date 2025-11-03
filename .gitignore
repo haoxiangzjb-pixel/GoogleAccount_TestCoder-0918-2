@@ -1,3 +1,37 @@
-```go
+```
+# Compiled and build artifacts
+*.dart.js
+*.js
+*.map
+*.part.js
+*.dill
+*.packages
+*.lock
 
+# Dependencies
+.pub/
+.build/
+.dart_tool/
+.packages
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build outputs
+build/
+dist/
+out/
 ```
