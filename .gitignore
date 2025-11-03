@@ -1,8 +1,1 @@
-```
-# JSON and JS build artifacts
-*.json
-*.js
-
-# Preserve original rules
-*.log
-```
+Nothing to output - the change list contains only a markdown file (codigo_exemplo.md) which is a source/config file and should not be ignored.
