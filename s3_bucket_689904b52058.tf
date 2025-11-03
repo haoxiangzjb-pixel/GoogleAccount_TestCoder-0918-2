@@ -1,0 +1,43 @@
+terraform {
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 5.0"
+    }
+  }
+}
+
+provider "aws" {
+  region = var.aws_region
+}
+
+variable "bucket_name" {
+  description = "Name of the S3 bucket to create"
+  type        = string
+  default     = "my-terraform-s3-bucket"
+}
+
+variable "aws_region" {
+  description = "AWS region where the bucket will be created"
+  type        = string
+  default     = "us-west-2"
+}
+
+resource "aws_s3_bucket" "my_bucket" {
+  bucket = var.bucket_name
+}
+
+resource "aws_s3_bucket_versioning" "my_bucket_versioning" {
+  bucket = aws_s3_bucket.my_bucket.id
+  versioning_configuration {
+    status = "Enabled"
+  }
+}
+
+output "bucket_name" {
+  value = aws_s3_bucket.my_bucket.id
+}
+
+output "bucket_arn" {
+  value = aws_s3_bucket.my_bucket.arn
+}
