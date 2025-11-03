@@ -1,0 +1,41 @@
+/* CSS Animation for Rotation */
+
+.rotate-element {
+  width: 100px;
+  height: 100px;
+  background-color: #3498db;
+  border-radius: 50%;
+  animation: rotateAnimation 2s linear infinite;
+}
+
+@keyframes rotateAnimation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Alternative: Faster rotation */
+.rotate-element-fast {
+  width: 100px;
+  height: 100px;
+  background-color: #e74c3c;
+  border-radius: 50%;
+  animation: rotateAnimation 0.5s linear infinite;
+}
+
+/* Alternative: Slower rotation */
+.rotate-element-slow {
+  width: 100px;
+  height: 100px;
+  background-color: #2ecc71;
+  border-radius: 50%;
+  animation: rotateAnimation 4s linear infinite;
+}
+
+/* For any element you want to rotate */
+.rotate-any {
+  animation: rotateAnimation 2s linear infinite;
+}
