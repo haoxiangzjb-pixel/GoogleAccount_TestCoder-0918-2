@@ -1,35 +1,6 @@
 ```
-# Compiled and build artifacts
-*.vcd
-*.log
-*.tmp
-*.out
-*.o
-*.obj
-
-# Simulation and build outputs
-sim/
-build/
-target/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment files
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# Coverage and testing
-coverage/
-htmlcov/
-*.coverage
-.pytest_cache/
-.mypy_cache/
+# GraphQL schema files (if auto-generated)
+*.graphql
+schema.graphql
+user_schema_*.graphql
 ```
