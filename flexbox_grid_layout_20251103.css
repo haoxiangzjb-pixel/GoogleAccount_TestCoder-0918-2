@@ -1,0 +1,27 @@
+/* Diseño de cuadrícula con Flexbox */
+
+/* Contenedor principal */
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px; /* Espacio entre elementos */
+  padding: 16px;
+}
+
+/* Elementos de la cuadrícula */
+.grid-item {
+  flex: 1 1 calc(33.333% - 16px); /* Tres columnas por fila (ajustado por el gap) */
+  min-width: 200px; /* Ancho mínimo para responsividad */
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 16px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* Ajuste para pantallas pequeñas */
+@media (max-width: 768px) {
+  .grid-item {
+    flex: 1 1 100%; /* Una columna en móviles */
+  }
+}
