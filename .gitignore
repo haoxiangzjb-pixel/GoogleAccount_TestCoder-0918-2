@@ -8,8 +8,7 @@
 *.log
 *.tmp
 
-# Environment
-.env
-.env.local
-*.env.*
+# Editors
+*.swp
+*.swo
 ```
