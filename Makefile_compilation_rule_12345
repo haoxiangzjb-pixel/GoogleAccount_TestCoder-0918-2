@@ -1,0 +1,14 @@
+# Makefile for compiling a C program
+
+CC = gcc
+CFLAGS = -Wall -g
+TARGET = program
+SOURCES = main.c
+
+$(TARGET): $(SOURCES)
+	$(CC) $(CFLAGS) -o $(TARGET) $(SOURCES)
+
+clean:
+	rm -f $(TARGET)
+
+.PHONY: clean
