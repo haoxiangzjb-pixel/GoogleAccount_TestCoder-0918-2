@@ -1,3 +1,30 @@
-# Puppet-related ignores
-*.pp.bak
-*.pp~
+```
+# Compiled files
+*.cmi
+*.cmo
+*.cma
+*.cmx
+*.cmxa
+*.exe
+*.out
+
+# Build artifacts
+_build/
+*.native
+*.byte
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment
+.env
+.env.local
+*.env.*
+```
