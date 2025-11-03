@@ -1,13 +1,20 @@
 ```
-# Compiled and build artifacts
+# Compiled files
+*.fsx
+*.fsi
+*.exe
+*.dll
+*.so
 *.o
 *.obj
 *.out
 
 # Dependencies
-.julia/
-*.jl.cov
-*.jl.log
+.paket/
+.packages/
+lib/
+build/
+dist/
 
 # Logs and temp files
 *.log
@@ -18,7 +25,7 @@
 .vscode/
 .idea/
 
-# System files
+# OS generated files
 .DS_Store
 Thumbs.db
 ```
