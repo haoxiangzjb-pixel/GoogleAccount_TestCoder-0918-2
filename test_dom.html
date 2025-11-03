@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Manipulação de DOM</title>
+</head>
+<body>
+    <h1>Teste de Script de Manipulação de DOM</h1>
+    <p id="target-text">Texto original que será alterado</p>
+    <button onclick="executeScript()">Executar Script</button>
+    
+    <script src="./dom_manipulation_script.js"></script>
+    
+    <script>
+        function executeScript() {
+            // Executar a função principal do script
+            if (typeof main === 'function') {
+                main();
+            } else {
+                console.log('Função main não encontrada');
+            }
+        }
+    </script>
+</body>
+</html>

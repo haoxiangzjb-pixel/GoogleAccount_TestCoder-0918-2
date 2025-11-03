@@ -1,48 +1,22 @@
 ```
-# Elixir/Erlang specific ignores
-*.beam
-*.ez
-ebin/
-_build/
-deps/
+# Dependencies
+node_modules/
+
+# Logs and temp files
+*.log
+*.tmp
 
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
-# Logs
-*.log
-
-# Temporary files
-*.tmp
-*.swp
-*~
-
-# Editor/IDE
+# Editors
 .vscode/
-.idea/
+
+# Temp files
 *.swp
-*.swo
 
-# OS
-.DS_Store
-Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Dependency directories
-node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-target/
-.gradle/
-dist/
-build/
+# Other temp files
+xCQHHE55xq.txt
 ```
