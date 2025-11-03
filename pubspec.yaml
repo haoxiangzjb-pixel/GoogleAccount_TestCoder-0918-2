@@ -1,0 +1,13 @@
+name: network_file_generator
+description: A Dart application that fetches network data and saves it to randomly named .dart files.
+version: 1.0.0
+
+environment:
+  sdk: '>=2.17.0 <4.0.0'
+
+dependencies:
+  http: ^0.13.5
+
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.16.0
