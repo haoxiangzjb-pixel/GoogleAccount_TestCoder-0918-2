@@ -1,23 +1,8 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
+# Configuration files
+*.ini
 
-# Dependencies
-.nimble/
-nimcache/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# Environment
+# Environment files
 .env
 .env.local
 *.env.*
