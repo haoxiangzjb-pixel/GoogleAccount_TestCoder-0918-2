@@ -1,4 +1,23 @@
 ```
-node_modules/
+# Build system
+makefile_*o
+*.o
+*.obj
+*.out
+
+# Temp files
+*.tmp
+*.swp
+
+# Logs
 *.log
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+*.env.*
 ```
