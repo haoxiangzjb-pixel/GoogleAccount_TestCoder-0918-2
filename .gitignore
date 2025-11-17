@@ -1,4 +1,8 @@
 ```
-node_modules/
-*.log
+# Terraform
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform/
+.terraform.lock.hcl
 ```
