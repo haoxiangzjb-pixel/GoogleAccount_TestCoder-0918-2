@@ -1,8 +1,11 @@
 ```
-# Terraform
-*.tfstate
-*.tfstate.*
-*.tfvars
-.terraform/
-.terraform.lock.hcl
+# Compiled and build artifacts
+*.pl~
+
+# Editors
+*.swp
+*.swo
+
+# Temp files
+*.tmp
 ```
