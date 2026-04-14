@@ -1,11 +1,10 @@
 ```
-# Compiled and build artifacts
-*.pl~
-
-# Editors
-*.swp
-*.swo
+# Web artifacts
+*.html
 
 # Temp files
 *.tmp
+
+# Logs
+*.log
 ```
