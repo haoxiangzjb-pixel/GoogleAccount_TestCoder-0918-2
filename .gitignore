@@ -1,9 +1,2 @@
-```
-# Environment files
-.env
-.env.local
-*.env.*
-
-# Configuration files (if they contain sensitive data)
-db_config.ini
-```
+**/.env.local
+**/config_*.ini
