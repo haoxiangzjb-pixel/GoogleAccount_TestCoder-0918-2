@@ -1,1 +1,9 @@
-(empty)
+```
+# Compiled and binary files
+*.o
+*.obj
+*.out
+
+# Executables
+swap_test
+```
