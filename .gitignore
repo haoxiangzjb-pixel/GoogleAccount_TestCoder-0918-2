@@ -1,1 +1,1 @@
-Nothing should be ignored in this case, as the only change is adding a Python source file (.py) without any build artifacts, dependencies, or temporary files.
+Nothing should be ignored since only a Kotlin source file (.kt) was added and there are no build artifacts, dependencies, or temporary files in the changes.
