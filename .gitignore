@@ -1,38 +1,30 @@
 ```
-# Terraform state files
-*.tfstate
-*.tfstate.*
-.terraform/
-terraform.tfstate
-terraform.tfstate.backup
+# Compiled files
+*.pl~
 
-# Temporary files
-*.tmp
-*.temp
-*~
-.swp
-.swo
-
-# Logs
+# Logs and temp files
 *.log
+*.tmp
+*.swp
 
-# Environment files
+# Environment
 .env
 .env.local
-*.env.*
+.env.*
 
-# IDE files
+# Editors
 .vscode/
 .idea/
-*.iml
-*.ipr
-*.iws
 
-# OS files
-.DS_Store
-Thumbs.db
-
-# Backup files
-*.bak
-*.backup
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
 ```
