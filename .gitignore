@@ -1,3 +1,47 @@
 ```
-*.sql
+# Compiled files
+*.nimble
+*.nims
+*.so
+*.dll
+*.exe
+*.o
+*.obj
+
+# Build artifacts
+nimcache/
+build/
+
+# Dependencies
+.nimble/
+nimbledeps/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Cache
+.mypy_cache/
+.pytest_cache/
 ```
