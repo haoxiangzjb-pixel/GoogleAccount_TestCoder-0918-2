@@ -1,4 +1,50 @@
 ```
-# Compiled and build artifacts
-*.pp
+# Compiled files
+*.nimble
+*.nims
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+
+# Build artifacts
+build/
+dist/
+target/
+
+# Dependencies
+.nimble/
+nimcache/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Python specific (if applicable)
+__pycache__/
+*.pyc
+*.pyo
+.Python
 ```
