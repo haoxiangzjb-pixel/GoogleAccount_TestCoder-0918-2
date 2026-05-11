@@ -1,38 +1,52 @@
-```
-# Terraform state files
-*.tfstate
-*.tfstate.*
-.terraform/
-terraform.tfstate
-terraform.tfstate.backup
+# Compiled and build artifacts
+*.pyc
+__pycache__/
 
-# Temporary files
-*.tmp
-*.temp
-*~
-.swp
-.swo
+# Dependencies
+.venv/
+venv/
 
-# Logs
+# Logs and temp files
 *.log
+*.tmp
+*.swp
 
-# Environment files
+# Environment
 .env
 .env.local
 *.env.*
 
-# IDE files
+# Editors
 .vscode/
 .idea/
-*.iml
-*.ipr
-*.iws
 
-# OS files
+# Test files
+*.py~test*
+test_*.py
+
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
+# Distribution
+dist/
+build/
+*.egg-info/
+
+# Python specific
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Cache
+.mypy_cache/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# System files
 .DS_Store
 Thumbs.db
-
-# Backup files
-*.bak
-*.backup
-```
