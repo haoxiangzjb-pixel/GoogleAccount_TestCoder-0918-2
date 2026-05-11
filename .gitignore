@@ -1,50 +1,79 @@
 ```
-# Compiled and build artifacts
-*.class
-*.pyc
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
+# Compiled files
+*.csproj.user
+*.userprefs
+*.suo
+*.user
+*.aps
+*.ncb
+*.opt
+*.plg
+*.ilk
+*.idb
+*.pdb
+*.tlog
+*.log
+*.nupkg
+*.snupkg
+*.xml
+*.cache
+*.pidb
+*.mdb
+*.dbmdl
+*.dbproj.schemaview
+*.pfx
+*.p12
 
 # Dependencies
+packages/
+bin/
+obj/
+out/
 node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-target/
-.gradle/
+bower_components/
+jspm_packages/
 
-# Editors
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio Code
 .vscode/
-.idea/
-*.swp
-*.swo
 
-# System files
-.DS_Store
-Thumbs.db
+# Visual Studio
+.vs/
+*.VC.db
+*.VC.VC.opendb
+
+# Rider
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.cache
+*.autosave
+
+# User-specific files
+*.userprefs
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Environment
 .env
 .env.local
+*.env
 *.env.*
-
-# Logs and coverage
-*.log
-coverage/
-htmlcov/
-.coverage
-
-# Build directories
-dist/
-build/
-
-# Java specific
-*.jar
-*.war
-*.ear
+!.env.example
 ```
