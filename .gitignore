@@ -1,4 +1,5 @@
-```
-# Configuration files
-*.hcl
-```
+Since there are no added, deleted, or modified files that represent build artifacts, dependencies, or temporary files in the provided change list, and only a `.gitignore` file was modified (which suggests it's being updated manually), there are no new patterns to add to the .gitignore file.
+
+The current .gitignore content appears to be empty or not provided in a way that requires modification based on the changes shown.
+
+Nothing needs to be added to .gitignore.
