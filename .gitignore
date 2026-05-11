@@ -1,4 +1,6 @@
 ```
-# Compiled and build artifacts
-*.pp
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 ```
