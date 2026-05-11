@@ -1,0 +1,31 @@
+# Конфигурация приложения
+
+[app]
+name = "MyApplication"
+version = "1.0.0"
+debug = true
+port = 8080
+
+[database]
+host = "localhost"
+port = 5432
+name = "mydb"
+user = "admin"
+password = "secret123"
+max_connections = 100
+
+[logging]
+level = "info"
+file = "/var/log/app.log"
+rotate = true
+max_size = "10MB"
+
+[features]
+enable_cache = true
+enable_auth = true
+allowed_origins = ["http://localhost:3000", "https://example.com"]
+
+[server.ssl]
+enabled = true
+cert_path = "/etc/ssl/cert.pem"
+key_path = "/etc/ssl/key.pem"
