@@ -1,1 +1,48 @@
-Nothing should be ignored in this case, as the only change is adding a Python source file (.py) without any build artifacts, dependencies, or temporary files.
+```
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+target/
+
+# Development tools
+.env
+.env.local
+.env.*
+
+# IDE specific
+.vscode/
+.idea/
+
+# Python specific (if applicable)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+coverage/
+htmlcov/
+*.coverage
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Cache directories
+.mypy_cache/
+.pytest_cache/
+.gradle/
+```
