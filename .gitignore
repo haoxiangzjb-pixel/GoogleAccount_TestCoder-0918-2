@@ -1,23 +1,34 @@
 ```
-# Build system
-makefile_*o
-*.o
-*.obj
-*.out
+# Compiled files
+*.dart.js
+*.js
+*.map
 
-# Temp files
-*.tmp
-*.swp
+# Build outputs
+build/
+dist/
+out/
+
+# Dependencies
+.pub/
+.packages
 
 # Logs
 *.log
-
-# Editors
-.vscode/
-.idea/
 
 # Environment
 .env
 .env.local
 *.env.*
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
 ```
