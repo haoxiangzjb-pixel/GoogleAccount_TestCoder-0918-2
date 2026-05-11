@@ -1,37 +1,41 @@
-```
-# Erlang/OTP specific ignores
-*.beam
-*.app
-*.appup
-*.rel
-*.script
-*.boot
-*.plt
-.erlang.cookie
-.rebar3/
+```fsharp
+# Bytecode and compiled files
+*.fsi
+*.fsx~
+*.fs~
+*.dll
+*.exe
+*.pdb
+*.optdata
+*.os
+*.so
+
+# Build output
+bin/
+obj/
+out/
 
 # Dependencies
-rebar3/
-_build/
-deps/
+packages/
+.nuget/
+.nyc_output/
 
-# Logs and temp files
+# Logs
 *.log
-*.tmp
-*.swp
 
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
 # Editors
+.vs/
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# OS specific
+# OS
 .DS_Store
 Thumbs.db
 ```
