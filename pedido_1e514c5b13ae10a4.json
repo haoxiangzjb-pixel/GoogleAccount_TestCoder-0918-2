@@ -1,0 +1,43 @@
+{
+  "pedido": {
+    "id": "PED-2024-001",
+    "data": "2024-01-15T10:30:00Z",
+    "cliente": {
+      "nome": "João Silva",
+      "email": "joao.silva@email.com",
+      "endereco": {
+        "rua": "Rua das Flores, 123",
+        "cidade": "São Paulo",
+        "estado": "SP",
+        "cep": "01234-567"
+      }
+    },
+    "itens": [
+      {
+        "produto": "Notebook Dell",
+        "quantidade": 1,
+        "preco_unitario": 3500.00,
+        "subtotal": 3500.00
+      },
+      {
+        "produto": "Mouse Sem Fio",
+        "quantidade": 2,
+        "preco_unitario": 50.00,
+        "subtotal": 100.00
+      },
+      {
+        "produto": "Teclado Mecânico",
+        "quantidade": 1,
+        "preco_unitario": 250.00,
+        "subtotal": 250.00
+      }
+    ],
+    "pagamento": {
+      "metodo": "cartao_credito",
+      "parcelas": 3,
+      "status": "aprovado"
+    },
+    "total": 3850.00,
+    "status": "em_processamento"
+  }
+}
