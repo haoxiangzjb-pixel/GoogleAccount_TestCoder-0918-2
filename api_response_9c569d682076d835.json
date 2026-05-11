@@ -1,0 +1,37 @@
+{
+  "status": "success",
+  "code": 200,
+  "message": "Data retrieved successfully",
+  "data": {
+    "users": [
+      {
+        "id": 1,
+        "name": "Alice Johnson",
+        "email": "alice@example.com",
+        "role": "admin",
+        "active": true
+      },
+      {
+        "id": 2,
+        "name": "Bob Smith",
+        "email": "bob@example.com",
+        "role": "user",
+        "active": true
+      },
+      {
+        "id": 3,
+        "name": "Charlie Brown",
+        "email": "charlie@example.com",
+        "role": "user",
+        "active": false
+      }
+    ],
+    "pagination": {
+      "current_page": 1,
+      "total_pages": 5,
+      "total_items": 42,
+      "items_per_page": 10
+    }
+  },
+  "timestamp": "2024-06-15T14:30:00Z"
+}
