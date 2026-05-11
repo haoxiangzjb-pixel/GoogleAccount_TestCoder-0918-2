@@ -1,0 +1,26 @@
+---
+# Playbook de exemplo com handler para reiniciar serviço
+
+- name: Exemplo de playbook com handler
+  hosts: all
+  become: yes
+  tasks:
+    - name: Instalar pacote de exemplo
+      apt:
+        name: nginx
+        state: present
+      notify:
+        - Reiniciar nginx
+
+    - name: Modificar configuração
+      copy:
+        content: "configuração personalizada"
+        dest: /etc/nginx/custom.conf
+      notify:
+        - Reiniciar nginx
+
+  handlers:
+    - name: Reiniciar nginx
+      service:
+        name: nginx
+        state: restarted
