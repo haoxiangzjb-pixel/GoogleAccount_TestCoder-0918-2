@@ -1,0 +1,11 @@
+---
+- name: Restart a service
+  hosts: all
+  become: true
+  vars:
+    service_name: "nginx"  # Change this to the desired service name
+  tasks:
+    - name: Restart the service
+      ansible.builtin.service:
+        name: "{{ service_name }}"
+        state: restarted

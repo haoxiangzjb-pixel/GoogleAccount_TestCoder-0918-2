@@ -1,0 +1,9 @@
+---
+- name: Restart a service
+  hosts: all
+  become: true
+  tasks:
+    - name: Restart the service
+      ansible.builtin.service:
+        name: "{{ service_name }}"
+        state: restarted
