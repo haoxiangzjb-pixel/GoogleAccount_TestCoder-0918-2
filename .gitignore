@@ -1,3 +1,38 @@
-Nothing should be ignored in this case, as only a Python source file (.py) was added without any build artifacts, dependencies, or temporary files.
+```
+# Terraform state files
+*.tfstate
+*.tfstate.*
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
 
-Therefore, the output is empty.
+# Temporary files
+*.tmp
+*.temp
+*~
+.swp
+.swo
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*.backup
+```
