@@ -1,36 +1,5 @@
 ```
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Logs
-*.log
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editor/IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*.tmp
-
-# Build/dist
-dist/
-build/
-*.egg-info/
-
-# Coverage
-.coverage
-coverage/
-htmlcov/
-
-# Python virtual environments
-venv/
-.venv/
+# Configuration files
+*.yml
+*.yaml
 ```
