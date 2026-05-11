@@ -1,10 +1,7 @@
-# Documentation
-*.md.swp
-*.md.tmp
+```
+# JSON files with specific patterns (likely auto-generated)
+pedido_*.json
 
-# Temporary files
-*.tmp
-*.swp
-
-# Logs
+# Original rules preserved
 *.log
+```
