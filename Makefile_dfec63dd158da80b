@@ -1,0 +1,32 @@
+# Makefile for C++ project
+
+CXX = g++
+CXXFLAGS = -Wall -Wextra -std=c++17
+LDFLAGS =
+
+# Source files and object files
+SRCS = $(wildcard *.cpp)
+OBJS = $(SRCS:.cpp=.o)
+TARGET = main
+
+# Default target
+all: build
+
+# Build target
+build: $(TARGET)
+
+$(TARGET): $(OBJS)
+	$(CXX) $(CXXFLAGS) $(LDFLAGS) -o $@ $^
+
+%.o: %.cpp
+	$(CXX) $(CXXFLAGS) -c $< -o $@
+
+# Test target
+test: $(TARGET)
+	./$(TARGET)
+
+# Clean target
+clean:
+	rm -f $(OBJS) $(TARGET)
+
+.PHONY: all build test clean
