@@ -1,5 +1,3 @@
-```
-# Compiled and build artifacts
-*.sol
+The current .gitignore file is empty, and there are no file changes that require adding ignore rules (no compiled files, dependencies, editor files, etc.). Therefore, no modifications are needed.
 
-```
+(empty)
