@@ -1,0 +1,23 @@
+---
+- name: Exemplo de playbook com handler para reiniciar serviço
+  hosts: all
+  become: true
+
+  tasks:
+    - name: Instalar pacote nginx
+      apt:
+        name: nginx
+        state: present
+      notify: Reiniciar nginx
+
+    - name: Garantir que o serviço nginx está habilitado
+      service:
+        name: nginx
+        enabled: true
+      notify: Reiniciar nginx
+
+  handlers:
+    - name: Reiniciar nginx
+      service:
+        name: nginx
+        state: restarted
