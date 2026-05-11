@@ -1,3 +1,27 @@
-Nothing should be ignored in this case, as only a Python source file (.py) was added without any build artifacts, dependencies, or temporary files.
+```
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
-Therefore, the output is empty.
+# Environment
+.venv/
+venv/
+.env
+.env.local
+*.env.*
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Build artifacts
+build/
+dist/
+```
