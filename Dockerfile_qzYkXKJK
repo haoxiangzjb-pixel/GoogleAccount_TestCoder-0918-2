@@ -1,0 +1,10 @@
+FROM ubuntu:22.04
+
+# Crear directorio para el volumen
+RUN mkdir -p /data
+
+# Configurar el volumen
+VOLUME ["/data"]
+
+# Comando por defecto
+CMD ["bash"]
